@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - presentation/**
+    - assets/**
 
 website:
   title: "True Teamwork: Human-AI Partnership Activities"
