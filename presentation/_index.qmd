@@ -12,7 +12,7 @@ title-slide-attributes:
   data-notes: |
       Thank you for joining us for "True Teamwork!" I'm **Dr. Ryan Straight** from the **University of Arizona's College of Information Science**, where I teach cyber law, ethics, and policy.
 
-      Today we're going to show you practical activities for teaching students to work WITH AI as teammates in cybersecurity—not competing with it, not just using it as a tool, but genuinely collaborating.
+      Today we're going to show you practical activities for teaching students to work WITH AI as teammates in cybersecurity. Not competing with it, not just using it as a tool, but genuinely collaborating.
 
       We have **35 minutes together**. I'll keep the background brief—just 2-3 minutes—then we'll dive into **two activities** you can try right here, right now. Let's go!
 
