@@ -4,6 +4,7 @@ project:
   resources:
     - presentation/**
     - assets/**
+    - .nojekyll
 
 website:
   title: "True Teamwork: Human-AI Partnership Activities"
