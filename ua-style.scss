@@ -344,12 +344,16 @@ li {
   }
 }
 
-// Hero section for index page
+// Hero section for index page - hide empty title block header
+body:has(.hero-section) #title-block-header {
+  display: none !important;
+}
+
 .hero-section {
   background: linear-gradient(135deg, $ua-blue 0%, $ua-midnight 100%);
   color: $ua-white;
   padding: 2em 2em;
-  margin: -1em -1em 2em -1em;
+  margin: 0 -1em 2em -1em;
   border-radius: 12px;
 
   h1 {

@@ -4,7 +4,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fryanstraight.github.io%2Fnicek12-2025-materials)](https://ryanstraight.github.io/nicek12-2025-materials)
 [![NICE K12 2025](https://img.shields.io/badge/NICE%20K12-2025-blue)](https://www.k12cybersecurityconference.org/)
 
-Classroom-ready activities designed to teach K-12 students that humans and AI work best as **collaborative partners** in cybersecurity—not as tool and user, but as genuine teammates.
+Classroom-ready activities designed to teach K-12 students that humans and AI work best as **collaborative partners** in cybersecurity, not as tool and user, but as genuine teammates.
 
 **[View the Materials Site →](https://ryanstraight.github.io/nicek12-2025-materials)**
 
