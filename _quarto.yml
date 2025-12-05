@@ -5,6 +5,7 @@ project:
     - "!presentation/*.qmd"
   resources:
     - presentation/**
+    - presentation/_index-files/**
     - assets/**
     - .nojekyll
 

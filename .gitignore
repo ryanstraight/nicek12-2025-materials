@@ -3,6 +3,7 @@
 # /_site/  # Using /docs/ for GitHub Pages
 /_freeze/
 *_files/
+!docs/presentation/_index_files/
 **/*.quarto_ipynb
 
 # R
