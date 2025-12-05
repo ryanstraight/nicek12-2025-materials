@@ -222,6 +222,16 @@ Now let's work with our AI partner! Remember: talk to AI like a teammate, not a 
 | **Human Thinking** | Relied only on AI | Added some human ideas | Explained what humans understood that AI couldn't |
 | **Problem Solving** | Didn't reach a solution | Partial solution | Complete solution using both human and AI thinking |
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Step 2: Conversational AI interaction | Student worksheet: How they phrased questions to AI |
+| **Complementary Strengths** | "What We Learned" discussion | Verbal identification of AI strengths vs. human strengths |
+| **AI Limitation Awareness** | Recording "What AI COULDN'T figure out" | Written response on worksheet Step 2 |
+| **Synthesis Quality** | Step 3: "Solve It Together" | Group's combined explanation of the mystery |
 
 ## Variations
 

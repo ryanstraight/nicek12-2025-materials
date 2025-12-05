@@ -368,6 +368,82 @@ body:has(.hero-section) #title-block-header {
   }
 }
 
+// Resources page - Reference entries
+.reference-entry {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.8);
+  border-left: 4px solid $ua-azurite;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25em 1.5em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: $ua-blue;
+    font-size: 1.15em;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+    color: #444;
+  }
+
+  a {
+    color: $ua-azurite;
+    font-weight: 500;
+
+    &:hover {
+      color: $ua-red;
+    }
+  }
+}
+
+.reference-annotation {
+  background: rgba($ua-cool-gray, 0.4);
+  padding: 0.75em 1em;
+  border-radius: 6px;
+  margin: 0.75em 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.reference-type-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5em;
+
+  &.empirical {
+    background: rgba($ua-leaf, 0.15);
+    color: darken($ua-leaf, 15%);
+  }
+
+  &.theoretical {
+    background: rgba($ua-oasis, 0.15);
+    color: darken($ua-oasis, 15%);
+  }
+
+  &.framework {
+    background: rgba($ua-azurite, 0.15);
+    color: $ua-azurite;
+  }
+
+  &.official {
+    background: rgba($ua-red, 0.1);
+    color: $ua-red;
+  }
+}
+
 // Print styles
 @media print {
   .sidebar {

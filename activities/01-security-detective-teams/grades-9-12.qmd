@@ -237,6 +237,23 @@ Engage your AI partner as a fellow analyst. Frame the conversation professionall
 | **Investigation Methodology** | Disorganized approach | Systematic investigation | Industry-aligned SOC methodology |
 | **Communication** | Unclear findings | Clear technical communication | Executive + technical audience differentiation |
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Phase 2: Professional analyst-to-analyst framing | Worksheet: Recommended opening prompt usage |
+| **Complementary Strengths** | Phase 3: "What AI identified well" vs. "What required human analysis" | Integrated analysis documentation |
+| **AI Limitation Awareness** | AI response to "What are you uncertain about?" | Documented AI limitations in analysis table |
+| **Synthesis Quality** | Phase 3: Combined conclusion | Written synthesis of AI + human analysis |
+| **AI Input Integration** | Phase 2: Investigation prompts | Documentation of how AI insights shaped conclusions |
+| **Critical Evaluation** | Phase 3: Assessment of AI analysis | "My Assessment" column in documentation |
+| **Human Context Application** | Evidence E: HR Information analysis | Integration of insider risk, organizational factors |
+| **Decision Justification** | Phase 4: Incident Report | Executive summary rationale and recommendations |
+| **NICE Framework Application** | Career Connections discussion | Verbal/written career pathway analysis |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [Decision-Making Quality Rubric](../../assessments/decision-making-quality-rubric.qmd), [NICE Framework Application Rubric](../../assessments/nice-framework-application-rubric.qmd)
 
 ## Career Connections
 

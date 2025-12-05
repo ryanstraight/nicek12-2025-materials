@@ -161,6 +161,16 @@ But before Sparky starts helping, WE get to decide the rules! We need to tell Sp
 | Student understood that people make rules for robots | ☐ |
 | Student could explain why some things need asking first | ☐ |
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Treating Sparky as helper with needs for guidance | Verbal framing: Does student see robot as needing rules? |
+| **Complementary Strengths** | "What Sparky can do" vs. "What people decide" | Participation in chart creation |
+| **AI Limitation Awareness** | Discussion of when Sparky might not understand | Responses to "What if Sparky doesn't understand?" |
+| **Synthesis Quality** | Creating balanced rules for robot | Quality of class rules chart entries |
 
 ## Teacher Notes
 

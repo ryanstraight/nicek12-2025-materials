@@ -11,6 +11,12 @@ A key insight underlies both guides: the core learning outcome, understanding AI
 
 ## Available Guides
 
+### Quick Start Guide
+
+New to these materials? Start here. This guide provides clear entry points by grade band, activity sequence recommendations, prerequisite concepts, implementation time estimates, and the minimum viable implementation path for any classroom context.
+
+[View Quick Start Guide](quick-start.qmd)
+
 ### AI Platform Setup Guide
 
 This guide covers setup for the most common AI platforms, providing honest assessments of access barriers that K-12 educators commonly encounter. The guide includes platform comparisons across ChatGPT, Claude, Copilot, and Gemini, addressing age restrictions, account requirements, classroom setup procedures, AI interaction best practices, and essential security and privacy considerations.

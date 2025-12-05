@@ -168,6 +168,17 @@ Show each clue. Ask students:
 
 **Draw or write**: "One thing I'm good at, and one thing a robot helper is good at"
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Listening to robot helper as team member | Observation: Does student talk about robot as "helper" or "friend"? |
+| **Complementary Strengths** | Discussion of human vs. robot abilities | Exit ticket drawing/writing |
+| **AI Limitation Awareness** | Teacher emphasis on what robot couldn't understand | Verbal responses during Part 3 discussion |
+| **Synthesis Quality** | "Together we solved it" celebration | Student articulation of teamwork message |
+
 
 ## Teacher Notes
 

@@ -200,6 +200,16 @@ flowchart LR
 | **Understood AI's role** | Didn't consider AI capabilities/limits | Some understanding of AI's role | Clear understanding of what AI can/can't do |
 | **Group collaboration** | One person decided | Some group discussion | True group decision-making |
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | "Ask the AI" consultation about SchoolGuard's perspective | Student responses to AI perspective sharing |
+| **Complementary Strengths** | AI explains "What I'm GOOD at" vs. "What I CAN'T understand" | Written "Why we chose this" explanations |
+| **AI Limitation Awareness** | SchoolGuard acknowledging its own limitations | "One thing SchoolGuard told us that changed our thinking" |
+| **Synthesis Quality** | Balancing AI capability with human values in policies | Final policy decisions and rationale |
 
 ## Variations
 

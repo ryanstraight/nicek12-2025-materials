@@ -255,6 +255,22 @@ Teams execute their response plan while managing emerging complications:
 | **NICE Alignment** | No connection | Some awareness | Clear connections | Deep understanding |
 :::
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Phase 1 AI Consultation Prompts: role-specific queries | Quality and specificity of AI questions asked |
+| **Complementary Strengths** | Role distribution: IC decisions, SOC analysis, Threat Intel context | Decision Log documenting AI input vs. human choice |
+| **AI Limitation Awareness** | Complication Injections requiring adaptation beyond AI recommendations | Documented plan changes and rationale |
+| **Synthesis Quality** | Phase 2: Collaborative planning combining technical + contextual factors | Final response plan integrating all role inputs |
+| **Human Context Application** | Phase 4 Debrief: "Career insights" and role reflection | After-action review responses |
+| **Decision Justification** | Decision Log Template: Options, AI Input, Final Decision, Rationale | Completed decision documentation |
+| **NICE Framework Application** | Role Cards explicitly tied to NICE Work Roles | Career insights discussion and debrief responses |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [NICE Framework Application Rubric](../../assessments/nice-framework-application-rubric.qmd)
+
 ## Extension Activities
 
 ### Advanced Challenges

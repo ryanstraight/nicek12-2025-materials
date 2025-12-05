@@ -33,11 +33,16 @@ website:
             href: activities/02-ethics-automated-security/index.qmd
           - text: "Activity 3: AI-Assisted Incident Response"
             href: activities/03-ai-incident-response/index.qmd
+          - text: "---"
+          - text: "Extension Activities"
+            href: activities/extensions/index.qmd
       - text: Guides
         menu:
           - text: "Overview"
             href: guides/index.qmd
           - text: "---"
+          - text: "Quick Start Guide"
+            href: guides/quick-start.qmd
           - text: "AI Platform Setup"
             href: guides/ai-setup-guide.qmd
           - text: "Low-Resource Implementation"
@@ -92,6 +97,11 @@ website:
             - activities/03-ai-incident-response/grades-3-5.qmd
             - activities/03-ai-incident-response/grades-6-8.qmd
             - activities/03-ai-incident-response/grades-9-12.qmd
+        - section: "Extension Activities"
+          contents:
+            - activities/extensions/index.qmd
+            - activities/extensions/ai-failure-friday.qmd
+            - activities/extensions/executive-briefing.qmd
 
 format:
   html:

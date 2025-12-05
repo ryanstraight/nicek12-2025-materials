@@ -307,6 +307,20 @@ After the activity, ask students to write or discuss:
 3. Why couldn't the AI helper fix the problem by itself?
 4. What will you do differently when you use computers now?
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | AI Partner role: "Works with the computer helper" | Quality of questions asked to AI |
+| **Complementary Strengths** | Class Discussion: "How did the AI helper help?" vs. "We had to decide" | Written/verbal reflection responses |
+| **AI Limitation Awareness** | Reflection question 3: "Why couldn't AI fix it by itself?" | Response to Step 2 AI consultation and reflection |
+| **Synthesis Quality** | Step 3: Make a Plan using AI insights + team judgment | Completed plan checklist and rationale |
+| **Human Context Application** | Team roles bringing different perspectives to solution | Reporter presentation explaining team decisions |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd)
+
 
 ## Take-Home Connection
 

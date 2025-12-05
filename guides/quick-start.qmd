@@ -1,0 +1,189 @@
+---
+title: "Quick Start Guide"
+subtitle: "Your Entry Point to Human-AI Partnership Activities"
+---
+
+## Getting Started
+
+This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options.
+
+## Start Here: Select Your Grade Band
+
+### Elementary (K-5)
+
+::: {.callout-tip}
+## Recommended First Activity
+
+**Activity 1: Security Detective Teams** (K-2: "Mystery Helpers" or 3-5: "Locked Library Computers")
+
+This activity introduces the core partnership concept through investigation scenarios. Students discover that AI excels at pattern recognition while humans contribute contextual understanding, and that together they can solve problems neither could address alone.
+:::
+
+| Grade Band | First Activity | Time Needed | Prerequisites |
+|------------|---------------|-------------|---------------|
+| **K-2** | Mystery Helpers | 20-25 min | None—designed for first exposure |
+| **3-5** | Locked Library Computers | 30-35 min | Basic understanding of school computer use |
+
+**After completing Activity 1**, consider:
+
+- **Activity 2** (Ethics): Robot Helper Rules (K-2) or Computer Rules Committee (3-5)
+- **Activity 3** (Incident Response): Fix It Team! (K-2) or Computer Problem Solvers (3-5)
+
+### Middle School (6-8)
+
+::: {.callout-tip}
+## Recommended First Activity
+
+**Activity 1: Security Detective Teams** (45-50 minutes)
+
+Middle school students benefit from completing the full investigation experience before engaging with ethics or incident response content. The detective framing captures student interest while establishing the foundational partnership concept.
+:::
+
+| Sequence | Activity | Time Needed | Prerequisites |
+|----------|----------|-------------|---------------|
+| **Start here** | Security Detective Teams | 45-50 min | None |
+| **Then** | AI-Assisted Incident Response | 50-60 min | Partnership concept from Activity 1 |
+| **Finally** | Ethics in Automated Security | 45-55 min | Activities 1 & 2 recommended |
+
+**Full implementation**: ~2.5 hours across three class periods
+
+**Minimum viable path**: Activity 1 alone delivers core partnership learning in a single period
+
+### High School (9-12)
+
+::: {.callout-tip}
+## Recommended First Activity
+
+**Activity 1: Threat Investigation** (50-60 minutes)
+
+The Security Operations Center (SOC) simulation provides authentic technical depth. For Career and Technical Education cybersecurity programs, this activity mirrors professional practice and aligns with NICE Framework work roles.
+:::
+
+| Sequence | Activity | Time Needed | Prerequisites |
+|----------|----------|-------------|---------------|
+| **Start here** | Threat Investigation | 50-60 min | Basic network concepts helpful |
+| **Then** | SOC Analyst Simulation | 55-60 min | Partnership concept from Activity 1 |
+| **Finally** | AI Governance Workshop | 50-60 min | Activities 1 & 2 for full context |
+
+**Full implementation**: ~3 hours across three class periods
+
+**CTE/Advanced pathway**: All three activities form a coherent unit on professional human-AI collaboration
+
+## Implementation Time Planning
+
+### Single Class Period
+
+Select **one activity** at your grade level. Activity 1 (Security Detective Teams) is recommended for initial implementation because it introduces the partnership concept that serves as the foundation for all subsequent activities.
+
+| Grade Band | Activity 1 Duration | Includes |
+|------------|---------------------|----------|
+| K-2 | 20-25 minutes | Introduction, investigation, debrief |
+| 3-5 | 30-35 minutes | Introduction, investigation, synthesis |
+| 6-8 | 45-50 minutes | Full investigation cycle + debrief |
+| 9-12 | 50-60 minutes | SOC simulation + career connections |
+
+### Two Class Periods
+
+Pair Activities 1 and 3 for a two-session sequence. Activity 3 (Incident Response) applies the partnership concept to time-sensitive scenarios, extending naturally from the investigative work in Activity 1.
+
+### Three Class Periods (Full Curriculum)
+
+Implement all three activities in sequence:
+
+1. **Security Detective Teams** — Introduces the partnership concept
+2. **AI-Assisted Incident Response** — Applies partnership principles to crisis situations
+3. **Ethics in Automated Security** — Examines governance implications
+
+This sequence develops progressively sophisticated understanding of human-AI collaboration in cybersecurity contexts.
+
+## Technology Assessment
+
+Before beginning instruction, assess your classroom's level of AI access:
+
+| You Have | Your Approach |
+|----------|---------------|
+| **1:1 devices + student AI accounts** | Students partner directly with AI |
+| **Shared devices + class AI account** | Rotation stations + demonstrations |
+| **Teacher device + projector only** | Teacher as AI Voice + Think-Aloud |
+| **Home access, no school access** | Homework preparation + class synthesis |
+| **No devices or AI access** | Pre-generated response cards + teacher role-play |
+
+::: {.callout-note}
+## Every Approach Works
+
+Low-resource options frequently produce richer learning outcomes than live AI access. When students cannot defer to AI for immediate answers, discussion depth and critical thinking often increase. See the [Low-Resource Implementation Guide](low-resource-implementation.qmd) for detailed strategies.
+:::
+
+## Activity Prerequisites
+
+### Activity 1: Security Detective Teams
+
+- **No prerequisites required** — designed as an introductory activity
+- Helpful: Basic familiarity with passwords and login concepts
+- The K-2 version assumes no prior technology knowledge
+
+### Activity 2: Ethics in Automated Security
+
+- **Recommended prerequisite**: Activity 1 (establishes partnership concept)
+- Students benefit from understanding AI capabilities before designing governance frameworks
+- Can be implemented as a standalone activity with additional framing time (add 10 minutes)
+
+### Activity 3: AI-Assisted Incident Response
+
+- **Recommended prerequisite**: Activity 1 (establishes partnership concept)
+- Students apply partnership dynamics under simulated time pressure
+- Can be implemented as a standalone activity with additional framing time (add 10 minutes)
+
+## Materials Preparation
+
+### Required Print Materials
+
+| Activity | Print Materials |
+|----------|----------------|
+| Activity 1 | Evidence packets (1 per group), student worksheets |
+| Activity 2 | Scenario cards, policy template |
+| Activity 3 | Role cards, incident timeline |
+
+All printable materials are available on the [Materials page](../materials.qmd) in both PDF and editable DOCX formats.
+
+### Optional Enhancements
+
+- Role badges for team assignments
+- AI response cards for low-resource implementation
+- Timer display for incident response activity
+
+### Technical Preparation
+
+1. **Test AI platform access** before class (approximately 10 minutes)
+2. **Prepare sample prompts** in advance (approximately 5 minutes)
+3. **Set up shared documentation space** for group work (approximately 5 minutes)
+
+See the [AI Platform Setup Guide](ai-setup-guide.qmd) for platform-specific instructions.
+
+## Quick Reference: Activity Comparison
+
+| Aspect | Activity 1 | Activity 2 | Activity 3 |
+|--------|------------|------------|------------|
+| **Focus** | Investigation & pattern recognition | Policy design & ethics | Crisis response & coordination |
+| **Core Learning** | AI + human = more than either alone | AI governance requires hard trade-offs | Teams coordinate with AI under pressure |
+| **Student Role** | Detective partner | Policy committee member | Incident response team member |
+| **AI Role** | Investigation partner | System being governed | Response assistant |
+| **Best For** | First exposure to partnership concept | Deeper ethical thinking | Applied collaboration skills |
+
+## Next Steps
+
+1. **Select your grade band** from the sections above
+2. **Review Activity 1** for your level: [K-2](../activities/01-security-detective-teams/k2.qmd) | [3-5](../activities/01-security-detective-teams/grades-3-5.qmd) | [6-8](../activities/01-security-detective-teams/grades-6-8.qmd) | [9-12](../activities/01-security-detective-teams/grades-9-12.qmd)
+3. **Assess your technology access** and review the appropriate implementation guide
+4. **Print required materials** from the Materials page
+5. **Complete the activity yourself** before facilitating it with students
+
+::: {.callout-important}
+## The Most Important Preparation
+
+Complete the activity yourself before facilitating it with students. Work through the suggested AI prompts, examine the evidence materials, and formulate your own conclusions. This preparation, more than any technical setup, enables effective facilitation.
+:::
+
+## Questions or Support
+
+For implementation support or questions about these materials, contact Dr. Ryan Straight at [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu).

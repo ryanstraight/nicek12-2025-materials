@@ -385,6 +385,22 @@ flowchart LR
 | **Communication** | Unclear or missing documentation | Clear documentation produced | Professional-quality stakeholder communications |
 | **NICE Alignment** | No connection to work roles | Basic awareness of career paths | Articulated how roles connect to industry careers |
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Phase 1: SentinelAI consultation with role-specific prompts | Quality of AI queries and response interpretation |
+| **Complementary Strengths** | Phase 5 Debrief: "What did AI do well?" vs. "Where did human judgment matter?" | Debrief discussion responses and documentation |
+| **AI Limitation Awareness** | SentinelAI "LIMITATION NOTICE" and human decision authority requirement | Phase 3 decision rationale showing where AI recommendations were modified |
+| **Synthesis Quality** | Decision Matrix: integrating AI recommendation with business impact and risk analysis | Completed decision documentation with rationale |
+| **Human Context Application** | Evidence Package E: Business Context informing response decisions | How business context modified purely technical AI recommendations |
+| **Decision Justification** | Phase 3 documentation: Decision, Rationale, AI input, Human factors | Quality and depth of documented decision rationale |
+| **NICE Framework Application** | Role Cards with explicit NICE Work Role alignment, Career Connections section | Debrief "career insights" responses and role execution quality |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [Decision-Making Quality Rubric](../../assessments/decision-making-quality-rubric.qmd), [NICE Framework Application Rubric](../../assessments/nice-framework-application-rubric.qmd)
+
 
 ## Career Connections
 

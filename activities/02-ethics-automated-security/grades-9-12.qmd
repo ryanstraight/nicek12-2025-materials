@@ -285,6 +285,21 @@ Groups present recommendations to class (simulated Board of Education).
 | **Legal/Ethical Grounding** | Ignores legal framework | References legal requirements | Integrates legal, ethical, and practical considerations |
 | **Consensus Process** | No real deliberation | Basic compromise reached | Genuine consensus with documented trade-offs |
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Phase 2: AI Consultation with SecureNet AI | Questions asked and how AI perspective was incorporated |
+| **Complementary Strengths** | AI's Perspective sections: capabilities vs. "values questions" | Written acknowledgment of what AI can/cannot determine |
+| **AI Limitation Awareness** | AI statements like "I cannot make that ethical judgment for you" | Policy rationale addressing AI limitations |
+| **Synthesis Quality** | Phase 3: Consensus Building from multiple stakeholders + AI | Final policy recommendations integrating all perspectives |
+| **Human Context Application** | Stakeholder Roles and Legal Framework sections | How policies address FERPA, COPPA, and community values |
+| **Decision Justification** | Phase 4: Policy Presentation | Oral/written defense of recommendations to "Board" |
+| **NICE Framework Application** | Career Connections to governance Work Roles | Discussion of how activity connects to real policy careers |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [NICE Framework Application Rubric](../../assessments/nice-framework-application-rubric.qmd)
 
 ## Career Connections
 

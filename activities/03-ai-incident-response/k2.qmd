@@ -182,3 +182,14 @@ We need our Fix It Team to figure out what's wrong and make the computers work a
 | Student understood that robot found problem but people decided fix | ☐ |
 | Student could explain why teamwork helped | ☐ |
 
+### Assessment Connection
+
+This table shows how activity elements connect to the [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd) criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Robot Helper as part of the Fix It Team | Verbal participation: Does student treat robot as team member? |
+| **Complementary Strengths** | "Robot found it, people decided what to do" discussion | Response to discussion question 3 |
+| **AI Limitation Awareness** | Scene 2: Robot "not allowed to flip switch without person" | Response to "Why can't the robot just fix it?" |
+| **Synthesis Quality** | Team Decision scene: combining robot findings with human judgment | Team voting participation and explanation |
+

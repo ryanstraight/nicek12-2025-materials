@@ -278,3 +278,19 @@ flowchart LR
 | **NICE Framework Connection** | No career connection | Basic role awareness | Clear Work Role connections | Deep understanding of governance careers |
 :::
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Part 2: AI consultation with AI Perspective Cards | Worksheet: How student engaged AI for insights |
+| **Complementary Strengths** | AI Perspective Cards: AI explains capabilities AND limitations | Written notes on AI insights for each question |
+| **AI Limitation Awareness** | AI Voice sections: AI acknowledging context gaps | "What AI said it CAN'T determine" responses |
+| **Synthesis Quality** | Part 3: Group Policy Development table | "How We Addressed AI's Limitations" column |
+| **Human Context Application** | Stakeholder Considerations section | Written stakeholder perspectives |
+| **Decision Justification** | Part 4: Reflection questions | Articulation of how policies balance AI with values |
+| **NICE Framework Application** | Career Pathway Connections | Responses to Work Role reflection |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [NICE Framework Application Rubric](../../assessments/nice-framework-application-rubric.qmd)
+

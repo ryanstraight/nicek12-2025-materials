@@ -7,6 +7,19 @@ Thank you for downloading these materials from the NICE K12 Cybersecurity Educat
 
 These activities are designed to reshape how students understand AI in cybersecurity, moving them beyond viewing AI as either adversary or tool and toward recognizing it as a **collaborative partner**.
 
+## Conference Session Agenda
+
+For conference attendees, the 45-minute session follows this structure:
+
+| Phase | Duration | Description |
+|-------|----------|-------------|
+| **Experience** | 20 minutes | Participate in a complete activity as learners, experiencing the Middle School Phishing Response Team investigation firsthand |
+| **Materials Tour** | 10 minutes | Guided walkthrough of the curriculum ecosystem, including implementation guides and assessment tools |
+| **Planning** | 10 minutes | Select grade-appropriate activities and begin developing your implementation plan |
+| **Resources** | 5 minutes | Access the repository, connect with follow-up support, and address questions |
+
+**Session outcome**: You leave with complete access to 12 lesson plans (3 activities × 4 grade bands), assessment rubrics, printable materials, and implementation guides—all ready for immediate classroom use.
+
 ## What's Included
 
 ### Lesson Plans (`/activities/`)

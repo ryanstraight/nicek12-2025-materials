@@ -1,0 +1,59 @@
+---
+title: "Extension Activities"
+subtitle: "Advanced Challenges for Deeper Learning"
+---
+
+## Overview
+
+These extension activities build on the core human-AI collaboration experiences, providing opportunities for advanced skill development and deeper exploration of key concepts. Each extension can be used as a standalone follow-up or integrated into the core activity sequence.
+
+## Available Extensions
+
+### AI Failure Friday
+
+**Focus**: Learning from AI mistakes and developing critical evaluation skills
+
+Students encounter scenarios where AI makes technically correct but contextually inappropriate recommendations. Rather than treating AI errors as failures, students learn to view them as expected components of any AI system—moments that reveal why human oversight remains essential.
+
+**Includes**:
+
+- Grade-band adapted scenarios (K-2 through 9-12)
+- Scenario bank for repeated use
+- AI Override Protocol development (advanced)
+- Low-resource implementation options
+
+[Access AI Failure Friday →](ai-failure-friday.qmd)
+
+### Executive Briefing Challenge
+
+**Focus**: Translating technical findings for non-technical audiences
+
+Students transform their investigation findings into clear, actionable communication for school administrators. This critical career skill reveals that technical expertise means little without the ability to communicate effectively with decision-makers who lack technical backgrounds.
+
+**Includes**:
+
+- One-page executive briefing template
+- Technical-to-plain-language translation guide
+- Role-play presentation option
+- Career pathway connections
+
+[Access Executive Briefing Challenge →](executive-briefing.qmd)
+
+## When to Use Extensions
+
+::: {.callout-tip}
+## Suggested Sequencing
+
+**AI Failure Friday** works best after students have experienced successful human-AI collaboration and developed trust in AI capabilities. The extension then appropriately complicates that understanding.
+
+**Executive Briefing Challenge** integrates naturally into Activity 1 (Security Detective Teams) or Activity 3 (AI-Assisted Incident Response), extending the investigation into professional communication practice.
+:::
+
+## Creating Your Own Extensions
+
+The activities and extensions in this collection demonstrate patterns that can be adapted for local contexts. Effective extensions share these characteristics:
+
+1. **Build on core concepts**: Extend rather than duplicate the learning from main activities
+2. **Introduce productive complexity**: Add nuance without overwhelming
+3. **Connect to careers**: Reinforce NICE Framework pathways
+4. **Scale across grade bands**: Adaptable for multiple developmental levels

@@ -387,6 +387,21 @@ flowchart LR
 | **Evidence Synthesis** | Lists findings separately | Some integration attempted | Well-integrated conclusions | Novel insights from synthesis |
 :::
 
+### Assessment Connection
+
+This table shows how activity elements connect to assessment rubric criteria:
+
+| Rubric Criterion | Developed Through | Evidence Source |
+|------------------|-------------------|-----------------|
+| **AI Partnership Framing** | Part 2: "Frame AI as team member, not search engine" | Worksheet: How student opened conversation with AI |
+| **Complementary Strengths** | Part 2: "What AI Can and Can't Do" callout | Worksheet Part 2: Recording AI insights vs. limitations |
+| **AI Limitation Awareness** | Part 2B: Mutual Accountability Check | Verification checklist completion |
+| **Synthesis Quality** | Part 3: Team Synthesis table | "Key Insight" statement combining human + AI contributions |
+| **Decision Justification** | Part 2B: "What if AI is wrong?" | Written response on accountability checklist |
+| **NICE Framework Application** | Debrief: Work Role Connections | Verbal responses to career pathway questions |
+
+**Applicable Rubrics**: [Human-AI Collaboration Rubric](../../assessments/human-ai-collaboration-rubric.qmd), [Decision-Making Quality Rubric](../../assessments/decision-making-quality-rubric.qmd)
+
 ## Extension Activities
 
 ::: {.extension-options}

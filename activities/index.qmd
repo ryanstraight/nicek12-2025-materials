@@ -77,3 +77,14 @@ The activities work best when educators invest time preparing and reflecting on 
 Experiencing the activity yourself before teaching it helps you anticipate student questions and reactions. Modeling partnership language shows students how to engage with AI as a collaborator rather than an answer machine. When AI produces errors, treat these moments as valuable teaching opportunities that illuminate what AI cannot do. Finally, focus your debrief conversations on synthesis, since the deepest learning occurs when students articulate what each partner contributed to the investigation.
 
 See the [Implementation Guides](../guides/) for detailed support.
+
+## Extension Activities
+
+For educators seeking to deepen learning after completing the core activities, two extension modules provide additional challenges:
+
+| Extension | Focus | Best After |
+|-----------|-------|------------|
+| [AI Failure Friday](extensions/ai-failure-friday.qmd) | Learning from AI mistakes and critical evaluation | Any core activity |
+| [Executive Briefing Challenge](extensions/executive-briefing.qmd) | Translating technical findings for non-technical audiences | Activity 1 or 3 |
+
+[Explore Extension Activities →](extensions/index.qmd)
