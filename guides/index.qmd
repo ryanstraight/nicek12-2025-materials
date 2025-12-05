@@ -1,0 +1,50 @@
+---
+title: "Implementation Guides"
+subtitle: "Technical Setup and Low-Resource Strategies"
+---
+
+## Overview
+
+These guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.
+
+A key insight underlies both guides: the core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology.
+
+## Available Guides
+
+### AI Platform Setup Guide
+
+This guide covers setup for the most common AI platforms, providing honest assessments of access barriers that K-12 educators commonly encounter. The guide includes platform comparisons across ChatGPT, Claude, Copilot, and Gemini, addressing age restrictions, account requirements, classroom setup procedures, AI interaction best practices, and essential security and privacy considerations.
+
+[View AI Setup Guide](ai-setup-guide.qmd)
+
+### Low-Resource Implementation Guide
+
+This guide presents proven strategies for running True Teamwork activities in classrooms with limited or no direct AI access. Approaches covered include Teacher as AI Voice, Pre-Generated Response Cards, Rotation Stations, Homework Preparation, Think-Aloud Demonstration, and various hybrid combinations.
+
+[View Low-Resource Guide](low-resource-implementation.qmd)
+
+## Quick Decision Guide
+
+| You Have | Recommended Approach |
+|----------|---------------------|
+| 1:1 devices, student AI accounts | Students partner directly with AI |
+| Shared devices, class AI account | Rotation stations + demonstrations |
+| 1 teacher device, projector | Teacher as AI Voice + Think-Aloud |
+| Home access, no school access | Homework Preparation + Class Synthesis |
+| No devices or AI available | Pre-generated response cards, teacher role-play |
+
+Each approach produces meaningful learning. The low-resource options frequently generate richer discussion because students cannot simply defer to AI for answers.
+
+## Key Principles
+
+### Model Partnership Language
+
+Before students engage with AI, demonstrate how to converse with AI as a collaborator rather than issuing commands. Show them how to ask follow-up questions, how to respectfully disagree with AI suggestions, and how to synthesize perspectives from both human thinking and AI analysis.
+
+### Embrace Errors
+
+AI mistakes serve as valuable teaching opportunities. When AI produces an incorrect response, ask students how they might verify the information, discuss what contextual knowledge AI might be missing, and model critical evaluation of AI output.
+
+### Focus on Synthesis
+
+The deepest learning emerges when students articulate what happened through collaboration: What did human thinking accomplish that AI could not? What did AI contribute that humans would have missed? What insights emerged from working together? This synthesis crystallizes the distributed cognition insight that underlies the entire curriculum.

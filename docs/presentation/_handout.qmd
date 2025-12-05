@@ -1,0 +1,88 @@
+---
+title: "True Teamwork"
+subtitle: "Building Human-AI Partnerships for Tomorrow's Cyber Challenges"
+format:
+  html:
+    toc: false
+  # pdf:
+  #   papersize: letter
+  #   geometry:
+  #     - margin=0.75in
+  #   fontsize: 11pt
+  # docx: default
+---
+
+## Session Overview
+
+Preparing K-12 students for cybersecurity careers where **human-AI collaboration is the norm, not the exception**. Three classroom-ready activities demonstrate how AI serves as **team member**, not just tool.
+
+## Download All Materials
+
+**[ryanstraight.github.io/nicek12-2025-materials](https://ryanstraight.github.io/nicek12-2025-materials)**
+
+**You get:**
+
+- **12 lesson plans** (3 activities × 4 grade bands)
+- Assessment rubrics (collaboration, decision-making, NICE Framework)
+- Technical setup guides (including low-resource options)
+- Student worksheets and pre-generated AI response cards
+- Everything works with ANY level of AI access!
+
+## The Three Activities
+
+| Activity | Focus | What Students Do |
+|----------|-------|------------------|
+| **Security Detective Teams** | Investigation | Partner with AI to solve security mysteries |
+| **AI-Assisted Incident Response** | Teamwork | Work in roles during realistic security incidents |
+| **Ethics in Automated Security** | Policy Design | Decide what AI can do automatically vs. ask humans |
+
+**All activities include K-2, 3-5, 6-8, and 9-12 versions!**
+
+## Grade-Band Versions
+
+| Grade Band | Security Detective | Incident Response | Ethics |
+|------------|-------------------|-------------------|--------|
+| **K-2** | "Mystery Helpers" | "Fix It Team!" | "Robot Helper Rules" |
+| **3-5** | "Locked Library" | "Computer Problem Solvers" | "Computer Rules Committee" |
+| **6-8** | Full investigation | Team response | SchoolGuard policies |
+| **9-12** | SOC simulation | Enterprise incident | AI Governance Workshop |
+
+## Implementation Options
+
+| Resource Level | Approach |
+|---------------|----------|
+| **Full AI access** | Students partner directly with ChatGPT, Claude, etc. |
+| **Limited access** | Rotation stations, shared accounts |
+| **No AI access** | Pre-generated response cards, teacher as AI voice |
+
+**All approaches teach the same core concepts!**
+
+## Works For Your Context
+
+| Context | How These Help |
+|---------|----------------|
+| **CTE Programs** | NICE Framework-aligned, mirrors real SOC workflows, career pathway ready |
+| **Outreach Programs** | Turnkey delivery, scalable, assessment-ready for grant reporting |
+| **STEAM/Interdisciplinary** | Cross-curricular connections built in (data analysis, ethics, communication) |
+
+## The Key Insight
+
+::: {.callout-tip}
+## What makes this different?
+
+**Not**: "Humans USE AI tools"
+**Instead**: "Humans AND AI as teammates"
+
+AI is great at patterns. Humans are great at context. **Together they're better than either alone.**
+:::
+
+## Connect With Us
+
+**Dr. Ryan Straight**
+University of Arizona | College of Information Science
+ryanstraight@arizona.edu
+ORCID: [0000-0002-6251-5662](https://orcid.org/0000-0002-6251-5662)
+
+**Share your implementation experience** — I want to hear how these work in your classroom!
+
+*NICE K12 Cybersecurity Education Conference 2025 | Track 2: Multidisciplinary & Innovative Approaches*

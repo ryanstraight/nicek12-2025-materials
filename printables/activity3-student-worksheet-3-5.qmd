@@ -1,0 +1,137 @@
+---
+title: "Computer Problem Solvers"
+subtitle: "Investigation Worksheet (Grades 3-5)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.6in
+    fontsize: 11pt
+---
+
+**Your Name:** _______________________________ **Date:** _______________
+
+**Team Members:** _____________________________________________________________
+
+**My Role:** [ ] Detective  [ ] AI Partner  [ ] Recorder  [ ] Reporter
+
+## The Problem
+
+The computers in Mrs. Chen's class are acting strange:
+
+- Pop-up messages saying "CONGRATULATIONS! You WON!"
+- Some learning websites won't load
+- Computers are running very slowly
+
+**Our job:** Figure out what happened and how to fix it!
+
+## Step 1: Gather Clues (5 minutes)
+
+### What clues did the Detective find?
+
+**Timeline:**
+- Friday: Everything was fine
+- Monday: Problems started
+
+**Evidence we noticed:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What questions do we have?
+
+1. _____________________________________________________________________________
+
+2. _____________________________________________________________________________
+
+## Step 2: Ask the AI Helper (10 minutes)
+
+### AI Partner: Write down what the AI Helper told us
+
+**About the pop-ups:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**About how bad programs spread:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**About how to fix it:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Step 3: Make Our Plan (5 minutes)
+
+### What do we think happened?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Who needs to know?
+
+- [ ] The teacher
+- [ ] The IT person
+- [ ] The principal
+- [ ] Parents
+- [ ] Other: _______________
+
+### What should students do RIGHT NOW?
+
+_____________________________________________________________________________
+
+### What will the IT team probably do?
+
+_____________________________________________________________________________
+
+## Step 4: Report to the Class
+
+### Reporter: Fill this out before presenting
+
+**What we found:**
+
+_____________________________________________________________________________
+
+**What we think happened:**
+
+_____________________________________________________________________________
+
+**Our solution:**
+
+_____________________________________________________________________________
+
+**How AI helped us:**
+
+_____________________________________________________________________________
+
+## Reflection
+
+### What did you learn about teamwork?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Why did we need BOTH the AI helper AND our team?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What will you do differently when using computers now?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

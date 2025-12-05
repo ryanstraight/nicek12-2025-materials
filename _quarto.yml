@@ -1,0 +1,119 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - presentation/**
+
+website:
+  title: "True Teamwork: Human-AI Partnership Activities"
+  description: "K-12 cybersecurity education materials from NICE K12 2025 Conference"
+  site-url: https://ryanstraight.github.io/nicek12-2025-materials
+  repo-url: https://github.com/ryanstraight/nicek12-2025-materials
+  repo-actions: [source, issue]
+
+  navbar:
+    background: "#0C234B"
+    foreground: white
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Activities
+        menu:
+          - text: "Overview"
+            href: activities/index.qmd
+          - text: "---"
+          - text: "Activity 1: Security Detective Teams"
+            href: activities/01-security-detective-teams/index.qmd
+          - text: "Activity 2: Ethics in Automated Security"
+            href: activities/02-ethics-automated-security/index.qmd
+          - text: "Activity 3: AI-Assisted Incident Response"
+            href: activities/03-ai-incident-response/index.qmd
+      - text: Guides
+        menu:
+          - text: "Overview"
+            href: guides/index.qmd
+          - text: "---"
+          - text: "AI Platform Setup"
+            href: guides/ai-setup-guide.qmd
+          - text: "Low-Resource Implementation"
+            href: guides/low-resource-implementation.qmd
+      - text: Assessments
+        href: assessments/index.qmd
+      - text: Career Connections
+        href: career-connections/index.qmd
+      - text: Resources
+        href: resources/index.qmd
+      - text: Presentation
+        href: presentation/index.html
+    right:
+      - icon: download
+        href: materials.qmd
+        text: Materials
+      - icon: github
+        href: https://github.com/ryanstraight/nicek12-2025-materials
+
+  page-footer:
+    left: |
+      © 2025 [Ryan Straight](https://ryanstraight.com), University of Arizona
+    center: |
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+    right: |
+      Made with ❤️ and 🤖 and [Quarto](https://quarto.org/)
+
+  sidebar:
+    - id: activities
+      title: "Activities"
+      style: "floating"
+      contents:
+        - activities/index.qmd
+        - section: "Activity 1: Security Detective Teams"
+          contents:
+            - activities/01-security-detective-teams/index.qmd
+            - activities/01-security-detective-teams/k2.qmd
+            - activities/01-security-detective-teams/grades-3-5.qmd
+            - activities/01-security-detective-teams/grades-6-8.qmd
+            - activities/01-security-detective-teams/grades-9-12.qmd
+        - section: "Activity 2: Ethics in Automated Security"
+          contents:
+            - activities/02-ethics-automated-security/index.qmd
+            - activities/02-ethics-automated-security/k2.qmd
+            - activities/02-ethics-automated-security/grades-3-5.qmd
+            - activities/02-ethics-automated-security/grades-6-8.qmd
+            - activities/02-ethics-automated-security/grades-9-12.qmd
+        - section: "Activity 3: AI Incident Response"
+          contents:
+            - activities/03-ai-incident-response/index.qmd
+            - activities/03-ai-incident-response/k2.qmd
+            - activities/03-ai-incident-response/grades-3-5.qmd
+            - activities/03-ai-incident-response/grades-6-8.qmd
+            - activities/03-ai-incident-response/grades-9-12.qmd
+
+format:
+  html:
+    theme: [cosmo, ua-style.scss]
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    highlight-style: github
+  pdf:
+    documentclass: article
+    papersize: letter
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+    header-includes: |
+      \usepackage{fancyhdr}
+      \pagestyle{fancy}
+      \fancyhead[L]{\small True Teamwork: Human-AI Partnership Activities}
+      \fancyhead[R]{\small University of Arizona}
+      \fancyfoot[C]{\thepage}
+      \fancyfoot[R]{\small CC BY 4.0}
+  docx:
+    toc: true
+    number-sections: false
+
+execute:
+  freeze: auto

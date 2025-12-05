@@ -1,0 +1,240 @@
+---
+title: "AI Platform Setup Guide"
+subtitle: "Getting Started with Human-AI Partnership Activities"
+---
+
+## Overview
+
+These activities work with any accessible AI assistant. This guide covers setup for the most common platforms, though the pedagogical approach remains platform-agnostic. What matters is how you frame AI as a collaborative partner, not which specific AI system you use.
+
+::: {.callout-important}
+## Consider Low-Resource Options First
+
+Before investing time in AI platform setup, consider that most classrooms achieve excellent learning outcomes without live AI access for every student. Low-resource approaches often produce richer learning because you control the pacing and can intentionally demonstrate AI limitations at pedagogically appropriate moments.
+
+See the [Low-Resource Implementation Guide](low-resource-implementation.qmd) before proceeding.
+
+If you determine that live AI access serves your instructional goals, continue reading for platform-specific guidance and candid assessments of access barriers.
+:::
+
+## Platform Access Reality Check
+
+A candid assessment of what each platform requires:
+
+| Platform | Account Required | Age Restriction | School Barrier |
+|----------|-----------------|-----------------|----------------|
+| ChatGPT | Yes (free available) | 13+ | Often blocked on school networks |
+| Claude | Yes (free available) | 18+ (or parental consent) | May be blocked |
+| Copilot | Microsoft account | Varies by account type | Usually works if school uses M365 |
+| Gemini | Google account | 13+ (with parental controls) | Often disabled on school accounts |
+
+**Practical Implications by Grade Level**:
+
+At the elementary level (K-5), live AI access proves difficult due to age restrictions. The teacher-as-AI-voice approach or pre-generated response cards work effectively here. For middle school (6-8), some students may have accounts, but rotation stations or teacher demonstrations often deliver the best learning outcomes. At the high school level (9-12), more students can access AI directly; consider combining homework preparation with classroom synthesis.
+
+## Quick Start Decision Tree
+
+```{mermaid}
+flowchart TD
+    A{Do you have school-approved<br/>AI access?} --> |YES| B["Use your approved platform<br/>(skip to General Setup Tips)"]
+    A --> |NO| C{Can students access<br/>AI at home?}
+    C --> |YES| D[Use homework preparation<br/>+ classroom synthesis]
+    C --> |NO| E["Use Low-Resource<br/>Strategies guide"]
+```
+
+
+## Platform-Specific Setup
+
+### ChatGPT (OpenAI)
+
+**Website**: chat.openai.com
+
+::: {.callout-warning}
+**Age Requirement**: 13+ years old. Students under 13 cannot create accounts per OpenAI's terms of service.
+:::
+
+**Account options**:
+
+- Free accounts: GPT-4o-mini access, adequate for all activities
+- Plus accounts ($20/month): GPT-4o access, faster responses
+
+**Classroom setup**:
+
+1. Create account at chat.openai.com
+2. For shared use: Create one account per device or group
+3. Each group starts a "New Chat" for their investigation
+4. Save conversations for assessment (copy/paste or screenshot)
+
+**Tips**:
+
+- Free tier has usage limits—test before class
+- Responses can be lengthy; teach students to ask for concise answers
+- ChatGPT remembers context within a conversation—good for investigations
+
+**Privacy note**: Don't enter real student names or identifying information
+
+### Claude (Anthropic)
+
+**Website**: claude.ai
+
+::: {.callout-warning}
+**Age Requirement**: 18+ years old, OR 13-17 with parental/guardian consent. This is the most restrictive age policy among major AI platforms.
+:::
+
+**Account options**:
+
+- Free accounts: Claude 3.5 Sonnet access
+- Pro accounts ($20/month): Claude 3.5 Opus access
+
+**Classroom setup**:
+
+1. Create account at claude.ai
+2. Share login credentials with groups or create multiple accounts
+3. Use "New Conversation" for each group's work
+4. Export or copy conversations for documentation
+
+**Tips**:
+
+- Claude tends to be more cautious/conservative in security scenarios
+- Excellent at explaining its reasoning when asked
+- Good for ethics discussions (Activity 3)
+
+### Microsoft Copilot
+
+**Website**: copilot.microsoft.com
+
+::: {.callout-note}
+**Best Option for Schools**: If your school uses Microsoft 365 Education, students likely already have access. Check with your IT department—this may be your easiest path.
+:::
+
+**Account options**:
+
+- Free with Microsoft account (limited features)
+- Full features require Microsoft 365 subscription (many schools have this)
+
+**Classroom setup**:
+
+1. Students may already have school Microsoft accounts
+2. Access through browser or Windows Copilot
+3. No special setup needed for most schools
+
+**Tips**:
+
+- May already be approved in your district
+- Integrates with other Microsoft tools
+- Check your district's Microsoft 365 configuration
+
+### Google Gemini
+
+**Website**: gemini.google.com
+
+::: {.callout-warning}
+**Age Requirement**: 13+ years old with parental controls. **Important**: Many school Google Workspace accounts have Gemini disabled by default. Test with actual student accounts before planning lessons around it.
+:::
+
+**Account options**:
+
+- Free with Google account
+- Advanced features with Google One subscription
+
+**Classroom setup**:
+
+1. Students may have school Google accounts—but Gemini access varies
+2. Access through browser (gemini.google.com)
+3. **Critical**: Test with a student account first—admin settings often block Gemini
+
+**Tips**:
+
+- Frequently blocked on school Google accounts—always test first
+- If blocked on school accounts, personal accounts may work (but creates equity issues)
+- Good integration with Google Workspace when enabled
+- Consider Copilot as alternative if your school uses Microsoft 365
+
+## General Setup Tips
+
+::: {.panel-tabset}
+### Before Class
+
+- [ ] Test AI access from the school network, since many districts block AI sites.
+- [ ] Practice the activities yourself to anticipate student questions and identify potential challenges.
+- [ ] Prepare backup plans including pre-generated responses and teacher demonstration options.
+- [ ] Finally, set up shared documentation through Google Docs, OneNote, or similar tools so groups can capture their work.
+
+### During Class
+
+- [ ] Model partnership language before students engage with AI.
+- [ ] Circulate and observe AI interactions as they unfold, addressing any issues immediately, whether inappropriate responses or technical problems.
+- [ ] Save notable interactions for use during the debrief discussion.
+
+### Technical Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| AI site blocked | Use teacher device and project, or switch to low-resource approach |
+| Slow responses | Have groups take turns; use wait time productively |
+| AI gives inappropriate response | Teach students to redirect or start new conversation |
+| Account locked | Have backup accounts ready; rotate if usage limits hit |
+| Student can't access account | Pair with another student; share device |
+
+:::
+
+## AI Interaction Best Practices
+
+A well-crafted opening prompt establishes the collaborative dynamic. Have students begin with something like:
+
+> "You're my cybersecurity investigation partner. We're working together on [specific scenario]. I'll share evidence and my thinking. Please share your analysis and help me see what I might miss. Let's solve this together."
+
+Avoid command-style prompts such as "Tell me the answer to..." or "What is..." or "Give me information about..." These framings position AI as an answer machine rather than a collaborative partner.
+
+### Getting Useful Responses
+
+| If AI gives... | Try asking... |
+|----------------|---------------|
+| Too long response | "Can you summarize that in 3 key points?" |
+| Too technical | "Can you explain that for a middle school student?" |
+| Wrong information | "Are you sure about that? Can you explain your reasoning?" |
+| Generic response | "Specifically for our scenario where [details]..." |
+
+### Saving Work
+
+Have students copy important AI responses into group documents and screenshot key interactions for assessment purposes. Note conversation links or IDs if the platform supports this feature. Most importantly, have groups summarize AI contributions in their own words, since this synthesis process deepens learning.
+
+## Security and Privacy Reminders
+
+Never enter real student names or identifying information, actual passwords or security credentials, genuine incident data from your school, or personal information about real individuals.
+
+### Safe Practices
+
+Always use the fictional names provided in the activity materials, fictional scenarios as designed, and generic or fabricated data when needed.
+
+### Conversation Privacy
+
+Be aware that AI conversations may be logged by providers. Avoid discussing sensitive school matters. Start fresh conversations for each class or group and clear conversation history after activities conclude.
+
+## Checking Your Setup
+
+- [ ] AI platform accessible from classroom
+- [ ] Test account(s) created and working
+- [ ] Backup approach ready (see Low-Resource guide)
+- [ ] Students know not to enter personal information
+- [ ] Groups know how to save their work
+- [ ] Timer ready for activity phases
+- [ ] Debrief questions prepared
+
+### Quick Test
+
+Before your first session, try this test prompt:
+
+> "I'm a middle school student learning about cybersecurity. Can you help me investigate a scenario where a user account was compromised? I'd like you to be my investigation partner, not just answer questions."
+
+**Good response**: AI engages collaboratively, asks clarifying questions  
+**Concerning response**: AI just provides a lecture or refuses to engage
+
+## Need More Help?
+
+- [Claude for Education](https://claude.com/solutions/education)
+- [ChatGPT for Education](https://openai.com/chatgpt/education/)
+- [Google AI for Education](https://edu.google.com/ai/)
+- [Microsoft AI for Education](https://www.microsoft.com/en-us/education/ai)
+
+*True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges, NICE K12 2025*

@@ -1,0 +1,269 @@
+---
+title: "Stakeholder Role Cards"
+subtitle: "Activity 2: Ethics in Automated Security"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+## How to Use These Cards
+
+For the 9-12 AI Governance Workshop, assign each group member a stakeholder role. Each stakeholder brings different priorities to the policy discussion.
+
+**Important:** These roles create productive tension. There's no "right" answer—the goal is to understand how real governance requires balancing competing interests.
+
+---
+
+## Student Representative
+
+::: {.stakeholder-card}
+### Your Role: Voice of Students
+
+**Your primary concerns:**
+
+- Student privacy and autonomy
+- Fair treatment across all students
+- Trust between students and administration
+- Freedom to research without surveillance
+
+**Questions you should raise:**
+
+- "How will students feel knowing they're being watched?"
+- "Is this policy fair to all students equally?"
+- "What happens to students who are wrongly flagged?"
+- "Do students have any say in how they're monitored?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Concerned about legitimate research being blocked
+- **Activity monitoring:** Strongly values privacy; worried about chilling effect
+- **Data retention:** Wants minimal data kept; wants students to have access rights
+
+**Key phrase to remember:**
+
+> "Students aren't suspects. We need policies that protect us without treating us like threats."
+:::
+
+---
+
+## Parent Liaison
+
+::: {.stakeholder-card}
+### Your Role: Voice of Parents and Families
+
+**Your primary concerns:**
+
+- Child safety online
+- Knowing what the school knows about their child
+- Protection from cyberbullying and predators
+- Transparency about monitoring practices
+
+**Questions you should raise:**
+
+- "Will parents be informed about what's monitored?"
+- "Can parents access data collected about their children?"
+- "How will you catch threats to student safety?"
+- "What if my child is being cyberbullied?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Supportive of protecting kids from harmful content
+- **Activity monitoring:** Wants monitoring for safety threats, but transparency required
+- **Data retention:** Wants to know what exists and have access to it
+
+**Key phrase to remember:**
+
+> "Parents entrust their children to the school. We need to know they're protected AND that we're informed."
+:::
+
+---
+
+## IT Security Lead
+
+::: {.stakeholder-card}
+### Your Role: Voice of Technical Implementation
+
+**Your primary concerns:**
+
+- System actually being effective at stopping threats
+- Manageable workload for IT staff
+- Technical feasibility of proposed policies
+- False positive/negative rates
+
+**Questions you should raise:**
+
+- "Can we actually implement this with our current staffing?"
+- "What's the operational impact of requiring human approval?"
+- "How do we handle alerts outside school hours?"
+- "What happens when the system goes down?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Prefers automation for efficiency; manual review creates bottlenecks
+- **Activity monitoring:** Wants effective threat detection; concerned about alert fatigue
+- **Data retention:** Needs sufficient data for forensics; storage and compliance concerns
+
+**Key phrase to remember:**
+
+> "The best policy in the world doesn't matter if we can't actually run it. What's operationally realistic?"
+:::
+
+---
+
+## Legal/Compliance Advisor
+
+::: {.stakeholder-card}
+### Your Role: Voice of Legal Requirements
+
+**Your primary concerns:**
+
+- FERPA compliance (student educational records)
+- COPPA compliance (children under 13)
+- District liability exposure
+- Documentation and audit trails
+
+**Questions you should raise:**
+
+- "Does this comply with FERPA's legitimate educational interest exception?"
+- "Have we obtained proper parental consent for students under 13?"
+- "What's our liability if monitoring fails to catch a threat?"
+- "What's our liability if monitoring violates student privacy?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Concerned about liability either way—action or inaction
+- **Activity monitoring:** Must have legal basis; documentation essential
+- **Data retention:** Wants clear retention schedules; proper destruction procedures
+
+**Key phrase to remember:**
+
+> "Good intentions don't protect us in court. Every policy needs a legal foundation."
+:::
+
+---
+
+## School Administrator
+
+::: {.stakeholder-card}
+### Your Role: Voice of Balance and Implementation
+
+**Your primary concerns:**
+
+- Making the policy work for everyone
+- Balancing competing stakeholder interests
+- Explaining policy to the community
+- Day-to-day operational reality
+
+**Questions you should raise:**
+
+- "How do we explain this to parents at back-to-school night?"
+- "What happens when stakeholders disagree?"
+- "How do we handle the edge cases?"
+- "Is this something teachers can actually implement?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Wants effective protection with minimal disruption to learning
+- **Activity monitoring:** Needs balance between safety and trust
+- **Data retention:** Practical approach; clear guidelines for staff
+
+**Key phrase to remember:**
+
+> "We need a policy that actually works in practice, not just on paper. How does this play out on a Tuesday afternoon?"
+:::
+
+---
+
+## The AI System (SecureNet/SchoolGuard)
+
+::: {.stakeholder-card}
+### Your Role: Voice of the Technology
+
+**Your primary concerns:**
+
+- Being used effectively for your designed purpose
+- Having clear guidelines to follow
+- Acknowledging your own limitations
+- Being transparent about capabilities and constraints
+
+**Questions you should raise:**
+
+- "What do you want me to optimize for?"
+- "How should I handle situations I'm uncertain about?"
+- "What happens when I make mistakes?"
+- "How will you evaluate whether I'm working well?"
+
+**Your position on key issues:**
+
+- **Automatic blocking:** Can do it fast, but will make mistakes; need clear categories
+- **Activity monitoring:** Can detect patterns, but can't understand meaning or context
+- **Data retention:** Learning improves accuracy, but creates privacy trade-offs
+
+**Key phrase to remember:**
+
+> "I can follow whatever rules you set, but I can't decide what's right. That's your job."
+
+**Note:** This role is unusual but important. The AI is a stakeholder because its capabilities and limitations shape what's possible. Having a student voice the AI perspective helps the group understand the technology as a participant, not just a tool.
+:::
+
+---
+
+## Simplified Roles for Grades 3-5
+
+### The Student
+
+> "How would I feel if the computer was watching everything I do?"
+
+### The Parent
+
+> "How do I know my kid is safe at school?"
+
+### The Teacher
+
+> "How do I teach when computers are making decisions about my students?"
+
+### SchoolGuard
+
+> "I can help, but I need humans to tell me what's fair."
+
+---
+
+## Discussion Protocol
+
+### Phase 1: Position Statements (5 minutes)
+
+Each stakeholder states their position on all three policy areas. **No debate yet**—just positions.
+
+### Phase 2: Cross-Examination (10 minutes)
+
+Stakeholders ask each other questions. Focus on understanding, not winning.
+
+### Phase 3: Consensus Building (10 minutes)
+
+Find common ground. Document where you agree and where you disagree.
+
+### Phase 4: Policy Writing (5 minutes)
+
+Write unified recommendations that address all stakeholder concerns as much as possible.
+
+---
+
+## Reflection Questions
+
+After the activity, discuss:
+
+1. **Which stakeholder perspective was hardest to represent? Why?**
+
+2. **Where did stakeholder interests align? Where did they conflict?**
+
+3. **How did including the AI as a stakeholder change the discussion?**
+
+4. **In real governance, who typically gets the most say? Who gets the least?**
+
+5. **How might these discussions happen differently in a real school district?**
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

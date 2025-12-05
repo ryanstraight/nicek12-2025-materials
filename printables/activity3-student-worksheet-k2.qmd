@@ -1,0 +1,75 @@
+---
+title: "Fix It Team!"
+subtitle: "My Teamwork Worksheet (Grades K-2)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.75in
+    fontsize: 14pt
+---
+
+**My Name:** _______________________________ **Date:** _______________
+
+## The Problem
+
+**The computers won't turn on! We need our Fix It Team!**
+
+## My Job on the Team
+
+I am the: [ ] Detective  [ ] Thinker  [ ] Helper
+
+## What Happened?
+
+### What did we notice? (Draw or write)
+
+```
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+```
+
+### What did the Robot Helper find?
+
+_____________________________________________________________________________
+
+## How We Fixed It
+
+### What did the team decide to do?
+
+_____________________________________________________________________________
+
+### Did it work? [ ] Yes  [ ] No
+
+## What I Learned
+
+### Working together helped because:
+
+_____________________________________________________________________________
+
+### The Robot Helper was good at:
+
+_____________________________________________________________________________
+
+### People had to decide:
+
+_____________________________________________________________________________
+
+## Draw Our Fix It Team!
+
+```
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+```
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

@@ -1,0 +1,185 @@
+---
+title: "Activity 1: Mystery Helpers"
+subtitle: "Working Together with Robot Friends (Grades K-2)"
+author: "Dr. Ryan Straight"
+date: "2025-12-07"
+---
+
+::: {.callout-important}
+## Teacher Overview
+
+This activity introduces the youngest learners to the concept that **people and computers work best as a team**. Using a simple classroom mystery, students discover that their robot helper (AI) is good at some things, and people are good at other things—and together they solve problems better!
+
+**Duration**: 25-30 minutes
+**Grade Levels**: K-2
+**Group Size**: Whole class with teacher leading
+**Technology**: Teacher device only (students do not need devices)
+:::
+
+## Learning Goals
+
+By the end of this activity, students will:
+
+- Understand that computers can be **helpers**, not just toys or tools
+- Recognize that people and computers are good at **different things**
+- Experience working **together** with a computer helper to solve a problem
+
+### CYBER.org Standards Alignment (K-2)
+
+- **K-2.DC.CIT**: Digital citizenship foundations
+- **K-2.SEC.SAF**: Basic safety concepts
+
+
+## The Mystery
+
+::: {.scenario-box}
+### Oh No! The Class Pet Picture Is Missing!
+
+**Setup**: Tell students that the class computer had a picture of the class pet (real or imaginary) saved on it, but now it's gone! We need to figure out what happened.
+
+**The Clues** (show on screen or as printed pictures):
+
+1. 🖥️ The computer screen shows: "File not found"
+2. 👀 Someone saw a student at the computer during snack time
+3. 🗑️ The recycling bin icon on the computer looks full
+4. 📝 There's a note that says "oops" near the computer
+:::
+
+
+## Activity Flow (25-30 minutes)
+
+### Part 1: Look at the Clues (5 minutes)
+
+**Teacher says**:
+> "We have a mystery! Our class pet picture is missing. Let's be detectives and figure out what happened. First, let's look at the clues together."
+
+Show each clue. Ask students:
+- "What do you see?"
+- "What do you think this means?"
+
+### Part 2: Ask Our Robot Helper (10 minutes)
+
+**Teacher says**:
+> "Now, I have a special helper—a robot friend on the computer! The robot is really good at remembering things and finding patterns. Let's ask our robot helper what it thinks."
+
+**Open your AI assistant** (ChatGPT, Claude, etc.) and say to students:
+> "I'm going to ask our robot helper. Listen to what it says!"
+
+**Type this prompt** (read it aloud as you type):
+> "You are a friendly robot helper talking to kindergarten and first grade students. We have a mystery: a picture file is missing from the class computer. Here are our clues: the screen says 'file not found', someone was at the computer during snack time, the recycling bin looks full, and there's a note that says 'oops'. What do you think might have happened? Use simple words."
+
+**Read the AI response** in a fun "robot voice" if you like!
+
+### Part 3: What Did We Each Figure Out? (5 minutes)
+
+**Discussion questions**:
+
+1. "What did our robot helper notice?"
+   - (AI probably mentioned: recycling bin, accidental deletion, checking the trash)
+
+2. "What did WE notice that the robot might not understand?"
+   - (Humans noticed: the "oops" note suggests someone feels bad, someone was there at snack time, this was probably an accident not on purpose)
+
+3. "Who solved the mystery—us or the robot?"
+   - (Answer: BOTH! We worked together!)
+
+### Part 4: Check the Answer Together (5 minutes)
+
+**Teacher says**:
+> "Let's see if we can find our picture! Our robot helper said to check the recycling bin..."
+
+**Demonstrate** opening the recycle bin and "finding" the picture (pre-stage this).
+
+**Celebrate**: "We found it! Our robot helper knew WHERE to look, and WE understood that it was probably an accident. **Together** we solved the mystery!"
+
+
+## Key Teaching Points
+
+### What to Emphasize
+
+::: {.teaching-points}
+**Robot helpers are good at**:
+- Remembering where things are on computers
+- Finding patterns
+- Knowing computer rules (like "deleted files go to recycling bin")
+
+**People are good at**:
+- Understanding feelings (the "oops" note)
+- Knowing about our classroom and friends
+- Deciding what to do next
+
+**Together**:
+- We solve problems better than either one alone!
+:::
+
+### Simple Vocabulary
+
+| Word | Kid-Friendly Meaning |
+|------|---------------------|
+| Robot helper | A computer program that can answer questions |
+| Clue | Something that helps us figure out a mystery |
+| Pattern | When things happen the same way again and again |
+| Team | People (or people and robots!) working together |
+
+
+## Variations
+
+### For Kindergarten
+- Use only 2-3 clues
+- Focus on the "together is better" message
+- Skip the AI interaction and use a pre-written "robot helper says..." card
+
+### For 2nd Grade
+- Let students suggest questions to ask the robot helper
+- Discuss: "What questions would you ask?"
+- Introduce the word "partner"
+
+### Low-Resource Option
+**If you don't have AI access**, use this pre-written robot helper response:
+
+> "Beep boop! I am a robot helper. I see the recycling bin is full—that is where deleted files go! I think someone might have accidentally put the picture in the recycling bin. We should check there! But I don't know who was at the computer or why they might have done it. Can you help me understand that part?"
+
+
+## Follow-Up Activities
+
+### Art Connection
+- Draw a picture of "Me and My Robot Helper" solving a problem together
+
+### Discussion Circle
+- "When else might a robot helper be useful?"
+- "What are YOU good at that a robot might not understand?"
+
+### Take-Home Connection
+- Simple note to families: "Today we learned that people and computer helpers work best as a team!"
+
+
+## Assessment
+
+### Observation Checklist
+
+| Student Behavior | Observed? |
+|-----------------|-----------|
+| Participated in identifying clues | ☐ |
+| Listened to robot helper response | ☐ |
+| Contributed to discussion about human vs. robot strengths | ☐ |
+| Expressed understanding that teamwork helped solve mystery | ☐ |
+
+### Exit Ticket (for 1st-2nd grade)
+
+**Draw or write**: "One thing I'm good at, and one thing a robot helper is good at"
+
+
+## Teacher Notes
+
+### Why This Matters
+
+Even our youngest learners are growing up with AI assistants (Alexa, Siri, Google). This activity helps them develop a healthy mental model: AI is a **partner**, not magic, and humans bring important things that AI can't do.
+
+### Preparation Checklist
+
+- [ ] Choose or create a "class pet picture" to "lose"
+- [ ] Pre-delete the picture to recycle bin
+- [ ] Test AI access OR prepare the pre-written response
+- [ ] Print clue images if not showing on screen
+- [ ] Practice your "robot voice" (optional but fun!)
+

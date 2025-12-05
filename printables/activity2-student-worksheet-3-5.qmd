@@ -1,0 +1,179 @@
+---
+title: "Computer Rules Committee"
+subtitle: "Policy Design Worksheet (Grades 3-5)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.6in
+    fontsize: 11pt
+---
+
+**Your Name:** _______________________________ **Date:** _______________
+
+**Committee Members:** _____________________________________________________________
+
+## Welcome to the Computer Rules Committee!
+
+Your school is getting "SchoolGuard," a new computer system that helps keep students safe online. The principal wants STUDENTS to help decide the rules!
+
+**What SchoolGuard Can Do:**
+
+- See what websites students visit on school computers
+- Block websites it thinks are dangerous
+- Send alerts to teachers about student activity
+- Learn what's "normal" and flag unusual things
+
+## Question 1: Blocking Websites
+
+**Should SchoolGuard automatically block websites it thinks are bad?**
+
+### My Choice:
+
+[ ] **Option A:** Block everything SchoolGuard thinks is bad
+
+[ ] **Option B:** Block dangerous sites, but let students request unblocks
+
+[ ] **Option C:** Only block if a teacher agrees
+
+**Why I chose this:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**What might go wrong with my choice?**
+
+_____________________________________________________________________________
+
+## Question 2: Watching Student Activity
+
+**Should SchoolGuard watch what students do and tell teachers?**
+
+### My Choice:
+
+[ ] **Option A:** Watch everything and alert teachers automatically
+
+[ ] **Option B:** Watch but only alert for serious safety concerns
+
+[ ] **Option C:** Don't watch individual students at all
+
+**Why I chose this:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**How would I feel if I knew SchoolGuard was watching me?**
+
+_____________________________________________________________________________
+
+## Question 3: Learning from Students
+
+**Should SchoolGuard learn what's "normal" at our school?**
+
+### My Choice:
+
+[ ] **Option A:** Yes, SchoolGuard should learn and remember
+
+[ ] **Option B:** SchoolGuard can learn but must forget after one week
+
+[ ] **Option C:** SchoolGuard shouldn't learn about specific students
+
+**Why I chose this:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Is it okay for a computer to remember what you do?**
+
+_____________________________________________________________________________
+
+## What SchoolGuard Told Us
+
+### About Blocking Websites:
+
+**What SchoolGuard is GOOD at:**
+
+_____________________________________________________________________________
+
+**What SchoolGuard gets WRONG sometimes:**
+
+_____________________________________________________________________________
+
+### About Watching Students:
+
+**What SchoolGuard CAN see:**
+
+_____________________________________________________________________________
+
+**What SchoolGuard CAN'T understand:**
+
+_____________________________________________________________________________
+
+### About Learning:
+
+**How learning helps SchoolGuard:**
+
+_____________________________________________________________________________
+
+**Why learning might feel uncomfortable:**
+
+_____________________________________________________________________________
+
+## How Different People Feel
+
+| Person | What they might think about our rules |
+|--------|--------------------------------------|
+| **A shy student** who looks up private things | |
+| **A teacher** trying to keep students safe | |
+| **A student** who was cyberbullied | |
+| **A parent** who wants their child protected | |
+
+**Did thinking about these people change any of my decisions?**
+
+_____________________________________________________________________________
+
+## Our Committee's Final Decisions
+
+### Question 1 (Blocking):
+
+Our choice: _______________
+
+Because: _____________________________________________________________________________
+
+### Question 2 (Watching):
+
+Our choice: _______________
+
+Because: _____________________________________________________________________________
+
+### Question 3 (Learning):
+
+Our choice: _______________
+
+Because: _____________________________________________________________________________
+
+## Reflection
+
+**Was it easy or hard to make these rules?** Why?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Did different people in your group want different things?** How did you decide?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**What would happen if SchoolGuard made its own rules without asking us?**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

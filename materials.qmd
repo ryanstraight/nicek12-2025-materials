@@ -1,0 +1,162 @@
+---
+title: "Materials"
+subtitle: "Downloadable Resources for Classroom Use"
+---
+
+Everything you need is here. Grab the PDFs for ready-to-print convenience, download the Word documents if you want to customize, or simply print any page directly from your browser.
+
+::: {.callout-tip}
+## Three Ways to Print
+
+1. **Download PDF** — Ready to print with consistent formatting
+2. **Download DOCX** — Customize in Word or Google Docs first
+3. **Print from browser** — Hit Ctrl+P (or Cmd+P on Mac) on any page for quick copies without downloading
+:::
+
+## Activity 1: Security Detective Teams
+
+Students team up with an AI partner to investigate security incidents, learning how AI spots patterns while humans provide the judgment that makes sense of them.
+
+### Lesson Plans
+
+| Grade Band | Formats |
+|------------|---------|
+| K-2 | [PDF](activities/01-security-detective-teams/k2.pdf) &#124; [DOCX](activities/01-security-detective-teams/k2.docx) |
+| 3-5 | [PDF](activities/01-security-detective-teams/grades-3-5.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-3-5.docx) |
+| 6-8 | [PDF](activities/01-security-detective-teams/grades-6-8.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-6-8.docx) |
+| 9-12 | [PDF](activities/01-security-detective-teams/grades-9-12.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-9-12.docx) |
+
+### Printable Materials
+
+| Material | Formats |
+|----------|---------|
+| Quick-Start Guide | [PDF](printables/quick-start.pdf) &#124; [DOCX](printables/quick-start.docx) |
+| Student Worksheet | [PDF](printables/student-worksheet.pdf) &#124; [DOCX](printables/student-worksheet.docx) |
+| Evidence Packet | [PDF](printables/evidence-packet.pdf) &#124; [DOCX](printables/evidence-packet.docx) |
+| AI Response Cards | [PDF](printables/ai-response-cards.pdf) &#124; [DOCX](printables/ai-response-cards.docx) |
+| Career Connections | [PDF](career-connections/activity-1-career-connections.pdf) &#124; [DOCX](career-connections/activity-1-career-connections.docx) |
+
+
+## Activity 2: Ethics in Automated Security
+
+Students create governance policies for AI security systems, wrestling with real questions about how to balance what AI can do with what humans value.
+
+### Lesson Plans
+
+| Grade Band | Formats |
+|------------|---------|
+| K-2 | [PDF](activities/02-ethics-automated-security/k2.pdf) &#124; [DOCX](activities/02-ethics-automated-security/k2.docx) |
+| 3-5 | [PDF](activities/02-ethics-automated-security/grades-3-5.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-3-5.docx) |
+| 6-8 | [PDF](activities/02-ethics-automated-security/grades-6-8.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-6-8.docx) |
+| 9-12 | [PDF](activities/02-ethics-automated-security/grades-9-12.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-9-12.docx) |
+
+### Printable Materials
+
+| Material | Formats |
+|----------|---------|
+| Quick-Start Guide | [PDF](printables/activity2-quick-start.pdf) &#124; [DOCX](printables/activity2-quick-start.docx) |
+| Student Worksheet (K-2) | [PDF](printables/activity2-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity2-student-worksheet-k2.docx) |
+| Student Worksheet (3-5) | [PDF](printables/activity2-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity2-student-worksheet-3-5.docx) |
+| Student Worksheet (6-8) | [PDF](printables/activity2-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity2-student-worksheet-6-8.docx) |
+| Student Worksheet (9-12) | [PDF](printables/activity2-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity2-student-worksheet-9-12.docx) |
+| Policy Scenario Cards | [PDF](printables/activity2-policy-scenario-cards.pdf) &#124; [DOCX](printables/activity2-policy-scenario-cards.docx) |
+| AI Perspective Cards | [PDF](printables/activity2-ai-perspective-cards.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards.docx) |
+| Stakeholder Role Cards | [PDF](printables/activity2-stakeholder-cards.pdf) &#124; [DOCX](printables/activity2-stakeholder-cards.docx) |
+| Career Connections | [PDF](career-connections/activity-2-career-connections.pdf) &#124; [DOCX](career-connections/activity-2-career-connections.docx) |
+
+
+## Activity 3: AI-Assisted Incident Response
+
+Students step into real NICE Framework work roles, responding to security incidents as a coordinated team with AI serving as their technical analyst.
+
+### Lesson Plans
+
+| Grade Band | Formats |
+|------------|---------|
+| K-2 | [PDF](activities/03-ai-incident-response/k2.pdf) &#124; [DOCX](activities/03-ai-incident-response/k2.docx) |
+| 3-5 | [PDF](activities/03-ai-incident-response/grades-3-5.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-3-5.docx) |
+| 6-8 | [PDF](activities/03-ai-incident-response/grades-6-8.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-6-8.docx) |
+| 9-12 | [PDF](activities/03-ai-incident-response/grades-9-12.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-9-12.docx) |
+
+### Printable Materials
+
+| Material | Formats |
+|----------|---------|
+| Quick-Start Guide | [PDF](printables/activity3-quick-start.pdf) &#124; [DOCX](printables/activity3-quick-start.docx) |
+| Student Worksheet (K-2) | [PDF](printables/activity3-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity3-student-worksheet-k2.docx) |
+| Student Worksheet (3-5) | [PDF](printables/activity3-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity3-student-worksheet-3-5.docx) |
+| Student Worksheet (6-8) | [PDF](printables/activity3-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity3-student-worksheet-6-8.docx) |
+| Student Worksheet (9-12) | [PDF](printables/activity3-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity3-student-worksheet-9-12.docx) |
+| Role Cards | [PDF](printables/activity3-role-cards.pdf) &#124; [DOCX](printables/activity3-role-cards.docx) |
+| Incident Briefings | [PDF](printables/activity3-incident-briefings.pdf) &#124; [DOCX](printables/activity3-incident-briefings.docx) |
+| AI Response Cards | [PDF](printables/activity3-ai-response-cards.pdf) &#124; [DOCX](printables/activity3-ai-response-cards.docx) |
+| Complication Cards | [PDF](printables/activity3-complication-cards.pdf) &#124; [DOCX](printables/activity3-complication-cards.docx) |
+| Career Connections | [PDF](career-connections/activity-3-career-connections.pdf) &#124; [DOCX](career-connections/activity-3-career-connections.docx) |
+
+
+## Assessment Materials
+
+| Resource | Formats |
+|----------|---------|
+| Human-AI Collaboration Rubric | [PDF](assessments/human-ai-collaboration-rubric.pdf) &#124; [DOCX](assessments/human-ai-collaboration-rubric.docx) |
+| Decision-Making Quality Rubric | [PDF](assessments/decision-making-quality-rubric.pdf) &#124; [DOCX](assessments/decision-making-quality-rubric.docx) |
+| NICE Framework Application Rubric | [PDF](assessments/nice-framework-application-rubric.pdf) &#124; [DOCX](assessments/nice-framework-application-rubric.docx) |
+| Student Self-Reflection | [PDF](assessments/student-self-reflection.pdf) &#124; [DOCX](assessments/student-self-reflection.docx) |
+
+
+## Implementation Guides
+
+| Resource | Formats |
+|----------|---------|
+| AI Platform Setup Guide | [PDF](guides/ai-setup-guide.pdf) &#124; [DOCX](guides/ai-setup-guide.docx) |
+| Low-Resource Implementation Guide | [PDF](guides/low-resource-implementation.pdf) &#124; [DOCX](guides/low-resource-implementation.docx) |
+
+
+## Educator Overview
+
+| Resource | Formats |
+|----------|---------|
+| Complete Educator's Guide | [PDF](about.pdf) &#124; [DOCX](about.docx) |
+
+
+## Printing Tips
+
+These suggestions will help you get the most out of your materials. Card stock makes a real difference for items students will handle repeatedly.
+
+### Paper Recommendations
+
+| Material Type | Paper Recommendation |
+|---------------|---------------------|
+| Quick-Start Guides | Standard copy paper |
+| Student Worksheets | Standard copy paper (front/back) |
+| Evidence Packets | Standard copy paper |
+| Role Cards | Card stock for durability |
+| AI Response Cards | Card stock for repeated use |
+| Complication Cards | Card stock, consider laminating |
+
+### Print Settings
+
+- **Paper size:** Letter (8.5" × 11")
+- **Color:** Black and white works well for all materials
+- **Duplex:** Recommended for worksheets to reduce paper usage
+
+### Quantities Guide
+
+Here is a quick reference for a class of 30 students organized into 6 groups:
+
+| Material | Quantity |
+|----------|----------|
+| Quick-Start Guide | 1 (teacher reference) |
+| Student Worksheets | 30 (1 per student) |
+| Evidence Packets / Incident Briefings | 6 (1 per group) |
+| Role Cards | 6 sets (1 set per group) |
+| AI Response Cards (low-resource) | 6 sets (1 per group) |
+| Complication Cards | 1 set (teacher use) |
+
+
+## Questions?
+
+Have questions about these materials or need help adapting them for your classroom? Reach out anytime.
+
+**Contact**: Dr. Ryan Straight  
+**Email**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)

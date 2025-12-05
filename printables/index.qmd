@@ -1,0 +1,132 @@
+---
+title: "Printable Materials"
+subtitle: "Ready-to-Print Worksheets and Resources"
+---
+
+## Overview
+
+These materials are designed for immediate printing and classroom distribution. Each resource is available in PDF format optimized for standard letter-size paper.
+
+All three activities include:
+
+- **Quick-Start Guide** — One-page educator reference
+- **Student Worksheets** — Grade-band specific (K-2, 3-5, 6-8, 9-12)
+- **Support Materials** — Role cards, evidence packets, AI response cards for low-resource implementation
+
+---
+
+## Activity 1: Security Detective Teams
+
+Students investigate security incidents WITH an AI partner, discovering that AI excels at pattern recognition while humans bring contextual understanding.
+
+### Educator Materials
+
+[**Quick-Start Guide**](quick-start.qmd) — Activity overview, timing, facilitation moves, and debrief questions.
+
+### Student Worksheets
+
+[**Investigation Worksheet**](student-worksheet.qmd) — The main student-facing document guiding students through human-first investigation, AI partnership, and reflection. *(Grades 6-8 baseline; adapt language for other bands)*
+
+### Support Materials
+
+[**Evidence Packet**](evidence-packet.qmd) — "CLASSIFIED" investigation evidence including login logs, password analysis, social media activity, network data, help desk tickets, and interview notes.
+
+[**AI Partner Response Cards**](ai-response-cards.qmd) — Low-resource implementation support with pre-written AI analysis for groups without live AI access.
+
+---
+
+## Activity 2: Ethics in Automated Security
+
+Students design governance policies for AI security systems, discovering that AI is a stakeholder with its own perspective that must be balanced with human values.
+
+### Educator Materials
+
+[**Quick-Start Guide**](activity2-quick-start.qmd) — Activity overview, the conceptual shift, timing, facilitation moves, and debrief questions.
+
+### Student Worksheets
+
+[**Grades K-2: Robot Helper Rules**](activity2-student-worksheet-k2.qmd) — Simple yes/no rule decisions for classroom robot Sparky.
+
+[**Grades 3-5: Computer Rules Committee**](activity2-student-worksheet-3-5.qmd) — SchoolGuard policy design with trade-off analysis.
+
+[**Grades 6-8: Ethics in Automated Security**](activity2-student-worksheet-6-8.qmd) — Full policy development with AI consultation and stakeholder analysis.
+
+[**Grades 9-12: AI Governance Workshop**](activity2-student-worksheet-9-12.qmd) — Enterprise governance with FERPA/COPPA considerations and executive policy briefs.
+
+### Support Materials
+
+[**Policy Scenario Cards**](activity2-policy-scenario-cards.qmd) — Eight realistic scenarios that test students' policy decisions with real-world complications.
+
+[**AI Perspective Cards**](activity2-ai-perspective-cards.qmd) — Low-resource implementation support with SchoolGuard's perspective on automatic blocking, activity alerts, adaptive learning, and its own limitations.
+
+[**Stakeholder Role Cards**](activity2-stakeholder-cards.qmd) — For 9-12 governance simulation: Student Representative, Parent Liaison, IT Security Lead, Legal Advisor, Administrator, and AI System roles.
+
+---
+
+## Activity 3: AI-Assisted Incident Response
+
+Students experience authentic NICE Framework Work Roles by responding to realistic security incidents as a coordinated team with AI as their technical analyst partner.
+
+### Educator Materials
+
+[**Quick-Start Guide**](activity3-quick-start.qmd) — Activity overview, role assignments, timing, complication injection tips, and debrief questions.
+
+### Student Worksheets
+
+[**Grades K-2: Fix It Team!**](activity3-student-worksheet-k2.qmd) — Simple teamwork experience solving a classroom technology problem.
+
+[**Grades 3-5: Computer Problem Solvers**](activity3-student-worksheet-3-5.qmd) — Investigation team roles (Detective, AI Partner, Recorder, Reporter) solving malware scenario.
+
+[**Grades 6-8: AI-Assisted Incident Response**](activity3-student-worksheet-6-8.qmd) — Team response with IC, SOC Analyst, Threat Intel, and Communications roles.
+
+[**Grades 9-12: SOC Analyst Simulation**](activity3-student-worksheet-9-12.qmd) — Enterprise-level incident with technical evidence, MITRE ATT&CK mapping, and executive communications.
+
+### Support Materials
+
+[**Role Cards**](activity3-role-cards.qmd) — Print-and-cut cards defining responsibilities for each team role across all grade bands.
+
+[**Incident Briefings**](activity3-incident-briefings.qmd) — Scenario descriptions for each grade band: ransomware, data breach, social media compromise, malware investigation, and K-2 fix-it story.
+
+[**AI Response Cards**](activity3-ai-response-cards.qmd) — Low-resource implementation with SentinelAI analysis reports (9-12), school AI advisor responses (6-8), helper responses (3-5), and Sparky dialogue (K-2).
+
+[**Complication Cards**](activity3-complication-cards.qmd) — Phase 3 injections to simulate dynamic incident response: media pressure, scope expansion, stakeholder conflicts, and human factors.
+
+---
+
+## Printing Tips
+
+### Paper Recommendations
+
+| Material Type | Paper Recommendation |
+|---------------|---------------------|
+| Quick-Start Guides | Standard copy paper |
+| Student Worksheets | Standard copy paper (front/back) |
+| Evidence Packets | Standard copy paper |
+| Role Cards | Card stock for durability |
+| AI Response Cards | Card stock for repeated use |
+| Complication Cards | Card stock, consider laminating |
+
+### Print Settings
+
+- **Paper size:** Letter (8.5" × 11")
+- **Color:** Black and white works well for all materials
+- **Duplex:** Recommended for worksheets to reduce paper usage
+
+### Quantities Guide
+
+For a class of 30 students organized into 6 groups:
+
+| Material | Quantity |
+|----------|----------|
+| Quick-Start Guide | 1 (teacher reference) |
+| Student Worksheets | 30 (1 per student) |
+| Evidence Packets / Incident Briefings | 6 (1 per group) |
+| Role Cards | 6 sets (1 set per group) |
+| AI Response Cards (low-resource) | 6 sets (1 per group) |
+| Complication Cards | 1 set (teacher use) |
+
+---
+
+## Download All Materials
+
+Visit the [Materials](../materials.qmd) page to download all materials in PDF and DOCX formats.

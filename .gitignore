@@ -1,0 +1,26 @@
+# Quarto
+/.quarto/
+# /_site/  # Using /docs/ for GitHub Pages
+/_freeze/
+*_files/
+**/*.quarto_ipynb
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Misc
+.env
+*.log
+nul

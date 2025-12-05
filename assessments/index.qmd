@@ -1,0 +1,67 @@
+---
+title: "Assessment Materials"
+subtitle: "Rubrics and Reflection Tools for Human-AI Partnership Activities"
+---
+
+## Overview
+
+These assessment tools focus on what matters most: **how students understand and practice human-AI collaboration**, rather than whether they arrived at a predetermined "correct answer."
+
+Each rubric employs a four-point scale aligned with authentic human-AI partnership competencies, enabling meaningful differentiation across student performance levels.
+
+## Assessment Rubrics
+
+### Human-AI Collaboration Rubric
+
+This rubric assesses students' understanding and demonstration of authentic human-AI collaboration, specifically their ability to treat AI as a team member with complementary capabilities rather than as a tool or answer source.
+
+**Use with**: All three activities
+**Point range**: 4-16 points (4 criteria at 1-4 points each)
+
+The rubric addresses four criteria: AI Partnership Framing, Complementary Strengths Recognition, AI Limitation Awareness, and Synthesis Quality.
+
+[View Rubric](human-ai-collaboration-rubric.qmd)
+
+### Decision-Making Quality Rubric
+
+This rubric assesses the quality of students' decision-making processes when working with AI partners, focusing on how they integrate AI insights with human judgment in cybersecurity contexts.
+
+**Use with**: Security Detective Teams, AI-Assisted Incident Response
+**Point range**: 4-16 points (4 criteria at 1-4 points each)
+
+The rubric addresses four criteria: AI Input Integration, Critical Evaluation of AI Output, Human Context Application, and Decision Justification.
+
+[View Rubric](decision-making-quality-rubric.qmd)
+
+### NICE Framework Application Rubric
+
+This rubric assesses students' understanding of how activity experiences connect to authentic cybersecurity careers as defined by the NICE Workforce Framework for Cybersecurity.
+
+**Use with**: All three activities
+**Point range**: 3-12 points (3 criteria at 1-4 points each)
+
+The rubric addresses three criteria: Work Role Recognition, Real-World Connection, and Skill Identification.
+
+[View Rubric](nice-framework-application-rubric.qmd)
+
+## Student Self-Assessment
+
+### Human-AI Partnership Reflection
+
+This student-facing reflection tool helps learners articulate their developing understanding of human-AI collaboration. The template includes sections addressing work with AI, human-AI teamwork contributions, decision-making and trust, career connections, and self-assessment ratings.
+
+[View Reflection Template](student-self-reflection.qmd)
+
+## Using These Assessments
+
+### Formative Assessment
+
+Use the Human-AI Collaboration Rubric criteria 1-2 early in the sequence to establish foundational understanding. Observe during activities and use rubrics to guide feedback conversations. The student self-reflection works well as an exit ticket.
+
+### Summative Assessment
+
+All four criteria of the collaboration rubric together provide a comprehensive picture of student understanding. The decision-making rubric works particularly well for Activities 1 and 2. The NICE Framework rubric captures career awareness development across all activities.
+
+### Adaptation Guidelines
+
+Adjust expectations based on grade level, since younger students may demonstrate proficiency at lower levels. Consider students' prior AI experience, the complexity of the specific activity scenario, and whether students had live AI access or used low-resource alternatives.

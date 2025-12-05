@@ -1,0 +1,144 @@
+---
+title: "True Teamwork: Human-AI Partnership Activities"
+subtitle: "Educator's Guide to Downloaded Materials"
+---
+
+Thank you for downloading these materials from the NICE K12 Cybersecurity Education Conference 2025 session *True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges*!
+
+These activities are designed to reshape how students understand AI in cybersecurity, moving them beyond viewing AI as either adversary or tool and toward recognizing it as a **collaborative partner**.
+
+## What's Included
+
+### Lesson Plans (`/activities/`)
+
+Three complete activities, each developed with four grade-band versions:
+
+#### Activity 1: Security Detective Teams
+
+Students investigate security incidents alongside an AI partner, discovering through direct experience that AI demonstrates strength in pattern recognition while humans bring irreplaceable contextual understanding. Together, they solve mysteries that neither could resolve independently.
+
+| Grade Band | Version Name | Duration | Key Features |
+|------------|--------------|----------|--------------|
+| **K-2** | "Mystery Helpers" | 20-25 min | Picture-based clues, teacher-led AI voice |
+| **3-5** | "Locked Library Computers" | 30-35 min | School scenario, guided AI prompts |
+| **6-8** | Security Detective Teams | 45-50 min | Full investigation, student-AI partnership |
+| **9-12** | Threat Investigation | 50-60 min | SOC simulation, technical indicators |
+
+#### Activity 2: AI-Assisted Incident Response
+
+Students assume team roles during realistic security incidents, experiencing how cybersecurity professionals coordinate with AI systems when rapid response matters.
+
+| Grade Band | Version Name | Duration | Key Features |
+|------------|--------------|----------|--------------|
+| **K-2** | "Fix It Team!" | 20-25 min | Simple role-play, classroom tech problem |
+| **3-5** | "Computer Problem Solvers" | 35-40 min | Investigation teams, malware scenario |
+| **6-8** | AI-Assisted Incident Response | 50-60 min | NICE work roles, multiple scenarios |
+| **9-12** | SOC Analyst Simulation | 55-60 min | Enterprise breach, technical depth |
+
+#### Activity 3: Ethics in Automated Security
+
+Students develop governance rules for AI security systems, confronting the reality that AI requires careful human guidance and that these policy decisions carry genuine difficulty.
+
+| Grade Band | Version Name | Duration | Key Features |
+|------------|--------------|----------|--------------|
+| **K-2** | "Robot Helper Rules" | 20-25 min | Sparky the Robot, yes/no decisions |
+| **3-5** | "Computer Rules Committee" | 35-40 min | SchoolGuard policies, trade-offs |
+| **6-8** | Ethics in Automated Security | 45-55 min | Policy design, AI perspective |
+| **9-12** | AI Governance Workshop | 50-60 min | FERPA, stakeholder roles, real frameworks |
+
+### Assessment Materials (`/assessments/`)
+
+The assessment package includes a Human-AI Collaboration Rubric using a four-point scale, a Decision-Making Quality Rubric with the same structure, a NICE Framework Application Rubric, and a Student Self-Reflection Template designed for learners to articulate their developing understanding.
+
+### Technical Guides (`/guides/`)
+
+The guides section provides an AI Platform Setup Guide covering ChatGPT, Claude, Copilot, and Gemini, alongside Low-Resource Implementation Strategies that prove essential for many school settings.
+
+## Quick Start Guide
+
+Begin by selecting the grade band appropriate for your students, since all activities include versions spanning K-2 through 9-12. Next, assess your classroom's AI access level, whether full, limited, or none, and review the corresponding technical guide for your resource situation. Prepare materials for printing or digital distribution, and take time to experience the activity yourself before teaching it. Personal familiarity with the flow significantly improves facilitation.
+
+### Implementation by Resource Level
+
+| Resource Level | What You Need | Recommended Approach |
+|---------------|---------------|---------------------|
+| **Full access** | 1:1 devices, student AI accounts | Students partner directly with AI |
+| **Limited access** | Shared devices, class AI account | Rotation stations + demonstrations |
+| **No AI access** | No devices or AI available | Pre-generated response cards, teacher as AI voice |
+
+Each approach produces meaningful learning. The low-resource options frequently generate richer discussion because students cannot simply defer to AI for answers.
+
+### Suggested Sequence
+
+While each activity functions independently, running them in sequence builds progressively sophisticated understanding:
+
+1. **Security Detective Teams** introduces the partnership concept
+2. **AI-Assisted Incident Response** applies partnership dynamics to crisis situations
+3. **Ethics in Automated Security** explores the governance implications that follow from widespread AI deployment
+
+## What Makes This Different?
+
+| Old Thinking | New Thinking |
+|--------------|--------------|
+| Humans **use** AI tools | Humans **and** AI work as teammates |
+| AI is either adversary or tool | AI serves as a collaborative partner |
+| Individual competency matters | Partnership capability matters |
+
+### Why This Works
+
+The activities reflect genuine complementary strengths. AI excels at pattern recognition, identifying anomalies that humans routinely miss, processing large volumes of data with speed humans cannot match, and drawing on vast threat databases. Humans, meanwhile, bring irreplaceable capabilities: understanding context and significance, exercising judgment about appropriate action, and communicating effectively with stakeholders.
+
+Together, humans and AI achieve outcomes that neither could reach alone. This is not merely aspirational rhetoric but an accurate description of how contemporary cybersecurity work actually unfolds.
+
+## Framework Alignment
+
+### NICE Workforce Framework (Primary)
+
+Each activity connects explicitly to NICE Framework Work Roles, providing students with authentic exposure to professional cybersecurity pathways:
+
+| Activity | Primary Work Roles |
+|----------|-------------------|
+| Security Detective Teams | Cyber Defense Analyst, Vulnerability Assessment |
+| AI-Assisted Incident Response | Incident Responder, SOC Analyst, Threat Intelligence |
+| Ethics in Automated Security | Cyber Policy Planner, Privacy Officer, Security Manager |
+
+### CYBER.org K-12 Standards (Supplemental)
+
+Activities align with grade-band standards across the K-12 spectrum. The K-2 versions address digital citizenship foundations and basic safety concepts (K-2.DC/K-2.SEC). Grades 3-5 versions engage technology ethics and privacy concepts (3-5.DC/3-5.SEC). The 6-8 versions develop security concepts alongside ethical considerations (6-8.SEC/6-8.DC), while 9-12 versions tackle advanced analysis and policy development (9-12.SEC/9-12.DC).
+
+## Low-Resource Implementation
+
+Classrooms without AI access can still deliver powerful learning experiences through several proven strategies.
+
+In the **Teacher as AI Voice** approach, you embody the AI role, fielding student questions and providing AI-style responses. This method offers the distinct advantage of letting you intentionally demonstrate AI limitations at pedagogically appropriate moments.
+
+**Pre-Generated Response Cards** provide another effective option. Print the response cards included with each activity and have students draw cards rather than querying live AI, preserving the investigative dynamic without requiring technology access.
+
+The **Rotation Stations** approach works well when you have one or two devices available. Groups rotate through the AI station while others work on evidence analysis, maximizing limited technology resources.
+
+**Think-Aloud Demonstration** involves projecting a single AI interaction for the whole class, with everyone participating in analyzing the exchange. This strategy ensures all students engage with the AI partnership concept simultaneously.
+
+Finally, **Homework Preparation** leverages home AI access when students have it. Students run queries at home and bring their results to class, where the focus shifts to synthesis and discussion.
+
+## Questions & Support
+
+**Contact**: Dr. Ryan Straight  
+**Email**: ryanstraight@arizona.edu  
+**ORCID**: [0000-0002-6251-5662](https://orcid.org/0000-0002-6251-5662)
+
+**University of Arizona**
+College of Information Science
+
+### Share Your Experience
+
+I welcome feedback about how these activities work in your classroom. What adaptations did you make? How did students respond to framing AI as a teammate? What challenges emerged? What would you change? Your insights help improve these materials for educators everywhere.
+
+## License & Attribution
+
+These materials are shared for educational use. Please attribute:
+
+> Straight, R. (2025). *True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges*. NICE K12 Cybersecurity Education Conference. University of Arizona.
+
+---
+
+*Preparing students for a future where human-AI collaboration is standard practice rather than exception.*

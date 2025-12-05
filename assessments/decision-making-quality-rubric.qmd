@@ -1,0 +1,111 @@
+---
+title: "Decision-Making Quality Rubric"
+subtitle: "Assessing Human-AI Integrated Decision Processes"
+---
+
+## Rubric Overview
+
+This rubric assesses the quality of students' decision-making processes when working with AI partners—focusing on how they integrate AI insights with human judgment in cybersecurity contexts.
+
+**Use with**: Security Detective Teams, AI-Assisted Incident Response
+**Point range**: 4-16 points (4 criteria × 1-4 points each)
+
+## Assessment Criteria
+
+### Criterion 1: AI Input Integration (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Strategically integrates AI input at optimal decision points | Knows when to consult AI; synthesizes AI analysis with existing knowledge; adjusts decisions based on AI insights |
+| **3 - Proficient** | Consistently incorporates AI input | Regularly consults AI during decision process; uses AI analysis to inform choices |
+| **2 - Developing** | Inconsistent integration | Sometimes consults AI; doesn't always incorporate insights into decisions |
+| **1 - Emerging** | Ignores or over-relies on AI | Either dismisses AI input entirely or accepts it without critical evaluation |
+
+**Evidence to look for**:
+
+- Timing of AI consultations (before, during, after key decisions)
+- References to AI insights in decision rationale
+- Balance between AI reliance and independent judgment
+
+### Criterion 2: Critical Evaluation of AI Output (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Systematically evaluates AI recommendations against multiple criteria | Questions AI reasoning; compares AI analysis to evidence; identifies potential AI errors or limitations |
+| **3 - Proficient** | Evaluates AI output thoughtfully | Asks follow-up questions; checks AI claims against available evidence |
+| **2 - Developing** | Limited evaluation | Occasionally questions AI; accepts most AI output at face value |
+| **1 - Emerging** | No critical evaluation | Treats AI output as authoritative; no verification attempts |
+
+**Evidence to look for**:
+
+- Follow-up questions to AI
+- Comparison of AI analysis to direct evidence
+- Identification of AI errors or inconsistencies
+- Requests for AI to explain reasoning
+
+### Criterion 3: Human Context Application (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Expertly applies human context AI cannot access | Identifies context AI lacks; explains how context changes analysis; makes decisions AI couldn't make |
+| **3 - Proficient** | Applies relevant human context | Recognizes when human knowledge matters; adds organizational/cultural context to AI analysis |
+| **2 - Developing** | Some context application | Occasionally adds context but doesn't consistently recognize its importance |
+| **1 - Emerging** | No human context added | Relies entirely on AI analysis without adding human perspective |
+
+**Evidence to look for**:
+
+- Statements about what AI doesn't know about the situation
+- References to organizational culture, relationships, or history
+- Decisions that require human judgment AI can't replicate
+
+### Criterion 4: Decision Justification (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Articulates comprehensive justification referencing both human and AI contributions | Explains reasoning clearly; cites specific AI insights AND human factors; acknowledges trade-offs |
+| **3 - Proficient** | Provides clear justification | Explains reasoning with reference to AI analysis and human judgment |
+| **2 - Developing** | Partial justification | Provides some reasoning but may not reference both human and AI contributions |
+| **1 - Emerging** | No justification | Makes decisions without explaining reasoning |
+
+**Evidence to look for**:
+
+- Written or verbal explanations of decision rationale
+- References to specific AI recommendations
+- Acknowledgment of human factors in decisions
+- Recognition of trade-offs and alternatives considered
+
+## Scoring Guide
+
+| Total Score | Performance Level | Interpretation |
+|-------------|------------------|----------------|
+| 14-16 | Exemplary | Student demonstrates sophisticated integrated decision-making; ready for complex multi-stakeholder scenarios |
+| 10-13 | Proficient | Student integrates human-AI perspectives effectively; may benefit from scenarios with greater ambiguity |
+| 6-9 | Developing | Student shows emerging integration skills; needs practice with structured decision frameworks |
+| 4-5 | Beginning | Student needs foundational instruction on human-AI decision integration |
+
+## Activity-Specific Application
+
+### Security Detective Teams
+
+Focus on Criteria 1 and 2—how students integrate AI pattern recognition with their own evidence analysis.
+
+### AI-Assisted Incident Response
+
+Focus on Criteria 3 and 4—how students apply organizational context and justify response decisions.
+
+## Instructor Notes
+
+**Key observation points**:
+
+- Decision log entries (if using)
+- Group discussion contributions
+- Final decision presentations
+- Written reflections
+
+**Common challenges**:
+
+- Students may struggle to articulate *why* human context matters
+- Some students over-defer to AI recommendations
+- Decision justification often requires explicit prompting
+
+*Part of "True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges" - NICE K12 2025*

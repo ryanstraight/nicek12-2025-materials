@@ -1,0 +1,79 @@
+---
+title: "Activities"
+subtitle: "Three Complete Human-AI Partnership Activities"
+---
+
+## Overview
+
+Each activity centers on a core principle: students discover what emerges when two fundamentally different kinds of intelligence collaborate. The activities invite students to experience firsthand how human insight and AI analysis complement each other in authentic cybersecurity contexts.
+
+Every activity includes four grade-band versions spanning K-2 through 9-12, complete lesson plans with timing guides, student materials and worksheets, assessment rubrics, and implementation options for classrooms with limited technology access.
+
+::: {.callout-note collapse="true"}
+## Learn More: Why Collaboration, Not Just Tools?
+
+Research on human-AI collaboration shows that framing AI as a "tool" limits learning. When students see AI as a teammate with strengths (pattern recognition, speed) and limitations (context, judgment), they develop more sophisticated mental models. This prepares them for authentic cybersecurity work where human-AI partnerships are standard practice.
+
+[Explore the research →](../resources/index.qmd#collaboration)
+:::
+
+## Activity 1: Security Detective Teams
+
+Students investigate security incidents alongside an AI partner, discovering through hands-on experience that AI excels at identifying patterns while humans excel at understanding context. Together, they solve mysteries that neither could unravel alone.
+
+**Core Learning**: AI demonstrates strength in pattern recognition across large datasets, while humans bring irreplaceable capabilities in contextual understanding and judgment.
+
+| Grade Band | Version Name | Duration |
+|------------|--------------|----------|
+| K-2 | [Mystery Helpers](01-security-detective-teams/k2.qmd) | 20-25 min |
+| 3-5 | [Locked Library Computers](01-security-detective-teams/grades-3-5.qmd) | 30-35 min |
+| 6-8 | [Security Detective Teams](01-security-detective-teams/grades-6-8.qmd) | 45-50 min |
+| 9-12 | [Threat Investigation](01-security-detective-teams/grades-9-12.qmd) | 50-60 min |
+
+**NICE Framework Connection**: Cyber Defense Analyst, Vulnerability Assessment Analyst
+
+## Activity 2: Ethics in Automated Security
+
+Students develop governance policies for AI security systems, confronting the reality that AI requires thoughtful human guidance and that these decisions carry genuine difficulty. The activity reveals that designing rules for intelligent systems involves navigating competing values rather than finding clear answers.
+
+**Core Learning**: AI governance demands careful balancing of competing priorities. There are no easy answers in this domain, only thoughtful trade-offs.
+
+| Grade Band | Version Name | Duration |
+|------------|--------------|----------|
+| K-2 | [Robot Helper Rules](02-ethics-automated-security/k2.qmd) | 20-25 min |
+| 3-5 | [Computer Rules Committee](02-ethics-automated-security/grades-3-5.qmd) | 35-40 min |
+| 6-8 | [Ethics in Automated Security](02-ethics-automated-security/grades-6-8.qmd) | 45-55 min |
+| 9-12 | [AI Governance Workshop](02-ethics-automated-security/grades-9-12.qmd) | 50-60 min |
+
+**NICE Framework Connection**: Cyber Policy & Strategy Planner, Privacy Officer, Security Governance Specialist
+
+## Activity 3: AI-Assisted Incident Response
+
+Students assume team roles during realistic security incidents, experiencing firsthand how cybersecurity professionals coordinate with AI systems when time pressure demands rapid, coordinated action.
+
+**Core Learning**: Effective incident response emerges from diverse roles working in concert, each contributing specialized expertise that complements AI-driven analysis.
+
+| Grade Band | Version Name | Duration |
+|------------|--------------|----------|
+| K-2 | [Fix It Team!](03-ai-incident-response/k2.qmd) | 20-25 min |
+| 3-5 | [Computer Problem Solvers](03-ai-incident-response/grades-3-5.qmd) | 35-40 min |
+| 6-8 | [AI-Assisted Incident Response](03-ai-incident-response/grades-6-8.qmd) | 50-60 min |
+| 9-12 | [SOC Analyst Simulation](03-ai-incident-response/grades-9-12.qmd) | 55-60 min |
+
+**NICE Framework Connection**: Incident Responder, SOC Analyst, Threat Intelligence Specialist
+
+## Suggested Sequence
+
+While each activity stands alone, running them in sequence builds progressively sophisticated understanding of human-AI collaboration:
+
+1. **Security Detective Teams** introduces the partnership concept
+2. **Ethics in Automated Security** explores the governance implications that emerge from widespread AI deployment
+3. **AI-Assisted Incident Response** applies partnership dynamics to crisis situations
+
+## Implementation Tips
+
+The activities work best when educators invest time preparing and reflecting on their facilitation approach.
+
+Experiencing the activity yourself before teaching it helps you anticipate student questions and reactions. Modeling partnership language shows students how to engage with AI as a collaborator rather than an answer machine. When AI produces errors, treat these moments as valuable teaching opportunities that illuminate what AI cannot do. Finally, focus your debrief conversations on synthesis, since the deepest learning occurs when students articulate what each partner contributed to the investigation.
+
+See the [Implementation Guides](../guides/) for detailed support.

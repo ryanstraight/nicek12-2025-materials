@@ -1,0 +1,277 @@
+---
+title: "Activity 1: Security Detective Teams"
+subtitle: "Solving Computer Mysteries with AI Partners (Grades 3-5)"
+author: "Dr. Ryan Straight"
+date: "2025-12-07"
+---
+
+::: {.callout-important}
+## Teacher Overview
+
+Students become "security detectives" investigating a mystery at a fictional elementary school. Working with an AI partner, they discover that humans and AI each bring different strengths to problem-solving—and the best solutions come from teamwork.
+
+**Duration**: 35-40 minutes
+**Grade Levels**: 3-5
+**Group Size**: Pairs or small groups (3-4)
+**Technology**: At least one device per group OR teacher-led demonstration
+:::
+
+## Learning Goals
+
+By the end of this activity, students will:
+
+- Work with an AI assistant as a **partner** in solving a problem
+- Identify what **humans do well** vs. what **AI does well**
+- Understand that teamwork between people and AI leads to **better solutions**
+
+### CYBER.org Standards Alignment (3-5)
+
+- **3-5.SEC.AUTH**: Understanding accounts and passwords
+- **3-5.DC.PRI**: Basic privacy concepts
+- **3-5.DC.CIT**: Responsible digital citizenship
+- **3-5.SEC.THRT**: Recognizing potential threats
+
+
+## The Mystery
+
+::: {.scenario-box}
+### The Case of the Locked Library Computers
+
+**Background**: At Oakwood Elementary School, several students came to the library and found they couldn't log in to the computers. Their passwords weren't working! The librarian, Ms. Chen, needs your detective team to figure out what happened.
+
+**Your Mission**: Work with your AI partner to investigate the clues and figure out what happened—and how to prevent it next time.
+:::
+
+
+## Evidence Packet
+
+### Clue 1: The Login Attempts
+
+```
+Student: Emma_3rd
+Attempts: 5 failed
+Last working: Monday
+
+Student: Jackson_4th
+Attempts: 8 failed
+Last working: Monday
+
+Student: Sofia_3rd
+Attempts: 3 failed
+Last working: Monday
+
+Student: Liam_5th
+Attempts: 6 failed
+Last working: Friday
+```
+
+**Think about**: What pattern do you see? When did most students last log in successfully?
+
+### Clue 2: Password Hints
+
+The school lets students create password hints. Here's what these students wrote:
+
+| Student | Password Hint |
+|---------|--------------|
+| Emma_3rd | "My cat's name + my age" |
+| Jackson_4th | "The school mascot" |
+| Sofia_3rd | "My birthday month and day" |
+| Liam_5th | "Random letters and numbers" |
+
+**Think about**: What do you notice about these hints? Which password might be easiest to guess?
+
+### Clue 3: What Students Said
+
+> **Emma**: "I told my friend Mia my password so she could get my book report for me."
+
+> **Jackson**: "Everyone knows I love the Eagles! That's my password for everything."
+
+> **Sofia**: "I put my birthday on my locker decoration last week."
+
+> **Liam**: "I use a password manager app that my parents set up."
+
+### Clue 4: The Tech Log
+
+```
+Tuesday 8:15 AM - Password system update installed
+Tuesday 8:30 AM - All passwords reset to temporary passwords
+Tuesday 8:31 AM - Email sent to all students with new temporary passwords
+```
+
+**Think about**: Did something happen to everyone's passwords?
+
+
+## Investigation Steps
+
+```{mermaid}
+%%| fig-cap: "Detective Investigation Process"
+flowchart LR
+    subgraph S1["Step 1: Human Detective Work"]
+        A1[Look at Clues]
+        A2[Find Patterns]
+        A3[Form Questions]
+    end
+
+    subgraph S2["Step 2: Ask AI Partner"]
+        B1[Share Clues with AI]
+        B2[Ask Follow-up Questions]
+        B3[Note What AI Can't Figure Out]
+    end
+
+    subgraph S3["Step 3: Solve It Together"]
+        C1[Combine Human + AI Insights]
+        C2[Find the Full Answer]
+        C3[Make Recommendations]
+    end
+
+    S1 --> S2 --> S3
+```
+
+### Step 1: Human Detective Work (10 minutes)
+
+**Before talking to your AI partner**, look at the clues with your team:
+
+1. **What patterns do you notice?**
+   - When did logins stop working? _______________
+   - Which passwords seem safe? Which seem risky? _______________
+
+2. **What do YOU think happened?**
+   - _______________________________________________
+
+3. **What questions do you have?**
+   - _______________________________________________
+
+### Step 2: Ask Your AI Partner (10 minutes)
+
+Now let's work with our AI partner! Remember: talk to AI like a teammate, not a search engine.
+
+**Good way to start**:
+> "You're my partner helping me solve a computer mystery at a school. Students can't log in to library computers. I'll share the clues, and I want you to help me figure out what happened. Here's what we know: [share the clues]. What patterns do you see?"
+
+**Follow-up questions to try**:
+- "Which students had risky password habits?"
+- "What do you think happened on Tuesday morning?"
+- "What can't you figure out from just this information?"
+
+**Write down**:
+- What patterns did AI notice? _______________
+- What did AI say it COULDN'T figure out? _______________
+- Did AI help you see something new? _______________
+
+### Step 3: Solve It Together (10 minutes)
+
+**Discuss with your team**:
+
+1. **What AI figured out**:
+   - (Probably: The Tuesday password reset, patterns in weak passwords)
+
+2. **What WE figured out that AI couldn't**:
+   - (Why students chose those passwords, the social stuff like Emma sharing her password, why Jackson uses the same password everywhere)
+
+3. **The full answer**:
+   - The system reset passwords on Tuesday
+   - Students didn't get or check their email with new temporary passwords
+   - Some students also had password habits that could cause problems later
+
+4. **Our recommendations**:
+   - How can the school make sure students get important messages?
+   - What password advice would you give these students?
+
+
+## What We Learned
+
+### AI Partners Are Good At:
+
+- 🔍 Spotting patterns in information
+- 📊 Analyzing lots of data quickly
+- 💻 Understanding computer systems
+- 📋 Organizing information
+
+### Humans Are Good At:
+
+- 🧠 Understanding WHY people do things
+- 💭 Knowing about friendships and social situations
+- ❤️ Considering feelings and relationships
+- ⚖️ Making decisions about what's right
+
+### Together We're Better At:
+
+- Seeing the **full picture**
+- Finding solutions that **actually work for people**
+- Making **fair decisions**
+
+
+## Discussion Questions
+
+1. **Partnership**: How was working with AI different from just searching the internet?
+
+2. **Strengths**: What's one thing you figured out that AI probably couldn't?
+
+3. **Real life**: Can you think of jobs where people work with AI partners?
+   - (Examples: Doctors using AI to look at X-rays, police using AI to find patterns, scientists using AI to analyze data)
+
+4. **Password safety**: What did you learn about making good passwords?
+
+
+## Assessment Rubric
+
+| Skill | Getting Started (1) | Making Progress (2) | Got It! (3) |
+|-------|--------------------|--------------------|-------------|
+| **Teamwork with AI** | Used AI just to get answers | Had some back-and-forth with AI | Had a real conversation with AI as partner |
+| **Finding Patterns** | Didn't notice patterns | Found some patterns | Found patterns and explained them |
+| **Human Thinking** | Relied only on AI | Added some human ideas | Explained what humans understood that AI couldn't |
+| **Problem Solving** | Didn't reach a solution | Partial solution | Complete solution using both human and AI thinking |
+
+
+## Variations
+
+### For 3rd Grade
+- Do as whole-class activity with teacher operating AI
+- Focus on the "teamwork" message more than technical details
+- Use simplified clue packet (fewer details)
+
+### For 5th Grade
+- Let groups operate AI independently
+- Add challenge: "Write a password safety guide for younger students"
+- Discuss: "What if AI gave wrong information? How would you know?"
+
+### Low-Resource Option
+
+**Pre-generated AI response** (read aloud or print):
+
+> "Looking at the clues, I notice a pattern: most students' logins stopped working after Monday, and there was a system update on Tuesday morning. The tech log shows all passwords were reset.
+>
+> I also notice some password practices that could be risky:
+> - Emma shared her password with a friend
+> - Jackson uses the same password everywhere, based on public information
+> - Sofia's password is based on her birthday, which she displayed publicly
+>
+> What I CAN'T figure out: Why didn't students get the email about new passwords? Did something happen in their lives that made them choose these passwords? Are they upset about being locked out? Those are things humans would understand better than me."
+
+
+## Extension Activities
+
+### Writing Connection
+Write a "Password Safety Tips" poster for the school
+
+### Math Connection
+Survey classmates about password habits (anonymous) and create a graph
+
+### Discussion
+"Should AI be allowed to check if your password is too easy to guess?"
+
+
+## Teacher Preparation
+
+### Before Class
+- [ ] Test AI access OR print pre-generated response
+- [ ] Print evidence packets (1 per group) or display digitally
+- [ ] Prepare discussion questions
+- [ ] Review password safety basics
+
+### Key Points to Emphasize
+- AI is a **partner**, not an answer machine
+- Ask AI questions like you'd ask a helpful classmate
+- Always think about what AI might miss or get wrong
+- The best solutions come from human + AI teamwork
+

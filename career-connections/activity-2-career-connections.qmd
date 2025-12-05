@@ -1,0 +1,68 @@
+---
+title: "Career Connections: AI-Assisted Incident Response"
+subtitle: "What You Did Today Connects to Real Careers"
+---
+
+# You just coordinated incident response like a **SOC Analyst**!
+
+## What You Did Today
+
+Today you responded to a realistic security incident as part of a team. You took on a specific role—Incident Commander, SOC Analyst, Threat Intelligence Specialist, or Communications Coordinator. You worked with AI to analyze the situation and made decisions under pressure.
+
+**This is exactly what Security Operations Center teams do when real incidents happen.**
+
+## The NICE Framework Work Role: Incident Responder
+
+### What Incident Responders Do
+
+- **Coordinate response** to cybersecurity events and breaches
+- **Lead teams** with different specialties working together
+- **Consult AI systems** for rapid threat analysis
+- **Make time-critical decisions** about containment and recovery
+
+### Key Tasks You Practiced
+
+| What You Did | What Incident Teams Call It |
+|-------------|----------------------|
+| Assessed the situation as a team | Incident triage |
+| Assigned roles and responsibilities | Response coordination |
+| Used AI to analyze threats | Automated threat detection |
+| Decided on actions to take | Incident containment |
+| Communicated with stakeholders | Incident communication |
+
+## Related Careers
+
+**SOC Analyst**: First line of defense—monitors systems 24/7 and escalates potential incidents.
+
+**Incident Commander**: Leads the response team during active incidents, making critical decisions.
+
+**Threat Intelligence Specialist**: Researches attackers' tactics to inform response strategies.
+
+**Security Engineer**: Builds and maintains the systems that detect and respond to threats.
+
+## The Roles You Played
+
+### Your Team Roles → Real Career Paths
+
+| Activity Role | Real-World Career |
+|--------------|-------------------|
+| Incident Commander | Security Manager, CISO |
+| SOC Analyst | Security Analyst, Tier 1-3 Analyst |
+| Threat Intelligence | Threat Hunter, Intelligence Analyst |
+| Communications Coordinator | Security Communications, PR |
+
+**Every role matters.** Real incident response requires diverse skills working together.
+
+## Next Steps
+
+**Interested in learning more?**
+
+- **Explore NICE Framework**: [niccs.cisa.gov/workforce-development/nice-framework](https://niccs.cisa.gov/workforce-development/nice-framework)
+- **Try CyberSeek**: [cyberseek.org](https://www.cyberseek.org/) - See the incident response career pathway
+- **Practice scenarios**: NCL (National Cyber League) includes incident response challenges
+
+::: {.callout-tip}
+## Share With Your Teacher!
+
+"Today I learned how SOC teams coordinate during security incidents. I practiced making decisions under pressure and working with AI analysis—just like real incident responders!"
+:::

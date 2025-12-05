@@ -1,0 +1,184 @@
+---
+title: "Activity 2: Fix It Team!"
+subtitle: "Working Together to Solve Computer Problems (Grades K-2)"
+author: "Dr. Ryan Straight"
+date: "2025-12-07"
+---
+
+::: {.callout-important}
+## Teacher Overview
+
+Students form a "Fix It Team" to solve a classroom technology problem together. Through simple role-play, they learn that solving problems works best when people with different jobs work together—and that robot helpers are part of the team too!
+
+**Duration**: 20-25 minutes
+**Grade Levels**: K-2
+**Group Size**: Whole class with assigned roles
+**Technology**: None required
+:::
+
+## Learning Goals
+
+Students will:
+
+- Understand that **different people have different jobs** when fixing problems
+- Experience working as a **team** to solve something
+- See that **robot helpers** are part of problem-solving teams
+
+### CYBER.org Standards Alignment (K-2)
+
+- **K-2.DC.CIT**: Digital citizenship foundations
+- **K-2.SEC.SAF**: Basic safety and problem-solving
+
+
+## The Problem
+
+::: {.story-box}
+### Oh No! The Computers Won't Turn On!
+
+**Read aloud**:
+
+It's computer time at school, but when the teacher tries to turn on the classroom computers... nothing happens! The screens stay dark.
+
+We need our Fix It Team to figure out what's wrong and make the computers work again!
+:::
+
+
+## The Fix It Team Roles
+
+**Assign roles** (use simple badges, hats, or hand signs):
+
+### 🔍 The Detective
+- Looks for clues
+- "What do you see? What's different?"
+
+### 💭 The Thinker
+- Comes up with ideas
+- "What might have caused this?"
+
+### 🤖 The Robot Helper
+- Knows about computers
+- Teacher can voice this role: "Beep boop! I can check things!"
+
+### ✋ The Helper
+- Does what the team decides
+- "I'll try that!"
+
+
+## Activity Flow (20 minutes)
+
+### Scene 1: Discover the Problem (3 minutes)
+
+**Teacher narrates**:
+> "The computers won't turn on! Fix It Team, what should we do?"
+
+**Detective asks**: "What do we see?"
+- (Show: computers are dark, no lights)
+
+**Thinker wonders**: "What could make all computers not work?"
+
+### Scene 2: Robot Helper Checks (5 minutes)
+
+**Teacher (as Robot Helper)**:
+> "Beep boop! I can check some things! Let me see...
+>
+> ✓ The computers are plugged in
+> ✓ The power strips have lights
+> ✗ Wait! The main switch is OFF!
+>
+> I found the problem! But I'm not allowed to flip the switch without a person saying it's okay."
+
+**Discussion**: "Why can't the robot just flip the switch?"
+- (Because people need to make sure it's safe first!)
+
+### Scene 3: Team Decision (5 minutes)
+
+**Thinker suggests**: "Should we flip the switch?"
+
+**Detective checks**: "Is it safe? Is anyone's stuff in the way?"
+
+**Team votes**: Thumbs up if we should flip the switch!
+
+**Helper (with teacher permission)**: Pretends to flip the switch
+
+### Scene 4: Success! (2 minutes)
+
+**Teacher**: "The computers are turning on! The Fix It Team solved the problem!"
+
+**Celebrate**: High fives, team cheer
+
+
+## Discussion Time (5 minutes)
+
+**Ask the class**:
+
+1. "Who found the problem?"
+   - (The Robot Helper!)
+
+2. "Who decided to flip the switch?"
+   - (The whole team! The people!)
+
+3. "Why did we need BOTH the robot AND the people?"
+   - (Robot found it, people decided what to do)
+
+4. "What if the robot just fixed it without asking?"
+   - (Might not be safe! Might make a mistake!)
+
+
+## Key Teaching Points
+
+::: {.teaching-points}
+### What We Learned
+
+**Teams have different jobs**:
+- Detectives look for clues
+- Thinkers come up with ideas
+- Helpers do the work
+- Robot helpers check things quickly
+
+**Teams work together**:
+- Everyone has something important to do
+- We listen to each other
+- We decide together
+
+**Robots are helpful team members**:
+- Good at finding problems fast
+- But people make the decisions!
+:::
+
+
+## Variations
+
+### Simpler Version (Kindergarten)
+- Only 2 roles: Detectives and Helpers
+- Teacher voices Robot Helper throughout
+- Focus on "working together" message
+
+### Extended Version (2nd Grade)
+- Add more problems to solve in sequence
+- Let students suggest what Robot Helper should check
+- Discuss: "What if the robot was wrong?"
+
+### Other Problem Scenarios
+- "The printer is making funny noises!"
+- "The internet isn't working!"
+- "A tablet screen is frozen!"
+
+
+## Take-Home Connection
+
+**Simple message for families**:
+
+> "Today we practiced being a Fix It Team! We learned that when technology has problems, people and computer helpers work together. The computer helper finds clues, and people decide what to do. Teamwork helps solve problems!"
+
+
+## Assessment
+
+### Observation Checklist
+
+| Behavior | Observed |
+|----------|----------|
+| Student participated in their role | ☐ |
+| Student listened to teammates | ☐ |
+| Student understood that robot found problem but people decided fix | ☐ |
+| Student could explain why teamwork helped | ☐ |
+

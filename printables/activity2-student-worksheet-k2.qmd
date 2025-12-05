@@ -1,0 +1,126 @@
+---
+title: "Robot Helper Rules"
+subtitle: "My Thinking Worksheet (Grades K-2)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.75in
+    fontsize: 14pt
+---
+
+**My Name:** _______________________________ **Date:** _______________
+
+## Meet Sparky!
+
+Sparky is a robot helper for our classroom. We get to decide the rules!
+
+**Sparky can:**
+
+- Turn the lights on and off
+- Play music during activity time
+- Remind us when it's time to clean up
+- Tell the teacher if someone is being unsafe
+
+## Question 1: The Lights
+
+**Should Sparky turn off the lights by itself when it's sunny?**
+
+**I think:** [ ] Sparky can decide  [ ] Sparky should ask first
+
+**Why I think this:**
+
+_____________________________________________________________________________
+
+**Draw what might happen:**
+
+```
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+```
+
+## Question 2: Cleanup Time
+
+**Should Sparky play the cleanup song whenever it looks messy?**
+
+**I think:** [ ] Sparky can decide  [ ] Sparky should ask first
+
+**Why I think this:**
+
+_____________________________________________________________________________
+
+**What if Sparky thinks it's messy but we're still working?**
+
+_____________________________________________________________________________
+
+## Question 3: Keeping Us Safe
+
+**Should Sparky always tell the teacher if someone is running?**
+
+**I think:** [ ] Sparky should always tell  [ ] Sparky should wait and see
+
+**Why I think this:**
+
+_____________________________________________________________________________
+
+**Sometimes running might be okay because:**
+
+_____________________________________________________________________________
+
+## Our Class Rules for Sparky
+
+### Sparky CAN do by itself:
+
+1. _____________________________________________________________________________
+
+2. _____________________________________________________________________________
+
+### Sparky should ASK FIRST:
+
+1. _____________________________________________________________________________
+
+2. _____________________________________________________________________________
+
+## What I Learned
+
+**Was it easy or hard to make rules for Sparky?**
+
+[ ] Easy  [ ] Hard  [ ] In the middle
+
+**Why?**
+
+_____________________________________________________________________________
+
+**Who should make the rules for robot helpers?**
+
+_____________________________________________________________________________
+
+## My Robot Helper Picture
+
+**Draw your own robot helper and write one rule for it!**
+
+```
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+```
+
+**My robot's name:** _______________________________
+
+**My rule:** _____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

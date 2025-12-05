@@ -1,0 +1,90 @@
+---
+title: "Security Detective Teams"
+subtitle: "Quick-Start Guide for Educators"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.75in
+    fontsize: 11pt
+---
+
+## The Big Idea (Read This First)
+
+This isn't "students use AI to solve a mystery." It's **students discovering what happens when two different kinds of intelligence work together**.
+
+**The shift:**
+
+| Old Framing | This Activity |
+|-------------|---------------|
+| AI is a tool students use | AI is a partner with different strengths |
+| Students get answers from AI | Students discover what each partner contributes |
+| Human OR AI | Human AND AI together |
+
+**What students should discover** (don't tell them—let them find it):
+
+- AI excels at: spotting patterns across data, remembering technical details, processing large volumes of information quickly
+- Humans excel at: understanding context, reading social situations, making judgment calls about what matters
+- Together: insights neither could reach alone
+
+## The Scenario (2 min)
+
+Mysterious account lockouts at a middle school. Students investigate with an AI partner to figure out what's happening.
+
+**Evidence includes:** Login logs, password analysis, social media clues, network data.
+
+## The Flow (45 min total)
+
+| Phase | Time | What's Happening | Your Role |
+|-------|------|------------------|-----------|
+| **1. Human First** | 10 min | Students examine evidence WITHOUT AI | Circulate, prompt observation |
+| **2. Partnership** | 15 min | Students consult AI as teammate | Guide authentic dialogue (not search queries) |
+| **3. Synthesis** | 10 min | Teams document what each partner contributed | Push for specifics |
+| **4. Debrief** | 10 min | Whole-class discussion | Surface the distributed cognition insight |
+
+## Critical Facilitation Moves
+
+**During Phase 1 (Human First):**
+
+> "What do YOU notice before asking anyone else?"
+
+This matters because students need to experience their own pattern-recognition before comparing it to AI's.
+
+**During Phase 2 (Partnership):**
+
+> "Talk TO your AI partner, not AT it. Ask follow-ups. Disagree if you think it's wrong."
+
+Watch for: Students treating AI like Google. Redirect: "Would you talk to a human teammate that way?"
+
+**During Phase 3 (Synthesis):**
+
+> "Be specific: What did YOUR brain do that AI couldn't? What did AI do that you couldn't?"
+
+This is where the partnership insight crystallizes.
+
+## Materials Needed
+
+- [ ] Evidence packet (1 per group) — *see separate printable*
+- [ ] Student worksheet (1 per student) — *see separate printable*
+- [ ] Device with AI access (1 per group minimum)
+- [ ] Timer
+- [ ] Projection for debrief
+
+**Low-resource option:** Use the AI Response Cards instead of live AI. The learning works the same way.
+
+## The Debrief Questions That Matter
+
+1. "What did your human brain catch that AI missed?" *(Context, social reading, judgment)*
+2. "What did AI catch that you missed?" *(Patterns, technical connections, speed)*
+3. "What did you figure out TOGETHER that neither could alone?" *(This is the goal)*
+
+## If Things Go Wrong
+
+| Problem | It's Actually | Do This |
+|---------|---------------|---------|
+| AI gives wrong answer | A teaching moment about verification | "Interesting—how would you check that?" |
+| Students over-rely on AI | They haven't discovered AI's limits yet | "What CAN'T AI tell you about this situation?" |
+| Students dismiss AI | They haven't discovered AI's strengths yet | "What's AI faster at noticing than you?" |
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*  
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

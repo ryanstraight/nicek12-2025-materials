@@ -1,0 +1,72 @@
+---
+title: "Human-AI Collaboration Rubric"
+subtitle: "Assessing Partnership Understanding in Cybersecurity Activities"
+---
+
+## Rubric Overview
+
+This rubric assesses students' understanding and demonstration of authentic human-AI collaboration—treating AI as a team member with complementary capabilities rather than as a tool or answer source.
+
+**Use with**: All three "True Teamwork" activities
+**Point range**: 4-16 points (4 criteria × 1-4 points each)
+
+## Assessment Criteria
+
+### Criterion 1: AI Partnership Framing (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Consistently frames AI as collaborative partner | Uses partnership language; asks AI for perspectives, not answers; acknowledges AI as team member with role |
+| **3 - Proficient** | Demonstrates understanding of AI as partner | Engages AI conversationally; recognizes AI contributions to team outcome |
+| **2 - Developing** | Shows some partnership awareness | Occasional partnership language; still tends toward tool-use framing |
+| **1 - Emerging** | Treats AI as tool/search engine | Uses AI only for answers; no evidence of collaborative framing |
+
+### Criterion 2: Complementary Strengths Recognition (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Articulates specific complementary strengths and leverages them strategically | Identifies what AI does better AND what humans do better; adjusts approach based on these strengths |
+| **3 - Proficient** | Recognizes different strengths | Can name human strengths (context, judgment) and AI strengths (patterns, speed) |
+| **2 - Developing** | Partial recognition | Acknowledges AI has capabilities but doesn't differentiate from human capabilities |
+| **1 - Emerging** | No recognition of complementary nature | Treats AI as superior or inferior rather than complementary |
+
+### Criterion 3: AI Limitation Awareness (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Actively identifies and works around AI limitations | Asks AI about its limitations; designs questions to work around weaknesses; doesn't over-rely on AI |
+| **3 - Proficient** | Acknowledges AI limitations | Recognizes when AI lacks context or may be wrong; seeks verification |
+| **2 - Developing** | Some limitation awareness | Notices when AI gives unexpected answers but doesn't consistently account for limitations |
+| **1 - Emerging** | Treats AI as infallible | Accepts all AI output without question; no critical evaluation |
+
+### Criterion 4: Synthesis Quality (1-4 points)
+
+| Score | Descriptor | Observable Behaviors |
+|-------|------------|---------------------|
+| **4 - Advanced** | Creates novel insights from human-AI synthesis | Final conclusions demonstrate synergy—insights neither human nor AI would reach alone |
+| **3 - Proficient** | Meaningful integration | Combines human and AI contributions into coherent conclusion |
+| **2 - Developing** | Partial integration | Lists human and AI contributions but doesn't fully synthesize |
+| **1 - Emerging** | No integration | Reports AI findings or human findings separately; no synthesis |
+
+## Scoring Guide
+
+| Total Score | Performance Level | Interpretation |
+|-------------|------------------|----------------|
+| 14-16 | Exemplary | Student demonstrates sophisticated understanding of human-AI partnership; ready for advanced collaboration scenarios |
+| 10-13 | Proficient | Student understands partnership concepts and applies them consistently; may benefit from more complex challenges |
+| 6-9 | Developing | Student shows emerging partnership understanding; needs additional scaffolding and practice |
+| 4-5 | Beginning | Student needs fundamental instruction on AI as partner vs. tool; start with basic framing activities |
+
+## Instructor Notes
+
+**For formative use**: Focus on Criteria 1 and 2 early; these establish foundation for deeper understanding.
+
+**For summative use**: All four criteria provide comprehensive picture of collaboration understanding.
+
+**Adaptation**: Adjust expectations based on:
+
+- Grade level (6th grade may cap at "Proficient")
+- Prior AI experience
+- Complexity of activity scenario
+
+*Part of "True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges" - NICE K12 2025*

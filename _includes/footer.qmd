@@ -1,0 +1,9 @@
+::: {.footer-section}
+### Questions or Feedback?
+
+- **Email**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)
+- **Conference**: [NICE K12 Cybersecurity Education Conference 2025](https://www.k12cybersecurityconference.org/)
+- **All Materials**: [Back to Home](/)
+
+*Part of "True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges"*
+:::

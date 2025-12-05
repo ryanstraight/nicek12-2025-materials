@@ -1,0 +1,384 @@
+/*-- scss:defaults --*/
+
+// UA Brand Colors
+$ua-red: #AB0520;
+$ua-blue: #0C234B;
+$ua-chili: #8B0015;
+$ua-midnight: #001C48;
+$ua-azurite: #1E5288;
+$ua-oasis: #378DBD;
+$ua-bloom: #EF4056;
+$ua-sky: #81D3EB;
+$ua-leaf: #70B865;
+$ua-river: #007D84;
+$ua-mesa: #A95C42;
+$ua-warm-gray: #F4EDE5;
+$ua-cool-gray: #E2E9EB;
+$ua-white: #FFFFFF;
+
+// Theme overrides
+$body-color: #333333;
+$link-color: $ua-blue;
+
+/*-- scss:rules --*/
+
+// Import Adobe Fonts (Proxima Nova, Garamond Premier Pro)
+@import url('https://use.typekit.net/vem3yjd.css');
+
+// Typography
+body {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: $ua-blue;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+  border-bottom: 3px solid $ua-red;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  border-bottom: 2px solid $ua-cool-gray;
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  color: $ua-azurite;
+}
+
+// Links
+a {
+  color: $ua-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $ua-red;
+    text-decoration: underline;
+  }
+}
+
+// TOC styling
+.sidebar nav[role="doc-toc"] {
+  border-left: 3px solid $ua-blue;
+  padding-left: 1em;
+
+  a {
+    color: $ua-blue;
+
+    &:hover {
+      color: $ua-red;
+    }
+
+    &.active {
+      color: $ua-red;
+      font-weight: 600;
+    }
+  }
+}
+
+// Callout boxes with UA colors
+.callout {
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
+
+.callout-note {
+  background: rgba($ua-azurite, 0.08);
+  border-left: 4px solid $ua-azurite;
+
+  .callout-title {
+    color: $ua-azurite;
+  }
+}
+
+.callout-tip {
+  background: rgba($ua-leaf, 0.08);
+  border-left: 4px solid $ua-leaf;
+
+  .callout-title {
+    color: darken($ua-leaf, 10%);
+  }
+}
+
+.callout-warning {
+  background: rgba($ua-mesa, 0.08);
+  border-left: 4px solid $ua-mesa;
+
+  .callout-title {
+    color: $ua-mesa;
+  }
+}
+
+.callout-important {
+  background: rgba($ua-red, 0.08);
+  border-left: 4px solid $ua-red;
+
+  .callout-title {
+    color: $ua-red;
+  }
+}
+
+.callout-caution {
+  background: rgba($ua-bloom, 0.08);
+  border-left: 4px solid $ua-bloom;
+
+  .callout-title {
+    color: darken($ua-bloom, 10%);
+  }
+}
+
+.callout-title {
+  font-weight: 600;
+}
+
+// Custom content classes
+.highlight-box {
+  background: $ua-cool-gray;
+  border-left: 4px solid $ua-blue;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.05em;
+  line-height: 1.6;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.definition-box {
+  background: rgba($ua-oasis, 0.1);
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  border-radius: 8px;
+  border-top: 3px solid $ua-oasis;
+
+  strong {
+    color: $ua-blue;
+  }
+}
+
+.practice-box {
+  background: #f8f9fa;
+  border-left: 4px solid $ua-azurite;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0 8px 8px 0;
+
+  strong {
+    color: $ua-azurite;
+  }
+
+  details {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+
+    summary {
+      cursor: pointer;
+      color: $ua-blue;
+      font-weight: 600;
+
+      &:hover {
+        color: $ua-red;
+      }
+    }
+  }
+}
+
+// Margin notes
+.column-margin {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+  padding: 0.5em;
+  background: rgba($ua-cool-gray, 0.5);
+  border-radius: 4px;
+  border-left: 2px solid $ua-oasis;
+}
+
+// Code blocks
+pre {
+  background: $ua-cool-gray;
+  border-radius: 8px;
+  border-left: 4px solid $ua-azurite;
+  padding: 1em;
+}
+
+code {
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  font-size: 0.9em;
+}
+
+// Inline code
+p code, li code {
+  background: rgba($ua-azurite, 0.1);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  color: $ua-azurite;
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  width: 100%;
+}
+
+thead {
+  background: $ua-blue;
+  color: $ua-white;
+
+  th {
+    padding: 0.75em 1em;
+    text-align: left;
+    font-weight: 600;
+  }
+}
+
+tbody {
+  tr {
+    border-bottom: 1px solid #ddd;
+
+    &:nth-child(even) {
+      background: rgba($ua-cool-gray, 0.3);
+    }
+
+    &:hover {
+      background: rgba($ua-blue, 0.05);
+    }
+  }
+
+  td {
+    padding: 0.75em 1em;
+  }
+}
+
+// Details/summary (collapsible sections)
+details {
+  margin: 1em 0;
+
+  summary {
+    cursor: pointer;
+    color: $ua-blue;
+    font-weight: 500;
+    padding: 0.5em 0;
+
+    &:hover {
+      color: $ua-red;
+    }
+
+    &::marker {
+      color: $ua-red;
+    }
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $ua-red;
+  margin: 1.5em 0;
+  padding: 0.5em 1.5em;
+  background: rgba($ua-warm-gray, 0.3);
+  font-style: italic;
+  color: #555;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, $ua-blue, $ua-red);
+  margin: 2em 0;
+}
+
+// Lists
+ul, ol {
+  line-height: 1.8;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+// Title block styling
+.quarto-title-block {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 3px solid $ua-blue;
+
+  .title {
+    color: $ua-blue;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .subtitle {
+    color: $ua-azurite;
+    font-size: 1.3em;
+    font-style: italic;
+  }
+
+  .author {
+    color: #555;
+    font-size: 1.1em;
+  }
+
+  .date {
+    color: #777;
+    font-size: 0.95em;
+  }
+}
+
+// Hero section for index page
+.hero-section {
+  background: linear-gradient(135deg, $ua-blue 0%, $ua-midnight 100%);
+  color: $ua-white;
+  padding: 2em 2em;
+  margin: -1em -1em 2em -1em;
+  border-radius: 12px;
+
+  h1 {
+    color: $ua-white;
+    border-bottom: 3px solid $ua-red;
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+}
+
+// Print styles
+@media print {
+  .sidebar {
+    display: none;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  .callout, .highlight-box, .definition-box, .practice-box {
+    page-break-inside: avoid;
+  }
+}

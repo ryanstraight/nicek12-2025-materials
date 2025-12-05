@@ -1,0 +1,251 @@
+---
+title: "Activity 3: Computer Rules Committee"
+subtitle: "Designing Fair Policies for School Technology (Grades 3-5)"
+author: "Dr. Ryan Straight"
+date: "2025-12-07"
+---
+
+::: {.callout-important}
+## Teacher Overview
+
+Students form a "Computer Rules Committee" to design policies for a new school safety system. They wrestle with real trade-offs: helpful technology vs. privacy, automatic responses vs. human judgment, keeping everyone safe vs. trusting students. AI participates by explaining what it can and can't do.
+
+**Duration**: 35-40 minutes
+**Grade Levels**: 3-5
+**Group Size**: Small groups (3-4) or whole class
+**Technology**: Teacher device for AI consultation (student devices optional)
+:::
+
+## Learning Goals
+
+Students will:
+
+- Design rules that balance **safety** with **fairness**
+- Consider how **different people** might feel about technology rules
+- Understand that **someone has to decide** what computers do automatically
+- Practice **group decision-making** about technology
+
+### CYBER.org Standards Alignment (3-5)
+
+- **3-5.DC.ETH**: Technology ethics and responsibility
+- **3-5.DC.PRI**: Privacy concepts
+- **3-5.DC.CIT**: Digital citizenship
+
+
+## The Scenario
+
+::: {.scenario-box}
+### Welcome to the Computer Rules Committee!
+
+**Background**: Your school is getting a new computer system called "SchoolGuard" that helps keep students safe online. But before it starts working, the principal wants STUDENTS to help decide the rules!
+
+**What SchoolGuard Can Do**:
+- See what websites students visit on school computers
+- Block websites it thinks are dangerous
+- Send alerts to teachers about student activity
+- Learn what's "normal" for your school and flag unusual things
+
+**Your Job**: Decide what SchoolGuard should do automatically, what it should ask about, and what it shouldn't do at all.
+:::
+
+
+## The Policy Questions
+
+```{mermaid}
+%%| fig-cap: "Policy Committee Process"
+flowchart LR
+    subgraph Q1["Question 1"]
+        A[Blocking<br/>Websites]
+    end
+
+    subgraph Q2["Question 2"]
+        B[Watching<br/>Activity]
+    end
+
+    subgraph Q3["Question 3"]
+        C[Learning from<br/>Students]
+    end
+
+    subgraph AI["AI Consultation"]
+        D[Ask SchoolGuard<br/>Its Perspective]
+    end
+
+    subgraph Final["Final Steps"]
+        E[Consider<br/>Perspectives]
+        F[Present<br/>Policies]
+    end
+
+    Q1 --> Q2 --> Q3 --> AI --> Final
+```
+
+### Question 1: Blocking Websites
+
+**The situation**: SchoolGuard can automatically block websites it thinks are dangerous or inappropriate.
+
+**But consider**:
+- What if it blocks a website you need for a project?
+- What if it thinks a game site is "dangerous" but it's actually educational?
+- Should students be able to ask for sites to be unblocked?
+
+**Options**:
+
+| Option A | Option B | Option C |
+|----------|----------|----------|
+| Block everything SchoolGuard thinks is bad | Block dangerous sites, but let students request unblocks | Only block if a teacher agrees |
+
+**Your committee's decision**: _______________
+
+**Why we chose this**: _______________
+
+
+### Question 2: Watching Student Activity
+
+**The situation**: SchoolGuard can watch what students do online and tell teachers if something seems wrong.
+
+**But consider**:
+- What if a student is researching something personal (like their parents' divorce or a health question)?
+- What if SchoolGuard misunderstands and thinks something normal is "wrong"?
+- Would knowing SchoolGuard is watching change how you use the computer?
+
+**Options**:
+
+| Option A | Option B | Option C |
+|----------|----------|----------|
+| SchoolGuard watches everything and alerts teachers automatically | SchoolGuard watches but only alerts teachers for serious safety concerns | SchoolGuard doesn't watch individual students at all |
+
+**Your committee's decision**: _______________
+
+**Why we chose this**: _______________
+
+
+### Question 3: Learning from Students
+
+**The situation**: SchoolGuard can learn what's "normal" at your school and get better at spotting problems.
+
+**But consider**:
+- To learn, it has to remember what students do
+- Is it okay for a computer to remember your activity?
+- What if SchoolGuard learns something wrong?
+
+**Options**:
+
+| Option A | Option B | Option C |
+|----------|----------|----------|
+| Yes, SchoolGuard should learn and remember | SchoolGuard can learn but must forget after one week | SchoolGuard shouldn't learn about specific students |
+
+**Your committee's decision**: _______________
+
+**Why we chose this**: _______________
+
+
+## Ask the AI (10 minutes)
+
+**Teacher prompts the AI** (or groups take turns):
+
+> "You're SchoolGuard, a school safety system. Students are deciding what rules to give you. For each question, tell us: What are you GOOD at doing? What CAN'T you understand? What do you think is fair?"
+
+**Example AI responses to discuss**:
+
+**On blocking websites**:
+> "I'm good at recognizing known dangerous sites quickly—much faster than a human could check. But I make mistakes with new sites or sites that look suspicious but are actually fine. I once blocked a science website because it had 'chemical' in the name! I think I should be able to block the really dangerous stuff fast, but someone should check my work on the uncertain ones."
+
+**On watching students**:
+> "I can spot patterns humans might miss—like if someone is being cyberbullied or looking at worrying content. But I can't understand context. A student researching 'depression' might be doing a health assignment, supporting a friend, or experiencing personal struggles. I honestly can't tell the difference. A human needs to make that judgment."
+
+**On learning**:
+> "Learning makes me better at my job. But I understand why that feels uncomfortable—it means I'm remembering what you do. I think you should decide how long I remember things, and you should be able to ask what I know about you."
+
+
+## Consider Different Perspectives
+
+**Discuss**: How would these people feel about your rules?
+
+| Person | What they might think |
+|--------|----------------------|
+| **A shy student** who researches private things | |
+| **A teacher** trying to keep students safe | |
+| **A student** who was cyberbullied | |
+| **A parent** who wants their child protected | |
+| **A student** who values privacy | |
+
+**Did this change any of your decisions?**
+
+
+## Present Your Policies
+
+**Each group shares**:
+
+1. Our three decisions
+2. The hardest choice we made and why
+3. One thing SchoolGuard told us that changed our thinking
+
+
+## Reflection Questions
+
+1. **Was it easy or hard to make these rules?** Why?
+
+2. **Did different people in your group want different things?** How did you decide?
+
+3. **Should students get a say in real school technology rules?** Why or why not?
+
+4. **What would happen if SchoolGuard made its own rules?** Would that be okay?
+
+
+## Assessment Rubric
+
+| Skill | Beginning (1) | Developing (2) | Strong (3) |
+|-------|--------------|----------------|------------|
+| **Considered trade-offs** | Chose without discussing pros/cons | Discussed some trade-offs | Thoughtfully weighed multiple perspectives |
+| **Included different viewpoints** | Only considered own perspective | Considered 1-2 other perspectives | Considered many different people's needs |
+| **Understood AI's role** | Didn't consider AI capabilities/limits | Some understanding of AI's role | Clear understanding of what AI can/can't do |
+| **Group collaboration** | One person decided | Some group discussion | True group decision-making |
+
+
+## Variations
+
+### For 3rd Grade
+- Do as whole class instead of small groups
+- Reduce to 2 policy questions
+- Focus on "fair vs. unfair" framing
+
+### For 5th Grade
+- Let groups design their own additional policy question
+- Have groups debate different policy options
+- Research real school technology policies
+
+### Low-Resource Option
+
+If no AI access, use these printed AI perspective cards:
+
+> **SchoolGuard says about blocking**:
+> "I'm fast but not perfect. I can block bad sites in milliseconds, but I sometimes block good sites by mistake. Last week I blocked a Wikipedia page because it mentioned 'hacking'—but it was about the history of computers! I need humans to check my uncertain decisions."
+
+> **SchoolGuard says about watching**:
+> "I see patterns, not meanings. I might notice a student looking at sad things online, but I can't know if they're sad, researching for class, or helping a friend. Only a human can understand the difference and know what to do."
+
+> **SchoolGuard says about learning**:
+> "Learning from data makes me smarter, but you should decide how much I remember. Some schools have me forget everything each week. Others let me remember longer. There's no perfect answer—you have to decide what feels right for your school."
+
+
+## Teacher Notes
+
+### Key Concepts to Reinforce
+
+- **People make the rules for AI** — computers don't decide on their own
+- **Trade-offs are real** — more safety might mean less privacy
+- **Different people have different needs** — good rules consider everyone
+- **AI has limitations** — it can see patterns but not understand meaning
+
+### Connections to Real Life
+
+- School content filters that students experience daily
+- Parental controls on home devices
+- Social media content moderation
+
+### Preparation
+
+- [ ] Decide: small groups or whole class
+- [ ] Test AI access OR prepare perspective cards
+- [ ] Create voting/recording system for decisions
+- [ ] Prepare to facilitate respectful disagreement
+

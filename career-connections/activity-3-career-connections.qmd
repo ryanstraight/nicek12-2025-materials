@@ -1,0 +1,69 @@
+---
+title: "Career Connections: Ethics in Automated Security"
+subtitle: "What You Did Today Connects to Real Careers"
+---
+
+# You just designed security policies like a **Privacy Officer**!
+
+## What You Did Today
+
+Today you designed governance policies for an AI security system. You decided what the AI should do automatically versus what requires human approval. You balanced security benefits against privacy concerns—and discovered there's no easy "right answer."
+
+**This is exactly what cybersecurity policy professionals do when organizations deploy AI systems.**
+
+## The NICE Framework Work Role: Cyber Policy & Strategy Planner
+
+### What Policy Planners Do
+
+- **Design governance frameworks** for how AI systems operate
+- **Balance competing concerns**: security, privacy, efficiency, fairness
+- **Consult stakeholders** to understand different perspectives
+- **Write policies** that guide technology decisions
+
+### Key Tasks You Practiced
+
+| What You Did | What Policy Teams Call It |
+|-------------|----------------------|
+| Decided what AI can do automatically | Automation governance |
+| Balanced security vs. privacy | Risk-benefit analysis |
+| Considered different stakeholder views | Stakeholder engagement |
+| Made decisions without perfect answers | Policy development |
+| Heard the AI's perspective | Technology assessment |
+
+## Related Careers
+
+**Privacy Officer**: Ensures organizations protect personal information and comply with privacy laws like FERPA, HIPAA, GDPR.
+
+**Security Governance Specialist**: Develops policies and procedures that guide security decisions across the organization.
+
+**Risk Analyst**: Evaluates potential harms and benefits to help organizations make informed decisions.
+
+**Compliance Manager**: Ensures security practices meet legal and regulatory requirements.
+
+## The Big Realization
+
+### Why This Matters for AI
+
+The decisions you made today—about what AI should do automatically versus ask humans first—are decisions organizations are making RIGHT NOW about AI systems.
+
+**There are no easy answers.**
+
+- More automation = faster protection, but more mistakes
+- More human oversight = fewer errors, but slower response
+- Every choice involves trade-offs
+
+**The skills you practiced—weighing options, considering perspectives, making decisions under uncertainty—are exactly what cybersecurity policy careers require.**
+
+## Next Steps
+
+**Interested in learning more?**
+
+- **Explore NICE Framework**: [niccs.cisa.gov/workforce-development/nice-framework](https://niccs.cisa.gov/workforce-development/nice-framework) (See "Oversight and Governance" roles)
+- **Learn about AI governance**: AI policy is a growing field that combines technical and ethical thinking
+- **Follow current events**: AI regulation (like the EU AI Act) is making headlines—policy skills are in demand
+
+::: {.callout-tip}
+## Share With Your Teacher!
+
+"Today I learned that Privacy Officers and Policy Planners design the rules for how AI systems operate. I practiced making hard decisions about automation and oversight—exactly what organizations are struggling with right now!"
+:::

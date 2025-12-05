@@ -1,0 +1,140 @@
+---
+title: "Human-AI Partnership Reflection"
+subtitle: "Student Self-Assessment"
+---
+
+## Name: _________________ Date: _________________ Activity: _________________
+
+## Part 1: Working with AI
+
+### How I treated AI during this activity:
+
+*(Check all that apply)*
+
+- [ ] I asked AI questions like I would ask a search engine
+- [ ] I talked to AI like it was a team member helping solve a problem
+- [ ] I asked AI to explain its thinking
+- [ ] I questioned whether AI might be wrong
+- [ ] I combined what AI found with what I figured out myself
+
+### The most helpful thing AI contributed was:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### Something AI got wrong or couldn't help with:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+## Part 2: Human-AI Teamwork
+
+### What I (as a human) contributed that AI couldn't:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### What AI contributed that I couldn't do as well:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### An insight that came from combining human + AI perspectives:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+## Part 3: Decisions and Trust
+
+### When I trusted AI's analysis, I trusted it because:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### When I doubted or questioned AI, it was because:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### A decision I made that balanced AI recommendations with my own judgment:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+## Part 4: Career Connections
+
+### This activity reminded me of what these cybersecurity professionals do:
+
+*(Check all that apply)*
+
+- [ ] Cyber Defense Analyst (monitors for threats, analyzes security data)
+- [ ] Incident Responder (handles security breaches and attacks)
+- [ ] Security Policy Specialist (creates rules for security systems)
+- [ ] Digital Forensics Investigator (investigates security incidents)
+- [ ] Other: _______________________
+
+### What interests me about this type of work:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### Questions I have about cybersecurity careers:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+## Part 5: Self-Assessment
+
+### Rate yourself on these partnership skills:
+
+| Skill | Not Yet (1) | Getting There (2) | Got It (3) | Expert (4) |
+|-------|-------------|-------------------|------------|------------|
+| Treating AI as partner (not just tool) | | | | |
+| Knowing what AI does well vs. what I do well | | | | |
+| Questioning AI when needed | | | | |
+| Combining AI + human perspectives | | | | |
+| Connecting activity to real careers | | | | |
+
+### One thing I want to get better at:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+### One thing I learned about working with AI:
+
+_________________________________________________________________
+
+_________________________________________________________________
+
+## Instructor Notes
+
+*(For educator use only)*
+
+**Observation notes**:
+
+_________________________________________________________________
+
+**Strengths demonstrated**:
+
+_________________________________________________________________
+
+**Areas for growth**:
+
+_________________________________________________________________
+
+**Career interest indicators**:
+
+_________________________________________________________________
+
+*True Teamwork: Building Human-AI Partnerships for Tomorrow's Cyber Challenges - NICE K12 2025*

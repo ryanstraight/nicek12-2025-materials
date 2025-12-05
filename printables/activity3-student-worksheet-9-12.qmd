@@ -1,0 +1,247 @@
+---
+title: "SOC Analyst Simulation"
+subtitle: "Enterprise Incident Response Worksheet (Grades 9-12)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+**Name:** _______________________________ **Date:** _______________
+
+**Role:** ___________________________ **Team:** _____________________
+
+## Mission Briefing
+
+**Organization:** TechCorp Industries (2,500 employees, hybrid cloud)
+
+**Your Role:** SOC Team, 7AM-3PM shift
+
+**Alert:** SentinelAI has flagged CRITICAL alerts requiring human analysis and authorization.
+
+## Phase 1: Initial Triage (10 minutes)
+
+### Evidence Package Review
+
+**My assigned evidence package:** [ ] A: Network  [ ] B: Auth  [ ] C: Endpoint  [ ] D: Threat Intel  [ ] E: Business
+
+**Key indicators I identified:**
+
+| Indicator | Significance | MITRE ATT&CK Mapping |
+|-----------|--------------|---------------------|
+| | | |
+| | | |
+| | | |
+
+**Initial assessment:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### SentinelAI Consultation
+
+**Query submitted:**
+
+_____________________________________________________________________________
+
+**AI analysis summary:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Confidence level:** _____%  **Limitations acknowledged:**
+
+_____________________________________________________________________________
+
+### Critical Decision: Endpoint Isolation
+
+**SentinelAI recommends:** Full isolation of 47 manufacturing workstations
+
+**Business impact:** _____________________________________________________________
+
+**Risk if delayed:** _____________________________________________________________
+
+**My recommendation:** [ ] Full isolation  [ ] Partial  [ ] Monitor only
+
+**Rationale:**
+
+_____________________________________________________________________________
+
+## Phase 2: Analysis and Scoping (15 minutes)
+
+### Attack Timeline Construction
+
+| Time | Event | Source | Significance |
+|------|-------|--------|--------------|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+### Attack Chain Analysis
+
+**Initial Access:**
+
+_____________________________________________________________________________
+
+**Execution:**
+
+_____________________________________________________________________________
+
+**Persistence:**
+
+_____________________________________________________________________________
+
+**Lateral Movement:**
+
+_____________________________________________________________________________
+
+**Collection/Exfiltration:**
+
+_____________________________________________________________________________
+
+### Scope Assessment
+
+**Patient Zero:** _____________________________________________________________
+
+**Attack Vector:** _____________________________________________________________
+
+**Systems Compromised:** ______________________________________________________
+
+**Data at Risk:** _____________________________________________________________
+
+**Attribution Confidence:** [ ] High  [ ] Medium  [ ] Low
+
+**Likely Threat Actor:** ______________________________________________________
+
+## Phase 3: Response Execution (15 minutes)
+
+### Critical Decisions Matrix
+
+| Decision | Options | AI Input | Business Impact | Our Choice | Rationale |
+|----------|---------|----------|-----------------|------------|-----------|
+| Endpoint Isolation | Full/Partial/None | | | | |
+| Network Segmentation | Activate/Monitor | | | | |
+| Credential Reset | Immediate/Scheduled | | | | |
+| Law Enforcement | Notify/Wait | | | | |
+| Executive Escalation | Now/After containment | | | | |
+
+### Complication Management
+
+**Complication #1:**
+
+- Event: _____________________________________________________________________________
+- Impact on plan: _____________________________________________________________________________
+- Adaptation: _____________________________________________________________________________
+
+**Complication #2:**
+
+- Event: _____________________________________________________________________________
+- Impact on plan: _____________________________________________________________________________
+- Adaptation: _____________________________________________________________________________
+
+## Phase 4: Communications (10 minutes)
+
+### Executive Flash Report
+
+**TO:** CEO, CISO
+**FROM:** SOC Team
+**RE:** Security Incident - CRITICAL
+
+**Summary:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Current Status:**
+
+_____________________________________________________________________________
+
+**Business Impact:**
+
+_____________________________________________________________________________
+
+**Immediate Actions Taken:**
+
+_____________________________________________________________________________
+
+**Next Steps:**
+
+_____________________________________________________________________________
+
+### Operations Notification Draft
+
+**TO:** Manufacturing VP
+**RE:** System Availability
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Phase 5: After-Action Review
+
+### AI Partnership Evaluation
+
+**Where SentinelAI excelled:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Where human judgment was essential:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Decisions where AI and humans disagreed:**
+
+_____________________________________________________________________________
+
+**How we resolved disagreements:**
+
+_____________________________________________________________________________
+
+### Individual Role Reflection
+
+**My contribution to team response:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Skills I used from my Work Role:**
+
+_____________________________________________________________________________
+
+**What I would do differently:**
+
+_____________________________________________________________________________
+
+### Career Connection
+
+**This simulation relates to these NICE Framework Work Roles:**
+
+_____________________________________________________________________________
+
+**Required certifications for these careers:**
+
+_____________________________________________________________________________
+
+**What interested me most about this work:**
+
+_____________________________________________________________________________
+
+**Questions I have about SOC careers:**
+
+_____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

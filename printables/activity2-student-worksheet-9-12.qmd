@@ -1,0 +1,253 @@
+---
+title: "AI Governance Workshop"
+subtitle: "Policy Development Worksheet (Grades 9-12)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+**Name:** _______________________________ **Date:** _______________
+
+**Stakeholder Role:** ___________________________ **Committee Members:** _____________________
+
+## The Governance Challenge
+
+Westbrook USD (15,000 students, 25 schools) is deploying "SecureNet AI" district-wide. As the Student Technology Governance Committee, you must develop policy recommendations for the Board of Education.
+
+**Constraints:**
+
+- Must comply with FERPA and COPPA
+- Cannot exceed current IT staffing
+- Must be explainable to community
+- System goes live in 60 days
+
+## Stakeholder Position Statement
+
+**My assigned role:** _________________________
+
+**My primary concerns:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+**Key questions I'll raise:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Policy Area 1: Automated Response Authority
+
+### The Question
+
+What actions should SecureNet AI take automatically vs. requiring human approval?
+
+### Individual Analysis
+
+| Threat Level | My Recommended Automated Action | My Recommended Human Approval Threshold |
+|--------------|-------------------------------|---------------------------------------|
+| **Critical** (active attack) | | |
+| **High** (probable threat) | | |
+| **Medium** (suspicious activity) | | |
+| **Low** (anomaly detected) | | |
+
+### AI Consultation Notes
+
+**AI's stated false positive rate:**
+
+_____________________________________________________________________________
+
+**AI's acknowledged limitation:**
+
+_____________________________________________________________________________
+
+**Trade-off AI identified:**
+
+_____________________________________________________________________________
+
+### Committee Decision
+
+**Final recommendation:**
+
+_____________________________________________________________________________
+
+**Rationale addressing all stakeholders:**
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Policy Area 2: Behavioral Monitoring Scope
+
+### The Question
+
+What student behaviors should SecureNet AI monitor, and how should alerts be handled?
+
+### Individual Analysis
+
+| Activity Type | Monitor? (Y/N) | Alert Threshold | Alert Recipient | My Reasoning |
+|--------------|----------------|-----------------|-----------------|--------------|
+| Web browsing (educational) | | | | |
+| Web browsing (non-educational) | | | | |
+| Search queries | | | | |
+| Communications | | | | |
+| Behavioral patterns | | | | |
+
+### Legal Framework Notes
+
+**FERPA implications:**
+
+_____________________________________________________________________________
+
+**COPPA implications (students under 13):**
+
+_____________________________________________________________________________
+
+### AI Consultation Notes
+
+**Examples AI gave of helpful monitoring:**
+
+_____________________________________________________________________________
+
+**False positive scenarios AI acknowledged:**
+
+_____________________________________________________________________________
+
+### Committee Decision
+
+**Monitoring scope recommendation:**
+
+_____________________________________________________________________________
+
+**False positive handling procedure:**
+
+_____________________________________________________________________________
+
+**Student notification policy:**
+
+_____________________________________________________________________________
+
+## Policy Area 3: Data Retention and Learning
+
+### The Question
+
+How long should SecureNet AI retain data, and should it learn from student behavior patterns?
+
+### Individual Analysis
+
+| Data Type | My Recommended Retention | My Reasoning |
+|-----------|-------------------------|--------------|
+| Routine activity logs | | |
+| Security alerts | | |
+| Behavioral models | | |
+| Incident investigation data | | |
+
+### AI Consultation Notes
+
+**AI's claimed accuracy improvement with learning:**
+
+_____________________________________________________________________________
+
+**Data requirements for learning:**
+
+_____________________________________________________________________________
+
+**AI's perspective on student profiles:**
+
+_____________________________________________________________________________
+
+### Committee Decision
+
+**Data retention policy:**
+
+_____________________________________________________________________________
+
+**Machine learning policy:**
+
+_____________________________________________________________________________
+
+**Student data access rights:**
+
+- Can students see what data exists about them? _______
+- Can students request data deletion? _______
+- How are students notified of monitoring? _______
+
+## Consensus Documentation
+
+### Areas of Agreement
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Areas of Disagreement
+
+| Policy Area | Positions in Tension | Resolution Approach |
+|-------------|---------------------|---------------------|
+| | | |
+| | | |
+
+### Trade-offs Explicitly Accepted
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Policy Brief Summary
+
+*For Board of Education presentation*
+
+### Recommendation 1: Automated Response Authority
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Recommendation 2: Behavioral Monitoring Scope
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Recommendation 3: Data Retention and Learning
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Implementation Considerations
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Reflection
+
+### What was the hardest trade-off your committee faced?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### How did SecureNet AI's input influence your recommendations?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What NICE Framework Work Roles engage in this type of governance work?
+
+_____________________________________________________________________________
+
+### How would you apply this experience to a future career in cybersecurity policy?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

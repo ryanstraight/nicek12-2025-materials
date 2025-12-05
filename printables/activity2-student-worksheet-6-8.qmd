@@ -1,0 +1,182 @@
+---
+title: "Ethics in Automated Security"
+subtitle: "Student Policy Worksheet (Grades 6-8)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.6in
+    fontsize: 11pt
+---
+
+**Your Name:** _______________________________ **Date:** _______________
+
+**Group Members:** _____________________________________________________________
+
+## The Scenario
+
+Your school is implementing "SchoolGuard," an AI-powered network security system. Your advisory committee must decide **what the AI can do automatically** versus **what requires human approval**.
+
+SchoolGuard can:
+
+- Block websites it identifies as dangerous
+- Monitor student digital activity for threats
+- Alert administrators about unusual behavior
+- Learn from patterns to improve detection
+
+## Part 1: Your Initial Position (5 minutes)
+
+**Before group discussion**, write your own thoughts:
+
+### Question 1: Automatic Blocking
+
+Should SchoolGuard automatically block websites it identifies as malicious, or require human approval first?
+
+**My position:** [ ] Auto-block  [ ] Require approval  [ ] Hybrid approach
+
+**Main reason:**
+
+_____________________________________________________________________________
+
+**My biggest concern:**
+
+_____________________________________________________________________________
+
+### Question 2: Activity Alerts
+
+Should SchoolGuard alert administrators about "unusual" student activity?
+
+**My position:** [ ] Yes, alert  [ ] No alerts  [ ] Only for serious concerns
+
+**What should count as "unusual"?**
+
+_____________________________________________________________________________
+
+**Privacy concern I have:**
+
+_____________________________________________________________________________
+
+### Question 3: Adaptive Learning
+
+Should SchoolGuard learn from student behavior patterns to improve?
+
+**My position:** [ ] Allow learning  [ ] Prohibit  [ ] Limit somehow
+
+**Benefit I see:**
+
+_____________________________________________________________________________
+
+**Risk I worry about:**
+
+_____________________________________________________________________________
+
+## Part 2: AI Consultation (10 minutes)
+
+Talk to SchoolGuard AI about your policy questions. Record what you learn.
+
+### Suggested Opening:
+
+> "You're an AI security system being implemented at a middle school. I'm on the student advisory committee helping design policies. For each question I ask, share both your capabilities AND your honest limitations."
+
+### AI Insights on Automatic Blocking
+
+**AI's strongest argument for automation:**
+
+_____________________________________________________________________________
+
+**Limitation AI acknowledged:**
+
+_____________________________________________________________________________
+
+**Question this raised:**
+
+_____________________________________________________________________________
+
+### AI Insights on Activity Alerts
+
+**How AI would define "unusual":**
+
+_____________________________________________________________________________
+
+**What AI said it CAN'T determine:**
+
+_____________________________________________________________________________
+
+**Privacy concern AI raised:**
+
+_____________________________________________________________________________
+
+### AI Insights on Adaptive Learning
+
+**How learning would improve protection:**
+
+_____________________________________________________________________________
+
+**Data AI would need to collect:**
+
+_____________________________________________________________________________
+
+**Trade-off AI identified:**
+
+_____________________________________________________________________________
+
+## Part 3: Group Policy Development (15 minutes)
+
+### Your Group's Recommendations
+
+| Policy Area | Our Recommendation | Our Reasoning | How We Address AI's Limitations |
+|-------------|-------------------|---------------|--------------------------------|
+| **Automatic Blocking** | | | |
+| **Activity Alerts** | | | |
+| **Adaptive Learning** | | | |
+
+### Stakeholder Perspectives
+
+**Students would say:**
+
+_____________________________________________________________________________
+
+**AI system would say:**
+
+_____________________________________________________________________________
+
+**Parents would say:**
+
+_____________________________________________________________________________
+
+**Teachers would say:**
+
+_____________________________________________________________________________
+
+**Administrators would say:**
+
+_____________________________________________________________________________
+
+## Part 4: Reflection (5 minutes)
+
+### Where did AI's perspective change your thinking?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Where did your policies balance AI capabilities with human values?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What insights emerged from human-AI collaboration that neither could develop alone?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What cybersecurity careers work on these kinds of decisions?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
+*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*

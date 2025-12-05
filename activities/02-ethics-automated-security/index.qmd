@@ -1,0 +1,69 @@
+---
+title: "Activity 2: Ethics in Automated Security"
+subtitle: "Designing Governance for AI Security Systems"
+---
+
+## Overview
+
+Students develop governance policies for AI security systems, confronting the reality that AI requires thoughtful human guidance and that these decisions carry genuine difficulty. The AI actively participates in discussions, advocating for its capabilities while acknowledging its limitations.
+
+**Core Learning**: AI governance demands careful balancing of competing values. There are no easy answers, only thoughtful trade-offs. Human values must guide AI systems, and the AI's own perspective is part of the governance conversation.
+
+## Grade-Band Versions
+
+### K-2: Robot Helper Rules
+
+**Duration**: 20-25 minutes
+
+Students help "Sparky the Security Robot" learn the right rules. Through yes/no decisions about what Sparky should do, children discover that creating rules for helpers requires careful thought.
+
+[View K-2 Version](k2.qmd)
+
+### Grades 3-5: Computer Rules Committee
+
+**Duration**: 35-40 minutes
+
+Students serve on a committee to set rules for "SchoolGuard," a school security system. They discover that every rule involves trade-offs and hear from the AI's perspective on its capabilities and limitations.
+
+[View Grades 3-5 Version](grades-3-5.qmd)
+
+### Grades 6-8: Ethics in Automated Security
+
+**Duration**: 45-55 minutes
+
+Students design policies for AI-powered school network monitoring. The AI participates in discussions, advocating for its capabilities while acknowledging limitations, modeling authentic governance conversations.
+
+[View Grades 6-8 Version](grades-6-8.qmd)
+
+### Grades 9-12: AI Governance Workshop
+
+**Duration**: 50-60 minutes
+
+A comprehensive governance simulation featuring stakeholder roles, legal frameworks (FERPA, COPPA), and complex policy development. Students experience the authentic difficulty of AI governance decisions in professional contexts.
+
+[View Grades 9-12 Version](grades-9-12.qmd)
+
+## NICE Framework Alignment
+
+**Primary Work Roles**: Cyber Policy and Strategy Planner (OV-SPP-002), Privacy Officer / Privacy Compliance Manager (OV-LGA-002), and Information Systems Security Manager (OV-MGT-001)
+
+**Skills students practice**: Automation governance, risk-benefit analysis, stakeholder engagement, policy development, and technology assessment
+
+## Supporting Materials
+
+- [Career Connections](../../career-connections/activity-2-career-connections.qmd)
+- [Assessment Rubrics](../../assessments/)
+
+## Why AI Participates
+
+Unlike Activities 1 and 3 where AI serves primarily as an analytical partner, Activity 2 features the AI actively voicing its own perspective. The AI articulates what it can and cannot do, explains why certain constraints matter, identifies trade-offs in proposed policies, and raises questions for human decision-makers to consider.
+
+This approach models authentic AI governance, where the system's capabilities and limitations must be incorporated into policy conversations.
+
+::: {.callout-note collapse="true"}
+## Learn More: AI Ethics in Education
+
+Having AI "voice its own perspective" draws from emerging work on AI ethics education. Rather than treating AI as a black box that humans control, this approach acknowledges AI systems as participants in governance conversations—with capabilities to articulate and limitations to acknowledge. This prepares students for authentic policy work where understanding AI perspectives is essential.
+
+[Explore the research →](../../resources/index.qmd#collaboration)
+:::

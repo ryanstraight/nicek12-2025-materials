@@ -1,0 +1,184 @@
+---
+title: "Activity 3: Robot Helper Rules"
+subtitle: "Deciding What Our Computer Friends Can Do (Grades K-2)"
+author: "Dr. Ryan Straight"
+date: "2025-12-07"
+---
+
+::: {.callout-important}
+## Teacher Overview
+
+Young students create simple "rules" for a classroom robot helper, learning that people need to decide what computers should do on their own and when they should ask humans first. This builds foundational understanding of human oversight in automated systems.
+
+**Duration**: 20-25 minutes
+**Grade Levels**: K-2
+**Group Size**: Whole class
+**Technology**: None required (optional: show pictures of robot helpers)
+:::
+
+## Learning Goals
+
+Students will:
+
+- Think about what robot helpers should do **by themselves** vs. **ask first**
+- Understand that **people make the rules** for computers
+- Practice making **fair rules** that help everyone
+
+### CYBER.org Standards Alignment (K-2)
+
+- **K-2.DC.CIT**: Digital citizenship foundations
+- **K-2.DC.ETH**: Basic technology ethics
+
+
+## The Story
+
+::: {.story-box}
+### Meet Sparky the Classroom Robot!
+
+**Read aloud to students**:
+
+Our classroom is getting a new helper named Sparky! Sparky is a robot that can help us with lots of things:
+
+- Sparky can turn the lights on and off
+- Sparky can play music during activity time
+- Sparky can remind us when it's time to clean up
+- Sparky can tell the teacher if someone is being unsafe
+
+But before Sparky starts helping, WE get to decide the rules! We need to tell Sparky what to do by itself and when to ask us first.
+:::
+
+
+## The Big Questions (15-20 minutes)
+
+### Question 1: The Lights
+
+**Ask the class**:
+> "Should Sparky turn off the lights by itself when it's sunny outside, or should Sparky ask the teacher first?"
+
+**Discussion prompts**:
+- What if someone is reading and needs the light?
+- What if it gets cloudy again?
+- Is it okay if Sparky decides this by itself?
+
+**Vote**: 👍 Sparky can decide OR ✋ Sparky should ask first
+
+**Record the class decision**: _______________
+
+
+### Question 2: The Cleanup Reminder
+
+**Ask the class**:
+> "Should Sparky play the cleanup song whenever it's messy, or only when the teacher says it's time?"
+
+**Discussion prompts**:
+- What if we're in the middle of a fun project?
+- What if Sparky thinks it's messy but we're still working?
+- Should Sparky decide what "messy" means?
+
+**Vote**: 👍 Sparky can decide OR ✋ Sparky should ask first
+
+**Record the class decision**: _______________
+
+
+### Question 3: Telling About Unsafe Behavior
+
+**Ask the class**:
+> "If Sparky sees someone running in the classroom, should Sparky tell the teacher right away, or should Sparky wait to see if it's okay?"
+
+**Discussion prompts**:
+- What if someone is just excited?
+- What if it's an emergency and they NEED to run?
+- Is it good that Sparky wants to keep us safe?
+- But should Sparky always tell?
+
+**Vote**: 👍 Sparky should always tell OR 🤔 Sparky should wait and see
+
+**Record the class decision**: _______________
+
+
+## Making Our Rules (5 minutes)
+
+### Our Class Rules for Sparky
+
+**Create a simple chart together**:
+
+| Sparky CAN do by itself | Sparky should ASK FIRST |
+|------------------------|------------------------|
+| | |
+| | |
+| | |
+
+**Teacher prompts**:
+- "What did we decide about the lights?"
+- "What about cleanup time?"
+- "What about keeping us safe?"
+
+
+## Key Teaching Points
+
+::: {.teaching-points}
+### What We Learned
+
+**Robots need rules from people!**
+- Computers are good helpers
+- But PEOPLE decide what the rules are
+- Some things robots can do alone
+- Some things need a person to decide
+
+**Why it matters**:
+- What if Sparky's rule isn't fair?
+- What if Sparky doesn't understand something?
+- People help make sure the rules work for everyone!
+:::
+
+
+## Wrap-Up Discussion
+
+**Ask students**:
+
+1. "Was it easy or hard to make rules for Sparky?"
+
+2. "What if Sparky made its OWN rules without asking us? Would that be okay?"
+
+3. "Who should get to make the rules for robot helpers?"
+
+
+## Optional Extension: Robot Helper Drawing
+
+**Art activity**: "Draw a picture of a robot helper and write (or tell the teacher) ONE rule you would give it."
+
+**Prompt**: "My robot helper is named _______ and my rule is _______."
+
+
+## Assessment
+
+### Observation Notes
+
+| Behavior | Observed |
+|----------|----------|
+| Student participated in voting | ☐ |
+| Student shared an idea about rules | ☐ |
+| Student understood that people make rules for robots | ☐ |
+| Student could explain why some things need asking first | ☐ |
+
+
+## Teacher Notes
+
+### Why This Matters
+
+Every time we use Alexa, Google, or Siri, automated systems are making decisions. This activity plants the seed that **humans get to decide what AI does**—a foundational concept for digital citizenship.
+
+### Preparation
+
+- [ ] Practice the Sparky story
+- [ ] Prepare voting method (thumbs up/down, stand up/sit down, etc.)
+- [ ] Create simple chart for recording decisions
+- [ ] Optional: Find pictures of friendly robots to show
+
+### Keep It Simple
+
+The goal isn't to cover every scenario—it's to establish:
+1. Robot helpers are useful
+2. People make the rules
+3. Some things need human judgment
+

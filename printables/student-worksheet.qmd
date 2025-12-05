@@ -1,0 +1,139 @@
+---
+title: "Security Detective Teams"
+subtitle: "Investigation Worksheet"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.6in
+    fontsize: 11pt
+---
+
+**Your Name:** _______________________________ **Date:** _______________
+
+**Team Members:** _____________________________________________________________
+
+## Part 1: Your Detective Work (Before Talking to AI)
+
+Look at the evidence packet. You have 10 minutes to investigate on your own.
+
+### What patterns do YOU notice?
+
+**In the login times:**
+
+_____________________________________________________________________________
+
+**In the passwords:**
+
+_____________________________________________________________________________
+
+**In the social media clues:**
+
+_____________________________________________________________________________
+
+### What feels suspicious to you? (Trust your gut.)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What questions came up that you can't answer from the evidence alone?
+
+1. ________________________________________________________________________
+
+2. ________________________________________________________________________
+
+## Part 2: Working WITH Your AI Partner
+
+Your AI partner is joining the investigation. They're good at different things than you are. Talk to them like a teammate, not a search engine.
+
+### Your opening message to AI:
+
+> "You're my investigation partner. We're looking into mysterious account lockouts at a school. Here's what I've found so far: [share your observations]. What patterns do you see that I might have missed?"
+
+### What did AI notice that you didn't?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What did AI get WRONG or seem uncertain about?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What did AI ask YOU about? (Good partners ask questions back.)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### Did you disagree with AI about anything? What happened?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+## Part 3: What Each Partner Contributed
+
+Be specific. This is the important part.
+
+| Investigation Task | What YOUR Brain Did | What AI Did | What You Figured Out TOGETHER |
+|-------------------|---------------------|-------------|-------------------------------|
+| **Spotting patterns in the data** | | | |
+| **Understanding WHY someone would do this** | | | |
+| **Deciding what evidence matters most** | | | |
+| **Connecting clues to real-world context** | | | |
+
+## Part 4: Your Conclusions
+
+### What do you think happened? (Your team's theory)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### How confident are you? Why?
+
+[ ] Very confident — because ________________________________________________
+
+[ ] Somewhat confident — because ___________________________________________
+
+[ ] Not sure yet — because _________________________________________________
+
+### What would you investigate next?
+
+_____________________________________________________________________________
+
+## Part 5: Reflection
+
+### What surprised you about working with AI?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What can humans do in cybersecurity that AI can't?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### What can AI do that humans would struggle with?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+### If you were a real cybersecurity analyst, how would you want to work with AI?
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+*Security Detective Teams — NICE K12 2025*
