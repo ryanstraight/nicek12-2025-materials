@@ -3,6 +3,10 @@ title: "Implementation Guides"
 subtitle: "Technical Setup and Low-Resource Strategies"
 ---
 
+::: {.text-center}
+{{< li ripbvsga trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+:::
+
 ## Overview
 
 These guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.

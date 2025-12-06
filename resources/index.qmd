@@ -6,6 +6,10 @@ toc: true
 toc-depth: 2
 ---
 
+::: {.text-center}
+{{< li rrbmabsx trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+:::
+
 ::: {.hero-section title="Building Your Foundation"}
 
 This collection supports educators implementing human-AI partnership approaches in cybersecurity education. Each entry includes practical context for K-12 classroom application.

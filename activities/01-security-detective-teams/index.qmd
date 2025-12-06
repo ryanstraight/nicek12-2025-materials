@@ -3,11 +3,36 @@ title: "Activity 1: Security Detective Teams"
 subtitle: "Investigating Security Incidents with AI Partners"
 ---
 
+::: {.text-center}
+{{< li dpmsxdtz trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+:::
+
 ## Overview
 
 Students investigate security incidents alongside an AI partner, discovering through hands-on experience that AI demonstrates strength in pattern recognition while humans bring irreplaceable contextual understanding. Together, they solve mysteries that neither could unravel independently.
 
 **Core Learning**: AI excels at pattern recognition across large datasets; humans excel at understanding context and making judgment calls. Together, they achieve insights neither could reach alone.
+
+### Activity Flow
+
+```{mermaid}
+%%| fig-width: 9
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart LR
+    A[("🎯 Setup<br/>Present scenario")]
+    B[("🔍 Investigate<br/>Examine evidence")]
+    C[("🤖 Consult AI<br/>Pattern analysis")]
+    D[("🧩 Synthesize<br/>Combine insights")]
+    E[("💬 Debrief<br/>Discuss findings")]
+
+    A --> B --> C --> D --> E
+
+    style A fill:#0C234B,stroke:#0C234B,color:#fff
+    style B fill:#AB0520,stroke:#AB0520,color:#fff
+    style C fill:#0C234B,stroke:#0C234B,color:#fff
+    style D fill:#AB0520,stroke:#AB0520,color:#fff
+    style E fill:#0C234B,stroke:#0C234B,color:#fff
+```
 
 ::: {.callout-note collapse="true"}
 ## Learn More: Pattern Recognition vs. Contextual Understanding

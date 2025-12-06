@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-77672fbe5440502fc02b6eace5497f7e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/lordicon-bundle-1.9.0/bundle.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="Activity 3: AI-Assisted Incident Response – True Teamwork: Human-AI Partnership Activities">
@@ -218,6 +222,9 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="166b04b764d540d1a34b9283ba2b09ab" class="alert alert-primary hidden"><i class="bi bi-rocket-takeoff quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>New here?</strong> <a href="../../guides/quick-start.html">Get Started → Everything you need to bring these activities to your classroom</a></p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -393,7 +400,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#incident-response-workflow" id="toc-incident-response-workflow" class="nav-link" data-scroll-target="#incident-response-workflow">Incident Response Workflow</a></li>
+  </ul></li>
   <li><a href="#grade-band-versions" id="toc-grade-band-versions" class="nav-link" data-scroll-target="#grade-band-versions">Grade-Band Versions</a>
   <ul class="collapse">
   <li><a href="#k-2-fix-it-team" id="toc-k-2-fix-it-team" class="nav-link" data-scroll-target="#k-2-fix-it-team">K-2: Fix It Team!</a></li>
@@ -429,10 +439,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="text-center">
+<p><lord-icon src="https://cdn.lordicon.com/zbefeizg.json" colors="primary:#0C234B,secondary:#AB0520" trigger="hover"></lord-icon></p>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Students assume team roles during realistic security incidents, experiencing firsthand how cybersecurity professionals coordinate with AI systems when time pressure demands rapid, coordinated action.</p>
 <p><strong>Core Learning</strong>: Incident response requires diverse roles working in concert, each contributing specialized expertise that complements AI-driven analysis. Effective response emerges from coordination, not individual heroics.</p>
+<section id="incident-response-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="incident-response-workflow">Incident Response Workflow</h3>
+<div class="cell" data-fig-width="9" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart LR
+    A[("🚨 Detect&lt;br/&gt;AI alerts team")]
+    B[("🔬 Triage&lt;br/&gt;Assess severity")]
+    C[("🛡️ Contain&lt;br/&gt;Stop the spread")]
+    D[("👥 Coordinate&lt;br/&gt;Team response")]
+    E[("🔧 Recover&lt;br/&gt;Restore systems")]
+    F[("📄 Document&lt;br/&gt;Report findings")]
+
+    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F
+
+    style A fill:#AB0520,stroke:#AB0520,color:#fff
+    style B fill:#0C234B,stroke:#0C234B,color:#fff
+    style C fill:#AB0520,stroke:#AB0520,color:#fff
+    style D fill:#0C234B,stroke:#0C234B,color:#fff
+    style E fill:#AB0520,stroke:#AB0520,color:#fff
+    style F fill:#0C234B,stroke:#0C234B,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="grade-band-versions" class="level2">
 <h2 class="anchored" data-anchor-id="grade-band-versions">Grade-Band Versions</h2>

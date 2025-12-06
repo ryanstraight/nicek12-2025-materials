@@ -3,6 +3,10 @@ title: "Career Connections"
 subtitle: "Linking Activities to Real Cybersecurity Careers"
 ---
 
+::: {.text-center}
+{{< li zhiiqoue trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+:::
+
 ## Overview
 
 Each activity connects directly to authentic cybersecurity work roles defined in the NICE Workforce Framework for Cybersecurity. These one-page handouts help students recognize how classroom activities relate to actual professional pathways in the field.

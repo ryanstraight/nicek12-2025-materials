@@ -3,6 +3,10 @@ title: "Assessment Materials"
 subtitle: "Rubrics and Reflection Tools for Human-AI Partnership Activities"
 ---
 
+::: {.text-center}
+{{< li jpquyhqc trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+:::
+
 ## Overview
 
 These assessment tools focus on what matters most: **how students understand and practice human-AI collaboration**, rather than whether they arrived at a predetermined "correct answer."

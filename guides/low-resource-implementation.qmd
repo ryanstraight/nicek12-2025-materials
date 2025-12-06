@@ -144,7 +144,40 @@ Pause frequently to ask students what question you should pose next. Let student
 
 ## Hybrid Approaches
 
-Different resource situations call for different combinations of strategies:
+Different resource situations call for different combinations of strategies. Use this decision tree to find your recommended approach:
+
+```{mermaid}
+%%| fig-width: 9
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart TD
+    START(["What devices<br/>do you have?"])
+
+    NONE["No devices"]
+    TEACHER["Teacher device only"]
+    FEW["2-3 student devices"]
+    HOME["Home access only"]
+
+    NONE_A["Pre-Generated Cards<br/>+ Teacher Role-Play"]
+    TEACHER_A["Teacher as AI Voice<br/>+ Think-Aloud Demo"]
+    FEW_A["Rotation Station<br/>+ Response Cards"]
+    HOME_A["Homework Prep<br/>+ Class Synthesis"]
+
+    START --> NONE & TEACHER & FEW & HOME
+    NONE --> NONE_A
+    TEACHER --> TEACHER_A
+    FEW --> FEW_A
+    HOME --> HOME_A
+
+    style START fill:#AB0520,stroke:#AB0520,color:#fff
+    style NONE fill:#0C234B,stroke:#0C234B,color:#fff
+    style TEACHER fill:#0C234B,stroke:#0C234B,color:#fff
+    style FEW fill:#0C234B,stroke:#0C234B,color:#fff
+    style HOME fill:#0C234B,stroke:#0C234B,color:#fff
+    style NONE_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style TEACHER_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style FEW_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style HOME_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+```
 
 | You Have | Recommended Approach |
 |----------|---------------------|

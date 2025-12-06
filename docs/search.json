@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
+    "objectID": "resources/index.html#why-partnership",
+    "href": "resources/index.html#why-partnership",
     "title": "Resources & Further Reading",
-    "section": "",
-    "text": "This collection supports educators implementing human-AI partnership approaches in cybersecurity education. Each entry includes practical context for K-12 classroom application."
+    "section": "Why “Partnership” Language?",
+    "text": "Why “Partnership” Language?\nIndustry professionals typically say they “use AI tools.” We deliberately chose different language—and understanding why matters for teaching.\n\nThe Problem with “Tool Use” Framing\nWhen we say “I use a tool,” we imply:\n\nThe human is fully in control\nThe tool is passive until activated\nAgency flows one direction: human → tool\nThe human remains unchanged by the interaction\n\nBut this isn’t what actually happens in cybersecurity operations.\n\n\nWhat’s Really Happening in a SOC\nConsider a Security Operations Center analyst working with a SIEM (Security Information and Event Management) system:\n\nThe SIEM shapes perception — Before the analyst sees anything, the system has already decided what counts as “suspicious.” Thousands of events are filtered, correlated, and prioritized. The analyst’s awareness is bounded by what the tool surfaces.\nThe analyst adapts to the tool — Experienced analysts learn to “think like the SIEM”—understanding its detection logic, anticipating its blind spots, structuring their investigations around its capabilities.\nAgency is distributed — When a threat is detected, who found it? The analyst who investigated? The SIEM that flagged it? The rule-writer who configured the detection? The answer is: the assemblage of all of them together.\nNeither succeeds alone — The SIEM can’t understand context, institutional knowledge, or human factors. The analyst can’t process millions of log entries. Together, they accomplish what neither could individually.\n\n\n\nWhy This Matters for Education\nTeaching students that they “use AI tools” sets up a false mental model that will fail them in professional practice. They’ll either:\n\nOver-rely on AI (assuming it “handles” security while they “use” it)\nUnder-utilize AI (treating it as a simple lookup tool rather than an investigative partner)\nMiss the mutual shaping (not recognizing how AI recommendations influence their perception)\n\nThe “partnership” framing we use throughout these activities isn’t merely aspirational—it’s preparation for the actual cognitive work of modern cybersecurity operations.\n\n\nTheoretical Foundation\nThis approach draws from posthuman educational theory, particularly:\n\nRosi Braidotti’s work on human-technology entanglement and distributed agency\nCatherine Adams and Terrie Lynn Thompson’s practical heuristics for examining how digital technologies shape human perception and practice—what they call “interviewing” digital objects to understand their contributions to our work\n\nThese theoretical insights translate directly into developing cybersecurity expertise. When students learn to see AI as a partner with distinct capabilities, limitations, and influence on their own thinking, they’re developing the meta-cognitive awareness that distinguishes expert practitioners.\n\n\n\n\n\n\nNoteFor Further Reading\n\n\n\nThe references in the Human-AI Collaboration & Posthuman Pedagogy section below provide deeper theoretical grounding for this approach."
   },
   {
     "objectID": "resources/index.html#collaboration",
@@ -98,13 +98,6 @@
     "text": "STEAM Integration\nThese activities connect naturally across disciplines:\n\nScience — Pattern recognition, hypothesis testing, evidence analysis\nTechnology — AI systems, cybersecurity tools, network concepts\nEngineering — Systems thinking, incident response procedures, policy design\nArts — Communication design, stakeholder messaging, ethical reasoning\nMathematics — Data analysis, probability (false positives), timeline reconstruction\n\nThe investigation and policy design activities work especially well in interdisciplinary or project-based learning contexts."
   },
   {
-    "objectID": "index.html#conference-session-what-to-expect",
-    "href": "index.html#conference-session-what-to-expect",
-    "title": "Human-AI Partnership Activities for K-12 Cybersecurity Education",
-    "section": "Conference Session: What to Expect",
-    "text": "Conference Session: What to Expect\n\n\n\n\n\n\nNoteSession Format (45 Minutes)\n\n\n\nAttendees will experience one activity as learners, then receive access to the complete K-12 curriculum repository with dedicated implementation planning time.\n\n\n\n\n\n\n\n\nPhase\nTime\nWhat Happens\n\n\n\n\nExperience\n20 min\nParticipate in one complete activity (Middle School Phishing Response Team)\n\n\nMaterials Tour\n10 min\nOverview of curriculum ecosystem and implementation guide walkthrough\n\n\nPlanning\n10 min\nSelect grade-appropriate activities and begin implementation planning\n\n\nResources\n5 min\nAccess repository, follow-up support information, Q&A\n\n\n\nWhat you take home: Complete access to all 12 lesson plans, assessment rubrics, printable materials, and implementation guides—ready for immediate classroom use."
-  },
-  {
     "objectID": "index.html#about-these-materials",
     "href": "index.html#about-these-materials",
     "title": "Human-AI Partnership Activities for K-12 Cybersecurity Education",
@@ -165,7 +158,7 @@
     "href": "guides/low-resource-implementation.html#hybrid-approaches",
     "title": "Low-Resource Implementation Guide",
     "section": "Hybrid Approaches",
-    "text": "Hybrid Approaches\nDifferent resource situations call for different combinations of strategies:\n\n\n\n\n\n\n\nYou Have\nRecommended Approach\n\n\n\n\n1 teacher device, projector\nTeacher as AI Voice + Think-Aloud\n\n\n2-3 student devices\nRotation Station + Pre-Generated Cards\n\n\nSome students have phones\nRotation + limited personal device use\n\n\nHome access, no school access\nHomework Preparation + Class Synthesis\n\n\nNothing\nPre-Generated Response Cards + Teacher Role-Play"
+    "text": "Hybrid Approaches\nDifferent resource situations call for different combinations of strategies. Use this decision tree to find your recommended approach:\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart TD\n    START([\"What devices&lt;br/&gt;do you have?\"])\n\n    NONE[\"No devices\"]\n    TEACHER[\"Teacher device only\"]\n    FEW[\"2-3 student devices\"]\n    HOME[\"Home access only\"]\n\n    NONE_A[\"Pre-Generated Cards&lt;br/&gt;+ Teacher Role-Play\"]\n    TEACHER_A[\"Teacher as AI Voice&lt;br/&gt;+ Think-Aloud Demo\"]\n    FEW_A[\"Rotation Station&lt;br/&gt;+ Response Cards\"]\n    HOME_A[\"Homework Prep&lt;br/&gt;+ Class Synthesis\"]\n\n    START --&gt; NONE & TEACHER & FEW & HOME\n    NONE --&gt; NONE_A\n    TEACHER --&gt; TEACHER_A\n    FEW --&gt; FEW_A\n    HOME --&gt; HOME_A\n\n    style START fill:#AB0520,stroke:#AB0520,color:#fff\n    style NONE fill:#0C234B,stroke:#0C234B,color:#fff\n    style TEACHER fill:#0C234B,stroke:#0C234B,color:#fff\n    style FEW fill:#0C234B,stroke:#0C234B,color:#fff\n    style HOME fill:#0C234B,stroke:#0C234B,color:#fff\n    style NONE_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style TEACHER_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style FEW_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style HOME_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou Have\nRecommended Approach\n\n\n\n\n1 teacher device, projector\nTeacher as AI Voice + Think-Aloud\n\n\n2-3 student devices\nRotation Station + Pre-Generated Cards\n\n\nSome students have phones\nRotation + limited personal device use\n\n\nHome access, no school access\nHomework Preparation + Class Synthesis\n\n\nNothing\nPre-Generated Response Cards + Teacher Role-Play"
   },
   {
     "objectID": "guides/low-resource-implementation.html#key-pedagogical-points",
@@ -413,21 +406,11 @@
     "text": "Instructor Notes\nIntegration strategies:\n\nReference NICE roles explicitly during activity introduction\nConnect debrief discussions to career pathways\nProvide NICE Framework resources for interested students\n\nResources for students:\n\nNICE Framework Resource Center\nCyberSeek Career Pathways\n\nPart of “True Teamwork: Building Human-AI Partnerships for Tomorrow’s Cyber Challenges” - NICE K12 2025"
   },
   {
-    "objectID": "assessments/index.html",
-    "href": "assessments/index.html",
-    "title": "Assessment Materials",
-    "section": "",
-    "text": "These assessment tools focus on what matters most: how students understand and practice human-AI collaboration, rather than whether they arrived at a predetermined “correct answer.”\nEach rubric employs a four-point scale aligned with authentic human-AI partnership competencies, enabling meaningful differentiation across student performance levels.",
-    "crumbs": [
-      "Assessment Materials"
-    ]
-  },
-  {
     "objectID": "assessments/index.html#overview",
     "href": "assessments/index.html#overview",
     "title": "Assessment Materials",
-    "section": "",
-    "text": "These assessment tools focus on what matters most: how students understand and practice human-AI collaboration, rather than whether they arrived at a predetermined “correct answer.”\nEach rubric employs a four-point scale aligned with authentic human-AI partnership competencies, enabling meaningful differentiation across student performance levels.",
+    "section": "Overview",
+    "text": "Overview\nThese assessment tools focus on what matters most: how students understand and practice human-AI collaboration, rather than whether they arrived at a predetermined “correct answer.”\nEach rubric employs a four-point scale aligned with authentic human-AI partnership competencies, enabling meaningful differentiation across student performance levels.",
     "crumbs": [
       "Assessment Materials"
     ]
@@ -677,22 +660,11 @@
     ]
   },
   {
-    "objectID": "activities/03-ai-incident-response/index.html",
-    "href": "activities/03-ai-incident-response/index.html",
-    "title": "Activity 3: AI-Assisted Incident Response",
-    "section": "",
-    "text": "Students assume team roles during realistic security incidents, experiencing firsthand how cybersecurity professionals coordinate with AI systems when time pressure demands rapid, coordinated action.\nCore Learning: Incident response requires diverse roles working in concert, each contributing specialized expertise that complements AI-driven analysis. Effective response emerges from coordination, not individual heroics.",
-    "crumbs": [
-      "Activity 3: AI Incident Response",
-      "Activity 3: AI-Assisted Incident Response"
-    ]
-  },
-  {
     "objectID": "activities/03-ai-incident-response/index.html#overview",
     "href": "activities/03-ai-incident-response/index.html#overview",
     "title": "Activity 3: AI-Assisted Incident Response",
-    "section": "",
-    "text": "Students assume team roles during realistic security incidents, experiencing firsthand how cybersecurity professionals coordinate with AI systems when time pressure demands rapid, coordinated action.\nCore Learning: Incident response requires diverse roles working in concert, each contributing specialized expertise that complements AI-driven analysis. Effective response emerges from coordination, not individual heroics.",
+    "section": "Overview",
+    "text": "Overview\nStudents assume team roles during realistic security incidents, experiencing firsthand how cybersecurity professionals coordinate with AI systems when time pressure demands rapid, coordinated action.\nCore Learning: Incident response requires diverse roles working in concert, each contributing specialized expertise that complements AI-driven analysis. Effective response emerges from coordination, not individual heroics.\n\nIncident Response Workflow\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart LR\n    A[(\"🚨 Detect&lt;br/&gt;AI alerts team\")]\n    B[(\"🔬 Triage&lt;br/&gt;Assess severity\")]\n    C[(\"🛡️ Contain&lt;br/&gt;Stop the spread\")]\n    D[(\"👥 Coordinate&lt;br/&gt;Team response\")]\n    E[(\"🔧 Recover&lt;br/&gt;Restore systems\")]\n    F[(\"📄 Document&lt;br/&gt;Report findings\")]\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F\n\n    style A fill:#AB0520,stroke:#AB0520,color:#fff\n    style B fill:#0C234B,stroke:#0C234B,color:#fff\n    style C fill:#AB0520,stroke:#AB0520,color:#fff\n    style D fill:#0C234B,stroke:#0C234B,color:#fff\n    style E fill:#AB0520,stroke:#AB0520,color:#fff\n    style F fill:#0C234B,stroke:#0C234B,color:#fff",
     "crumbs": [
       "Activity 3: AI Incident Response",
       "Activity 3: AI-Assisted Incident Response"
@@ -1161,22 +1133,11 @@
     ]
   },
   {
-    "objectID": "activities/01-security-detective-teams/index.html",
-    "href": "activities/01-security-detective-teams/index.html",
-    "title": "Activity 1: Security Detective Teams",
-    "section": "",
-    "text": "Students investigate security incidents alongside an AI partner, discovering through hands-on experience that AI demonstrates strength in pattern recognition while humans bring irreplaceable contextual understanding. Together, they solve mysteries that neither could unravel independently.\nCore Learning: AI excels at pattern recognition across large datasets; humans excel at understanding context and making judgment calls. Together, they achieve insights neither could reach alone.\n\n\n\n\n\n\nNoteLearn More: Pattern Recognition vs. Contextual Understanding\n\n\n\n\n\nThis distinction—AI for patterns, humans for context—reflects how Security Operations Centers actually function. Research shows that effective threat detection requires both computational pattern matching and human judgment about organizational context. The detective metaphor helps students internalize this complementary relationship.\nExplore the research →",
-    "crumbs": [
-      "Activity 1: Security Detective Teams",
-      "Activity 1: Security Detective Teams"
-    ]
-  },
-  {
     "objectID": "activities/01-security-detective-teams/index.html#overview",
     "href": "activities/01-security-detective-teams/index.html#overview",
     "title": "Activity 1: Security Detective Teams",
-    "section": "",
-    "text": "Students investigate security incidents alongside an AI partner, discovering through hands-on experience that AI demonstrates strength in pattern recognition while humans bring irreplaceable contextual understanding. Together, they solve mysteries that neither could unravel independently.\nCore Learning: AI excels at pattern recognition across large datasets; humans excel at understanding context and making judgment calls. Together, they achieve insights neither could reach alone.\n\n\n\n\n\n\nNoteLearn More: Pattern Recognition vs. Contextual Understanding\n\n\n\n\n\nThis distinction—AI for patterns, humans for context—reflects how Security Operations Centers actually function. Research shows that effective threat detection requires both computational pattern matching and human judgment about organizational context. The detective metaphor helps students internalize this complementary relationship.\nExplore the research →",
+    "section": "Overview",
+    "text": "Overview\nStudents investigate security incidents alongside an AI partner, discovering through hands-on experience that AI demonstrates strength in pattern recognition while humans bring irreplaceable contextual understanding. Together, they solve mysteries that neither could unravel independently.\nCore Learning: AI excels at pattern recognition across large datasets; humans excel at understanding context and making judgment calls. Together, they achieve insights neither could reach alone.\n\nActivity Flow\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart LR\n    A[(\"🎯 Setup&lt;br/&gt;Present scenario\")]\n    B[(\"🔍 Investigate&lt;br/&gt;Examine evidence\")]\n    C[(\"🤖 Consult AI&lt;br/&gt;Pattern analysis\")]\n    D[(\"🧩 Synthesize&lt;br/&gt;Combine insights\")]\n    E[(\"💬 Debrief&lt;br/&gt;Discuss findings\")]\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E\n\n    style A fill:#0C234B,stroke:#0C234B,color:#fff\n    style B fill:#AB0520,stroke:#AB0520,color:#fff\n    style C fill:#0C234B,stroke:#0C234B,color:#fff\n    style D fill:#AB0520,stroke:#AB0520,color:#fff\n    style E fill:#0C234B,stroke:#0C234B,color:#fff\n\n\n\n\n\n\n\n\n\n\n\n\nNoteLearn More: Pattern Recognition vs. Contextual Understanding\n\n\n\n\n\nThis distinction—AI for patterns, humans for context—reflects how Security Operations Centers actually function. Research shows that effective threat detection requires both computational pattern matching and human judgment about organizational context. The detective metaphor helps students internalize this complementary relationship.\nExplore the research →",
     "crumbs": [
       "Activity 1: Security Detective Teams",
       "Activity 1: Security Detective Teams"
@@ -1785,22 +1746,11 @@
     ]
   },
   {
-    "objectID": "activities/02-ethics-automated-security/index.html",
-    "href": "activities/02-ethics-automated-security/index.html",
-    "title": "Activity 2: Ethics in Automated Security",
-    "section": "",
-    "text": "Students develop governance policies for AI security systems, confronting the reality that AI requires thoughtful human guidance and that these decisions carry genuine difficulty. The AI actively participates in discussions, advocating for its capabilities while acknowledging its limitations.\nCore Learning: AI governance demands careful balancing of competing values. There are no easy answers, only thoughtful trade-offs. Human values must guide AI systems, and the AI’s own perspective is part of the governance conversation.",
-    "crumbs": [
-      "Activity 2: Ethics in Automated Security",
-      "Activity 2: Ethics in Automated Security"
-    ]
-  },
-  {
     "objectID": "activities/02-ethics-automated-security/index.html#overview",
     "href": "activities/02-ethics-automated-security/index.html#overview",
     "title": "Activity 2: Ethics in Automated Security",
-    "section": "",
-    "text": "Students develop governance policies for AI security systems, confronting the reality that AI requires thoughtful human guidance and that these decisions carry genuine difficulty. The AI actively participates in discussions, advocating for its capabilities while acknowledging its limitations.\nCore Learning: AI governance demands careful balancing of competing values. There are no easy answers, only thoughtful trade-offs. Human values must guide AI systems, and the AI’s own perspective is part of the governance conversation.",
+    "section": "Overview",
+    "text": "Overview\nStudents develop governance policies for AI security systems, confronting the reality that AI requires thoughtful human guidance and that these decisions carry genuine difficulty. The AI actively participates in discussions, advocating for its capabilities while acknowledging its limitations.\nCore Learning: AI governance demands careful balancing of competing values. There are no easy answers, only thoughtful trade-offs. Human values must guide AI systems, and the AI’s own perspective is part of the governance conversation.\n\nDeliberation Flow\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart LR\n    A[(\"📋 Scenario&lt;br/&gt;Present dilemma\")]\n    B[(\"👥 Stakeholders&lt;br/&gt;Identify perspectives\")]\n    C[(\"🤖 AI Voice&lt;br/&gt;Hear capabilities\")]\n    D[(\"⚖️ Trade-offs&lt;br/&gt;Weigh values\")]\n    E[(\"📝 Policy&lt;br/&gt;Draft rules\")]\n    F[(\"🎤 Present&lt;br/&gt;Defend choices\")]\n\n    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F\n\n    style A fill:#0C234B,stroke:#0C234B,color:#fff\n    style B fill:#AB0520,stroke:#AB0520,color:#fff\n    style C fill:#0C234B,stroke:#0C234B,color:#fff\n    style D fill:#AB0520,stroke:#AB0520,color:#fff\n    style E fill:#0C234B,stroke:#0C234B,color:#fff\n    style F fill:#AB0520,stroke:#AB0520,color:#fff",
     "crumbs": [
       "Activity 2: Ethics in Automated Security",
       "Activity 2: Ethics in Automated Security"
@@ -2367,7 +2317,7 @@
     "href": "activities/index.html#suggested-sequence",
     "title": "Activities",
     "section": "Suggested Sequence",
-    "text": "Suggested Sequence\nWhile each activity stands alone, running them in sequence builds progressively sophisticated understanding of human-AI collaboration:\n\nSecurity Detective Teams introduces the partnership concept\nEthics in Automated Security explores the governance implications that emerge from widespread AI deployment\nAI-Assisted Incident Response applies partnership dynamics to crisis situations",
+    "text": "Suggested Sequence\nWhile each activity stands alone, running them in sequence builds progressively sophisticated understanding of human-AI collaboration:\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#E8E8E8', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart LR\n    subgraph A1[\"Activity 1\"]\n        A1T[\"Security Detective Teams\"]\n        A1L[\"Introduces partnership concept\"]\n    end\n\n    subgraph A2[\"Activity 2\"]\n        A2T[\"Ethics in Automated Security\"]\n        A2L[\"Explores governance implications\"]\n    end\n\n    subgraph A3[\"Activity 3\"]\n        A3T[\"AI-Assisted Incident Response\"]\n        A3L[\"Applies partnership under pressure\"]\n    end\n\n    A1 --&gt; A2 --&gt; A3\n\n    style A1 fill:#0C234B,stroke:#0C234B,color:#fff\n    style A2 fill:#0C234B,stroke:#0C234B,color:#fff\n    style A3 fill:#0C234B,stroke:#0C234B,color:#fff\n\n\n\n\n\n\n\nSecurity Detective Teams introduces the partnership concept\nEthics in Automated Security explores the governance implications that emerge from widespread AI deployment\nAI-Assisted Incident Response applies partnership dynamics to crisis situations",
     "crumbs": [
       "Activities"
     ]
@@ -2458,6 +2408,16 @@
     "title": "NICE Framework Alignment Matrix",
     "section": "",
     "text": "This document provides a detailed mapping between our Human-AI Partnership activities and the NICE Framework (NIST SP 800-181 Rev 1, Version 2.0.0) Task, Knowledge, and Skill (TKS) statements. These alignments support curriculum approval processes for K-12 cybersecurity education programs and demonstrate how classroom activities develop authentic workforce competencies.\n\n\n\n\n\n\nNoteFor Curriculum Administrators\n\n\n\nThis matrix demonstrates standards alignment for state/district cybersecurity curriculum approval. All TKS codes reference the official NICE Framework available at niccs.cisa.gov.",
+    "crumbs": [
+      "NICE Framework Alignment Matrix"
+    ]
+  },
+  {
+    "objectID": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
+    "href": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
+    "title": "NICE Framework Alignment Matrix",
+    "section": "TKS Cross-Reference Matrix",
+    "text": "TKS Cross-Reference Matrix\nThis matrix shows at a glance which NICE Framework competencies each activity addresses. Use the search and filter features (HTML) or scan the checkmarks to quickly identify coverage patterns.\n\n\n\n\n\n\nTipHow to Read This Matrix\n\n\n\n\n✓ (Checkmark): Activity addresses this competency\n– (Dash): Activity does not specifically address this competency\nGrouped by: Tasks (T), Knowledge (K), and Skills (S)\n\n\n\n\n\n\n\n\n\n\n\n\nCoverage Summary",
     "crumbs": [
       "NICE Framework Alignment Matrix"
     ]
@@ -2634,18 +2594,11 @@
     "text": "Interested in learning more?\n\nExplore NICE Framework: niccs.cisa.gov/workforce-development/nice-framework\nTry CyberSeek: cyberseek.org - See the incident response career pathway\nPractice scenarios: NCL (National Cyber League) includes incident response challenges\n\n\n\n\n\n\n\nTipShare With Your Teacher!\n\n\n\n“Today I learned how SOC teams coordinate during security incidents. I practiced making decisions under pressure and working with AI analysis—just like real incident responders!”"
   },
   {
-    "objectID": "career-connections/index.html",
-    "href": "career-connections/index.html",
-    "title": "Career Connections",
-    "section": "",
-    "text": "Each activity connects directly to authentic cybersecurity work roles defined in the NICE Workforce Framework for Cybersecurity. These one-page handouts help students recognize how classroom activities relate to actual professional pathways in the field."
-  },
-  {
     "objectID": "career-connections/index.html#overview",
     "href": "career-connections/index.html#overview",
     "title": "Career Connections",
-    "section": "",
-    "text": "Each activity connects directly to authentic cybersecurity work roles defined in the NICE Workforce Framework for Cybersecurity. These one-page handouts help students recognize how classroom activities relate to actual professional pathways in the field."
+    "section": "Overview",
+    "text": "Overview\nEach activity connects directly to authentic cybersecurity work roles defined in the NICE Workforce Framework for Cybersecurity. These one-page handouts help students recognize how classroom activities relate to actual professional pathways in the field."
   },
   {
     "objectID": "career-connections/index.html#career-connection-handouts",
@@ -2669,18 +2622,11 @@
     "text": "NICE Framework Alignment\n\n\n\nActivity\nPrimary Work Roles\nNICE Code\n\n\n\n\nSecurity Detective Teams\nCyber Defense Analyst\nPR-CDA-001\n\n\nAI-Assisted Incident Response\nIncident Responder\nPR-CIR-001\n\n\nEthics in Automated Security\nCyber Policy Planner\nOV-SPP-002\n\n\n\n\n\n\n\n\n\nNoteLearn More: The Cybersecurity Workforce Gap\n\n\n\n\n\nIndustry research consistently shows hundreds of thousands of unfilled cybersecurity positions. Human-AI collaboration skills are increasingly valued by employers—the (ISC)² Cybersecurity Workforce Study documents how AI is reshaping job requirements while the core need for human judgment remains constant.\nExplore the research →"
   },
   {
-    "objectID": "guides/index.html",
-    "href": "guides/index.html",
-    "title": "Implementation Guides",
-    "section": "",
-    "text": "These guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.\nA key insight underlies both guides: the core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology."
-  },
-  {
     "objectID": "guides/index.html#overview",
     "href": "guides/index.html#overview",
     "title": "Implementation Guides",
-    "section": "",
-    "text": "These guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.\nA key insight underlies both guides: the core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology."
+    "section": "Overview",
+    "text": "Overview\nThese guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.\nA key insight underlies both guides: the core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology."
   },
   {
     "objectID": "guides/index.html#available-guides",
@@ -2722,7 +2668,7 @@
     "href": "guides/quick-start.html#start-here-select-your-grade-band",
     "title": "Quick Start Guide",
     "section": "Start Here: Select Your Grade Band",
-    "text": "Start Here: Select Your Grade Band\n\nElementary (K-5)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Security Detective Teams (K-2: “Mystery Helpers” or 3-5: “Locked Library Computers”)\nThis activity introduces the core partnership concept through investigation scenarios. Students discover that AI excels at pattern recognition while humans contribute contextual understanding, and that together they can solve problems neither could address alone.\n\n\n\n\n\n\n\n\n\n\n\nGrade Band\nFirst Activity\nTime Needed\nPrerequisites\n\n\n\n\nK-2\nMystery Helpers\n20-25 min\nNone—designed for first exposure\n\n\n3-5\nLocked Library Computers\n30-35 min\nBasic understanding of school computer use\n\n\n\nAfter completing Activity 1, consider:\n\nActivity 2 (Ethics): Robot Helper Rules (K-2) or Computer Rules Committee (3-5)\nActivity 3 (Incident Response): Fix It Team! (K-2) or Computer Problem Solvers (3-5)\n\n\n\nMiddle School (6-8)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Security Detective Teams (45-50 minutes)\nMiddle school students benefit from completing the full investigation experience before engaging with ethics or incident response content. The detective framing captures student interest while establishing the foundational partnership concept.\n\n\n\n\n\n\n\n\n\n\n\nSequence\nActivity\nTime Needed\nPrerequisites\n\n\n\n\nStart here\nSecurity Detective Teams\n45-50 min\nNone\n\n\nThen\nAI-Assisted Incident Response\n50-60 min\nPartnership concept from Activity 1\n\n\nFinally\nEthics in Automated Security\n45-55 min\nActivities 1 & 2 recommended\n\n\n\nFull implementation: ~2.5 hours across three class periods\nMinimum viable path: Activity 1 alone delivers core partnership learning in a single period\n\n\nHigh School (9-12)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Threat Investigation (50-60 minutes)\nThe Security Operations Center (SOC) simulation provides authentic technical depth. For Career and Technical Education cybersecurity programs, this activity mirrors professional practice and aligns with NICE Framework work roles.\n\n\n\n\n\n\n\n\n\n\n\nSequence\nActivity\nTime Needed\nPrerequisites\n\n\n\n\nStart here\nThreat Investigation\n50-60 min\nBasic network concepts helpful\n\n\nThen\nSOC Analyst Simulation\n55-60 min\nPartnership concept from Activity 1\n\n\nFinally\nAI Governance Workshop\n50-60 min\nActivities 1 & 2 for full context\n\n\n\nFull implementation: ~3 hours across three class periods\nCTE/Advanced pathway: All three activities form a coherent unit on professional human-AI collaboration"
+    "text": "Start Here: Select Your Grade Band\nUse this decision tree to find your recommended starting point:\n\n\n\n\n\n%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%\nflowchart TD\n    START([\"What grade level?\"])\n\n    K2[\"K-2\"]\n    E35[\"3-5\"]\n    MS[\"6-8\"]\n    HS[\"9-12\"]\n\n    K2A[\"Mystery Helpers&lt;br/&gt;20-25 min\"]\n    E35A[\"Locked Library&lt;br/&gt;30-35 min\"]\n    MSA[\"Detective Teams&lt;br/&gt;45-50 min\"]\n    HSA[\"Threat Investigation&lt;br/&gt;50-60 min\"]\n\n    START --&gt; K2 & E35 & MS & HS\n    K2 --&gt; K2A\n    E35 --&gt; E35A\n    MS --&gt; MSA\n    HS --&gt; HSA\n\n    style START fill:#AB0520,stroke:#AB0520,color:#fff\n    style K2 fill:#0C234B,stroke:#0C234B,color:#fff\n    style E35 fill:#0C234B,stroke:#0C234B,color:#fff\n    style MS fill:#0C234B,stroke:#0C234B,color:#fff\n    style HS fill:#0C234B,stroke:#0C234B,color:#fff\n    style K2A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style E35A fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style MSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n    style HSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B\n\n\n\n\n\n\n\nElementary (K-5)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Security Detective Teams (K-2: “Mystery Helpers” or 3-5: “Locked Library Computers”)\nThis activity introduces the core partnership concept through investigation scenarios. Students discover that AI excels at pattern recognition while humans contribute contextual understanding, and that together they can solve problems neither could address alone.\n\n\n\n\n\n\n\n\n\n\n\nGrade Band\nFirst Activity\nTime Needed\nPrerequisites\n\n\n\n\nK-2\nMystery Helpers\n20-25 min\nNone—designed for first exposure\n\n\n3-5\nLocked Library Computers\n30-35 min\nBasic understanding of school computer use\n\n\n\nAfter completing Activity 1, consider:\n\nActivity 2 (Ethics): Robot Helper Rules (K-2) or Computer Rules Committee (3-5)\nActivity 3 (Incident Response): Fix It Team! (K-2) or Computer Problem Solvers (3-5)\n\n\n\nMiddle School (6-8)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Security Detective Teams (45-50 minutes)\nMiddle school students benefit from completing the full investigation experience before engaging with ethics or incident response content. The detective framing captures student interest while establishing the foundational partnership concept.\n\n\n\n\n\n\n\n\n\n\n\nSequence\nActivity\nTime Needed\nPrerequisites\n\n\n\n\nStart here\nSecurity Detective Teams\n45-50 min\nNone\n\n\nThen\nAI-Assisted Incident Response\n50-60 min\nPartnership concept from Activity 1\n\n\nFinally\nEthics in Automated Security\n45-55 min\nActivities 1 & 2 recommended\n\n\n\nFull implementation: ~2.5 hours across three class periods\nMinimum viable path: Activity 1 alone delivers core partnership learning in a single period\n\n\nHigh School (9-12)\n\n\n\n\n\n\nTipRecommended First Activity\n\n\n\nActivity 1: Threat Investigation (50-60 minutes)\nThe Security Operations Center (SOC) simulation provides authentic technical depth. For Career and Technical Education cybersecurity programs, this activity mirrors professional practice and aligns with NICE Framework work roles.\n\n\n\n\n\n\n\n\n\n\n\nSequence\nActivity\nTime Needed\nPrerequisites\n\n\n\n\nStart here\nThreat Investigation\n50-60 min\nBasic network concepts helpful\n\n\nThen\nSOC Analyst Simulation\n55-60 min\nPartnership concept from Activity 1\n\n\nFinally\nAI Governance Workshop\n50-60 min\nActivities 1 & 2 for full context\n\n\n\nFull implementation: ~3 hours across three class periods\nCTE/Advanced pathway: All three activities form a coherent unit on professional human-AI collaboration"
   },
   {
     "objectID": "guides/quick-start.html#implementation-time-planning",
@@ -2884,22 +2830,5 @@
     "title": "Printable Materials",
     "section": "Download All Materials",
     "text": "Download All Materials\nVisit the Materials page to download all materials in PDF and DOCX formats."
-  },
-  {
-    "objectID": "resources/index.html#why-partnership",
-    "href": "resources/index.html#why-partnership",
-    "title": "Resources & Further Reading",
-    "section": "Why “Partnership” Language?",
-    "text": "Why “Partnership” Language?\nIndustry professionals typically say they “use AI tools.” We deliberately chose different language—and understanding why matters for teaching.\n\nThe Problem with “Tool Use” Framing\nWhen we say “I use a tool,” we imply:\n\nThe human is fully in control\nThe tool is passive until activated\nAgency flows one direction: human → tool\nThe human remains unchanged by the interaction\n\nBut this isn’t what actually happens in cybersecurity operations.\n\n\nWhat’s Really Happening in a SOC\nConsider a Security Operations Center analyst working with a SIEM (Security Information and Event Management) system:\n\nThe SIEM shapes perception — Before the analyst sees anything, the system has already decided what counts as “suspicious.” Thousands of events are filtered, correlated, and prioritized. The analyst’s awareness is bounded by what the tool surfaces.\nThe analyst adapts to the tool — Experienced analysts learn to “think like the SIEM”—understanding its detection logic, anticipating its blind spots, structuring their investigations around its capabilities.\nAgency is distributed — When a threat is detected, who found it? The analyst who investigated? The SIEM that flagged it? The rule-writer who configured the detection? The answer is: the assemblage of all of them together.\nNeither succeeds alone — The SIEM can’t understand context, institutional knowledge, or human factors. The analyst can’t process millions of log entries. Together, they accomplish what neither could individually.\n\n\n\nWhy This Matters for Education\nTeaching students that they “use AI tools” sets up a false mental model that will fail them in professional practice. They’ll either:\n\nOver-rely on AI (assuming it “handles” security while they “use” it)\nUnder-utilize AI (treating it as a simple lookup tool rather than an investigative partner)\nMiss the mutual shaping (not recognizing how AI recommendations influence their perception)\n\nThe “partnership” framing we use throughout these activities isn’t merely aspirational—it’s preparation for the actual cognitive work of modern cybersecurity operations.\n\n\nTheoretical Foundation\nThis approach draws from posthuman educational theory, particularly:\n\nRosi Braidotti’s work on human-technology entanglement and distributed agency\nCatherine Adams and Terrie Lynn Thompson’s practical heuristics for examining how digital technologies shape human perception and practice—what they call “interviewing” digital objects to understand their contributions to our work\n\nThese theoretical insights translate directly into developing cybersecurity expertise. When students learn to see AI as a partner with distinct capabilities, limitations, and influence on their own thinking, they’re developing the meta-cognitive awareness that distinguishes expert practitioners.\n\n\n\n\n\n\nNoteFor Further Reading\n\n\n\nThe references in the Human-AI Collaboration & Posthuman Pedagogy section below provide deeper theoretical grounding for this approach."
-  },
-  {
-    "objectID": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
-    "href": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
-    "title": "NICE Framework Alignment Matrix",
-    "section": "TKS Cross-Reference Matrix",
-    "text": "TKS Cross-Reference Matrix\nThis matrix shows at a glance which NICE Framework competencies each activity addresses. Use the search and filter features (HTML) or scan the checkmarks to quickly identify coverage patterns.\n\n\n\n\n\n\nTipHow to Read This Matrix\n\n\n\n\n✓ (Checkmark): Activity addresses this competency\n– (Dash): Activity does not specifically address this competency\nGrouped by: Tasks (T), Knowledge (K), and Skills (S)\n\n\n\n\n\n\n\n\n\n\n\n\nCoverage Summary",
-    "crumbs": [
-      "NICE Framework Alignment Matrix"
-    ]
   }
 ]

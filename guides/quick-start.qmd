@@ -19,6 +19,41 @@ Teaching students to see these relationships clearly—rather than through the "
 
 ## Start Here: Select Your Grade Band
 
+Use this decision tree to find your recommended starting point:
+
+```{mermaid}
+%%| fig-width: 9
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart TD
+    START(["What grade level?"])
+
+    K2["K-2"]
+    E35["3-5"]
+    MS["6-8"]
+    HS["9-12"]
+
+    K2A["Mystery Helpers<br/>20-25 min"]
+    E35A["Locked Library<br/>30-35 min"]
+    MSA["Detective Teams<br/>45-50 min"]
+    HSA["Threat Investigation<br/>50-60 min"]
+
+    START --> K2 & E35 & MS & HS
+    K2 --> K2A
+    E35 --> E35A
+    MS --> MSA
+    HS --> HSA
+
+    style START fill:#AB0520,stroke:#AB0520,color:#fff
+    style K2 fill:#0C234B,stroke:#0C234B,color:#fff
+    style E35 fill:#0C234B,stroke:#0C234B,color:#fff
+    style MS fill:#0C234B,stroke:#0C234B,color:#fff
+    style HS fill:#0C234B,stroke:#0C234B,color:#fff
+    style K2A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style E35A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style MSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style HSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+```
+
 ### Elementary (K-5)
 
 ::: {.callout-tip}

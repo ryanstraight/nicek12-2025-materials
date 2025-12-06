@@ -66,6 +66,32 @@ Students assume team roles during realistic security incidents, experiencing fir
 
 While each activity stands alone, running them in sequence builds progressively sophisticated understanding of human-AI collaboration:
 
+```{mermaid}
+%%| fig-width: 8
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#E8E8E8', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart LR
+    subgraph A1["Activity 1"]
+        A1T["Security Detective Teams"]
+        A1L["Introduces partnership concept"]
+    end
+
+    subgraph A2["Activity 2"]
+        A2T["Ethics in Automated Security"]
+        A2L["Explores governance implications"]
+    end
+
+    subgraph A3["Activity 3"]
+        A3T["AI-Assisted Incident Response"]
+        A3L["Applies partnership under pressure"]
+    end
+
+    A1 --> A2 --> A3
+
+    style A1 fill:#0C234B,stroke:#0C234B,color:#fff
+    style A2 fill:#0C234B,stroke:#0C234B,color:#fff
+    style A3 fill:#0C234B,stroke:#0C234B,color:#fff
+```
+
 1. **Security Detective Teams** introduces the partnership concept
 2. **Ethics in Automated Security** explores the governance implications that emerge from widespread AI deployment
 3. **AI-Assisted Incident Response** applies partnership dynamics to crisis situations

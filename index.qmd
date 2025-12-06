@@ -7,6 +7,11 @@ format-links: false
 ---
 
 ::: {.hero-section}
+
+::: {.text-center}
+{{< li rcuovkuy trigger=loop colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=200 >}}
+:::
+
 # Human-AI Partnership Activities for K-12 Cybersecurity Education
 
 **From the NICE K12 Cybersecurity Education Conference 2025**

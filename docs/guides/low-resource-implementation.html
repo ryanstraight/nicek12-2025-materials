@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="Low-Resource Implementation Guide – True Teamwork: Human-AI Partnership Activities">
@@ -208,6 +211,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="166b04b764d540d1a34b9283ba2b09ab" class="alert alert-primary hidden"><i class="bi bi-rocket-takeoff quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>New here?</strong> <a href="../guides/quick-start.html">Get Started → Everything you need to bring these activities to your classroom</a></p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -465,7 +471,47 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="hybrid-approaches" class="level2">
 <h2 class="anchored" data-anchor-id="hybrid-approaches">Hybrid Approaches</h2>
-<p>Different resource situations call for different combinations of strategies:</p>
+<p>Different resource situations call for different combinations of strategies. Use this decision tree to find your recommended approach:</p>
+<div class="cell" data-fig-width="9" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart TD
+    START(["What devices&lt;br/&gt;do you have?"])
+
+    NONE["No devices"]
+    TEACHER["Teacher device only"]
+    FEW["2-3 student devices"]
+    HOME["Home access only"]
+
+    NONE_A["Pre-Generated Cards&lt;br/&gt;+ Teacher Role-Play"]
+    TEACHER_A["Teacher as AI Voice&lt;br/&gt;+ Think-Aloud Demo"]
+    FEW_A["Rotation Station&lt;br/&gt;+ Response Cards"]
+    HOME_A["Homework Prep&lt;br/&gt;+ Class Synthesis"]
+
+    START --&gt; NONE &amp; TEACHER &amp; FEW &amp; HOME
+    NONE --&gt; NONE_A
+    TEACHER --&gt; TEACHER_A
+    FEW --&gt; FEW_A
+    HOME --&gt; HOME_A
+
+    style START fill:#AB0520,stroke:#AB0520,color:#fff
+    style NONE fill:#0C234B,stroke:#0C234B,color:#fff
+    style TEACHER fill:#0C234B,stroke:#0C234B,color:#fff
+    style FEW fill:#0C234B,stroke:#0C234B,color:#fff
+    style HOME fill:#0C234B,stroke:#0C234B,color:#fff
+    style NONE_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style TEACHER_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style FEW_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style HOME_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 32%">

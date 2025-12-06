@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="Activities – True Teamwork: Human-AI Partnership Activities">
@@ -218,6 +221,9 @@ ul.task-list li input[type="checkbox"] {
         </a>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="166b04b764d540d1a34b9283ba2b09ab" class="alert alert-primary hidden"><i class="bi bi-rocket-takeoff quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>New here?</strong> <a href="../guides/quick-start.html">Get Started → Everything you need to bring these activities to your classroom</a></p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -562,6 +568,39 @@ ul.task-list li input[type="checkbox"] {
 <section id="suggested-sequence" class="level2">
 <h2 class="anchored" data-anchor-id="suggested-sequence">Suggested Sequence</h2>
 <p>While each activity stands alone, running them in sequence builds progressively sophisticated understanding of human-AI collaboration:</p>
+<div class="cell" data-fig-width="8" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#E8E8E8', 'tertiaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart LR
+    subgraph A1["Activity 1"]
+        A1T["Security Detective Teams"]
+        A1L["Introduces partnership concept"]
+    end
+
+    subgraph A2["Activity 2"]
+        A2T["Ethics in Automated Security"]
+        A2L["Explores governance implications"]
+    end
+
+    subgraph A3["Activity 3"]
+        A3T["AI-Assisted Incident Response"]
+        A3L["Applies partnership under pressure"]
+    end
+
+    A1 --&gt; A2 --&gt; A3
+
+    style A1 fill:#0C234B,stroke:#0C234B,color:#fff
+    style A2 fill:#0C234B,stroke:#0C234B,color:#fff
+    style A3 fill:#0C234B,stroke:#0C234B,color:#fff
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <ol type="1">
 <li><strong>Security Detective Teams</strong> introduces the partnership concept</li>
 <li><strong>Ethics in Automated Security</strong> explores the governance implications that emerge from widespread AI deployment</li>

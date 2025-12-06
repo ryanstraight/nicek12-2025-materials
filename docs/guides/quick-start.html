@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="Quick Start Guide – True Teamwork: Human-AI Partnership Activities">
@@ -208,8 +211,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="3e0c024d6a7f93865ecb3c91794b3591" class="alert alert-primary hidden"><i class="bi bi-rocket-takeoff quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>New here?</strong> <a href="guides/quick-start.qmd">Get Started →</a> — Everything you need to bring these activities to your classroom</p>
+  <div id="quarto-announcement" data-announcement-id="166b04b764d540d1a34b9283ba2b09ab" class="alert alert-primary hidden"><i class="bi bi-rocket-takeoff quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>New here?</strong> <a href="../guides/quick-start.html">Get Started → Everything you need to bring these activities to your classroom</a></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -297,6 +300,47 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="start-here-select-your-grade-band" class="level2">
 <h2 class="anchored" data-anchor-id="start-here-select-your-grade-band">Start Here: Select Your Grade Band</h2>
+<p>Use this decision tree to find your recommended starting point:</p>
+<div class="cell" data-fig-width="9" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#0C234B', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0C234B', 'lineColor': '#AB0520', 'secondaryColor': '#f5f5f5', 'fontFamily': 'system-ui, sans-serif'}}}%%
+flowchart TD
+    START(["What grade level?"])
+
+    K2["K-2"]
+    E35["3-5"]
+    MS["6-8"]
+    HS["9-12"]
+
+    K2A["Mystery Helpers&lt;br/&gt;20-25 min"]
+    E35A["Locked Library&lt;br/&gt;30-35 min"]
+    MSA["Detective Teams&lt;br/&gt;45-50 min"]
+    HSA["Threat Investigation&lt;br/&gt;50-60 min"]
+
+    START --&gt; K2 &amp; E35 &amp; MS &amp; HS
+    K2 --&gt; K2A
+    E35 --&gt; E35A
+    MS --&gt; MSA
+    HS --&gt; HSA
+
+    style START fill:#AB0520,stroke:#AB0520,color:#fff
+    style K2 fill:#0C234B,stroke:#0C234B,color:#fff
+    style E35 fill:#0C234B,stroke:#0C234B,color:#fff
+    style MS fill:#0C234B,stroke:#0C234B,color:#fff
+    style HS fill:#0C234B,stroke:#0C234B,color:#fff
+    style K2A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style E35A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style MSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+    style HSA fill:#f5f5f5,stroke:#0C234B,color:#0C234B
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <section id="elementary-k-5" class="level3">
 <h3 class="anchored" data-anchor-id="elementary-k-5">Elementary (K-5)</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
