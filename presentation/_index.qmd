@@ -172,7 +172,7 @@ Let's talk implementation options first—because I know not everyone has AI acc
 
 ## Implementation Options {.smaller}
 
-**Designed for your actual constraints:**
+**Designed for your actual constraints—all activities work WITHOUT 1:1 devices:**
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -631,7 +631,7 @@ All three are complete in your materials—same quality, same facilitation guide
 **📊 Assessment & Career**
 
 - Human-AI Collaboration rubrics
-- NICE Framework alignment
+- NICE Framework Alignment Matrix
 - Career connection handouts
 - Work role mappings
 :::
@@ -640,7 +640,7 @@ All three are complete in your materials—same quality, same facilitation guide
 **🔧 Implementation Support**
 
 - AI Platform Setup guides
-- **Low-Resource Implementation** (no AI? no problem)
+- Low-Resource Implementation (no AI? no problem)
 - CTE program alignment
 - Outreach/STEAM integration
 
@@ -677,7 +677,7 @@ And print-ready materials you can use Monday: evidence packets, role cards, scen
 | AI-Assisted Incident Response | Incident Responder (PR-CIR), SOC Analyst, Threat Intelligence |
 
 ::: {.fragment}
-**Implementation note:** Career connection handouts link activity tasks to specific KSAs. Ready for CTE pathway documentation.
+**Implementation note:** Career connection handouts link activity tasks to specific KSAs. Full competency mapping available in download—ready for CTE pathway and curriculum approval documentation.
 :::
 
 ::: {.notes}

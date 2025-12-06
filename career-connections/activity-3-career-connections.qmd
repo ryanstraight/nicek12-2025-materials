@@ -7,9 +7,9 @@ subtitle: "What You Did Today Connects to Real Careers"
 
 ## What You Did Today
 
-Today you designed governance policies for an AI security system. You decided what the AI should do automatically versus what requires human approval. You balanced security benefits against privacy concerns—and discovered there's no easy "right answer."
+Today you designed governance policies for an AI security system. You decided what the AI should do automatically versus what requires human approval. You balanced security benefits against privacy concerns and discovered that there is no easy "right answer."
 
-**This is exactly what cybersecurity policy professionals do when organizations deploy AI systems.**
+This is exactly what cybersecurity policy professionals do when organizations deploy AI systems.
 
 ## The NICE Framework Work Role: Cyber Policy & Strategy Planner
 
@@ -44,15 +44,30 @@ Today you designed governance policies for an AI security system. You decided wh
 
 ### Why This Matters for AI
 
-The decisions you made today—about what AI should do automatically versus ask humans first—are decisions organizations are making RIGHT NOW about AI systems.
+The decisions you made today about what AI should do automatically versus when to ask humans first are decisions that organizations are making right now about their AI systems.
 
-**There are no easy answers.**
+There are no easy answers. More automation means faster protection but also more mistakes. More human oversight means fewer errors but slower response times. Every choice involves trade-offs.
 
-- More automation = faster protection, but more mistakes
-- More human oversight = fewer errors, but slower response
-- Every choice involves trade-offs
+The skills you practiced today, including weighing options, considering multiple perspectives, and making decisions under uncertainty, are exactly what cybersecurity policy careers require.
 
-**The skills you practiced—weighing options, considering perspectives, making decisions under uncertainty—are exactly what cybersecurity policy careers require.**
+## How Policy Professionals Actually Govern AI
+
+::: {.callout-note}
+## Industry Reality Check
+
+Right now, organizations are wrestling with the exact questions you discussed today. Here is how policy professionals approach AI governance:
+
+| Your Activity | Real-World Practice |
+|---------------|---------------------|
+| "Should AI block automatically?" | Security teams create detection rules specifying when automated blocking is safe versus when human review is required |
+| "What about false positives?" | Incident metrics track false positive rates, and policies adjust thresholds based on business impact |
+| "Who decides when AI is wrong?" | Governance boards include security, legal, HR, and business stakeholders who review AI decisions quarterly |
+| "How do we balance speed vs. accuracy?" | Risk frameworks define acceptable automation levels based on data sensitivity and potential harm |
+
+The key insight is that there is no universal "right answer" to AI governance. Organizations develop policies through stakeholder negotiation, pilot testing, and continuous adjustment, which is exactly the process you practiced today.
+
+AI governance is one of the fastest-growing areas in cybersecurity. Companies need people who understand both the technical capabilities and the ethical implications.
+:::
 
 ## Next Steps
 

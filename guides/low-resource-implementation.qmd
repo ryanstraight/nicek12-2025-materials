@@ -190,19 +190,50 @@ Research on AI in education emphasizes that learning outcomes depend more on ped
 
 ### Security Detective Teams (Low-Resource)
 
-Pre-generate password analysis cards and have the teacher demonstrate one investigation path. Groups focus on human evidence analysis while sharing a common set of AI observations across all groups.
+For this activity, pre-generate password analysis cards and have the teacher demonstrate one investigation path. Groups focus on human evidence analysis while sharing a common set of AI observations across all groups.
+
+Ready-to-use printables for this activity include an Evidence Packet containing core investigation documents, AI Response Cards with pre-generated AI analysis for each evidence type, and a Student Worksheet providing structured investigation recording. These materials are available in the printables directory.
 
 ### AI-Assisted Incident Response (Low-Resource)
 
-Pre-generate threat assessment and recommendation cards. Groups draw cards at decision points, with emphasis on role-playing and team coordination. AI responses reveal gradually, functioning like game cards that add information as the activity progresses.
+For this activity, pre-generate threat assessment and recommendation cards. Groups draw cards at decision points, with emphasis on role-playing and team coordination. AI responses reveal gradually, functioning like game cards that add information as the activity progresses.
+
+Ready-to-use printables for this activity include Incident Briefings with scenario cards for each incident type, AI Response Cards containing threat analysis and recommendations, Role Cards defining team responsibilities, and Complication Cards introducing mid-activity escalations. These materials are available in the printables directory.
 
 ### Ethics in Automated Security (Low-Resource)
 
-Use the printed AI Perspective Cards already included in the activity materials. The teacher reads AI perspectives aloud. This activity works particularly well without live AI because it centers on discussion. Students can argue for the AI position as a role-play exercise.
+This activity works particularly well without live AI because it centers on discussion. Use the printed AI Perspective Cards already included in the activity materials, with the teacher reading AI perspectives aloud. Students can argue for the AI position as a role-play exercise.
+
+Ready-to-use printables for this activity include AI Perspective Cards providing AI voice statements for each policy question, Policy Scenario Cards with discussion prompts, and Stakeholder Cards offering role perspectives for debate. These materials are available in the printables directory.
+
+## Grade-Band Implementation Guidance
+
+Different strategies work better for different age groups. The following table summarizes recommended approaches based on developmental appropriateness:
+
+| Grade Band | Recommended Primary Strategy | Why It Works |
+|------------|------------------------------|--------------|
+| K-2 | Teacher as AI Voice | Young learners benefit from teacher mediation, and a memorable AI character builds engagement |
+| 3-5 | Pre-Generated Cards + Teacher Demo | Concrete materials support developing readers while teacher modeling demonstrates partnership |
+| 6-8 | Rotation Station | Developing independence, peer learning during wait time, and structured transitions |
+| 9-12 | Homework Prep + Class Synthesis | Students can manage independent AI interaction, and class time maximizes higher-order discussion |
+
+::: {.callout-tip}
+## Quick Decision Guide
+
+Use the following recommendations based on your available resources:
+
+If you have no devices at all, use Pre-Generated Response Cards combined with Teacher Role-Play.
+
+If you have one teacher device, use Teacher as AI Voice for grades K-5 or Think-Aloud Demo for grades 6-12.
+
+If you have a few student devices, use the Rotation Station approach with structured timing.
+
+If students have home access but not school access, use Homework Preparation combined with Class Synthesis.
+:::
 
 ## Remember
 
-The goal is not for every student to interact directly with AI. The goal is for every student to **understand human-AI partnership** in cybersecurity.
+The goal is not for every student to interact directly with AI. The goal is for every student to understand human-AI partnership in cybersecurity.
 
 Creative pedagogy achieves that goal effectively, even without the latest technology.
 

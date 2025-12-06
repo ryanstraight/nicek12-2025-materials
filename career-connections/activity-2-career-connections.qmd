@@ -7,9 +7,9 @@ subtitle: "What You Did Today Connects to Real Careers"
 
 ## What You Did Today
 
-Today you responded to a realistic security incident as part of a team. You took on a specific role—Incident Commander, SOC Analyst, Threat Intelligence Specialist, or Communications Coordinator. You worked with AI to analyze the situation and made decisions under pressure.
+Today you responded to a realistic security incident as part of a team. You took on a specific role, whether Incident Commander, SOC Analyst, Threat Intelligence Specialist, or Communications Coordinator. You worked with AI to analyze the situation and made decisions under pressure.
 
-**This is exactly what Security Operations Center teams do when real incidents happen.**
+This is exactly what Security Operations Center teams do when real incidents happen.
 
 ## The NICE Framework Work Role: Incident Responder
 
@@ -52,6 +52,23 @@ Today you responded to a realistic security incident as part of a team. You took
 | Communications Coordinator | Security Communications, PR |
 
 **Every role matters.** Real incident response requires diverse skills working together.
+
+## How Incident Response Teams Actually Work
+
+::: {.callout-note}
+## Industry Reality Check
+
+In real Security Operations Centers, incident response is not a conversation with AI. Rather, it is a coordinated workflow where AI tools support human decision-making:
+
+| Your Role Activity | Real-World Equivalent |
+|-------------------|----------------------|
+| Incident Commander made final calls | IR Managers coordinate response, authorize actions, and manage communication |
+| SOC Analyst queried AI for analysis | Analysts review automated alerts from SIEM/XDR platforms and investigate with forensic tools |
+| Threat Intelligence researched TTPs | Intel teams use MITRE ATT&CK, threat feeds, and AI-powered analysis to identify adversary patterns |
+| Communications notified stakeholders | Crisis communication follows pre-planned playbooks while legal teams review disclosures |
+
+The key insight is that real incidents happen fast. Teams practice with tabletop exercises like today's activity so that when real incidents occur, everyone knows their role. AI tools generate alerts and recommendations, but humans make the critical decisions about containment, communication, and recovery.
+:::
 
 ## Next Steps
 

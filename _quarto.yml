@@ -49,7 +49,16 @@ website:
           - text: "Low-Resource Implementation"
             href: guides/low-resource-implementation.qmd
       - text: Assessments
-        href: assessments/index.qmd
+        menu:
+          - text: "Overview"
+            href: assessments/index.qmd
+          - text: "---"
+          - text: "NICE Framework Alignment Matrix"
+            href: assessments/nice-alignment-matrix.qmd
+          - text: "Human-AI Collaboration Rubric"
+            href: assessments/human-ai-collaboration-rubric.qmd
+          - text: "Decision-Making Quality Rubric"
+            href: assessments/decision-making-quality-rubric.qmd
       - text: Career Connections
         href: career-connections/index.qmd
       - text: Resources
@@ -104,6 +113,15 @@ website:
             - activities/extensions/ai-failure-friday.qmd
             - activities/extensions/executive-briefing.qmd
 
+    - id: assessments
+      title: "Assessments"
+      style: "floating"
+      contents:
+        - assessments/index.qmd
+        - assessments/nice-alignment-matrix.qmd
+        - assessments/human-ai-collaboration-rubric.qmd
+        - assessments/decision-making-quality-rubric.qmd
+
 format:
   html:
     theme: [cosmo, ua-style.scss]
@@ -132,4 +150,8 @@ format:
     number-sections: false
 
 execute:
+  echo: false
+  message: false
+  warning: false
+  error: false
   freeze: auto

@@ -43,6 +43,70 @@ flowchart TD
 ```
 
 
+## Privacy and Consent Considerations
+
+### Before Using AI with Students
+
+::: {.callout-important}
+## Check Your District Policy First
+
+Many districts maintain specific policies governing AI tool usage in classrooms. Before proceeding with any AI platform, verify the following with your administration:
+
+- Your district's approved platforms list, as some districts have pre-approved specific AI tools
+- Any student data restrictions that prohibit student interaction with external AI services
+- Parental consent requirements mandated by district or state policies
+- Documentation requirements for compliance purposes
+:::
+
+### Age-Appropriate Platform Selection
+
+| Grade Band | Recommended Approach | Privacy Considerations |
+|------------|---------------------|------------------------|
+| K-5 | Teacher-operated AI only | No student accounts needed; teacher handles all AI interaction |
+| 6-8 | Supervised group accounts | Generic/shared logins if district policy permits; no individual student data |
+| 9-12 | Individual accounts possible | Requires consent process; verify platform terms of service compliance |
+
+### Data Minimization Practices
+
+Even when AI access is approved, follow these protective practices:
+
+**Never input:**
+
+- Real student names or identifying information
+- Actual school incident data
+- Personal details about students, staff, or families
+- Real passwords or security credentials
+
+**Always use:**
+
+- Fictional names provided in activity materials
+- Pre-designed scenarios (not real school situations)
+- Generic examples when demonstrating concepts
+
+**After each session:**
+
+- Clear conversation history when possible
+- Don't save conversations containing any identifiable information
+- Start fresh conversations for each class or group
+
+### Consent Documentation Template
+
+If your district requires parental notification for AI-assisted activities, consider including the following elements in your communication:
+
+Specify which AI tools will be used, including platform names and their general purpose in the activity. Describe what students will do, such as investigating fictional scenarios and analyzing evidence. Clarify what will not happen, emphasizing that no personal data will be entered and that younger students will not have individual accounts. Explain how student work will be documented, whether through screenshots of anonymous interactions or group summaries. Finally, describe opt-out alternatives so that students can participate using pre-generated AI response cards if needed.
+
+::: {.callout-tip}
+## Quick Compliance Check
+
+Before your first AI-assisted activity, confirm that you can answer yes to all of the following:
+
+- [ ] I have verified my district's AI policy
+- [ ] I have obtained appropriate consent where required
+- [ ] Students understand that they must not enter personal information
+- [ ] I have prepared low-resource alternatives for students who cannot use AI
+- [ ] I can document AI usage if administrators request verification
+:::
+
 ## Platform-Specific Setup
 
 ### ChatGPT (OpenAI)

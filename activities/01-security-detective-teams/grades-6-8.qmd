@@ -360,20 +360,22 @@ flowchart LR
 ### Whole-Class Discussion Questions
 
 ::: {.discussion-guide .glass-card}
-1. **Discovery Questions**
-   - What insights emerged that NEITHER human nor AI would have found alone?
-   - What did humans contribute that AI couldn't? What did AI contribute that humans couldn't?
-   - How did the partnership create something new—not just a combination of parts?
 
-2. **Work Role Connections**
-   - How would a real SOC Analyst partner with AI in their daily work?
-   - What unique human capabilities matter in cybersecurity? What unique AI capabilities matter?
-   - Which NICE Framework Work Roles interest you after this activity?
+**Discovery Questions**
 
-3. **Critical Thinking**
-   - Who bears responsibility when a human-AI team makes a mistake?
-   - How do we build trust in our AI partners while maintaining accountability?
-   - What ethical considerations arise when humans and AI share decision-making?
+Begin the debrief by exploring what students learned about human-AI collaboration. Ask what insights emerged that neither human nor AI would have found alone. Encourage students to articulate what humans contributed that AI could not and vice versa. Explore how the partnership created something new rather than simply combining separate contributions.
+
+**Work Role Connections**
+
+Help students connect their experience to real cybersecurity careers. Discuss how a real SOC Analyst would partner with AI in their daily work. Explore what unique human capabilities matter in cybersecurity and what unique AI capabilities prove most valuable. Ask which NICE Framework Work Roles interest students after completing this activity.
+
+**Critical Thinking**
+
+Probe deeper into the complexities of human-AI collaboration. Ask who bears responsibility when a human-AI team makes a mistake. Discuss how professionals build trust in their AI partners while maintaining accountability. Explore the ethical considerations that arise when humans and AI share decision-making responsibilities. Ask whether AI ever suggested something that seemed wrong or incomplete, and how students handled that situation. Consider what would happen if organizations relied only on AI without human review.
+
+**Real-World Application**
+
+Connect the activity to authentic professional practice. Ask how real SOC analysts decide when to trust an AI alert versus investigate further. Discuss when it might be appropriate to override an AI recommendation and when one should trust it. Explore what skills students need to develop to become effective human partners to AI systems.
 :::
 
 ### Assessment Rubric

@@ -7,9 +7,9 @@ subtitle: "What You Did Today Connects to Real Careers"
 
 ## What You Did Today
 
-Today you investigated a security incident by examining login patterns, password weaknesses, and suspicious activity. You worked with an AI partner to spot patterns—and discovered that humans and AI together find things neither would catch alone.
+Today you investigated a security incident by examining login patterns, password weaknesses, and suspicious activity. You worked with an AI partner to identify patterns and discovered that humans and AI working together can find things that neither would catch alone.
 
-**This is exactly what cybersecurity professionals do every day.**
+This is exactly what cybersecurity professionals do every day.
 
 ## The NICE Framework Work Role: Cyber Defense Analyst
 
@@ -38,6 +38,23 @@ Today you investigated a security incident by examining login patterns, password
 **Vulnerability Analyst**: Identifies weaknesses in systems before attackers can exploit them.
 
 **Threat Intelligence Analyst**: Researches attack patterns and threat actors to predict future risks.
+
+## How Professionals Actually Use AI Today
+
+::: {.callout-note}
+## Industry Reality Check
+
+In real Security Operations Centers, analysts use AI-powered tools such as Splunk SOAR, Microsoft Sentinel, and CrowdStrike Falcon for automated threat detection. Here is how today's activity connects to real workflows:
+
+| What You Practiced | What Happens in Real SOCs |
+|--------------------|---------------------------|
+| AI flagged the password pattern | SIEM systems generate automated alerts when they detect anomalies |
+| You verified AI findings against original data | Analysts confirm whether alerts are true positives or false alarms |
+| You added context AI could not see | Analysts apply institutional knowledge, such as recognizing a scheduled maintenance window |
+| You made the final recommendation | Analysts decide whether to escalate, contain, or close the incident |
+
+The key insight here is that professional analysts do not interact with AI through conversation the way you did today, but the core skill remains the same: knowing when to trust automated findings and when human judgment is essential.
+:::
 
 ## Next Steps
 

@@ -1,0 +1,365 @@
+---
+title: "NICE Framework Alignment Matrix"
+subtitle: "Competency Mapping for Curriculum Approval"
+description: "Detailed alignment between activities and NIST SP 800-181 Rev 1 (NICE Framework) competencies"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  pdf:
+    toc: true
+  docx:
+    toc: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(DT)
+
+# Activity-to-Work-Role mapping
+activity_roles <- tibble::tribble(
+  ~Activity, ~`Primary Focus`, ~`Related Work Roles`, ~`Key Competency Areas`,
+  "Security Detective Teams", "Threat detection & analysis", "Cyber Defense Analyst, Vulnerability Assessment Analyst", "Log analysis, pattern recognition, anomaly identification",
+  "Ethics in Automated Security", "Policy & governance", "Cyber Policy Planner, Privacy Officer", "Policy development, stakeholder analysis, risk assessment",
+  "AI-Assisted Incident Response", "Incident handling", "Incident Responder, Cyber Defense Analyst", "Incident coordination, response procedures, communication"
+)
+
+# Tasks data
+tasks <- tibble::tribble(
+  ~Code, ~Statement, ~Connection, ~Activity,
+  "T1084", "Identify anomalous network activity", "Students analyze system logs to identify unusual patterns that may indicate security incidents", 1,
+  "T1118", "Identify vulnerabilities", "Students discover weaknesses in security practices (e.g., password reuse patterns)", 1,
+  "T1119", "Recommend vulnerability remediation strategies", "Students propose solutions after identifying security gaps", 1,
+  "T1307", "Develop cybersecurity policy recommendations", "Students create policies balancing security with privacy/fairness", 2,
+  "T1308", "Coordinate cybersecurity policy review and approval processes", "Students consider multiple stakeholder perspectives in policy design", 2,
+  "T1605", "Advise management, staff, and users on cybersecurity policy", "Students present and defend policy recommendations", 2,
+  "T1300", "Report cybersecurity incidents", "Students document and communicate incident findings", 3,
+  "T1310", "Implement protective or corrective measures when a cybersecurity incident or vulnerability is discovered", "Students make decisions about containment and remediation", 3,
+  "T1221", "Disseminate incident and other Computer Network Defense (CND) information", "Students coordinate information sharing across team roles", 3
+)
+
+# Knowledge data
+knowledge <- tibble::tribble(
+  ~Code, ~Statement, ~Connection, ~Activity,
+  "K0682", "Knowledge of cybersecurity threats", "Students learn to recognize indicators of potential threats in log data", 1,
+  "K0683", "Knowledge of cybersecurity vulnerabilities", "Students identify common vulnerability patterns (credential exposure, access anomalies)", 1,
+  "K0684", "Knowledge of cybersecurity threat characteristics", "Students distinguish between normal and suspicious activity patterns", 1,
+  "K0751", "Knowledge of system threats", "Students understand how attackers exploit system weaknesses", 1,
+  "K0752", "Knowledge of system vulnerabilities", "Students recognize technical and human factors that create vulnerabilities", 1,
+  "K0659", "Knowledge of information privacy technologies", "Students learn how AI systems handle personal data", 2,
+  "K0736", "Knowledge of information technology (IT) security principles and practices", "Students apply security principles to policy decisions", 2,
+  "K0682", "Knowledge of cybersecurity threats", "Students understand threats that automated systems address", 2,
+  "K0683", "Knowledge of cybersecurity vulnerabilities", "Students recognize how policies can create or prevent vulnerabilities", 2,
+  "K0724", "Knowledge of incident response principles and practices", "Students learn structured approach to incident handling", 3,
+  "K0725", "Knowledge of incident response tools and techniques", "Students use AI as an incident response tool", 3,
+  "K0726", "Knowledge of incident handling tools and techniques", "Students apply containment and eradication concepts", 3,
+  "K0682", "Knowledge of cybersecurity threats", "Students identify threat actors and attack vectors", 3,
+  "K0684", "Knowledge of cybersecurity threat characteristics", "Students understand attacker tactics, techniques, and procedures", 3
+)
+
+# Skills data
+skills <- tibble::tribble(
+  ~Code, ~Statement, ~Connection, ~Activity,
+  "S0544", "Skill in recognizing vulnerabilities", "Core activity: students identify security weaknesses in evidence documents", 1,
+  "S0800", "Skill in analyzing organizational patterns and relationships", "Students correlate data across multiple sources to build complete picture", 1,
+  "S0874", "Skill in performing network traffic analysis", "Students analyze access logs and activity patterns", 1,
+  "S0540", "Skill in identifying network threats", "Students determine which anomalies represent genuine security concerns", 1,
+  "S0878", "Skill in performing risk analysis", "Students weigh security benefits against privacy/fairness risks", 2,
+  "S0800", "Skill in analyzing organizational patterns and relationships", "Students consider how policies affect different stakeholder groups", 2,
+  "S0850", "Skill in performing cost/benefit analysis", "Students evaluate trade-offs in automated security decisions", 2,
+  "S0878", "Skill in performing risk analysis", "Students assess incident severity and business impact", 3,
+  "S0540", "Skill in identifying network threats", "Students determine scope and nature of security incidents", 3,
+  "S0800", "Skill in analyzing organizational patterns and relationships", "Students coordinate team response across multiple roles", 3
+)
+
+# Grade-band progression
+grade_bands <- tibble::tribble(
+  ~`Grade Band`, ~`Competency Focus`, ~`Cognitive Level`, ~`Activity Adaptation`,
+  "K-2", "Awareness", "Recognition", "Identify \"helpers\" vs. \"bad actors\" in simple scenarios",
+  "3-5", "Understanding", "Comprehension", "Explain why patterns matter and what makes activity suspicious",
+  "6-8", "Application", "Analysis", "Analyze evidence with AI partnership, correlate multiple data sources",
+  "9-12", "Evaluation", "Synthesis", "Critique AI recommendations, design policies, lead incident response"
+)
+
+# Cross-cutting: Human-AI Collaboration
+human_ai_collab <- tibble::tribble(
+  ~Competency, ~`NICE Alignment`, ~`Development Across Activities`,
+  "Critical evaluation of AI outputs", "S0544, S0800", "All activities require students to verify AI findings",
+  "Complementary task allocation", "T1084, T1118, T1310", "Students learn which tasks benefit from AI vs. human analysis",
+  "Contextual judgment", "K0682, K0684", "Students provide context that AI systems cannot access"
+)
+
+# Cross-cutting: Professional Communication
+prof_comm <- tibble::tribble(
+  ~Competency, ~`NICE Alignment`, ~`Development Across Activities`,
+  "Technical documentation", "T1300, T1221", "Students document findings and decisions",
+  "Stakeholder communication", "T1605, T1308", "Students present findings to different audiences",
+  "Team coordination", "T1310, T1221", "Students work in roles with distinct responsibilities"
+)
+
+# Helper function for consistent table formatting
+# type: "tks" for Task/Knowledge/Skill tables (narrow Code column)
+#       "overview" for Quick Reference and similar (balanced columns)
+#       "crosscut" for Human-AI Collaboration and Professional Communication
+format_tks_table <- function(df, type = "tks") {
+  if (knitr::is_latex_output()) {
+    tbl <- df |>
+      kable(format = "latex", booktabs = TRUE)
+
+    if (type == "tks") {
+      tbl |>
+        kableExtra::column_spec(1, width = "1.2cm") |>
+        kableExtra::column_spec(2, width = "5cm") |>
+        kableExtra::column_spec(3, width = "7cm")
+    } else if (type == "overview") {
+      tbl |>
+        kableExtra::column_spec(1, width = "3cm") |>
+        kableExtra::column_spec(2, width = "2.5cm") |>
+        kableExtra::column_spec(3, width = "4cm") |>
+        kableExtra::column_spec(4, width = "4cm")
+    } else if (type == "crosscut") {
+      tbl |>
+        kableExtra::column_spec(1, width = "4cm") |>
+        kableExtra::column_spec(2, width = "3cm") |>
+        kableExtra::column_spec(3, width = "6cm")
+    } else if (type == "grade") {
+      tbl |>
+        kableExtra::column_spec(1, width = "1.5cm") |>
+        kableExtra::column_spec(2, width = "2.5cm") |>
+        kableExtra::column_spec(3, width = "2.5cm") |>
+        kableExtra::column_spec(4, width = "6cm")
+    } else {
+      tbl
+    }
+  } else if (knitr::is_html_output()) {
+    df |>
+      datatable(
+        options = list(
+          pageLength = 10,
+          dom = "ft",
+          ordering = TRUE
+        ),
+        rownames = FALSE,
+        class = "display compact"
+      )
+  } else {
+    df |>
+      kable()
+  }
+}
+```
+
+## Overview
+
+This document provides a detailed mapping between our Human-AI Partnership activities and the NICE Framework (NIST SP 800-181 Rev 1, Version 2.0.0) Task, Knowledge, and Skill (TKS) statements. These alignments support curriculum approval processes for K-12 cybersecurity education programs and demonstrate how classroom activities develop authentic workforce competencies.
+
+::: {.callout-note}
+## For Curriculum Administrators
+This matrix demonstrates standards alignment for state/district cybersecurity curriculum approval. All TKS codes reference the official NICE Framework available at [niccs.cisa.gov](https://niccs.cisa.gov/workforce-development/nice-framework).
+:::
+
+## Quick Reference: Activity-to-Work-Role Mapping
+
+```{r}
+#| label: activity-roles
+#| echo: false
+
+activity_roles |>
+  format_tks_table(type = "overview")
+```
+
+## Activity 1: Security Detective Teams
+
+### Competency Alignment
+
+Students practice foundational skills aligned with **Cyber Defense Analysis** and **Vulnerability Assessment** work areas.
+
+#### Tasks Practiced
+
+```{r}
+#| label: activity1-tasks
+#| echo: false
+
+tasks |>
+  filter(Activity == 1) |>
+  select(Code, `Task Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Knowledge Developed
+
+```{r}
+#| label: activity1-knowledge
+#| echo: false
+
+knowledge |>
+  filter(Activity == 1) |>
+  select(Code, `Knowledge Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Skills Practiced
+
+```{r}
+#| label: activity1-skills
+#| echo: false
+
+skills |>
+  filter(Activity == 1) |>
+  select(Code, `Skill Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+## Activity 2: Ethics in Automated Security
+
+### Competency Alignment
+
+Students practice foundational skills aligned with **Cybersecurity Policy** and **Privacy** work areas.
+
+#### Tasks Practiced
+
+```{r}
+#| label: activity2-tasks
+#| echo: false
+
+tasks |>
+  filter(Activity == 2) |>
+  select(Code, `Task Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Knowledge Developed
+
+```{r}
+#| label: activity2-knowledge
+#| echo: false
+
+knowledge |>
+  filter(Activity == 2) |>
+  select(Code, `Knowledge Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Skills Practiced
+
+```{r}
+#| label: activity2-skills
+#| echo: false
+
+skills |>
+  filter(Activity == 2) |>
+  select(Code, `Skill Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+## Activity 3: AI-Assisted Incident Response
+
+### Competency Alignment
+
+Students practice foundational skills aligned with **Incident Response** and **Cyber Defense** work areas.
+
+#### Tasks Practiced
+
+```{r}
+#| label: activity3-tasks
+#| echo: false
+
+tasks |>
+  filter(Activity == 3) |>
+  select(Code, `Task Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Knowledge Developed
+
+```{r}
+#| label: activity3-knowledge
+#| echo: false
+
+knowledge |>
+  filter(Activity == 3) |>
+  select(Code, `Knowledge Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+#### Skills Practiced
+
+```{r}
+#| label: activity3-skills
+#| echo: false
+
+skills |>
+  filter(Activity == 3) |>
+  select(Code, `Skill Statement` = Statement, `Activity Connection` = Connection) |>
+  arrange(Code) |>
+  format_tks_table()
+```
+
+## Grade-Band Progression
+
+Each activity introduces NICE Framework competencies at developmentally appropriate levels, building complexity as students advance through grade bands:
+
+```{r}
+#| label: grade-bands
+#| echo: false
+
+grade_bands |>
+  format_tks_table(type = "grade")
+```
+
+## Cross-Cutting Competencies
+
+All three activities develop these foundational competencies:
+
+### Human-AI Collaboration Skills
+
+```{r}
+#| label: human-ai-collab
+#| echo: false
+
+human_ai_collab |>
+  format_tks_table(type = "crosscut")
+```
+
+### Professional Communication
+
+```{r}
+#| label: prof-comm
+#| echo: false
+
+prof_comm |>
+  format_tks_table(type = "crosscut")
+```
+
+## Using This Matrix
+
+### For Curriculum Approval
+
+When preparing curriculum approval documentation, reference specific TKS codes to demonstrate standards alignment. Map activity learning objectives to corresponding NICE competencies, and document how grade-band progressions build systematically toward workforce readiness.
+
+### For Assessment Design
+
+Use TKS statements to create competency-based rubric criteria that align assessment evidence with specific skill demonstrations. This approach enables educators to track student progression across competency areas over time.
+
+### For Career Pathway Planning
+
+Connect classroom activities to authentic workforce competencies by introducing students to cybersecurity career language. These connections build awareness of diverse cybersecurity roles and help students envision potential career pathways.
+
+## References
+
+- NIST Special Publication 800-181 Revision 1: Workforce Framework for Cybersecurity (NICE Framework)
+- NICE Framework Version 2.0.0 (September 2024)
+- Available at: [https://niccs.cisa.gov/workforce-development/nice-framework](https://niccs.cisa.gov/workforce-development/nice-framework)
