@@ -146,10 +146,30 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../assessments/index.html"> 
-<span class="menu-text">Assessments</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-assessments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Assessments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-assessments">    
+        <li>
+    <a class="dropdown-item" href="../assessments/index.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../assessments/nice-alignment-matrix.html">
+ <span class="dropdown-text">NICE Framework Alignment Matrix</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assessments/human-ai-collaboration-rubric.html">
+ <span class="dropdown-text">Human-AI Collaboration Rubric</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assessments/decision-making-quality-rubric.html">
+ <span class="dropdown-text">Decision-Making Quality Rubric</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../career-connections/index.html"> 
 <span class="menu-text">Career Connections</span></a>
@@ -199,10 +219,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#key-tasks-you-practiced" id="toc-key-tasks-you-practiced" class="nav-link" data-scroll-target="#key-tasks-you-practiced">Key Tasks You Practiced</a></li>
   </ul></li>
   <li><a href="#related-careers" id="toc-related-careers" class="nav-link" data-scroll-target="#related-careers">Related Careers</a></li>
+  <li><a href="#how-professionals-actually-use-ai-today" id="toc-how-professionals-actually-use-ai-today" class="nav-link" data-scroll-target="#how-professionals-actually-use-ai-today">How Professionals Actually Use AI Today</a></li>
   <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/blob/main/career-connections/activity-1-career-connections.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="activity-1-career-connections.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="activity-1-career-connections.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="activity-1-career-connections.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="activity-1-career-connections.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -231,8 +252,8 @@ ul.task-list li input[type="checkbox"] {
 <h1>You just analyzed security data like a <strong>Cyber Defense Analyst</strong>!</h1>
 <section id="what-you-did-today" class="level2">
 <h2 class="anchored" data-anchor-id="what-you-did-today">What You Did Today</h2>
-<p>Today you investigated a security incident by examining login patterns, password weaknesses, and suspicious activity. You worked with an AI partner to spot patterns—and discovered that humans and AI together find things neither would catch alone.</p>
-<p><strong>This is exactly what cybersecurity professionals do every day.</strong></p>
+<p>Today you investigated a security incident by examining login patterns, password weaknesses, and suspicious activity. You worked with an AI partner to identify patterns and discovered that humans and AI working together can find things that neither would catch alone.</p>
+<p>This is exactly what cybersecurity professionals do every day.</p>
 </section>
 <section id="the-nice-framework-work-role-cyber-defense-analyst" class="level2">
 <h2 class="anchored" data-anchor-id="the-nice-framework-work-role-cyber-defense-analyst">The NICE Framework Work Role: Cyber Defense Analyst</h2>
@@ -281,6 +302,53 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Digital Forensics Analyst</strong>: Examines digital evidence after incidents to understand exactly what happened.</p>
 <p><strong>Vulnerability Analyst</strong>: Identifies weaknesses in systems before attackers can exploit them.</p>
 <p><strong>Threat Intelligence Analyst</strong>: Researches attack patterns and threat actors to predict future risks.</p>
+</section>
+<section id="how-professionals-actually-use-ai-today" class="level2">
+<h2 class="anchored" data-anchor-id="how-professionals-actually-use-ai-today">How Professionals Actually Use AI Today</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Industry Reality Check
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In real Security Operations Centers, analysts use AI-powered tools such as Splunk SOAR, Microsoft Sentinel, and CrowdStrike Falcon for automated threat detection. Here is how today’s activity connects to real workflows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>What You Practiced</th>
+<th>What Happens in Real SOCs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI flagged the password pattern</td>
+<td>SIEM systems generate automated alerts when they detect anomalies</td>
+</tr>
+<tr class="even">
+<td>You verified AI findings against original data</td>
+<td>Analysts confirm whether alerts are true positives or false alarms</td>
+</tr>
+<tr class="odd">
+<td>You added context AI could not see</td>
+<td>Analysts apply institutional knowledge, such as recognizing a scheduled maintenance window</td>
+</tr>
+<tr class="even">
+<td>You made the final recommendation</td>
+<td>Analysts decide whether to escalate, contain, or close the incident</td>
+</tr>
+</tbody>
+</table>
+<p>The key insight here is that professional analysts do not interact with AI through conversation the way you did today, but the core skill remains the same: knowing when to trust automated findings and when human judgment is essential.</p>
+</div>
+</div>
 </section>
 <section id="next-steps" class="level2">
 <h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
@@ -717,7 +785,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/blob/main/career-connections/activity-1-career-connections.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
 <p>Made with ❤️ and 🤖 and <a href="https://quarto.org/">Quarto</a></p>
 </div>

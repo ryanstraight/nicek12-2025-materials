@@ -146,10 +146,30 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../assessments/index.html"> 
-<span class="menu-text">Assessments</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-assessments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Assessments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-assessments">    
+        <li>
+    <a class="dropdown-item" href="../assessments/index.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../assessments/nice-alignment-matrix.html">
+ <span class="dropdown-text">NICE Framework Alignment Matrix</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assessments/human-ai-collaboration-rubric.html">
+ <span class="dropdown-text">Human-AI Collaboration Rubric</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../assessments/decision-making-quality-rubric.html">
+ <span class="dropdown-text">Decision-Making Quality Rubric</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../career-connections/index.html"> 
 <span class="menu-text">Career Connections</span></a>
@@ -203,10 +223,11 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#your-team-roles-real-career-paths" id="toc-your-team-roles-real-career-paths" class="nav-link" data-scroll-target="#your-team-roles-real-career-paths">Your Team Roles → Real Career Paths</a></li>
   </ul></li>
+  <li><a href="#how-incident-response-teams-actually-work" id="toc-how-incident-response-teams-actually-work" class="nav-link" data-scroll-target="#how-incident-response-teams-actually-work">How Incident Response Teams Actually Work</a></li>
   <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/blob/main/career-connections/activity-2-career-connections.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="activity-2-career-connections.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="activity-2-career-connections.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="activity-2-career-connections.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="activity-2-career-connections.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -235,8 +256,8 @@ ul.task-list li input[type="checkbox"] {
 <h1>You just coordinated incident response like a <strong>SOC Analyst</strong>!</h1>
 <section id="what-you-did-today" class="level2">
 <h2 class="anchored" data-anchor-id="what-you-did-today">What You Did Today</h2>
-<p>Today you responded to a realistic security incident as part of a team. You took on a specific role—Incident Commander, SOC Analyst, Threat Intelligence Specialist, or Communications Coordinator. You worked with AI to analyze the situation and made decisions under pressure.</p>
-<p><strong>This is exactly what Security Operations Center teams do when real incidents happen.</strong></p>
+<p>Today you responded to a realistic security incident as part of a team. You took on a specific role, whether Incident Commander, SOC Analyst, Threat Intelligence Specialist, or Communications Coordinator. You worked with AI to analyze the situation and made decisions under pressure.</p>
+<p>This is exactly what Security Operations Center teams do when real incidents happen.</p>
 </section>
 <section id="the-nice-framework-work-role-incident-responder" class="level2">
 <h2 class="anchored" data-anchor-id="the-nice-framework-work-role-incident-responder">The NICE Framework Work Role: Incident Responder</h2>
@@ -322,6 +343,53 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p><strong>Every role matters.</strong> Real incident response requires diverse skills working together.</p>
 </section>
+</section>
+<section id="how-incident-response-teams-actually-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-incident-response-teams-actually-work">How Incident Response Teams Actually Work</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Industry Reality Check
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In real Security Operations Centers, incident response is not a conversation with AI. Rather, it is a coordinated workflow where AI tools support human decision-making:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Your Role Activity</th>
+<th>Real-World Equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Incident Commander made final calls</td>
+<td>IR Managers coordinate response, authorize actions, and manage communication</td>
+</tr>
+<tr class="even">
+<td>SOC Analyst queried AI for analysis</td>
+<td>Analysts review automated alerts from SIEM/XDR platforms and investigate with forensic tools</td>
+</tr>
+<tr class="odd">
+<td>Threat Intelligence researched TTPs</td>
+<td>Intel teams use MITRE ATT&amp;CK, threat feeds, and AI-powered analysis to identify adversary patterns</td>
+</tr>
+<tr class="even">
+<td>Communications notified stakeholders</td>
+<td>Crisis communication follows pre-planned playbooks while legal teams review disclosures</td>
+</tr>
+</tbody>
+</table>
+<p>The key insight is that real incidents happen fast. Teams practice with tabletop exercises like today’s activity so that when real incidents occur, everyone knows their role. AI tools generate alerts and recommendations, but humans make the critical decisions about containment, communication, and recovery.</p>
+</div>
+</div>
 </section>
 <section id="next-steps" class="level2">
 <h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
@@ -758,7 +826,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/blob/main/career-connections/activity-2-career-connections.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ryanstraight/nicek12-2025-materials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
 <p>Made with ❤️ and 🤖 and <a href="https://quarto.org/">Quarto</a></p>
 </div>

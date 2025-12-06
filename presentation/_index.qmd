@@ -1,8 +1,8 @@
 ---
 title: |
-    ![](media/banner.png){width=65%}
+    ![](media/banner.png){width=65%}<br />
+    **TRUE TEAMWORK**<br />
 subtitle: |
-    [**TRUE TEAMWORK**]{style="font-size: 2.5em;"}<br />
     Building Human-AI Partnerships<br />
     for Tomorrow's Cyber Challenges<br /><br />
 
