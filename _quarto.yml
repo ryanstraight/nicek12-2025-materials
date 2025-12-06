@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
   render:
+    - "**/*.qmd"
     - "!presentation/*.qmd"
   resources:
     - presentation/**
@@ -14,7 +15,7 @@ website:
   description: "K-12 cybersecurity education materials from NICE K12 2025 Conference"
   site-url: https://ryanstraight.github.io/nicek12-2025-materials
   repo-url: https://github.com/ryanstraight/nicek12-2025-materials
-  repo-actions: [source, issue]
+  #repo-actions: [source, issue]
 
   navbar:
     background: "#0C234B"

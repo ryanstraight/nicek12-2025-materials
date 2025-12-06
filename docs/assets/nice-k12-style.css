@@ -1,0 +1,1119 @@
+/* NICE K12 2025 - Modern Educational Materials Stylesheet */
+/* Combines UA Branding with 2026 UI Aesthetic */
+/* Design: Glassmorphism + Neumorphism 2.0 + Bento Grid + Expressive Minimalism */
+
+/*-- scss:defaults --*/
+
+/* ============================
+   UA BRAND TYPOGRAPHY
+   ============================ */
+@import url('https://use.typekit.net/vem3yjd.css');
+
+:root {
+  /* UA Brand Colors */
+  --ua-blue: #0C234B;
+  --ua-red: #AB0520;
+  --ua-sky: #81D3EB;
+  --ua-sand: #E2D7BF;
+  --ua-bloom: #EF4056;
+  --ua-midnight: #001C48;
+  --ua-silver: #9EABAE;
+
+  /* Modern Neutrals */
+  --neutral-50: #FAFAFA;
+  --neutral-100: #F5F5F5;
+  --neutral-200: #E5E5E5;
+  --neutral-300: #D4D4D4;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+
+  /* Neumorphism 2.0 */
+  --neu-light: #ffffff;
+  --neu-dark: #d1d9e6;
+  --neu-shadow-light: 20px 20px 60px #d1d9e6, -20px -20px 60px #ffffff;
+  --neu-shadow-inset: inset 8px 8px 16px #d1d9e6, inset -8px -8px 16px #ffffff;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+/*-- scss:rules --*/
+
+/* ============================
+   BASE TYPOGRAPHY
+   ============================ */
+body {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--neutral-800);
+  background: linear-gradient(135deg, var(--neutral-50) 0%, var(--neutral-100) 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'proxima-nova-extra-condensed', 'proxima-nova', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ua-blue);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--ua-red);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Accent typography */
+.subtitle {
+  font-family: 'garamond-premier-pro', Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--neutral-700);
+  margin-bottom: var(--space-md);
+}
+
+/* ============================
+   GLASSMORPHIC CARDS
+   ============================ */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-md);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.2);
+}
+
+/* ============================
+   NEUMORPHIC ELEMENTS
+   ============================ */
+.neu-card {
+  background: #ecf0f3;
+  border-radius: var(--radius-lg);
+  box-shadow: 12px 12px 24px #d1d9e6, -12px -12px 24px #ffffff;
+  padding: var(--space-lg);
+  margin-bottom: var(--space-md);
+  transition: all 0.3s ease;
+}
+
+.neu-card:hover {
+  box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+}
+
+.neu-button {
+  background: #ecf0f3;
+  border: none;
+  border-radius: var(--radius-md);
+  box-shadow: 6px 6px 12px #d1d9e6, -6px -6px 12px #ffffff;
+  padding: var(--space-sm) var(--space-lg);
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 600;
+  color: var(--ua-blue);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.neu-button:active {
+  box-shadow: inset 4px 4px 8px #d1d9e6, inset -4px -4px 8px #ffffff;
+}
+
+/* ============================
+   BENTO GRID LAYOUTS
+   ============================ */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: var(--space-md);
+  margin: var(--space-lg) 0;
+}
+
+.bento-item {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.bento-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.bento-item-large {
+  grid-column: span 2;
+}
+
+.bento-item-tall {
+  grid-row: span 2;
+}
+
+/* ============================
+   ACTIVITY COMPONENTS
+   ============================ */
+/* Activity header - card style for HTML documents */
+.activity-header {
+  background: linear-gradient(135deg, var(--ua-blue) 0%, var(--ua-midnight) 100%);
+  color: white;
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-lg);
+  box-shadow: 0 8px 24px rgba(12, 35, 75, 0.3);
+}
+
+/* Activity header - full-bleed for RevealJS slides */
+.reveal .activity-header,
+.reveal section.activity-header {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.activity-header h1 {
+  color: white;
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.activity-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.meta-badge {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs) var(--space-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.learning-objective {
+  background: linear-gradient(135deg, var(--ua-sky) 0%, #B3E5FC 100%);
+  border-left: 4px solid var(--ua-blue);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-md) 0;
+  color: var(--neutral-900); /* WCAG AA contrast fix */
+}
+
+.learning-objective::before {
+  content: "🎯 ";
+  font-size: 1.5rem;
+  margin-right: var(--space-xs);
+}
+
+.materials-list {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+}
+
+.materials-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.materials-list li {
+  padding: var(--space-xs) 0;
+  padding-left: var(--space-lg);
+  position: relative;
+}
+
+.materials-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--ua-red);
+  font-weight: bold;
+}
+
+/* ============================
+   CALLOUT BOXES
+   ============================ */
+.callout {
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-md) 0;
+  border-left: 4px solid;
+}
+
+.callout-tip {
+  background: #E8F5E9;
+  border-color: #4CAF50;
+}
+
+.callout-warning {
+  background: #FFF3E0;
+  border-color: #FF9800;
+}
+
+.callout-important {
+  background: #FFEBEE;
+  border-color: var(--ua-red);
+}
+
+.callout-note {
+  background: #E3F2FD;
+  border-color: var(--ua-blue);
+  color: var(--neutral-900); /* WCAG AA contrast fix */
+}
+
+/* ============================
+   TIMELINE/STEPS
+   ============================ */
+.steps-container {
+  position: relative;
+  padding-left: var(--space-xl);
+  margin: var(--space-lg) 0;
+}
+
+.step {
+  position: relative;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  border-left: 2px solid var(--neutral-200);
+}
+
+.step:last-child {
+  border-left: none;
+}
+
+.step-number {
+  position: absolute;
+  left: calc(-1 * var(--space-xl) - 12px);
+  width: 32px;
+  height: 32px;
+  background: var(--ua-red);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(171, 5, 32, 0.3);
+}
+
+.step-content {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================
+   NICE FRAMEWORK BADGES
+   ============================ */
+.nice-framework-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--ua-blue) 0%, var(--ua-red) 100%);
+  color: white;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-xl);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: var(--space-xs);
+  box-shadow: 0 4px 12px rgba(12, 35, 75, 0.2);
+}
+
+.cyber-org-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #00BCD4 0%, #0097A7 100%);
+  color: white;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-xl);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: var(--space-xs);
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.2);
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+   ============================ */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bento-item-large,
+  .bento-item-tall {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .activity-meta {
+    flex-direction: column;
+  }
+}
+
+/* ============================
+   PRINT STYLES
+   ============================ */
+@media print {
+  body {
+    background: white;
+  }
+
+  .glass-card,
+  .neu-card {
+    background: white;
+    box-shadow: none;
+    border: 1px solid var(--neutral-300);
+  }
+
+  .activity-header {
+    background: var(--ua-blue);
+    color: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Hide persistent QR code overlay in print */
+  .reveal::after {
+    display: none !important;
+  }
+
+  /* Page break controls for better printing */
+  .bento-item,
+  .glass-card,
+  .neu-card,
+  .scenario-box,
+  .story-box,
+  .evidence-card,
+  .ai-response-card,
+  .teaching-points,
+  .worksheet-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Ensure good contrast in print */
+  .learning-objective,
+  .callout-note,
+  .ai-response-card,
+  .scenario-box,
+  .story-box,
+  .integration-ideas {
+    background: white !important;
+    border: 1px solid var(--neutral-300);
+  }
+}
+
+/* ============================
+   POSTHUMAN PRINCIPLE SLIDES
+   (Imported from CISSE 2025 presentation for split-screen reveals)
+   ============================ */
+
+/* Principle List Styling */
+.reveal .principle-list {
+  font-size: 1.5em;
+  line-height: 1.6;
+  color: var(--ua-blue);
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.reveal .principle-list li {
+  margin-bottom: 0.7em;
+}
+
+.reveal .principle-list strong {
+  color: var(--ua-red);
+  font-weight: 700;
+}
+
+/* Split-Screen Gradient Reveal for Principle Slides */
+.principle-slide .columns.split-reveal {
+  height: 45vh;
+  margin: 0;
+  gap: 0;
+}
+
+/* Force 50/50 width distribution with box-sizing fix */
+.principle-slide .split-reveal .column.negative-side,
+.principle-slide .split-reveal .column.positive-side {
+  flex: 0 0 50% !important;
+  width: 50% !important;
+  max-width: 50% !important;
+  box-sizing: border-box !important;
+}
+
+.principle-slide .column.negative-side {
+  background: linear-gradient(135deg, var(--ua-blue) 0%, #05142d 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  position: relative;
+}
+
+.principle-slide .negative-side::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--ua-red);
+}
+
+.principle-slide .column.positive-side {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7em;
+}
+
+.principle-slide .negative-side .r-fit-text {
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.principle-slide .positive-side .r-fit-text {
+  color: var(--ua-red);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.principle-slide .small-label {
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  opacity: 0.7;
+}
+
+.principle-slide .negative-side .small-label {
+  color: #FFFFFF;
+}
+
+.principle-slide .positive-side .small-label {
+  color: var(--ua-blue);
+}
+
+.principle-slide .subtext {
+  text-align: center;
+  font-size: 1.1em;
+  color: var(--neutral-700);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* RevealJS Link Styling */
+.reveal a {
+  color: var(--ua-blue);
+}
+
+.reveal a:hover {
+  color: var(--ua-red);
+}
+
+/* Ensure adequate contrast */
+.reveal {
+  color: var(--neutral-800);
+}
+
+/* ============================
+   PERSISTENT QR CODE (SLIDES ONLY)
+   ============================ */
+/* Small QR code in bottom-left corner of every slide for latecomers */
+.reveal::after {
+  content: '';
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 120px;
+  height: 120px;
+  background-image: url('../presentation/media/qr-nicek12.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+/* ============================
+   ACTIVITY-SPECIFIC COMPONENTS
+   ============================ */
+
+/* Hero Section for activity headers */
+.hero-section {
+  background: linear-gradient(135deg, var(--ua-blue) 0%, var(--ua-midnight) 100%);
+  color: white;
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.hero-section h1,
+.hero-section h2,
+.hero-section h3 {
+  color: white;
+  margin: 0;
+}
+
+.hero-section h3 {
+  font-family: 'garamond-premier-pro', Georgia, serif;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.9;
+  margin-top: var(--space-sm);
+}
+
+/* Scenario and Story Boxes */
+.scenario-box,
+.story-box {
+  background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+  border-left: 4px solid #FFC107;
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.15);
+  color: var(--neutral-900); /* WCAG AA contrast fix */
+}
+
+.scenario-box h3,
+.story-box h3 {
+  color: var(--ua-blue);
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+/* Evidence Cards */
+.evidence-card {
+  background: white;
+  border: 2px solid var(--ua-blue);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+  box-shadow: 0 2px 8px rgba(12, 35, 75, 0.1);
+}
+
+.evidence-card h4 {
+  color: var(--ua-blue);
+  margin-top: 0;
+  border-bottom: 2px solid var(--ua-sky);
+  padding-bottom: var(--space-sm);
+}
+
+/* AI Response Cards */
+.ai-response-card {
+  background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+  border-left: 4px solid var(--ua-blue);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+  font-family: 'proxima-nova', sans-serif;
+  color: var(--neutral-900); /* WCAG AA contrast fix */
+}
+
+.ai-response-card blockquote {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+}
+
+/* Checklist Container */
+.checklist-container {
+  background: var(--neutral-50);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+}
+
+.checklist-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist-container li {
+  padding: var(--space-xs) 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+/* Implementation Options */
+.implementation-options {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.implementation-options h4 {
+  color: var(--ua-red);
+  border-bottom: 2px solid var(--ua-sky);
+  padding-bottom: var(--space-xs);
+}
+
+/* Teaching Points Box */
+.teaching-points {
+  background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+  border-left: 4px solid #4CAF50;
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+
+.teaching-points h3 {
+  color: #2E7D32;
+  margin-top: 0;
+}
+
+/* Worksheet Section */
+.worksheet-section {
+  background: white;
+  border: 2px dashed var(--neutral-300);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-md) 0;
+  page-break-inside: avoid;
+}
+
+.worksheet-section h4 {
+  color: var(--ua-blue);
+  margin-top: 0;
+}
+
+/* Role Cards Container */
+.role-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: var(--space-md);
+  margin: var(--space-lg) 0;
+}
+
+.role-cards-container h4 {
+  background: var(--ua-blue);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Response Phase Cards */
+.response-phase {
+  border-left: 4px solid var(--ua-red);
+  padding-left: var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+
+.response-phase h4 {
+  color: var(--ua-red);
+}
+
+/* Decision Matrix */
+.decision-matrix {
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+.decision-matrix table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.decision-matrix th {
+  background: var(--ua-blue);
+  color: white;
+  padding: var(--space-sm);
+  text-align: left;
+}
+
+.decision-matrix td {
+  padding: var(--space-sm);
+  border-bottom: 1px solid var(--neutral-200);
+}
+
+/* Alert Box (for incident scenarios) */
+.alert-box {
+  background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%);
+  border: 2px solid var(--ua-red);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+
+.alert-box code {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Rubric Container */
+.rubric-container {
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+.rubric-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.rubric-container th {
+  background: var(--ua-blue);
+  color: white;
+  padding: var(--space-sm);
+}
+
+.rubric-container td {
+  padding: var(--space-sm);
+  border: 1px solid var(--neutral-200);
+  vertical-align: top;
+}
+
+/* Setup Grid */
+.setup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: var(--space-md);
+  margin: var(--space-lg) 0;
+}
+
+.setup-item {
+  padding: var(--space-md);
+}
+
+/* Extension Grid */
+.extension-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: var(--space-md);
+  margin: var(--space-lg) 0;
+}
+
+.extension-item {
+  padding: var(--space-md);
+}
+
+/* Differentiation Matrix */
+.differentiation-matrix {
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+/* Instructor Guidance Callout */
+.instructor-guidance {
+  background: #FFF3E0;
+  border-left: 4px solid #FF9800;
+}
+
+/* Evidence Checklist */
+.evidence-checklist {
+  background: var(--neutral-50);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+}
+
+/* Reflection Framework */
+.reflection-framework {
+  margin: var(--space-lg) 0;
+}
+
+/* Integration Ideas */
+.integration-ideas {
+  background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  color: var(--neutral-900); /* WCAG AA contrast fix */
+}
+
+/* Adaptation Options */
+.adaptation-options {
+  background: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer Section */
+.footer-section {
+  background: var(--neutral-100);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  margin-top: var(--space-xl);
+  text-align: center;
+}
+
+/* Quote Box */
+.quote-box {
+  background: var(--neutral-50);
+  border-left: 4px solid var(--ua-blue);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+  font-family: 'garamond-premier-pro', Georgia, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* ============================
+   REVEALJS SLIDE DECK CONTRAST FIXES
+   Applied: 2025-12-03
+   ============================ */
+
+/* FIX 1: Glass Cards - ALWAYS solid white background with dark text */
+.reveal .glass-card {
+  background: white !important;
+  background-color: white !important;
+  color: var(--neutral-900) !important;
+  border: 1px solid var(--neutral-200);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .glass-card * {
+  color: var(--neutral-900) !important;
+}
+
+.reveal .glass-card h1,
+.reveal .glass-card h2,
+.reveal .glass-card h3,
+.reveal .glass-card h4 {
+  color: var(--ua-blue) !important;
+}
+
+.reveal .glass-card strong {
+  color: var(--ua-blue) !important;
+}
+
+.reveal .glass-card code {
+  background: var(--neutral-100) !important;
+  color: var(--ua-red) !important;
+}
+
+/* Glass cards on ANY dark background */
+.reveal section[data-background-color="#0C234B"] .glass-card,
+.reveal section[data-background-color="#AB0520"] .glass-card {
+  background: white !important;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* FIX 2: Activity Headers - Full-bleed background, not a card */
+.reveal section.activity-header {
+  background: linear-gradient(135deg, var(--ua-blue) 0%, var(--ua-midnight) 100%) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 40px !important;
+}
+
+.reveal .activity-header,
+.reveal .activity-header * {
+  color: white !important;
+}
+
+.reveal .activity-header h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.reveal .activity-header p,
+.reveal .activity-header strong {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Glass cards inside activity-header sections need white backing */
+.reveal .activity-header .glass-card,
+.reveal section.activity-header .glass-card {
+  background: white !important;
+  color: var(--neutral-900) !important;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.reveal .activity-header .glass-card *,
+.reveal section.activity-header .glass-card * {
+  color: var(--neutral-900) !important;
+}
+
+.reveal .activity-header .glass-card h1,
+.reveal .activity-header .glass-card h2,
+.reveal .activity-header .glass-card h3,
+.reveal .activity-header .glass-card h4 {
+  color: var(--ua-blue) !important;
+}
+
+/* FIX 3: Fragments on Dark Backgrounds */
+.reveal section[data-background-color="#0C234B"] .fragment,
+.reveal section[data-background-color="#AB0520"] .fragment,
+.reveal section[data-background-color="#0C234B"] p,
+.reveal section[data-background-color="#AB0520"] p,
+.reveal section[data-background-color="#0C234B"] li,
+.reveal section[data-background-color="#AB0520"] li {
+  color: white;
+}
+
+.reveal section[data-background-color="#0C234B"] h1,
+.reveal section[data-background-color="#0C234B"] h2,
+.reveal section[data-background-color="#0C234B"] h3,
+.reveal section[data-background-color="#AB0520"] h1,
+.reveal section[data-background-color="#AB0520"] h2,
+.reveal section[data-background-color="#AB0520"] h3 {
+  color: white;
+}
+
+.reveal section[data-background-color="#0C234B"] strong,
+.reveal section[data-background-color="#AB0520"] strong {
+  color: var(--ua-sky);
+}
+
+/* FIX 4: Columns on Dark Backgrounds - White container */
+/* Only apply to columns that should have cards, not .transparent-columns */
+.reveal section[data-background-color="#0C234B"] .columns:not(.transparent-columns),
+.reveal section[data-background-color="#AB0520"] .columns:not(.transparent-columns) {
+  background: rgba(255, 255, 255, 0.95);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  margin: var(--space-md) 0;
+  color: var(--neutral-900);
+}
+
+/* Transparent columns for closing slides etc */
+.reveal .transparent-columns {
+  background: transparent !important;
+  color: #FFFFFF;
+}
+
+.reveal .transparent-columns a {
+  color: var(--ua-sky);
+}
+
+.reveal section[data-background-color="#0C234B"] .columns h1,
+.reveal section[data-background-color="#0C234B"] .columns h2,
+.reveal section[data-background-color="#0C234B"] .columns h3,
+.reveal section[data-background-color="#AB0520"] .columns h1,
+.reveal section[data-background-color="#AB0520"] .columns h2,
+.reveal section[data-background-color="#AB0520"] .columns h3 {
+  color: var(--ua-blue);
+}
+
+/* FIX 5: Callout Boxes - Explicit Dark Text */
+.reveal .callout {
+  color: var(--neutral-900);
+}
+
+.reveal .callout-tip,
+.reveal .callout-warning,
+.reveal .callout-important,
+.reveal .callout-note {
+  color: var(--neutral-900);
+}
+
+.reveal .callout h1,
+.reveal .callout h2,
+.reveal .callout h3,
+.reveal .callout h4 {
+  color: var(--ua-blue);
+}
+
+/* FIX 6: Persistent QR Code - Smaller and less intrusive */
+.reveal::after {
+  bottom: 50px !important;
+  width: 80px !important;
+  height: 80px !important;
+  opacity: 0.5 !important;
+  transition: opacity 0.3s ease;
+}
+
+.reveal::after:hover {
+  opacity: 0.9;
+}
+
+/* FIX 7: R-Fit-Text on Dark Backgrounds */
+.reveal section[data-background-color="#0C234B"] .r-fit-text,
+.reveal section[data-background-color="#AB0520"] .r-fit-text {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+/* FIX 8: Table Readability in Presentations */
+.reveal table {
+  font-size: 1.1em;
+  margin: var(--space-md) auto;
+}
+
+.reveal table th {
+  background: var(--ua-blue);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  font-weight: 600;
+}
+
+.reveal table td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--neutral-200);
+  vertical-align: top;
+}
+
+.reveal table tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
