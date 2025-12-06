@@ -207,17 +207,17 @@ Let's talk implementation options first—because I know not everyone has AI acc
 
 ## Implementation Options {.smaller}
 
-**Designed for your actual constraints—all activities work WITHOUT 1:1 devices:**
+Designed for your actual constraints: **all activities work WITHOUT 1:1 devices**
 
 :::: {.columns}
 ::: {.column width="50%"}
 **Teacher as AI Voice** ⭐ *Often strongest*
 
-You voice AI responses—control pacing, surface limitations intentionally
+You voice AI responses: control pacing, surface limitations intentionally
 
 **Pre-Generated Cards**
 
-Print response cards—same discovery, no tech dependency
+Print response cards: same discovery, no tech dependency
 :::
 
 ::: {.column width="50%"}
@@ -252,9 +252,9 @@ Now let's try it together—your tables are going to investigate a real scenario
 ::: {.glass-card}
 **Your role**: School cybersecurity team
 
-**Monday morning email from IT**:
+Monday morning email from IT:
 
-> ["Unusual activity on our network Friday night. User account compromised. Need to understand what happened."]{style="font-size: 0.9em;"}
+> ["Unusual activity on our network Friday night. User account compromised. Need to understand what happened."]{style="font-size: 0.8em;"}
 :::
 :::
 
@@ -281,13 +281,15 @@ Advance to next slide where they'll see the actual evidence.
 
 ## The Evidence + AI Analysis {.smaller}
 
+{{< countdown minutes=2 top=0 right=0 left="" >}}
+
 ::::: {.columns}
 
 :::: {.column width="50%"}
 
 ::: {.glass-card}
 
-#### Access Logs (Raw Data)
+**Access Logs (Raw Data)**
 
 - **User**: `jmiller` (school secretary)
 - **Compromised**: Friday, 11:47 PM
@@ -297,7 +299,7 @@ Advance to next slide where they'll see the actual evidence.
 
 :::
 
-{{< countdown minutes=2 bottom=0 left=0 right="" >}}
+*School context: Lincoln Elementary announced budget cuts last week affecting support staff positions*
 
 ::::
 
@@ -305,17 +307,22 @@ Advance to next slide where they'll see the actual evidence.
 
 ::: {.glass-card style="border-left: 4px solid #2196F3;"}
 
-#### 🤖 AI Security Analysis
+**AI Security Analysis**
 
-`Pattern detected`: Password = mascot + year (weak)  
-`Threat vector`: Brute force attack from known botnet IP  
-`Recommendation`: Force password reset, enable MFA
+`Pattern detected`  
+Password = mascot + year (weak)  
+`Threat vector`  
+Brute force attack, known botnet IP  
+`Recommendation`  
+Force password reset, enable MFA
 
-#### At Your Table (2 min)
+**At Your Table (2 min)**
 
+::: {style="font-size: 0.8em;"}
 1. What does AI's analysis tell us?
 2. **Write down** your theory: *Why* this person, *why* now?
 3. What's ONE thing AI couldn't know?
+:::
 
 :::
 
@@ -323,11 +330,8 @@ Advance to next slide where they'll see the actual evidence.
 
 :::::
 
-::: {.fragment}
-*School context: Lincoln Elementary announced budget cuts last week affecting support staff positions*
-:::
-
 ::: {.notes}
+
 TABLE ACTIVITY TIME!
 
 Click countdown. Walk around and listen. Key things to notice:
@@ -337,6 +341,7 @@ Click countdown. Walk around and listen. Key things to notice:
 - Humans should catch: possible insider motive, why target someone with file access
 
 After 2 min: "Let's see what the designed discovery looks like..."
+
 :::
 
 ## The Designed Discovery

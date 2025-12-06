@@ -27,6 +27,15 @@ author:
     orcid: 0000-0001-5914-0479
     email: paulewagner@arizona.edu
 
+countdown:
+  color_running_background: "#0C234B"
+  color_running_text: "#FFFFFF"
+  color_warning_background: "#AB0520"
+  color_warning_text: "#FFFFFF"
+  color_finished_background: "#AB0520"
+  color_finished_text: "#FFFFFF"
+  font_size: "3rem"
+
 format:
   revealjs:
     theme: simple
@@ -41,9 +50,15 @@ format:
     output-file: "index"
 ---
 
-# {#follow-along data-menu-title="Get Your Materials NOW" background-image="media/banner.png" background-size="40%" background-position="right 5% top 5%"}
+# {#follow-along data-menu-title="Get Your Materials NOW" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [GET YOUR STUFF NOW!]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-rocket.apng){fig-align="center" width=150}
+:::
 
 ## {#material-links data-menu-title="Materials"}
 
@@ -80,9 +95,15 @@ The download includes ALL THREE activities we promised, but we're going to go DE
 Got it? Let's go!
 :::
 
-# {#the-reality data-menu-title="The Reality" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="40%" background-position="right 5% top 5%"}
+# {#the-reality data-menu-title="The Reality" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [THE REALITY]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-brain.apng){fig-align="center" width=150}
+:::
 
 ## The Pedagogical Gap
 
@@ -152,9 +173,15 @@ Third—and this is the insight that sticks—how the partnership produces outco
 The activities we'll show you are specifically designed to scaffold these discoveries. Let's see how they work.
 :::
 
-# {#activity-1 data-menu-title="Activity 1" background-color="#AB0520" background-image="media/banner_reverse.png" background-size="40%" background-position="right 5% top 5%"}
+# {#activity-1 data-menu-title="Activity 1" background-color="#AB0520" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [ACTIVITY 1]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-detective.apng){fig-align="center" width=150}
+:::
 
 ## Security Detective Teams {background-color="#0C234B"}
 
@@ -180,17 +207,17 @@ Let's talk implementation options first—because I know not everyone has AI acc
 
 ## Implementation Options {.smaller}
 
-**Designed for your actual constraints—all activities work WITHOUT 1:1 devices:**
+Designed for your actual constraints: **all activities work WITHOUT 1:1 devices**
 
 :::: {.columns}
 ::: {.column width="50%"}
 **Teacher as AI Voice** ⭐ *Often strongest*
 
-You voice AI responses—control pacing, surface limitations intentionally
+You voice AI responses: control pacing, surface limitations intentionally
 
 **Pre-Generated Cards**
 
-Print response cards—same discovery, no tech dependency
+Print response cards: same discovery, no tech dependency
 :::
 
 ::: {.column width="50%"}
@@ -215,52 +242,106 @@ Rotation stations if you have limited devices. Think-aloud demo for whole-class 
 
 The technical guides detail each option. They're not workarounds—they're intentional design choices.
 
-Now let me show you the live AI version for those who have access...
+Now let's try it together—your tables are going to investigate a real scenario...
 :::
 
-## Let's Try It Together!
-
-*If you DO have live AI access, here's what it looks like:*
+## Scenario: Friday at Lincoln Elementary
 
 :::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 ::: {.glass-card}
-**Incident:** User "jmiller" account compromised
+**Your role**: School cybersecurity team
 
-**Evidence:**
+Monday morning email from IT:
 
-- Password: `Summer2024!`
-- Phishing emails in inbox
-- AI says "medium strength"
-- Logins during work hours
+> ["Unusual activity on our network Friday night. User account compromised. Need to understand what happened."]{style="font-size: 0.8em;"}
 :::
 :::
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 ::: {.fragment}
-### Your task:
+**You have**:
 
-**What REALLY happened here?**
+- AI security analysis (technical patterns)
+- Access logs (raw data)
+- School context (institutional knowledge)
 
-*(30 seconds—think or discuss with a neighbor)*
+**Your job**: Develop a theory of what happened
 :::
 :::
 ::::
 
 ::: {.notes}
-Now let me show you what this looks like when you DO have live AI access. Same activity, same learning objectives—just with students interacting directly.
+Read the email scenario aloud. Quick setup—30 seconds max.
 
-Here's a scenario we can try together right now.
+Key framing: "You're investigators with both AI tools AND human insight. Let's see what each contributes."
 
-User account was compromised. The password was "Summer2024!" and an automated checker rates it "medium strength."
+Advance to next slide where they'll see the actual evidence.
+:::
 
-But there's more: phishing emails were found in the user's inbox. And the suspicious logins happened during normal work hours.
+## The Evidence + AI Analysis {.smaller}
 
-→ PAUSE
+{{< countdown minutes=2 top=0 right=0 left="" >}}
 
-Take 30 seconds—what do you think really happened here?
+::::: {.columns}
 
-[Give them time to think/discuss with neighbors]
+:::: {.column width="50%"}
+
+::: {.glass-card}
+
+**Access Logs (Raw Data)**
+
+- **User**: `jmiller` (school secretary)
+- **Compromised**: Friday, 11:47 PM
+- **Password**: `Lincoln2024!`
+- **Failed logins**: 47 attempts (Friday 10:15-11:45 PM)
+- **First unauthorized access**: Personnel records
+
+:::
+
+*School context: Lincoln Elementary announced budget cuts last week affecting support staff positions*
+
+::::
+
+:::: {.column width="50%"}
+
+::: {.glass-card style="border-left: 4px solid #2196F3;"}
+
+**AI Security Analysis**
+
+`Pattern detected`  
+Password = mascot + year (weak)  
+`Threat vector`  
+Brute force attack, known botnet IP  
+`Recommendation`  
+Force password reset, enable MFA
+
+**At Your Table (2 min)**
+
+::: {style="font-size: 0.8em;"}
+1. What does AI's analysis tell us?
+2. **Write down** your theory: *Why* this person, *why* now?
+3. What's ONE thing AI couldn't know?
+:::
+
+:::
+
+::::
+
+:::::
+
+::: {.notes}
+
+TABLE ACTIVITY TIME!
+
+Click countdown. Walk around and listen. Key things to notice:
+
+- Does anyone connect "secretary" + "budget cuts" + "personnel records"?
+- AI gave technical analysis (brute force, weak password)
+- Humans should catch: possible insider motive, why target someone with file access
+
+After 2 min: "Let's see what the designed discovery looks like..."
+
 :::
 
 ## The Designed Discovery
@@ -270,17 +351,17 @@ Take 30 seconds—what do you think really happened here?
 ::: {.column width="50%"}
 **AI catches:**
 
-- "Summer2024!" = predictable pattern
-- Seasonal + year structure
-- Matches compromised password databases
+- Password = school mascot + year
+- Brute force attempt pattern
+- Account compromise indicators
 :::
 
 ::: {.column width="50%"}
-**Students catch:**
+**Humans catch:**
 
-- Phishing emails + compromise = connected
-- Work hours timing matters
-- Social engineering context
+- Budget cuts → possible insider motive
+- Secretary = access to sensitive files
+- *Why this person, why now?*
 :::
 
 ::::
@@ -292,15 +373,15 @@ Take 30 seconds—what do you think really happened here?
 ::: {.notes}
 Here's how the discovery is designed.
 
-We structure the evidence so AI will identify the password pattern—and it does, reliably. Students see AI contribute something useful.
+AI is excellent at technical pattern detection—password analysis, brute force signatures, anomaly flagging. Students see AI contribute something genuinely useful.
 
-But the phishing connection? The timing context? AI doesn't flag those. Students do.
+But institutional context? AI can't know that budget cuts were just announced, or that a secretary has access to sensitive personnel files, or why someone might be targeted *now*. That's human knowledge.
 
 → PAUSE
 
-When they synthesize both contributions, they've experienced the partnership value firsthand. You don't explain it—they discovered it.
+The insight isn't that humans are "better"—it's that they see different things. Technical patterns vs. institutional context. When students synthesize both, they've experienced authentic partnership.
 
-The scenario is structured so this discovery is reliable—it's not left to chance.
+This scenario works because the human contribution is real, not manufactured.
 :::
 
 ## Built-In Verification Protocol {.smaller}
@@ -377,9 +458,15 @@ The download includes everything: the full lesson plan, evidence packets you can
 AND—this is new—we created grade-band versions for ALL age groups. K-2, 3-5, 6-8, and 9-12. So you can use this same core activity with elementary students all the way up to high schoolers.
 :::
 
-# {#activity-2 data-menu-title="Activity 2" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="40%" background-position="right 5% top 5%"}
+# {#activity-2 data-menu-title="Activity 2" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [ACTIVITY 2]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-scale.apng){fig-align="center" width=150}
+:::
 
 ## Ethics in Automated Security {background-color="#0C234B"}
 
@@ -437,69 +524,29 @@ It can monitor website visits, block dangerous sites, alert teachers about unusu
 
 Your job—and the students' job—is to decide: What should SchoolGuard do automatically? What should require human approval first?
 
-Let's vote on some real policy questions.
+Let's design some policies together.
 :::
 
-## Quick Vote: Policy Decision 1
+## Your Table's Policy Challenge (4 min)
 
-::: {.r-fit-text}
-**Should SchoolGuard automatically block sites it thinks are malicious?**
+**Your table designs ONE policy:**
+
+::: {.glass-card}
+> "SchoolGuard should _____________ automatically, but must ask a human before _____________."
 :::
 
-::: {.fragment}
-**Option A:** Yes, block automatically (faster protection)
+**Write it down.** Be ready to defend your choice.
 
-**Option B:** No, require human approval (fewer mistakes)
-
-**Option C:** Auto-block known threats, ask about uncertain ones
-:::
+{{< countdown minutes=4 >}}
 
 ::: {.notes}
-First policy question: Should SchoolGuard automatically block malicious sites?
+TABLE ACTIVITY TIME!
 
-[Read options]
+Click to start the countdown timer. Walk around and listen to policy discussions. You'll hear very different approaches—some tables will prioritize safety, others privacy, others efficiency.
 
-Vote with your hands—raise for A... B... C...
+Don't intervene yet—let them work through the trade-offs themselves.
 
-[Count/observe distribution]
-
-Interesting! Here's the thing—there's no wrong answer. Each choice involves real trade-offs.
-
-Automatic blocking is faster—but it might block legitimate sites by mistake.
-
-Human approval prevents errors—but creates dangerous delays.
-
-Option C sounds reasonable—but who decides what's "known" versus "uncertain"?
-
-This is exactly what your students will discover.
-:::
-
-## Quick Vote: Policy Decision 2
-
-::: {.r-fit-text}
-**Should SchoolGuard alert teachers about "unusual" student activity?**
-:::
-
-::: {.fragment}
-**Option A:** Yes, alert immediately (safety first)
-
-**Option B:** No, too much surveillance
-
-**Option C:** Only alert for serious safety concerns
-:::
-
-::: {.notes}
-Second question: Should SchoolGuard alert teachers about unusual student activity?
-
-[Read options]
-
-Vote—A... B... C...
-
-[Observe]
-
-This one gets heated in classrooms! Students have strong feelings about surveillance.
-
-But here's what's powerful: when students hear the AI's perspective, their thinking evolves.
+When the timer finishes: "Hold onto your policies. Before we share, let's hear what the AI itself has to say about its capabilities..."
 :::
 
 ## What Does the AI Say? {.smaller}
@@ -530,6 +577,26 @@ We script AI to articulate both capabilities and limitations in first person. St
 The pedagogical effect: policy design shifts from adversarial ("how do we restrict AI?") to collaborative ("how do we structure human-AI handoffs?").
 
 That reframing—from control to collaboration—is exactly what we want students to carry into careers.
+:::
+
+## Share Your Policies (2 min)
+
+::: {.fragment}
+**2-3 tables: What did you decide?**
+:::
+
+::: {.fragment}
+The design insight: did hearing what AI can and can't do change your thinking? That shift, from *controlling AI* to *partnering with AI*, is exactly what we want students to discover.
+:::
+
+::: {.notes}
+Call on 2-3 tables to share their policy.
+
+Listen for the variety—some will focus on automation, others on human approval, others on specific scenarios.
+
+After sharing, make the connection: "Notice how your policies probably evolved after hearing AI's perspective? That's the designed discovery moment. Students experience the same shift."
+
+Transition: "Let's look at how this runs in your actual classroom..."
 :::
 
 ## In Your Classroom {.smaller}
@@ -578,9 +645,15 @@ For 9-12, it gets sophisticated: "AI Governance Workshop" with actual legal fram
 Same core idea, adapted to developmental level.
 :::
 
-# {#third-activity data-menu-title="The Third Activity" background-image="media/banner.png" background-size="40%" background-position="right 5% top 5%"}
+# {#third-activity data-menu-title="The Third Activity" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [ACTIVITY 3]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-shield.apng){fig-align="center" width=150}
+:::
 
 ## What About Activity 3? {.smaller}
 
@@ -621,9 +694,15 @@ We chose to go deep on two activities today so you could really experience them,
 All three are complete in your materials—same quality, same facilitation guides, same grade-band versions. K-2 through 9-12 for everything.
 :::
 
-# {#implementation data-menu-title="What You're Getting" background-image="media/banner.png" background-size="40%" background-position="right 5% top 5%"}
+# {#implementation data-menu-title="What You're Getting" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [WHAT YOU'RE GETTING]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-book.apng){fig-align="center" width=150}
+:::
 
 ## Your Complete Download Package {.smaller}
 
@@ -719,9 +798,15 @@ Curriculum connections: Where do these fit in what you're already doing? They're
 What adaptations are you already thinking about? Let's discuss.
 :::
 
-# {#questions data-menu-title="Questions" background-image="media/banner.png" background-size="40%" background-position="right 5% top 5%"}
+# {#questions data-menu-title="Questions" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
 
 [QUESTIONS?]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-question.apng){fig-align="center" width=150}
+:::
 
 ## {#closing background-color="#0C234B"}
 
