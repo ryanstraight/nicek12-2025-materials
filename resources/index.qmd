@@ -20,6 +20,58 @@ New to this approach? Start with these three:
 3. **CYBER.org Standards** — K-12 cybersecurity learning progressions
 :::
 
+## Why "Partnership" Language? {#why-partnership}
+
+Industry professionals typically say they "use AI tools." We deliberately chose different language—and understanding why matters for teaching.
+
+### The Problem with "Tool Use" Framing
+
+When we say "I use a tool," we imply:
+
+- The human is fully in control
+- The tool is passive until activated
+- Agency flows one direction: human → tool
+- The human remains unchanged by the interaction
+
+But this isn't what actually happens in cybersecurity operations.
+
+### What's Really Happening in a SOC
+
+Consider a Security Operations Center analyst working with a SIEM (Security Information and Event Management) system:
+
+1. **The SIEM shapes perception** — Before the analyst sees anything, the system has already decided what counts as "suspicious." Thousands of events are filtered, correlated, and prioritized. The analyst's awareness is bounded by what the tool surfaces.
+
+2. **The analyst adapts to the tool** — Experienced analysts learn to "think like the SIEM"—understanding its detection logic, anticipating its blind spots, structuring their investigations around its capabilities.
+
+3. **Agency is distributed** — When a threat is detected, who found it? The analyst who investigated? The SIEM that flagged it? The rule-writer who configured the detection? The answer is: the assemblage of all of them together.
+
+4. **Neither succeeds alone** — The SIEM can't understand context, institutional knowledge, or human factors. The analyst can't process millions of log entries. Together, they accomplish what neither could individually.
+
+### Why This Matters for Education
+
+Teaching students that they "use AI tools" sets up a false mental model that will fail them in professional practice. They'll either:
+
+- **Over-rely on AI** (assuming it "handles" security while they "use" it)
+- **Under-utilize AI** (treating it as a simple lookup tool rather than an investigative partner)
+- **Miss the mutual shaping** (not recognizing how AI recommendations influence their perception)
+
+The "partnership" framing we use throughout these activities isn't merely aspirational—it's preparation for the actual cognitive work of modern cybersecurity operations.
+
+### Theoretical Foundation
+
+This approach draws from **posthuman educational theory**, particularly:
+
+- **Rosi Braidotti's** work on human-technology entanglement and distributed agency
+- **Catherine Adams and Terrie Lynn Thompson's** practical heuristics for examining how digital technologies shape human perception and practice—what they call "interviewing" digital objects to understand their contributions to our work
+
+These theoretical insights translate directly into developing cybersecurity expertise. When students learn to see AI as a partner with distinct capabilities, limitations, and influence on their own thinking, they're developing the meta-cognitive awareness that distinguishes expert practitioners.
+
+::: {.callout-note}
+## For Further Reading
+
+The references in the [Human-AI Collaboration & Posthuman Pedagogy](#collaboration) section below provide deeper theoretical grounding for this approach.
+:::
+
 ## Human-AI Collaboration & Posthuman Pedagogy {#collaboration}
 
 These works provide theoretical and practical foundations for understanding humans and AI as collaborative partners rather than tool-user relationships.

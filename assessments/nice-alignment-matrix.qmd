@@ -2,14 +2,9 @@
 title: "NICE Framework Alignment Matrix"
 subtitle: "Competency Mapping for Curriculum Approval"
 description: "Detailed alignment between activities and NIST SP 800-181 Rev 1 (NICE Framework) competencies"
-format:
-  html:
-    toc: true
-    toc-depth: 3
-  pdf:
-    toc: true
-  docx:
-    toc: true
+  
+format-links: false
+always_allow_html: true
 ---
 
 ```{r}
@@ -20,6 +15,9 @@ library(tidyverse)
 library(knitr)
 library(kableExtra)
 library(DT)
+library(gt)
+library(reactable)
+library(htmltools)
 
 # Activity-to-Work-Role mapping
 activity_roles <- tibble::tribble(
@@ -102,6 +100,42 @@ prof_comm <- tibble::tribble(
   "Team coordination", "T1310, T1221", "Students work in roles with distinct responsibilities"
 )
 
+# Cross-reference matrix data (TKS codes × Activities)
+tks_matrix <- tribble(
+  ~category, ~code, ~description, ~activity_1, ~activity_2, ~activity_3,
+
+  # Tasks
+  "Tasks", "T1084", "Identify anomalous network activity", TRUE, FALSE, TRUE,
+  "Tasks", "T1118", "Identify vulnerabilities", TRUE, FALSE, FALSE,
+  "Tasks", "T1119", "Recommend vulnerability remediation strategies", TRUE, FALSE, FALSE,
+  "Tasks", "T1221", "Disseminate incident and CND information", FALSE, FALSE, TRUE,
+  "Tasks", "T1300", "Report cybersecurity incidents", FALSE, FALSE, TRUE,
+  "Tasks", "T1307", "Develop cybersecurity policy recommendations", FALSE, TRUE, FALSE,
+  "Tasks", "T1308", "Coordinate cybersecurity policy review processes", FALSE, TRUE, FALSE,
+  "Tasks", "T1310", "Implement protective/corrective measures", FALSE, FALSE, TRUE,
+  "Tasks", "T1605", "Advise on cybersecurity policy", FALSE, TRUE, FALSE,
+
+  # Knowledge
+  "Knowledge", "K0659", "Information privacy technologies", FALSE, TRUE, FALSE,
+  "Knowledge", "K0682", "Cybersecurity threats", TRUE, TRUE, TRUE,
+  "Knowledge", "K0683", "Cybersecurity vulnerabilities", TRUE, TRUE, FALSE,
+  "Knowledge", "K0684", "Cybersecurity threat characteristics", TRUE, FALSE, TRUE,
+  "Knowledge", "K0724", "Incident response principles and practices", FALSE, FALSE, TRUE,
+  "Knowledge", "K0725", "Incident response tools and techniques", FALSE, FALSE, TRUE,
+  "Knowledge", "K0726", "Incident handling tools and techniques", FALSE, FALSE, TRUE,
+  "Knowledge", "K0736", "IT security principles and practices", FALSE, TRUE, FALSE,
+  "Knowledge", "K0751", "System threats", TRUE, FALSE, FALSE,
+  "Knowledge", "K0752", "System vulnerabilities", TRUE, FALSE, FALSE,
+
+  # Skills
+  "Skills", "S0540", "Identifying network threats", TRUE, FALSE, TRUE,
+  "Skills", "S0544", "Recognizing vulnerabilities", TRUE, FALSE, FALSE,
+  "Skills", "S0800", "Analyzing organizational patterns and relationships", TRUE, TRUE, TRUE,
+  "Skills", "S0850", "Performing cost/benefit analysis", FALSE, TRUE, FALSE,
+  "Skills", "S0874", "Performing network traffic analysis", TRUE, FALSE, FALSE,
+  "Skills", "S0878", "Performing risk analysis", FALSE, TRUE, TRUE
+)
+
 # Helper function for consistent table formatting
 # type: "tks" for Task/Knowledge/Skill tables (narrow Code column)
 #       "overview" for Quick Reference and similar (balanced columns)
@@ -148,8 +182,9 @@ format_tks_table <- function(df, type = "tks") {
         class = "display compact"
       )
   } else {
+    # DOCX and other formats - use simple kable
     df |>
-      kable()
+      kable(format = "pipe")
   }
 }
 ```
@@ -162,6 +197,225 @@ This document provides a detailed mapping between our Human-AI Partnership activ
 ## For Curriculum Administrators
 This matrix demonstrates standards alignment for state/district cybersecurity curriculum approval. All TKS codes reference the official NICE Framework available at [niccs.cisa.gov](https://niccs.cisa.gov/workforce-development/nice-framework).
 :::
+
+## TKS Cross-Reference Matrix
+
+This matrix shows at a glance which NICE Framework competencies each activity addresses. Use the search and filter features (HTML) or scan the checkmarks to quickly identify coverage patterns.
+
+::: {.callout-tip}
+## How to Read This Matrix
+
+- **✓ (Checkmark)**: Activity addresses this competency
+- **– (Dash)**: Activity does not specifically address this competency
+- **Grouped by**: Tasks (T), Knowledge (K), and Skills (S)
+:::
+
+:::: {.content-visible when-format="html"}
+
+::: {.column-page}
+
+```{r}
+#| label: tks-matrix-html
+#| echo: false
+
+# Custom cell renderer for checkmarks
+check_cell <- function(value) {
+  if (is.na(value) || !value) {
+    htmltools::span(
+      style = "color: #d1d5db; font-size: 1.2em;",
+      "\u2013"
+    )
+  } else {
+    htmltools::span(
+      style = "color: #059669; font-size: 1.4em; font-weight: bold;",
+      "\u2713"
+    )
+  }
+}
+
+# Interactive reactable for HTML
+reactable(
+  tks_matrix |>
+    select(category, code, description, activity_1, activity_2, activity_3),
+
+  theme = reactableTheme(
+    color = "#1a1a1a",
+    backgroundColor = "white",
+    borderColor = "#e5e7eb",
+    stripedColor = "#f9fafb",
+    highlightColor = "#f3f4f6",
+    cellPadding = "8px 12px",
+    style = list(fontFamily = "system-ui, -apple-system, sans-serif"),
+    # Sticky header that stays visible when scrolling
+    headerStyle = list(
+      position = "sticky",
+      top = 0,
+      backgroundColor = "#f8fafc",
+      borderBottom = "2px solid #e2e8f0",
+      zIndex = 1,
+      fontWeight = 600
+    )
+  ),
+
+  defaultPageSize = 30,
+  searchable = TRUE,
+  filterable = TRUE,
+  striped = TRUE,
+  highlight = TRUE,
+  compact = FALSE,
+  groupBy = "category",
+  defaultExpanded = TRUE,
+  # Fixed height enables internal scrolling + sticky header
+  height = 600,
+
+  columns = list(
+    category = colDef(
+      name = "Category",
+      minWidth = 100,
+      style = list(fontWeight = 600)
+    ),
+    code = colDef(
+      name = "TKS Code",
+      minWidth = 80,
+      style = list(fontFamily = "monospace", fontWeight = 500, color = "#2563eb")
+    ),
+    description = colDef(
+      name = "Competency",
+      minWidth = 200,
+      style = list(fontSize = "0.95em")
+    ),
+    activity_1 = colDef(
+      name = "Security Detective Teams",
+      minWidth = 140,
+      align = "center",
+      cell = check_cell,
+      html = TRUE
+    ),
+    activity_2 = colDef(
+      name = "Ethics in Automated Security",
+      minWidth = 150,
+      align = "center",
+      cell = check_cell,
+      html = TRUE
+    ),
+    activity_3 = colDef(
+      name = "AI-Assisted Incident Response",
+      minWidth = 160,
+      align = "center",
+      cell = check_cell,
+      html = TRUE
+    )
+  ),
+
+  language = reactableLang(
+    searchPlaceholder = "Search TKS codes or competencies...",
+    noData = "No competencies found",
+    pageInfo = "{rowStart}\u2013{rowEnd} of {rows} competencies"
+  )
+)
+```
+
+:::
+
+::::
+
+::: {.content-visible unless-format="html"}
+
+```{r}
+#| label: tks-matrix-static
+#| echo: false
+
+# Use LaTeX checkmark for PDF, Unicode for DOCX
+check_symbol <- if (knitr::is_latex_output()) "$\\checkmark$" else "\u2713"
+dash_symbol <- if (knitr::is_latex_output()) "---" else "\u2013"
+
+# Static table for PDF/DOCX with checkmarks
+static_matrix <- tks_matrix |>
+  select(category, code, description, activity_1, activity_2, activity_3) |>
+  mutate(
+    activity_1 = ifelse(activity_1, check_symbol, dash_symbol),
+    activity_2 = ifelse(activity_2, check_symbol, dash_symbol),
+    activity_3 = ifelse(activity_3, check_symbol, dash_symbol)
+  )
+
+if (knitr::is_latex_output()) {
+  static_matrix |>
+    kable(
+      format = "latex",
+      booktabs = TRUE,
+      escape = FALSE,
+      col.names = c("Category", "Code", "Competency", "Detective", "Ethics", "AI Response"),
+      align = c("l", "l", "l", "c", "c", "c")
+    ) |>
+    kable_styling(latex_options = c("scale_down", "hold_position")) |>
+    column_spec(1, width = "2cm") |>
+    column_spec(2, width = "1.3cm") |>
+    column_spec(3, width = "5cm") |>
+    column_spec(4, width = "1.8cm") |>
+    column_spec(5, width = "1.5cm") |>
+    column_spec(6, width = "2cm")
+} else {
+  static_matrix |>
+    kable(
+      format = "pipe",
+      col.names = c("Category", "Code", "Competency", "Detective Teams", "Ethics & Automation", "AI Response"),
+      align = c("l", "l", "l", "c", "c", "c")
+    )
+}
+```
+
+:::
+
+
+### Coverage Summary
+
+```{r}
+#| label: coverage-summary
+#| echo: false
+
+# Calculate coverage statistics
+coverage_stats <- tks_matrix |>
+  group_by(category) |>
+  summarise(
+    `Total Codes` = n(),
+    `Activity 1` = sum(activity_1),
+    `Activity 2` = sum(activity_2),
+    `Activity 3` = sum(activity_3),
+    .groups = "drop"
+  ) |>
+  rename(Category = category)
+
+# Add totals row
+totals <- coverage_stats |>
+  summarise(
+    Category = "Total",
+    `Total Codes` = sum(`Total Codes`),
+    `Activity 1` = sum(`Activity 1`),
+    `Activity 2` = sum(`Activity 2`),
+    `Activity 3` = sum(`Activity 3`)
+  )
+
+coverage_stats <- bind_rows(coverage_stats, totals)
+
+if (knitr::is_html_output()) {
+  reactable(
+    coverage_stats,
+    columns = list(
+      Category = colDef(html = TRUE, minWidth = 100),
+      `Total Codes` = colDef(minWidth = 90),
+      `Activity 1` = colDef(name = "Detective Teams", minWidth = 110),
+      `Activity 2` = colDef(name = "Ethics & Automation", minWidth = 130),
+      `Activity 3` = colDef(name = "AI Response", minWidth = 100)
+    ),
+    compact = TRUE,
+    striped = TRUE
+  )
+} else {
+  coverage_stats |>
+    kable(format = if (knitr::is_latex_output()) "latex" else "pipe") |>
+    kable_styling(full_width = FALSE)
+}
+```
 
 ## Quick Reference: Activity-to-Work-Role Mapping
 
@@ -360,6 +614,6 @@ Connect classroom activities to authentic workforce competencies by introducing 
 
 ## References
 
-- NIST Special Publication 800-181 Revision 1: Workforce Framework for Cybersecurity (NICE Framework)
-- NICE Framework Version 2.0.0 (September 2024)
+- [NIST Special Publication 800-181 Revision 1: Workforce Framework for Cybersecurity (NICE Framework)](https://csrc.nist.gov/pubs/sp/800/181/r1/final)
+- [NICE Framework Version 2.1.0 (December 2025)](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
 - Available at: [https://niccs.cisa.gov/workforce-development/nice-framework](https://niccs.cisa.gov/workforce-development/nice-framework)

@@ -107,6 +107,14 @@ The pedagogical challenge is different: How do we create classroom experiences w
 
 → PAUSE
 
+**A note on language:** We deliberately say "partnership" rather than "tool use." Industry professionals typically say they "use AI tools"—but that framing obscures what's actually happening in a SOC.
+
+Think about what SIEM does: Before an analyst ever sees anything, the system has already decided what counts as "suspicious." The analyst's perception is shaped by what the tool surfaces. The analyst learns to think like the SIEM—anticipating its blind spots, structuring investigations around its capabilities. When a threat is detected, who found it? The answer is all of them together—the analyst, the SIEM, and the team members who set up its detection rules.
+
+Teaching students that they "use AI tools" sets up a mental model that will fail them professionally. They need to see the mutual shaping—how AI influences their perception, and how their judgment complements AI's capabilities. That's what "partnership" captures.
+
+→ PAUSE
+
 These activities are designed to engineer that discovery. Students experience firsthand what each partner contributes—and they remember it because they found it themselves.
 
 Let's look at how this works in practice.

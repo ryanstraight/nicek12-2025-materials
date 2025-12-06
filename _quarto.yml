@@ -25,6 +25,13 @@ website:
     card-style: summary_large_image
     creator: "@ryanstraight"
 
+  announcement:
+    icon: rocket-takeoff
+    dismissable: true
+    content: "**New here?** [Get Started → Everything you need to bring these activities to your classroom](/guides/quick-start.qmd)"
+    type: primary
+    position: below-navbar
+
   navbar:
     background: "#0C234B"
     foreground: white

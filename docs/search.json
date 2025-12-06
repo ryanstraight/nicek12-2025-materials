@@ -2537,7 +2537,7 @@
     "href": "assessments/nice-alignment-matrix.html#references",
     "title": "NICE Framework Alignment Matrix",
     "section": "References",
-    "text": "References\n\nNIST Special Publication 800-181 Revision 1: Workforce Framework for Cybersecurity (NICE Framework)\nNICE Framework Version 2.0.0 (September 2024)\nAvailable at: https://niccs.cisa.gov/workforce-development/nice-framework",
+    "text": "References\n\nNIST Special Publication 800-181 Revision 1: Workforce Framework for Cybersecurity (NICE Framework)\nNICE Framework Version 2.1.0 (December 2025)\nAvailable at: https://niccs.cisa.gov/workforce-development/nice-framework",
     "crumbs": [
       "NICE Framework Alignment Matrix"
     ]
@@ -2708,14 +2708,14 @@
     "href": "guides/quick-start.html",
     "title": "Quick Start Guide",
     "section": "",
-    "text": "This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options."
+    "text": "This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options.\n\n\n\n\n\n\nNoteA Note on “Partnership” Language\n\n\n\nWe use “partnership” language deliberately. Industry professionals typically say they “use AI tools,” but research on human-technology relations reveals that this framing obscures the mutual shaping between human judgment and automated systems. In security operations, the monitoring system shapes what counts as “suspicious” before the analyst ever sees it; the analyst’s perception is mediated by tool design; agency is distributed across the analyst, the tool, and those who configured its detection logic.\nTeaching students to see these relationships clearly—rather than through the “I use tools” framing—is part of developing cybersecurity expertise.\nLearn more about the theory →"
   },
   {
     "objectID": "guides/quick-start.html#getting-started",
     "href": "guides/quick-start.html#getting-started",
     "title": "Quick Start Guide",
     "section": "",
-    "text": "This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options."
+    "text": "This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options.\n\n\n\n\n\n\nNoteA Note on “Partnership” Language\n\n\n\nWe use “partnership” language deliberately. Industry professionals typically say they “use AI tools,” but research on human-technology relations reveals that this framing obscures the mutual shaping between human judgment and automated systems. In security operations, the monitoring system shapes what counts as “suspicious” before the analyst ever sees it; the analyst’s perception is mediated by tool design; agency is distributed across the analyst, the tool, and those who configured its detection logic.\nTeaching students to see these relationships clearly—rather than through the “I use tools” framing—is part of developing cybersecurity expertise.\nLearn more about the theory →"
   },
   {
     "objectID": "guides/quick-start.html#start-here-select-your-grade-band",
@@ -2884,5 +2884,22 @@
     "title": "Printable Materials",
     "section": "Download All Materials",
     "text": "Download All Materials\nVisit the Materials page to download all materials in PDF and DOCX formats."
+  },
+  {
+    "objectID": "resources/index.html#why-partnership",
+    "href": "resources/index.html#why-partnership",
+    "title": "Resources & Further Reading",
+    "section": "Why “Partnership” Language?",
+    "text": "Why “Partnership” Language?\nIndustry professionals typically say they “use AI tools.” We deliberately chose different language—and understanding why matters for teaching.\n\nThe Problem with “Tool Use” Framing\nWhen we say “I use a tool,” we imply:\n\nThe human is fully in control\nThe tool is passive until activated\nAgency flows one direction: human → tool\nThe human remains unchanged by the interaction\n\nBut this isn’t what actually happens in cybersecurity operations.\n\n\nWhat’s Really Happening in a SOC\nConsider a Security Operations Center analyst working with a SIEM (Security Information and Event Management) system:\n\nThe SIEM shapes perception — Before the analyst sees anything, the system has already decided what counts as “suspicious.” Thousands of events are filtered, correlated, and prioritized. The analyst’s awareness is bounded by what the tool surfaces.\nThe analyst adapts to the tool — Experienced analysts learn to “think like the SIEM”—understanding its detection logic, anticipating its blind spots, structuring their investigations around its capabilities.\nAgency is distributed — When a threat is detected, who found it? The analyst who investigated? The SIEM that flagged it? The rule-writer who configured the detection? The answer is: the assemblage of all of them together.\nNeither succeeds alone — The SIEM can’t understand context, institutional knowledge, or human factors. The analyst can’t process millions of log entries. Together, they accomplish what neither could individually.\n\n\n\nWhy This Matters for Education\nTeaching students that they “use AI tools” sets up a false mental model that will fail them in professional practice. They’ll either:\n\nOver-rely on AI (assuming it “handles” security while they “use” it)\nUnder-utilize AI (treating it as a simple lookup tool rather than an investigative partner)\nMiss the mutual shaping (not recognizing how AI recommendations influence their perception)\n\nThe “partnership” framing we use throughout these activities isn’t merely aspirational—it’s preparation for the actual cognitive work of modern cybersecurity operations.\n\n\nTheoretical Foundation\nThis approach draws from posthuman educational theory, particularly:\n\nRosi Braidotti’s work on human-technology entanglement and distributed agency\nCatherine Adams and Terrie Lynn Thompson’s practical heuristics for examining how digital technologies shape human perception and practice—what they call “interviewing” digital objects to understand their contributions to our work\n\nThese theoretical insights translate directly into developing cybersecurity expertise. When students learn to see AI as a partner with distinct capabilities, limitations, and influence on their own thinking, they’re developing the meta-cognitive awareness that distinguishes expert practitioners.\n\n\n\n\n\n\nNoteFor Further Reading\n\n\n\nThe references in the Human-AI Collaboration & Posthuman Pedagogy section below provide deeper theoretical grounding for this approach."
+  },
+  {
+    "objectID": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
+    "href": "assessments/nice-alignment-matrix.html#tks-cross-reference-matrix",
+    "title": "NICE Framework Alignment Matrix",
+    "section": "TKS Cross-Reference Matrix",
+    "text": "TKS Cross-Reference Matrix\nThis matrix shows at a glance which NICE Framework competencies each activity addresses. Use the search and filter features (HTML) or scan the checkmarks to quickly identify coverage patterns.\n\n\n\n\n\n\nTipHow to Read This Matrix\n\n\n\n\n✓ (Checkmark): Activity addresses this competency\n– (Dash): Activity does not specifically address this competency\nGrouped by: Tasks (T), Knowledge (K), and Skills (S)\n\n\n\n\n\n\n\n\n\n\n\n\nCoverage Summary",
+    "crumbs": [
+      "NICE Framework Alignment Matrix"
+    ]
   }
 ]

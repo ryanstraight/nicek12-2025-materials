@@ -7,6 +7,16 @@ subtitle: "Your Entry Point to Human-AI Partnership Activities"
 
 This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options.
 
+::: {.callout-note}
+## A Note on "Partnership" Language
+
+We use "partnership" language deliberately. Industry professionals typically say they "use AI tools," but research on human-technology relations reveals that this framing obscures the mutual shaping between human judgment and automated systems. In security operations, the monitoring system shapes what counts as "suspicious" before the analyst ever sees it; the analyst's perception is mediated by tool design; agency is distributed across the analyst, the tool, and those who configured its detection logic.
+
+Teaching students to see these relationships clearly—rather than through the "I use tools" framing—is part of developing cybersecurity expertise.
+
+[Learn more about the theory →](../resources/index.qmd#why-partnership)
+:::
+
 ## Start Here: Select Your Grade Band
 
 ### Elementary (K-5)
