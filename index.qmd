@@ -129,28 +129,11 @@ These activities connect naturally across disciplines:
 
 The investigation and policy design activities work especially well in interdisciplinary or project-based learning contexts.
 
-## Conference Session: What to Expect
-
-::: {.callout-note}
-## Session Format (45 Minutes)
-
-Attendees will **experience one activity as learners**, then receive access to the complete K-12 curriculum repository with dedicated implementation planning time.
-
-| Phase | Time | What Happens |
-|-------|------|--------------|
-| **Experience** | 20 min | Participate in one complete activity (Middle School Phishing Response Team) |
-| **Materials Tour** | 10 min | Overview of curriculum ecosystem and implementation guide walkthrough |
-| **Planning** | 10 min | Select grade-appropriate activities and begin implementation planning |
-| **Resources** | 5 min | Access repository, follow-up support information, Q&A |
-
-**What you take home**: Complete access to all 12 lesson plans, assessment rubrics, printable materials, and implementation guides—ready for immediate classroom use.
-:::
-
 ## About These Materials
 
 These resources were developed for the NICE K12 Cybersecurity Education Conference 2025 session presented by Ryan Straight, Rob Honomichl, and Paul Wagner from Cyber Operations in the College of Information Science at the University of Arizona.
 
-**Contact**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)
+**Contact**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)  
 **ORCID**: [0000-0002-6251-5662](https://orcid.org/0000-0002-6251-5662)
 
 [Learn More](about.qmd)
