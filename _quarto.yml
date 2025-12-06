@@ -17,6 +17,14 @@ website:
   repo-url: https://github.com/ryanstraight/nicek12-2025-materials
   #repo-actions: [source, issue]
 
+  open-graph:
+    locale: en_US
+    site-name: "True Teamwork - NICE K12 2025"
+
+  twitter-card:
+    card-style: summary_large_image
+    creator: "@ryanstraight"
+
   navbar:
     background: "#0C234B"
     foreground: white
@@ -142,9 +150,11 @@ format:
       \usepackage{fancyhdr}
       \pagestyle{fancy}
       \fancyhead[L]{\small True Teamwork: Human-AI Partnership Activities}
-      \fancyhead[R]{\small University of Arizona}
+      \fancyhead[R]{\small College of Information Science - University of Arizona}
       \fancyfoot[C]{\thepage}
-      \fancyfoot[R]{\small CC BY 4.0}
+      \fancyfoot[L]{\small Ryan Straight, Ph.D}
+      \fancyfoot[R]{\small ryanstraight@arizona.edu}
+
   docx:
     toc: true
     number-sections: false

@@ -10,7 +10,7 @@ Everything you need is here. Grab the PDFs for ready-to-print convenience, downl
 
 1. **Download PDF** — Ready to print with consistent formatting
 2. **Download DOCX** — Customize in Word or Google Docs first
-3. **Print from browser** — Hit Ctrl+P (or Cmd+P on Mac) on any page for quick copies without downloading
+3. **Print from browser** — Hit <kbd>Ctrl+P</kdb> (or Cmd+P on Mac) on any page for quick copies without downloading
 :::
 
 ## Activity 1: Security Detective Teams

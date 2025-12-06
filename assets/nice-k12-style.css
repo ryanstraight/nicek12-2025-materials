@@ -1122,8 +1122,10 @@ h3 {
    TITLE SLIDE STYLING
    ============================ */
 /* Use regular proxima-nova (not condensed) for title slide */
-.reveal .slides section.quarto-title-block h1.title {
-  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+.reveal .slides section.quarto-title-block h1.title,
+.reveal .slides section.quarto-title-block h1.title strong,
+.reveal .slides section.quarto-title-block h1.title p {
+  font-family: 'proxima-nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
   margin-bottom: 0.2em;
 }
 
