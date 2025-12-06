@@ -10,11 +10,13 @@ title-meta: 'Straight, Honomichl, & Wagner - "True Teamwork" - NICE K12 2025'
 
 title-slide-attributes:
   data-notes: |
-      Thank you for joining us for "True Teamwork!" I'm **Dr. Ryan Straight** from the **University of Arizona's College of Information Science**, where I teach cyber law, ethics, and policy.
+      Thank you for joining us for "True Teamwork!"
+
+      Quick intros—I'm **Dr. Ryan Straight**, and I'm joined by **Rob Honomichl** and **Paul Wagner**. We're all from the **University of Arizona's Cyber Operations program** in the College of Information Science. Between us, we teach everything from cyber law and ethics to technical security operations.
 
       Today we're going to show you practical activities for teaching students to work WITH AI as teammates in cybersecurity. Not competing with it, not just using it as a tool, but genuinely collaborating.
 
-      We have **35 minutes together**. I'll keep the background brief—just 2-3 minutes—then we'll dive into **two activities** you can try right here, right now. Let's go!
+      We have **35 minutes together**. Quick context, then we dive into **three activities** you can try right here, right now. Let's go!
 
 author:
   - name: Ryan Straight
@@ -79,10 +81,10 @@ format:
 
 **You get:**
 
+- **Quick Start guide** (try it Monday!)
+- Low-resource options (no 1:1 devices? no problem)
 - 12 lesson plans (3 activities × 4 grade bands)
-- Assessment rubrics & career connections
-- Low-resource implementation guides
-- Ready-to-print materials
+- Ready-to-print materials & rubrics
 :::
 
 ::::
@@ -90,87 +92,49 @@ format:
 ::: {.notes}
 FIRST THING: Scan this QR code right now. Download the materials while we talk—everything we cover today is in there, plus more.
 
-The download includes ALL THREE activities we promised, but we're going to go DEEP on TWO of them today so you really understand how to use them.
+Honest note: First time through? Budget 2 hours prep. After that, 30-45 minutes. The Quick Start guide walks you through exactly what to do first.
 
-Got it? Let's go!
+You're about to experience THREE activities—compressed versions of what your students will do. Pay attention to what YOU notice. Ready? Let's go!
 :::
 
-# {#the-reality data-menu-title="The Reality" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+## The Shift We're Preparing Students For
 
-<br /><br />
+:::: {.columns}
+::: {.column width="50%"}
+**How we often teach AI:**
 
-[THE REALITY]{.r-fit-text}
-
-::: {.all="revert"}
-![](media/icon-brain.apng){fig-align="center" width=150}
+- AI as a tool to use
+- AI as a threat to guard against
+- AI as something to regulate
 :::
 
-## The Pedagogical Gap
+::: {.column width="50%"}
+::: {.fragment}
+**What the workforce actually needs:**
+
+- AI as a **partner** with different strengths
+- Humans who know when to trust—and verify
+- Teams that leverage both
+:::
+:::
+::::
 
 ::: {.fragment}
-**You know the SOC reality.** Your students don't—yet.
-
-The challenge isn't explaining *that* humans and AI collaborate.
-
-It's designing experiences where students **discover it themselves**.
-:::
-
-::: {.fragment}
-**The shift we're engineering:**
-
-[Humans **using** tools → Humans **and** AI as **teammates**]{.r-fit-text}
+*Today's SOC analysts use AI to triage thousands of alerts—but humans make the call. That's the job your students are preparing for.*
 :::
 
 ::: {.notes}
-You already know what modern SOC work looks like—that's why you're here.
+60 seconds of context before we dive in.
 
-The pedagogical challenge is different: How do we create classroom experiences where students DISCOVER the value of human-AI partnership rather than just hearing us explain it?
+Here's the shift: We often teach AI as a tool—something students USE. Or as a threat—something to guard against. Or as a policy problem—something to regulate.
 
-→ PAUSE
+But in actual cybersecurity work? AI is a partner. Security Operations Centers are drowning in alerts—thousands per day. AI triages them, prioritizes them, spots patterns. But humans decide what's real, what to escalate, what to do. That's not future-state. That's TODAY.
 
-**A note on language:** We deliberately say "partnership" rather than "tool use." Industry professionals typically say they "use AI tools"—but that framing obscures what's actually happening in a SOC.
+The professionals who thrive are the ones who know how to work WITH AI—when to trust it, when to verify it, when to override it.
 
-Think about what SIEM does: Before an analyst ever sees anything, the system has already decided what counts as "suspicious." The analyst's perception is shaped by what the tool surfaces. The analyst learns to think like the SIEM—anticipating its blind spots, structuring investigations around its capabilities. When a threat is detected, who found it? The answer is all of them together—the analyst, the SIEM, and the team members who set up its detection rules.
+That's what these activities teach. Not AI literacy. Not AI ethics in the abstract. Partnership skills.
 
-Teaching students that they "use AI tools" sets up a mental model that will fail them professionally. They need to see the mutual shaping—how AI influences their perception, and how their judgment complements AI's capabilities. That's what "partnership" captures.
-
-→ PAUSE
-
-These activities are designed to engineer that discovery. Students experience firsthand what each partner contributes—and they remember it because they found it themselves.
-
-Let's look at how this works in practice.
-:::
-
-## {#the-challenge data-menu-title="The Design Problem"}
-
-::: {.r-fit-text}
-**The Design Problem**
-:::
-
-::: {.fragment}
-**Three things students need to discover:**
-
-1. What AI genuinely contributes (not magic, not nothing)
-2. What humans uniquely contribute (not just "oversight")
-3. How the partnership produces better outcomes than either alone
-
-**These activities scaffold that discovery.**
-:::
-
-::: {.notes}
-So here's the design problem we solved.
-
-Students need to discover three things—and "discover" is the key word. Telling them doesn't work.
-
-First: what AI actually contributes. Not magic, not useless—genuinely useful for specific things.
-
-Second: what humans uniquely bring. And it's more than just "oversight" or "final approval."
-
-Third—and this is the insight that sticks—how the partnership produces outcomes neither could achieve alone.
-
-→ PAUSE
-
-The activities we'll show you are specifically designed to scaffold these discoveries. Let's see how they work.
+Let's experience it.
 :::
 
 # {#activity-1 data-menu-title="Activity 1" background-color="#AB0520" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
@@ -185,7 +149,7 @@ The activities we'll show you are specifically designed to scaffold these discov
 
 ## Security Detective Teams {background-color="#0C234B"}
 
-**12 minutes** | Grades 6-8 (adaptable K-12)
+**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cyber Defense Analyst*
 
 ::: {.fragment}
 **The design:** Students investigate a security incident WITH an AI partner
@@ -196,13 +160,13 @@ The activities we'll show you are specifically designed to scaffold these discov
 ::: {.notes}
 Activity 1: Security Detective Teams.
 
-The design is straightforward: students investigate a security incident with an AI partner.
+**Here's what's about to happen:** You're going to do a 2-minute version of what your students will experience in 35 minutes. Don't just follow the instructions—pay attention to what YOU notice. What catches YOUR eye first?
 
-But the pedagogical key is engineering the discovery moment. We structure the evidence so AI will catch certain patterns students miss—AND students will notice contextual clues AI can't interpret.
+The design is simple: students investigate a security incident with an AI partner. But we've structured the evidence so AI catches certain patterns AND humans catch different ones.
 
-When both happen, you don't have to explain the value of partnership. They've experienced it.
+When you experience both, you'll understand exactly what your students will feel.
 
-Let's talk implementation options first—because I know not everyone has AI access for every student.
+First, quick implementation note—then we dive in.
 :::
 
 ## Implementation Options {.smaller}
@@ -211,13 +175,13 @@ Designed for your actual constraints: **all activities work WITHOUT 1:1 devices*
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Teacher as AI Voice** ⭐ *Often strongest*
+**Pre-Generated Cards** ⭐ *Easiest start*
 
-You voice AI responses: control pacing, surface limitations intentionally
+Print AI response cards: same discovery, zero tech needed
 
-**Pre-Generated Cards**
+**Teacher-Led Reading**
 
-Print response cards: same discovery, no tech dependency
+You read AI analysis aloud; control pacing and emphasis
 :::
 
 ::: {.column width="50%"}
@@ -225,24 +189,28 @@ Print response cards: same discovery, no tech dependency
 
 One device, groups rotate (5-min turns)
 
-**Think-Aloud Demo**
+**Live AI Demo**
 
-Project one conversation, whole class analyzes
+Project one conversation, whole class analyzes together
 :::
 ::::
 
+::: {.fragment}
+*District blocks AI? No devices? The print-based options often work BETTER—students focus on thinking, not clicking.*
+:::
+
 ::: {.notes}
-Four implementation options—each designed around real classroom constraints.
+Four options—pick what fits YOUR classroom.
 
-Teacher as AI Voice is often pedagogically strongest. You control pacing, you can intentionally surface AI limitations at the right moments, and students focus on analysis rather than interface navigation.
+Pre-generated cards are the easiest start. Print them, hand them out, done. Same discovery, zero tech dependency.
 
-Pre-generated response cards work identically to live AI for the learning objectives. Same discovery, no technology dependency.
+Teacher-led reading means YOU read the AI analysis aloud. You control pacing, you can emphasize key points, students focus on thinking rather than clicking.
 
-Rotation stations if you have limited devices. Think-aloud demo for whole-class modeling.
+Rotation stations if you have limited devices. Live demo if you want to project one AI conversation for the whole class.
 
-The technical guides detail each option. They're not workarounds—they're intentional design choices.
+All four work. Technical guides in your download detail each one.
 
-Now let's try it together—your tables are going to investigate a real scenario...
+Now let's try it—your tables are going to investigate a real scenario...
 :::
 
 ## Scenario: Friday at Lincoln Elementary
@@ -272,11 +240,11 @@ Monday morning email from IT:
 ::::
 
 ::: {.notes}
-Read the email scenario aloud. Quick setup—30 seconds max.
+Quick setup—30 seconds.
 
-Key framing: "You're investigators with both AI tools AND human insight. Let's see what each contributes."
+"You're investigators with both AI analysis AND human insight. You've got access logs, AI pattern detection, and one crucial piece of context. Let's see what YOU notice."
 
-Advance to next slide where they'll see the actual evidence.
+Next slide has the evidence. Get ready to investigate.
 :::
 
 ## The Evidence + AI Analysis {.smaller}
@@ -307,21 +275,24 @@ Advance to next slide where they'll see the actual evidence.
 
 ::: {.glass-card style="border-left: 4px solid #2196F3;"}
 
-**AI Security Analysis**
+**🤖 AI Security Analysis** *(This is what students see)*
 
-`Pattern detected`  
-Password = mascot + year (weak)  
-`Threat vector`  
-Brute force attack, known botnet IP  
-`Recommendation`  
+`Pattern detected`
+Password = mascot + year (weak)
+`Threat vector`
+Brute force attack, known botnet IP
+`Recommendation`
 Force password reset, enable MFA
+
+:::
 
 **At Your Table (2 min)**
 
 ::: {style="font-size: 0.8em;"}
-1. What does AI's analysis tell us?
-2. **Write down** your theory: *Why* this person, *why* now?
-3. What's ONE thing AI couldn't know?
+1. Read the AI analysis. What did it catch?
+2. Read the school context. What does THAT tell you?
+3. **Write your theory:** Why this person? Why now?
+4. Be ready: What did YOU notice that AI didn't?
 :::
 
 :::
@@ -331,17 +302,20 @@ Force password reset, enable MFA
 :::::
 
 ::: {.notes}
-
 TABLE ACTIVITY TIME!
 
-Click countdown. Walk around and listen. Key things to notice:
+Quick framing before you start: "Look at the blue box—that's EXACTLY what an AI security tool would output. It caught the password pattern, identified the attack type, gave a recommendation. Good technical analysis. Now look at everything ELSE on this slide..."
 
-- Does anyone connect "secretary" + "budget cuts" + "personnel records"?
-- AI gave technical analysis (brute force, weak password)
-- Humans should catch: possible insider motive, why target someone with file access
+[Click countdown] "Go! Two minutes. Read everything. What do YOU notice?"
 
-After 2 min: "Let's see what the designed discovery looks like..."
+Walk around. Listen for:
+- Who focuses on the AI analysis first?
+- Who notices the budget cuts context?
+- Does anyone connect secretary + budget cuts + personnel records?
 
+Don't give hints. Let them discover.
+
+After timer: "Pens down. Before I show you anything—let me ask..."
 :::
 
 ## The Designed Discovery
@@ -371,17 +345,27 @@ After 2 min: "Let's see what the designed discovery looks like..."
 :::
 
 ::: {.notes}
-Here's how the discovery is designed.
+Before I show you this—
 
-AI is excellent at technical pattern detection—password analysis, brute force signatures, anomaly flagging. Students see AI contribute something genuinely useful.
+"Raise your hand if you noticed the budget cuts connection."
 
-But institutional context? AI can't know that budget cuts were just announced, or that a secretary has access to sensitive personnel files, or why someone might be targeted *now*. That's human knowledge.
+[Hands go up]
 
-→ PAUSE
+"Now raise your hand if AI's password analysis was the first thing you focused on."
 
-The insight isn't that humans are "better"—it's that they see different things. Technical patterns vs. institutional context. When students synthesize both, they've experienced authentic partnership.
+[Different hands]
 
-This scenario works because the human contribution is real, not manufactured.
+"Look around. Neither group was wrong. You saw DIFFERENT things."
+
+[Reveal slide content]
+
+AI caught: password pattern, brute force signature, technical indicators.
+
+Humans caught: institutional context—budget cuts mean someone might be angry, secretary means access to sensitive files, timing matters.
+
+The insight isn't that humans are "better." It's that you see different things. THAT'S what your students will discover.
+
+Did you feel that moment? That's what we're engineering.
 :::
 
 ## Built-In Verification Protocol {.smaller}
@@ -441,21 +425,15 @@ The questions are scaffolded: What would verification look like? What sources? A
 ::::
 
 ::: {.notes}
-Here's how it runs in your classroom—full lesson is in the download.
+What you just experienced in 2 minutes? Your students will explore over 35 minutes with full scaffolding.
 
-Present the evidence—5 minutes to set the scene.
+Present the evidence—5 minutes. Students partner with AI for pattern analysis—10 minutes. Then the crucial step: What does AI miss? 10 minutes. Finally, synthesis.
 
-Students partner with AI—actually consult ChatGPT, Claude, whatever you have access to—for about 10 minutes.
+The download includes everything—but start with the Quick Start guide, not the full curriculum. It tells you exactly what to do first.
 
-Then the crucial step: What does AI miss? Why does human context matter? Another 10 minutes.
+AND—grade-band versions for ALL ages. K-2, 3-5, 6-8, and 9-12. Same core discovery, adapted to developmental level.
 
-Finally, they synthesize and present their findings.
-
-→ PAUSE
-
-The download includes everything: the full lesson plan, evidence packets you can print, sample AI prompts for students to use.
-
-AND—this is new—we created grade-band versions for ALL age groups. K-2, 3-5, 6-8, and 9-12. So you can use this same core activity with elementary students all the way up to high schoolers.
+That "aha" you felt? Your students will feel it too.
 :::
 
 # {#activity-2 data-menu-title="Activity 2" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
@@ -470,7 +448,7 @@ AND—this is new—we created grade-band versions for ALL age groups. K-2, 3-5,
 
 ## Ethics in Automated Security {background-color="#0C234B"}
 
-**12 minutes** | Grades 6-8 (adaptable K-12)
+**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cyber Policy Planner*
 
 ::: {.fragment}
 **The design:** Students design governance policies for AI security systems
@@ -481,13 +459,11 @@ AND—this is new—we created grade-band versions for ALL age groups. K-2, 3-5,
 ::: {.notes}
 Activity 2: Ethics in Automated Security.
 
-This one shifts perspective. Students aren't using AI—they're designing the rules AI operates under.
+**The progression:** In Activity 1, you partnered with AI to INVESTIGATE. Now you're designing rules FOR AI—moving from "working together" to "governing together." That's a higher-order skill.
 
-The pedagogical key is a specific design choice: we have the AI articulate its own capabilities AND limitations. When students hear AI say "I can spot this pattern, but I can't understand this context," their policy-making shifts from restriction to collaboration.
+**Same deal:** 4-minute version here, 40 minutes with full scaffolding in your classroom.
 
-They stop asking "how do we control AI?" and start asking "how do we design policies that leverage what AI does well while protecting against what it can't do?"
-
-Let's see how this works.
+Watch what happens to your thinking when AI tells you what it CAN'T do.
 :::
 
 ## The Setup
@@ -535,18 +511,22 @@ Let's design some policies together.
 > "SchoolGuard should _____________ automatically, but must ask a human before _____________."
 :::
 
-**Write it down.** Be ready to defend your choice.
+**Think about:**
+
+- What's the RISK if SchoolGuard acts alone?
+- What's the COST if humans must approve everything?
+- Where's the line?
 
 {{< countdown minutes=4 >}}
 
 ::: {.notes}
 TABLE ACTIVITY TIME!
 
-Click to start the countdown timer. Walk around and listen to policy discussions. You'll hear very different approaches—some tables will prioritize safety, others privacy, others efficiency.
+[Click countdown] "Go! Four minutes. Design ONE policy. Think about the trade-offs."
 
-Don't intervene yet—let them work through the trade-offs themselves.
+Walk around and listen. You'll hear very different approaches—safety vs. privacy vs. efficiency. Don't intervene. Let them wrestle with it.
 
-When the timer finishes: "Hold onto your policies. Before we share, let's hear what the AI itself has to say about its capabilities..."
+When the timer finishes: "Hold onto your policies. Before we share—I want you to hear from the AI itself..."
 :::
 
 ## What Does the AI Say? {.smaller}
@@ -570,13 +550,19 @@ When the timer finishes: "Hold onto your policies. Before we share, let's hear w
 ::::
 
 ::: {.notes}
-This is the designed pivot point.
+[Read the AI's voice dramatically]
 
-We script AI to articulate both capabilities and limitations in first person. Students hear AI claim credit for genuine value AND acknowledge genuine blind spots.
+"What I CAN do: I spot patterns humans miss. I've identified students at risk of self-harm weeks before any visible signs."
 
-The pedagogical effect: policy design shifts from adversarial ("how do we restrict AI?") to collaborative ("how do we structure human-AI handoffs?").
+[Pause. Let that land.]
 
-That reframing—from control to collaboration—is exactly what we want students to carry into careers.
+[Reveal the second box]
+
+"What I CAN'T do: I flagged a student researching gun violence for a history paper. I see patterns, not intentions."
+
+Now ask: "How many of you wrote policies mostly about RESTRICTING what AI can do?" [Hands.] "Now that you've heard AI describe its own blind spots—would you write it differently?"
+
+That shift—from "how do we control AI?" to "how do we design smart handoffs?"—THAT'S the insight.
 :::
 
 ## Share Your Policies (2 min)
@@ -590,13 +576,13 @@ The design insight: did hearing what AI can and can't do change your thinking? T
 :::
 
 ::: {.notes}
-Call on 2-3 tables to share their policy.
+"2-3 tables—what did you decide?"
 
-Listen for the variety—some will focus on automation, others on human approval, others on specific scenarios.
+[Listen for variety: automation vs. approval vs. specific scenarios]
 
-After sharing, make the connection: "Notice how your policies probably evolved after hearing AI's perspective? That's the designed discovery moment. Students experience the same shift."
+After sharing: "Did hearing AI's perspective change how you'd write it? Look around—some of you are nodding."
 
-Transition: "Let's look at how this runs in your actual classroom..."
+"That shift you just felt? From 'control AI' to 'design smart handoffs'? That's what your students will feel."
 :::
 
 ## In Your Classroom {.smaller}
@@ -626,23 +612,19 @@ Transition: "Let's look at how this runs in your actual classroom..."
 ::::
 
 ::: {.notes}
-In your classroom, here's the flow—full details in the download.
+What you just experienced in 4 minutes? Your students get 40 minutes with full scaffolding.
 
-Set up the scenario, introduce the AI system. Small groups design policies for 3 questions. Then—and this is crucial—the AI shares its perspective, including its limitations.
+Scenario intro, policy design for 3 questions (not just one), AI perspective reveal, class debate, reflection.
 
-Class debate: different groups present and defend their choices. Finally, reflection: what's genuinely hard about these decisions?
+Grade-band versions:
 
-→ PAUSE
+K-2: "Robot Helper Rules"—classroom robot Sparky. What can Sparky do alone vs. ask first?
 
-We created grade-band versions:
+3-5: "Computer Rules Committee"—school tech policies.
 
-For K-2, it's "Robot Helper Rules"—students decide what classroom-robot Sparky can do by itself versus ask first.
+9-12: "AI Governance Workshop"—actual legal frameworks like FERPA, stakeholder role-play.
 
-For 3-5, "Computer Rules Committee"—designing school technology policies.
-
-For 9-12, it gets sophisticated: "AI Governance Workshop" with actual legal frameworks like FERPA, stakeholder role-play, real policy documentation.
-
-Same core idea, adapted to developmental level.
+Same discovery, adapted to developmental level.
 :::
 
 # {#third-activity data-menu-title="The Third Activity" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
@@ -655,43 +637,114 @@ Same core idea, adapted to developmental level.
 ![](media/icon-shield.apng){fig-align="center" width=150}
 :::
 
-## What About Activity 3? {.smaller}
+## AI-Assisted Incident Response {background-color="#0C234B"}
 
-:::: {.columns}
-::: {.column width="55%"}
+**3 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Incident Responder*
+
 ::: {.fragment}
-**AI-Assisted Incident Response** is in your download!
+**The design:** AI recommends actions, humans decide
 
-- NICE Framework Work Roles
-- Realistic incidents (ransomware, breaches)
-- AI recommends, humans decide
-- Connects to cybersecurity careers
+**The discovery moment:** Students realize they're making real career decisions—Incident Responder is a job.
 :::
-:::
-
-::: {.column width="45%"}
-::: {.fragment}
-**Why only 2 demos today?**
-
-We went deep so you could *really try them*
-
-**All 3 are complete** in your materials—same quality, all grade bands
-:::
-:::
-::::
 
 ::: {.notes}
-You might notice we promised three activities. The third one—AI-Assisted Incident Response—is complete in your download.
+Activity 3: AI-Assisted Incident Response. Fastest one—90 seconds.
 
-In that activity, students experience actual NICE Framework work roles. They respond to realistic incidents like ransomware attacks and data breaches. The AI recommends actions, but humans make the final decisions.
+**The progression:** Activity 1 was investigating together. Activity 2 was governing together. Now: DECIDING together under pressure. AI recommends, you choose. That's the full partnership arc—analysis, policy, action.
 
-It's great for connecting cybersecurity education to career pathways.
+Ready? Here's your incident.
+:::
 
-→ PAUSE
+## Incident Response Challenge (90 sec) {.smaller}
 
-We chose to go deep on two activities today so you could really experience them, rather than rushing through three.
+::: {.glass-card style="border-left: 4px solid #AB0520;"}
+**🚨 ALERT:** Ransomware detected on 3 teacher workstations. Spreading to shared drive.
+:::
 
-All three are complete in your materials—same quality, same facilitation guides, same grade-band versions. K-2 through 9-12 for everything.
+**AI Security System recommends:**
+
+| # | Recommendation | Your Call |
+|---|----------------|-----------|
+| 1 | Isolate infected machines immediately | *(auto-approved)* |
+| 2 | Lock ALL user accounts until investigation complete | ? |
+| 3 | Notify parents about potential data exposure | ? |
+
+**At your table:** For #2 and #3—**ACCEPT**, **MODIFY**, or **REJECT**?
+
+Think: *What happens if we do this? What happens if we don't?*
+
+{{< countdown seconds=90 >}}
+
+::: {.notes}
+[Click countdown] "Go! 90 seconds. For recommendations 2 and 3—accept as-is, modify, or reject?"
+
+Frame it: "Think 'what if'—What if you lock all accounts? Teachers can't access lesson plans. What if you DON'T? Ransomware spreads. What if you notify parents now? Panic. What if you wait? Liability."
+
+Walk around quickly. Listen for disagreement—that's good. Some will say "lock everyone out, safety first." Others will say "that's overreach."
+
+After timer: "Quick show of hands—who accepted #2? Who modified? Who rejected?"
+:::
+
+## The Career Connection
+
+::: {.fragment}
+**You just made decisions an Incident Responder makes daily.**
+
+That's Work Role PR-CIR in the NICE Framework.
+:::
+
+::: {.fragment}
+AI gave options. You used judgment. **That's the partnership.**
+
+*Full 35-minute version in your download—with role cards for Analyst, Manager, Communications Lead.*
+:::
+
+::: {.notes}
+"Raise your hand if you accepted recommendation #2—lock all accounts." [Hands]
+
+"Raise your hand if you rejected or modified it." [Hands]
+
+"That disagreement? That's EXACTLY what happens in real incident response. There's no single right answer. What matters is the reasoning."
+
+You just did what Incident Responders do. That's a real career—Work Role PR-CIR in the NICE Framework. Your students can see themselves in that role.
+
+What you experienced in 90 seconds, your students get 35 minutes with full scaffolding, role cards, and multiple incidents.
+:::
+
+# {#why-it-works data-menu-title="Why This Works" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
+
+[WHY THIS WORKS]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-brain.apng){fig-align="center" width=150}
+:::
+
+## What You Just Discovered
+
+::: {.fragment}
+**Activity 1:** AI sees patterns. Humans see context. *Together: the full picture.*
+:::
+
+::: {.fragment}
+**Activity 2:** AI has limits it can name. Humans design smart handoffs. *Together: better governance.*
+:::
+
+::: {.fragment}
+**Activity 3:** AI recommends. Humans decide. *Together: professional judgment.*
+:::
+
+::: {.notes}
+Let's name what just happened.
+
+In Activity 1, you discovered that AI catches technical patterns—but YOU caught the institutional context. Neither alone got the full picture.
+
+In Activity 2, you heard AI articulate its own blind spots—and your policy-making shifted from "control AI" to "design smart handoffs."
+
+In Activity 3, AI gave options. You made judgment calls. That's professional practice.
+
+Three activities. Three discoveries. Your students will feel exactly what you felt.
 :::
 
 # {#implementation data-menu-title="What You're Getting" background-image="media/banner.png" background-size="30%" background-position="right 5% top 5%"}
@@ -726,8 +779,8 @@ All three are complete in your materials—same quality, same facilitation guide
 ::: {.column width="50%"}
 **🔧 Implementation Support**
 
+- **Low-Resource Guide** ⭐ (often works BETTER)
 - AI Platform Setup guides
-- Low-Resource Implementation (no AI? no problem)
 - CTE program alignment
 - Outreach/STEAM integration
 
@@ -748,9 +801,9 @@ Twelve complete lesson plans: three activities, each with four grade-band versio
 
 Assessment rubrics focused on what actually matters—how well students collaborate with AI, not just individual knowledge. Plus career connection handouts that link every activity to NICE Framework work roles.
 
-Implementation support for YOUR context. CTE pathway? We've got alignment notes. Running outreach programs? There's guidance for that. Limited AI access? The low-resource guide is comprehensive.
+Implementation support for YOUR context. And I want to highlight the Low-Resource Guide—this isn't a compromise. Teachers tell us the print-based versions often work BETTER because students focus on the thinking, not the clicking. Start there.
 
-And print-ready materials you can use Monday: evidence packets, role cards, scenario cards, worksheets—plus an annotated bibliography if you want to dig deeper into the research.
+CTE pathway alignment, outreach program guidance, and print-ready materials you can use Monday.
 :::
 
 ## NICE Framework Alignment {.smaller}
