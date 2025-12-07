@@ -66,13 +66,13 @@ format:
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 ![](media/qr-nicek12.png)
 
 ![](media/arrow.apng){width=80} also there!
 :::
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 <br />
 
 #### Download&nbsp;Materials&nbsp;Right&nbsp;Now!
@@ -82,9 +82,11 @@ format:
 **You get:**
 
 - **Quick Start guide** (try it Monday!)
-- Low-resource options (no 1:1 devices? no problem)
-- 12 lesson plans (3 activities × 4 grade bands)
-- Ready-to-print materials & rubrics
+- Low-resource options  
+(no 1:1 devices? no problem)
+- 12 lesson plans  
+(3 activities × 4 grade bands)
+- Ready-to-print *everything*
 :::
 
 ::::
@@ -275,14 +277,17 @@ Next slide has the evidence. Get ready to investigate.
 
 ::: {.glass-card style="border-left: 4px solid #2196F3;"}
 
-**🤖 AI Security Analysis** *(This is what students see)*
+**🤖 AI Security Analysis**  
+*(This is what students see)*
 
-`Pattern detected`
+::: {style="font-size: 0.8em;"}
+`Pattern detected`  
 Password = mascot + year (weak)
-`Threat vector`
+`Threat vector`  
 Brute force attack, known botnet IP
-`Recommendation`
+`Recommendation`  
 Force password reset, enable MFA
+:::
 
 :::
 

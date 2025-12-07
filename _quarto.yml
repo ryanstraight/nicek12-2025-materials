@@ -16,6 +16,7 @@ website:
   site-url: https://ryanstraight.github.io/nicek12-2025-materials
   repo-url: https://github.com/ryanstraight/nicek12-2025-materials
   #repo-actions: [source, issue]
+  favicon: assets/media/icon-brain.apng
 
   open-graph:
     locale: en_US
@@ -35,6 +36,7 @@ website:
   navbar:
     background: "#0C234B"
     foreground: white
+    logo: assets/media/icon-brain.apng
     left:
       - text: Home
         href: index.qmd
