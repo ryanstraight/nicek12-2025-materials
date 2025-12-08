@@ -25,3 +25,6 @@ Thumbs.db
 .env
 *.log
 nul
+
+# Claude Code
+.claude/

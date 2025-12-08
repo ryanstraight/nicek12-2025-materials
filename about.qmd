@@ -123,15 +123,13 @@ Activities align with grade-band standards across the K-12 spectrum. The K-2 ver
 
 Classrooms without AI access can still deliver powerful learning experiences through several proven strategies.
 
-In the **Teacher as AI Voice** approach, you embody the AI role, fielding student questions and providing AI-style responses. This method offers the distinct advantage of letting you intentionally demonstrate AI limitations at pedagogically appropriate moments.
-
-**Pre-Generated Response Cards** provide another effective option. Print the response cards included with each activity and have students draw cards rather than querying live AI, preserving the investigative dynamic without requiring technology access.
+**Pre-Generated Response Cards** provide an effective option. Print the response cards included with each activity and have students draw cards rather than querying live AI, preserving the investigative dynamic without requiring technology access.
 
 The **Rotation Stations** approach works well when you have one or two devices available. Groups rotate through the AI station while others work on evidence analysis, maximizing limited technology resources.
 
 **Think-Aloud Demonstration** involves projecting a single AI interaction for the whole class, with everyone participating in analyzing the exchange. This strategy ensures all students engage with the AI partnership concept simultaneously.
 
-Finally, **Homework Preparation** leverages home AI access when students have it. Students run queries at home and bring their results to class, where the focus shifts to synthesis and discussion.
+**Homework Preparation** leverages home AI access when students have it. Students run queries at home and bring their results to class, where the focus shifts to synthesis and discussion.
 
 ## Questions & Support
 

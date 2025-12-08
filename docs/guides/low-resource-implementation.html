@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-f2951a56e2612c081f4f1f5403fc1ac9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-77672fbe5440502fc02b6eace5497f7e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a96ad48f8879a3d6823f231e5bf631d9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,6 +110,30 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guides">    
+        <li>
+    <a class="dropdown-item" href="../guides/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../guides/quick-start.html">
+ <span class="dropdown-text">Quick Start Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../guides/ai-setup-guide.html">
+ <span class="dropdown-text">AI Platform Setup</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../guides/low-resource-implementation.html">
+ <span class="dropdown-text">Low-Resource Implementation</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Activities</span>
     </a>
@@ -135,30 +159,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../activities/extensions/index.html">
  <span class="dropdown-text">Extension Activities</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Guides</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-guides">    
-        <li>
-    <a class="dropdown-item" href="../guides/index.html">
- <span class="dropdown-text">Overview</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="../guides/quick-start.html">
- <span class="dropdown-text">Quick Start Guide</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../guides/ai-setup-guide.html">
- <span class="dropdown-text">AI Platform Setup</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../guides/low-resource-implementation.html">
- <span class="dropdown-text">Low-Resource Implementation</span></a>
   </li>  
     </ul>
   </li>
@@ -230,35 +230,28 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#you-can-do-this" id="toc-you-can-do-this" class="nav-link active" data-scroll-target="#you-can-do-this">You Can Do This</a></li>
-  <li><a href="#strategy-1-teacher-as-ai-voice" id="toc-strategy-1-teacher-as-ai-voice" class="nav-link" data-scroll-target="#strategy-1-teacher-as-ai-voice">Strategy 1: Teacher as AI Voice</a>
+  <li><a href="#strategy-1-pre-generated-response-cards" id="toc-strategy-1-pre-generated-response-cards" class="nav-link" data-scroll-target="#strategy-1-pre-generated-response-cards">Strategy 1: Pre-Generated Response Cards</a>
   <ul class="collapse">
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
-  <li><a href="#implementation-tips" id="toc-implementation-tips" class="nav-link" data-scroll-target="#implementation-tips">Implementation Tips</a></li>
-  <li><a href="#advantages" id="toc-advantages" class="nav-link" data-scroll-target="#advantages">Advantages</a></li>
-  <li><a href="#sample-script" id="toc-sample-script" class="nav-link" data-scroll-target="#sample-script">Sample Script</a></li>
-  </ul></li>
-  <li><a href="#strategy-2-pre-generated-response-cards" id="toc-strategy-2-pre-generated-response-cards" class="nav-link" data-scroll-target="#strategy-2-pre-generated-response-cards">Strategy 2: Pre-Generated Response Cards</a>
-  <ul class="collapse">
-  <li><a href="#how-it-works-1" id="toc-how-it-works-1" class="nav-link" data-scroll-target="#how-it-works-1">How It Works</a></li>
   <li><a href="#response-card-categories" id="toc-response-card-categories" class="nav-link" data-scroll-target="#response-card-categories">Response Card Categories</a></li>
   <li><a href="#sample-response-card" id="toc-sample-response-card" class="nav-link" data-scroll-target="#sample-response-card">Sample Response Card</a></li>
   <li><a href="#creating-your-own-cards" id="toc-creating-your-own-cards" class="nav-link" data-scroll-target="#creating-your-own-cards">Creating Your Own Cards</a></li>
   </ul></li>
-  <li><a href="#strategy-3-rotation-station" id="toc-strategy-3-rotation-station" class="nav-link" data-scroll-target="#strategy-3-rotation-station">Strategy 3: Rotation Station</a>
+  <li><a href="#strategy-2-rotation-station" id="toc-strategy-2-rotation-station" class="nav-link" data-scroll-target="#strategy-2-rotation-station">Strategy 2: Rotation Station</a>
   <ul class="collapse">
-  <li><a href="#how-it-works-2" id="toc-how-it-works-2" class="nav-link" data-scroll-target="#how-it-works-2">How It Works</a></li>
+  <li><a href="#how-it-works-1" id="toc-how-it-works-1" class="nav-link" data-scroll-target="#how-it-works-1">How It Works</a></li>
   <li><a href="#rotation-schedule-45-minute-activity" id="toc-rotation-schedule-45-minute-activity" class="nav-link" data-scroll-target="#rotation-schedule-45-minute-activity">Rotation Schedule (45-minute activity)</a></li>
   <li><a href="#making-rotation-work" id="toc-making-rotation-work" class="nav-link" data-scroll-target="#making-rotation-work">Making Rotation Work</a></li>
   </ul></li>
-  <li><a href="#strategy-4-homework-preparation" id="toc-strategy-4-homework-preparation" class="nav-link" data-scroll-target="#strategy-4-homework-preparation">Strategy 4: Homework Preparation</a>
+  <li><a href="#strategy-3-homework-preparation" id="toc-strategy-3-homework-preparation" class="nav-link" data-scroll-target="#strategy-3-homework-preparation">Strategy 3: Homework Preparation</a>
   <ul class="collapse">
-  <li><a href="#how-it-works-3" id="toc-how-it-works-3" class="nav-link" data-scroll-target="#how-it-works-3">How It Works</a></li>
+  <li><a href="#how-it-works-2" id="toc-how-it-works-2" class="nav-link" data-scroll-target="#how-it-works-2">How It Works</a></li>
   <li><a href="#homework-assignment-example" id="toc-homework-assignment-example" class="nav-link" data-scroll-target="#homework-assignment-example">Homework Assignment Example</a></li>
   <li><a href="#in-class-integration" id="toc-in-class-integration" class="nav-link" data-scroll-target="#in-class-integration">In-Class Integration</a></li>
   </ul></li>
-  <li><a href="#strategy-5-think-aloud-demonstration" id="toc-strategy-5-think-aloud-demonstration" class="nav-link" data-scroll-target="#strategy-5-think-aloud-demonstration">Strategy 5: Think-Aloud Demonstration</a>
+  <li><a href="#strategy-4-think-aloud-demonstration" id="toc-strategy-4-think-aloud-demonstration" class="nav-link" data-scroll-target="#strategy-4-think-aloud-demonstration">Strategy 4: Think-Aloud Demonstration</a>
   <ul class="collapse">
-  <li><a href="#how-it-works-4" id="toc-how-it-works-4" class="nav-link" data-scroll-target="#how-it-works-4">How It Works</a></li>
+  <li><a href="#how-it-works-3" id="toc-how-it-works-3" class="nav-link" data-scroll-target="#how-it-works-3">How It Works</a></li>
   <li><a href="#making-it-interactive" id="toc-making-it-interactive" class="nav-link" data-scroll-target="#making-it-interactive">Making It Interactive</a></li>
   <li><a href="#demonstration-script" id="toc-demonstration-script" class="nav-link" data-scroll-target="#demonstration-script">Demonstration Script</a></li>
   </ul></li>
@@ -309,35 +302,11 @@ ul.task-list li input[type="checkbox"] {
 <p>The core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology, and effective pedagogy can flourish regardless of your resource constraints.</p>
 <p>This guide presents proven strategies for running True Teamwork activities in classrooms with limited or no direct AI access.</p>
 </section>
-<section id="strategy-1-teacher-as-ai-voice" class="level2">
-<h2 class="anchored" data-anchor-id="strategy-1-teacher-as-ai-voice">Strategy 1: Teacher as AI Voice</h2>
-<p><strong>Best for</strong>: Classrooms with no student AI access where the teacher has one device</p>
+<section id="strategy-1-pre-generated-response-cards" class="level2">
+<h2 class="anchored" data-anchor-id="strategy-1-pre-generated-response-cards">Strategy 1: Pre-Generated Response Cards</h2>
+<p><strong>Best for</strong>: Classrooms with no live AI access available</p>
 <section id="how-it-works" class="level3">
 <h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
-<p>The teacher operates AI on their device, projecting if possible. Groups discuss and formulate questions for the AI partner, then the teacher submits questions and reads responses aloud. Groups analyze and integrate responses into their ongoing investigation work.</p>
-</section>
-<section id="implementation-tips" class="level3">
-<h3 class="anchored" data-anchor-id="implementation-tips">Implementation Tips</h3>
-<p>Have groups write questions on index cards or in a shared document. When reading AI responses, consider giving the AI a distinct “character” voice to make the interaction memorable. Ask AI follow-up questions based on student reactions and allow groups to request clarification when needed.</p>
-</section>
-<section id="advantages" class="level3">
-<h3 class="anchored" data-anchor-id="advantages">Advantages</h3>
-<p>This approach lets you filter inappropriate responses before students hear them, models proper AI interaction for students, generates whole-class discussion, and reduces technical complexity.</p>
-</section>
-<section id="sample-script" class="level3">
-<h3 class="anchored" data-anchor-id="sample-script">Sample Script</h3>
-<blockquote class="blockquote">
-<p>“Our AI partner has been listening to your investigation. Group 2, you wanted to ask about the login timestamps. Let me consult with our AI teammate…”</p>
-<p>[Types prompt, reads response]</p>
-<p>“Interesting. Our AI partner noticed a pattern we missed. What do you all think about this?”</p>
-</blockquote>
-</section>
-</section>
-<section id="strategy-2-pre-generated-response-cards" class="level2">
-<h2 class="anchored" data-anchor-id="strategy-2-pre-generated-response-cards">Strategy 2: Pre-Generated Response Cards</h2>
-<p><strong>Best for</strong>: Classrooms with no live AI access available</p>
-<section id="how-it-works-1" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works-1">How It Works</h3>
 <p>Before class, generate AI responses to common investigation questions. Print these as response cards organized by scenario and question type. During the activity, groups “consult AI” by drawing appropriate response cards. You can provide additional cards for unexpected questions that arise.</p>
 </section>
 <section id="response-card-categories" class="level3">
@@ -372,11 +341,11 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 </section>
 </section>
-<section id="strategy-3-rotation-station" class="level2">
-<h2 class="anchored" data-anchor-id="strategy-3-rotation-station">Strategy 3: Rotation Station</h2>
+<section id="strategy-2-rotation-station" class="level2">
+<h2 class="anchored" data-anchor-id="strategy-2-rotation-station">Strategy 2: Rotation Station</h2>
 <p><strong>Best for</strong>: Classrooms with limited devices (1-3 devices for a class of 20-30)</p>
-<section id="how-it-works-2" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works-2">How It Works</h3>
+<section id="how-it-works-1" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works-1">How It Works</h3>
 <p>Set up an “AI Consultation Station” with available devices. Groups rotate through during the investigation phase while non-AI groups work on evidence analysis and documentation. A visible timer ensures fair access across all groups.</p>
 </section>
 <section id="rotation-schedule-45-minute-activity" class="level3">
@@ -423,11 +392,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Have groups prepare questions before their AI station time arrives. Enforce strict time limits with a visible timer. Designate one “AI consultation lead” per group for efficiency, and have groups document AI responses immediately before rotating.</p>
 </section>
 </section>
-<section id="strategy-4-homework-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="strategy-4-homework-preparation">Strategy 4: Homework Preparation</h2>
+<section id="strategy-3-homework-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="strategy-3-homework-preparation">Strategy 3: Homework Preparation</h2>
 <p><strong>Best for</strong>: Students who have home AI access but no access at school</p>
-<section id="how-it-works-3" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works-3">How It Works</h3>
+<section id="how-it-works-2" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works-2">How It Works</h3>
 <p>Students interact with AI at home on a preparation assignment, then bring their AI insights to class for collaborative work. Class time focuses on synthesis and decision-making rather than AI interaction.</p>
 </section>
 <section id="homework-assignment-example" class="level3">
@@ -449,11 +418,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Groups share their homework findings and compare different AI responses, since students may have used different platforms. Class time then focuses on collaboration and synthesis rather than AI interaction.</p>
 </section>
 </section>
-<section id="strategy-5-think-aloud-demonstration" class="level2">
-<h2 class="anchored" data-anchor-id="strategy-5-think-aloud-demonstration">Strategy 5: Think-Aloud Demonstration</h2>
+<section id="strategy-4-think-aloud-demonstration" class="level2">
+<h2 class="anchored" data-anchor-id="strategy-4-think-aloud-demonstration">Strategy 4: Think-Aloud Demonstration</h2>
 <p><strong>Best for</strong>: Situations where one AI interaction serves the whole class</p>
-<section id="how-it-works-4" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works-4">How It Works</h3>
+<section id="how-it-works-3" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works-3">How It Works</h3>
 <p>The teacher conducts a single AI investigation visible to all students. Students observe and take notes, then discuss as a group. Individual or group work can follow on a parallel scenario without AI.</p>
 </section>
 <section id="making-it-interactive" class="level3">
@@ -487,28 +456,23 @@ flowchart TD
     START(["What devices&lt;br/&gt;do you have?"])
 
     NONE["No devices"]
-    TEACHER["Teacher device only"]
     FEW["2-3 student devices"]
     HOME["Home access only"]
 
-    NONE_A["Pre-Generated Cards&lt;br/&gt;+ Teacher Role-Play"]
-    TEACHER_A["Teacher as AI Voice&lt;br/&gt;+ Think-Aloud Demo"]
+    NONE_A["Pre-Generated Cards&lt;br/&gt;+ Think-Aloud Demo"]
     FEW_A["Rotation Station&lt;br/&gt;+ Response Cards"]
     HOME_A["Homework Prep&lt;br/&gt;+ Class Synthesis"]
 
-    START --&gt; NONE &amp; TEACHER &amp; FEW &amp; HOME
+    START --&gt; NONE &amp; FEW &amp; HOME
     NONE --&gt; NONE_A
-    TEACHER --&gt; TEACHER_A
     FEW --&gt; FEW_A
     HOME --&gt; HOME_A
 
     style START fill:#AB0520,stroke:#AB0520,color:#fff
     style NONE fill:#0C234B,stroke:#0C234B,color:#fff
-    style TEACHER fill:#0C234B,stroke:#0C234B,color:#fff
     style FEW fill:#0C234B,stroke:#0C234B,color:#fff
     style HOME fill:#0C234B,stroke:#0C234B,color:#fff
     style NONE_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
-    style TEACHER_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
     style FEW_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
     style HOME_A fill:#f5f5f5,stroke:#0C234B,color:#0C234B
 </pre>
@@ -530,24 +494,20 @@ flowchart TD
 </thead>
 <tbody>
 <tr class="odd">
-<td>1 teacher device, projector</td>
-<td>Teacher as AI Voice + Think-Aloud</td>
-</tr>
-<tr class="even">
 <td>2-3 student devices</td>
 <td>Rotation Station + Pre-Generated Cards</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Some students have phones</td>
 <td>Rotation + limited personal device use</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Home access, no school access</td>
 <td>Homework Preparation + Class Synthesis</td>
 </tr>
-<tr class="odd">
-<td>Nothing</td>
-<td>Pre-Generated Response Cards + Teacher Role-Play</td>
+<tr class="even">
+<td>No devices at all</td>
+<td>Pre-Generated Response Cards + Think-Aloud Demo</td>
 </tr>
 </tbody>
 </table>
@@ -658,12 +618,12 @@ flowchart TD
 <tbody>
 <tr class="odd">
 <td>K-2</td>
-<td>Teacher as AI Voice</td>
-<td>Young learners benefit from teacher mediation, and a memorable AI character builds engagement</td>
+<td>Pre-Generated Cards + Think-Aloud Demo</td>
+<td>Concrete materials support emerging readers while teacher demonstration models partnership thinking</td>
 </tr>
 <tr class="even">
 <td>3-5</td>
-<td>Pre-Generated Cards + Teacher Demo</td>
+<td>Pre-Generated Cards + Think-Aloud Demo</td>
 <td>Concrete materials support developing readers while teacher modeling demonstrates partnership</td>
 </tr>
 <tr class="odd">
@@ -689,8 +649,7 @@ flowchart TD
 </div>
 <div class="callout-body-container callout-body">
 <p>Use the following recommendations based on your available resources:</p>
-<p>If you have no devices at all, use Pre-Generated Response Cards combined with Teacher Role-Play.</p>
-<p>If you have one teacher device, use Teacher as AI Voice for grades K-5 or Think-Aloud Demo for grades 6-12.</p>
+<p>If you have no devices at all, use Pre-Generated Response Cards combined with Think-Aloud Demonstration.</p>
 <p>If you have a few student devices, use the Rotation Station approach with structured timing.</p>
 <p>If students have home access but not school access, use Homework Preparation combined with Class Synthesis.</p>
 </div>

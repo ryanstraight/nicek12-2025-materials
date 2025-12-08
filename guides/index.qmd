@@ -3,15 +3,13 @@ title: "Implementation Guides"
 subtitle: "Technical Setup and Low-Resource Strategies"
 ---
 
-::: {.text-center}
-{{< li ripbvsga trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li ripbvsga trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
-
-## Overview
 
 These guides support implementation of the True Teamwork activities across the full spectrum of classroom technology resources.
 
-A key insight underlies both guides: the core learning outcome, understanding AI as a collaborative partner, does not require every student to have direct AI access. The framing matters more than the technology.
+A key regarding the core learning outcome (understanding AI as a collaborative partner) does *not* require every student to have direct AI access. The framing matters more than the technology.
 
 ## Available Guides
 
@@ -19,29 +17,31 @@ A key insight underlies both guides: the core learning outcome, understanding AI
 
 New to these materials? Start here. This guide provides clear entry points by grade band, activity sequence recommendations, prerequisite concepts, implementation time estimates, and the minimum viable implementation path for any classroom context.
 
-[View Quick Start Guide](quick-start.qmd)
+[View Quick Start Guide →](quick-start.qmd)
 
 ### AI Platform Setup Guide
 
 This guide covers setup for the most common AI platforms, providing honest assessments of access barriers that K-12 educators commonly encounter. The guide includes platform comparisons across ChatGPT, Claude, Copilot, and Gemini, addressing age restrictions, account requirements, classroom setup procedures, AI interaction best practices, and essential security and privacy considerations.
 
-[View AI Setup Guide](ai-setup-guide.qmd)
+[View AI Setup Guide →](ai-setup-guide.qmd)
 
 ### Low-Resource Implementation Guide
 
-This guide presents proven strategies for running True Teamwork activities in classrooms with limited or no direct AI access. Approaches covered include Teacher as AI Voice, Pre-Generated Response Cards, Rotation Stations, Homework Preparation, Think-Aloud Demonstration, and various hybrid combinations.
+This guide presents proven strategies for running True Teamwork activities in classrooms with limited or no direct AI access. Approaches covered include Pre-Generated Response Cards, Rotation Stations, Homework Preparation, Think-Aloud Demonstration, and various hybrid combinations.
 
-[View Low-Resource Guide](low-resource-implementation.qmd)
+[View Low-Resource Guide →](low-resource-implementation.qmd)
 
 ## Quick Decision Guide
 
 | You Have | Recommended Approach |
-|----------|---------------------|
+|:---------|:---------------------|
 | 1:1 devices, student AI accounts | Students partner directly with AI |
 | Shared devices, class AI account | Rotation stations + demonstrations |
-| 1 teacher device, projector | Teacher as AI Voice + Think-Aloud |
+| 1 teacher device, projector | Think-Aloud Demonstration |
 | Home access, no school access | Homework Preparation + Class Synthesis |
 | No devices or AI available | Pre-generated response cards, teacher role-play |
+
+: Quick Decision Guide {#tbl-quickdecisionguide tbl-colwdidths="50,50"}
 
 Each approach produces meaningful learning. The low-resource options frequently generate richer discussion because students cannot simply defer to AI for answers.
 

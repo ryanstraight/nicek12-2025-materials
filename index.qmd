@@ -24,7 +24,7 @@ These activities guide students beyond viewing AI as merely a tool and toward un
 | AI is either adversary or tool | AI serves as a collaborative partner |
 | Individual competency matters | Partnership capability matters |
 
-**Why this matters:** Contemporary cybersecurity depends on humans and AI working in concert. Students benefit from understanding what each partner contributes, as well as what neither can accomplish alone.
+Cybersecurity depends on humans and AI working in concert. Students benefit from understanding what each partner contributes, as well as what neither can accomplish alone.
 
 ::: {.callout-note collapse="true"}
 ## Learn More: The Theory Behind "AI as Partner"
@@ -36,65 +36,80 @@ This framing draws from **posthuman educational theory**, which challenges us to
 
 ## The Three Activities
 
+For the NICE K12 Cybersecurity Education Conference, we developed three concrete activities to demonstrate this approach. Each includes variations for different gradebands. Each activity comes with complete lesson plans, student materials, assessment rubrics, and strategies for classrooms with limited technology access.
+
 | Activity | Focus | Grade Bands |
-|----------|-------|-------------|
-| **1. Security Detective Teams** | Combining AI pattern recognition with human contextual insight | K-2, 3-5, 6-8, 9-12 |
-| **2. Ethics in Automated Security** | Developing governance frameworks for AI security systems | K-2, 3-5, 6-8, 9-12 |
-| **3. AI-Assisted Incident Response** | Coordinating team roles alongside AI under time pressure | K-2, 3-5, 6-8, 9-12 |
+|:----------|:-------|:-------------|
+| **[1. Security Detective Teams](activities/01-security-detective-teams/)** | Combining AI pattern recognition with human contextual insight | [K-2](activities/01-security-detective-teams/k2.qmd), [3-5](activities/01-security-detective-teams/grades-3-5.qmd), [6-8](activities/01-security-detective-teams/grades-6-8.qmd), [9-12](activities/01-security-detective-teams/grades-9-12.qmd) |
+| **[2. Ethics in Automated Security](activities/02-ethics-automated-security/)** | Developing governance frameworks for AI security systems | [K-2](activities/02-ethics-automated-security/k2.qmd), [3-5](activities/02-ethics-automated-security/grades-3-5.qmd), [6-8](activities/02-ethics-automated-security/grades-6-8.qmd), [9-12](activities/02-ethics-automated-security/grades-9-12.qmd) |
+| **[3. AI-Assisted Incident Response](activities/03-ai-incident-response/)** | Coordinating team roles alongside AI under time pressure | [K-2](activities/03-ai-incident-response/k2.qmd), [3-5](activities/03-ai-incident-response/grades-3-5.qmd), [6-8](activities/03-ai-incident-response/grades-6-8.qmd), [9-12](activities/03-ai-incident-response/grades-9-12.qmd) |
 
-Each activity comes with complete lesson plans, student materials, assessment rubrics, and strategies for classrooms with limited technology access.
+: Activity Breakdown {#tbl-activitybreakdown tbl-colwidths="25,50,25"}
 
-[Browse All Activities](activities/)
+[Browse All Activities →](activities/)
+
+---
 
 ## Supporting Materials
 
 ::: {.grid}
 ::: {.g-col-6}
+::: {.material-card}
 ### Assessments
 
 Rubrics designed around human-AI collaboration competencies, with explicit connections to the NICE Framework.
 
-[View Assessments](assessments/)
+[View Assessments →](assessments/)
+:::
 :::
 
 ::: {.g-col-6}
+::: {.material-card}
 ### Implementation Guides
 
 Practical guidance for AI platform setup alongside strategies for classrooms with limited or no AI access.
 
-[View Guides](guides/)
+[View Guides →](guides/)
+:::
 :::
 :::
 
 ::: {.grid}
 ::: {.g-col-6}
+::: {.material-card}
 ### Career Connections
 
 One-page handouts that link each activity to authentic cybersecurity career pathways.
 
-[View Career Connections](career-connections/)
+[View Career Connections →](career-connections/)
+:::
 :::
 
 ::: {.g-col-6}
+::: {.material-card}
 ### Printables
 
 Ready-to-print worksheets, evidence packets, and AI response cards for immediate classroom use.
 
-[View Printables](printables/)
+[View Printables →](printables/)
+:::
 :::
 :::
 
-## Download Everything
-
+::: {.download-banner}
 All materials are available as PDFs and editable DOCX files for offline use and classroom printing.
 
-[Go to Materials](materials.qmd)
+[Download All Materials →](materials.qmd)
+:::
+
+---
 
 ## Framework Alignment
 
-Every activity connects to NICE Workforce Framework Work Roles and CYBER.org K-12 Standards. Individual activity pages provide specific alignment details.
+Every activity connects to [NICE Workforce Framework](https://niccs.cisa.gov/workforce-development/nice-framework) Work Roles and [CYBER.org K-12 Standards](https://cyber.org/curriculum/standards). Individual activity pages provide specific alignment details.
 
-## For CTE Cybersecurity Programs
+::: {.audience-card}
+### For CTE Cybersecurity Programs
 
 These activities align directly with Career and Technical Education pathways:
 
@@ -102,22 +117,26 @@ These activities align directly with Career and Technical Education pathways:
 |----------|-------------------------|
 | **Industry-aligned skills** | Activities mirror authentic SOC workflows and incident response procedures |
 | **NICE Framework mapping** | Every activity explicitly connects to Work Roles (PR-CDA-001, PR-CIR-001, OV-SPP-002) |
-| **Career exploration** | One-page career connection handouts link activities to real job pathways |
+| **Career exploration** | [One-page career connection handouts](career-connections/) link activities to real job pathways |
 | **Employer expectations** | Human-AI collaboration is now standard in enterprise security operations |
 
-The 9-12 versions provide technical depth appropriate for cybersecurity pathway courses, while 6-8 versions work well for exploratory CTE programs.
+The [9-12 versions](activities/01-security-detective-teams/grades-9-12.qmd) provide technical depth appropriate for cybersecurity pathway courses, while [6-8 versions](activities/01-security-detective-teams/grades-6-8.qmd) work well for exploratory CTE programs.
+:::
 
-## For Outreach Programs
+::: {.audience-card}
+### For Outreach Programs
 
 Research centers, universities, and community organizations can deploy these materials with K-12 partners:
 
 - **Turnkey delivery** — Complete lesson plans require minimal customization
 - **Scalable** — Works for single classroom visits or semester-long partnerships
-- **Flexible technology requirements** — Low-resource options mean any partner school can participate
-- **Assessment-ready** — Rubrics help document learning outcomes for grant reporting
+- **Flexible technology requirements** — [Low-resource options](guides/low-resource-implementation.qmd) mean any partner school can participate
+- **Assessment-ready** — [Rubrics](assessments/) help document learning outcomes for grant reporting
 - **Train-the-trainer friendly** — Materials are detailed enough for partner teachers to run independently
+:::
 
-## STEAM Integration
+::: {.audience-card}
+### STEAM Integration
 
 These activities connect naturally across disciplines:
 
@@ -128,6 +147,7 @@ These activities connect naturally across disciplines:
 - **Mathematics** — Data analysis, probability (false positives), timeline reconstruction
 
 The investigation and policy design activities work especially well in interdisciplinary or project-based learning contexts.
+:::
 
 ## About These Materials
 
@@ -136,7 +156,7 @@ These resources were developed for the NICE K12 Cybersecurity Education Conferen
 **Contact**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)  
 **ORCID**: [0000-0002-6251-5662](https://orcid.org/0000-0002-6251-5662)
 
-[Learn More](about.qmd)
+[Learn More →](about.qmd)
 
 ---
 

@@ -3,8 +3,8 @@ title: "Career Connections"
 subtitle: "Linking Activities to Real Cybersecurity Careers"
 ---
 
-::: {.text-center}
-{{< li zhiiqoue trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li zhiiqoue trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
 
 ## Overview

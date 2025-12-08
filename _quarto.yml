@@ -40,6 +40,17 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: Guides
+        menu:
+          - text: "Overview"
+            href: guides/index.qmd
+          - text: "---"
+          - text: "Quick Start Guide"
+            href: guides/quick-start.qmd
+          - text: "AI Platform Setup"
+            href: guides/ai-setup-guide.qmd
+          - text: "Low-Resource Implementation"
+            href: guides/low-resource-implementation.qmd
       - text: Activities
         menu:
           - text: "Overview"
@@ -54,17 +65,6 @@ website:
           - text: "---"
           - text: "Extension Activities"
             href: activities/extensions/index.qmd
-      - text: Guides
-        menu:
-          - text: "Overview"
-            href: guides/index.qmd
-          - text: "---"
-          - text: "Quick Start Guide"
-            href: guides/quick-start.qmd
-          - text: "AI Platform Setup"
-            href: guides/ai-setup-guide.qmd
-          - text: "Low-Resource Implementation"
-            href: guides/low-resource-implementation.qmd
       - text: Assessments
         menu:
           - text: "Overview"
@@ -161,8 +161,8 @@ format:
       \fancyhead[L]{\small True Teamwork: Human-AI Partnership Activities}
       \fancyhead[R]{\small College of Information Science - University of Arizona}
       \fancyfoot[C]{\thepage}
-      \fancyfoot[L]{\small Ryan Straight, Ph.D}
-      \fancyfoot[R]{\small ryanstraight@arizona.edu}
+      \fancyfoot[L]{\small Ryan Straight, Ph.D - ryanstraight@arizona.edu}
+      \fancyfoot[R]{\small https://ryanstraight.github.io/nicek12-2025-materials/}
 
   docx:
     toc: true

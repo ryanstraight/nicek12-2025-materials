@@ -444,6 +444,104 @@ body:has(.hero-section) #title-block-header {
   }
 }
 
+// Lord icon sizing
+.page-header-icon {
+  lord-icon {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+// Homepage card grid items
+.material-card {
+  background: $ua-white;
+  border: 1px solid rgba($ua-cool-gray, 0.8);
+  border-top: 3px solid $ua-azurite;
+  border-radius: 0 0 8px 8px;
+  padding: 1.25em 1.5em;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h3 {
+    margin-top: 0;
+    color: $ua-blue;
+    font-size: 1.15em;
+  }
+
+  p {
+    color: #444;
+    margin-bottom: 0.75em;
+  }
+
+  a {
+    color: $ua-azurite;
+    font-weight: 500;
+
+    &:hover {
+      color: $ua-red;
+    }
+  }
+}
+
+// Download banner styling
+.download-banner {
+  background: linear-gradient(135deg, $ua-azurite 0%, $ua-blue 100%);
+  color: $ua-white;
+  padding: 1.5em 2em;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2em 0;
+
+  p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  a {
+    display: inline-block;
+    background: $ua-white;
+    color: $ua-blue;
+    padding: 0.6em 1.5em;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      color: $ua-red;
+    }
+  }
+}
+
+// Section accent bar
+.section-accent {
+  border-left: 4px solid $ua-red;
+  padding-left: 1em;
+  margin: 2em 0;
+}
+
+// Audience cards
+.audience-card {
+  background: rgba($ua-cool-gray, 0.3);
+  border-radius: 8px;
+  padding: 1.25em 1.5em;
+  margin: 1em 0;
+
+  h3 {
+    color: $ua-blue;
+    margin-top: 0;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid $ua-red;
+  }
+}
+
 // Print styles
 @media print {
   .sidebar {

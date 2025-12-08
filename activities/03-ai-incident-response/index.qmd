@@ -3,8 +3,8 @@ title: "Activity 3: AI-Assisted Incident Response"
 subtitle: "Team-Based Security Crisis Management"
 ---
 
-::: {.text-center}
-{{< li zbefeizg trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li zbefeizg trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
 
 ## Overview

@@ -3,8 +3,8 @@ title: "Activity 2: Ethics in Automated Security"
 subtitle: "Designing Governance for AI Security Systems"
 ---
 
-::: {.text-center}
-{{< li bduzytli trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li bduzytli trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
 
 ## Overview

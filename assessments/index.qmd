@@ -3,8 +3,8 @@ title: "Assessment Materials"
 subtitle: "Rubrics and Reflection Tools for Human-AI Partnership Activities"
 ---
 
-::: {.text-center}
-{{< li jpquyhqc trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li jpquyhqc trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
 
 ## Overview

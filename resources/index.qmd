@@ -6,8 +6,8 @@ toc: true
 toc-depth: 2
 ---
 
-::: {.text-center}
-{{< li rrbmabsx trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 scale=150 >}}
+::: {.text-center .page-header-icon}
+{{< li rrbmabsx trigger=hover colors=primary:#0C234B,secondary:#AB0520 speed=0.5 >}}
 :::
 
 ::: {.hero-section title="Building Your Foundation"}

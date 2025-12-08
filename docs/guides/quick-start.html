@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-f2951a56e2612c081f4f1f5403fc1ac9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-77672fbe5440502fc02b6eace5497f7e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a96ad48f8879a3d6823f231e5bf631d9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,6 +110,30 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guides">    
+        <li>
+    <a class="dropdown-item" href="../guides/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../guides/quick-start.html">
+ <span class="dropdown-text">Quick Start Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../guides/ai-setup-guide.html">
+ <span class="dropdown-text">AI Platform Setup</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../guides/low-resource-implementation.html">
+ <span class="dropdown-text">Low-Resource Implementation</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Activities</span>
     </a>
@@ -135,30 +159,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../activities/extensions/index.html">
  <span class="dropdown-text">Extension Activities</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Guides</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-guides">    
-        <li>
-    <a class="dropdown-item" href="../guides/index.html">
- <span class="dropdown-text">Overview</span></a>
-  </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="../guides/quick-start.html">
- <span class="dropdown-text">Quick Start Guide</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../guides/ai-setup-guide.html">
- <span class="dropdown-text">AI Platform Setup</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../guides/low-resource-implementation.html">
- <span class="dropdown-text">Low-Resource Implementation</span></a>
   </li>  
     </ul>
   </li>
@@ -288,18 +288,21 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
 <p>This guide helps you navigate the curriculum and identify an appropriate starting point for your students. Whether you have a single class period or a full instructional unit, the pathways below will orient you to the available options.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Note</span>A Note on “Partnership” Language
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>We use “partnership” language deliberately. Industry professionals typically say they “use AI tools,” but research on human-technology relations reveals that this framing obscures the mutual shaping between human judgment and automated systems. In security operations, the monitoring system shapes what counts as “suspicious” before the analyst ever sees it; the analyst’s perception is mediated by tool design; agency is distributed across the analyst, the tool, and those who configured its detection logic.</p>
 <p>Teaching students to see these relationships clearly—rather than through the “I use tools” framing—is part of developing cybersecurity expertise.</p>
 <p><a href="../resources/index.html#why-partnership">Learn more about the theory →</a></p>
+</div>
 </div>
 </div>
 </section>
@@ -358,17 +361,11 @@ flowchart TD
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Activity 1: Security Detective Teams</strong> (K-2: “Mystery Helpers” or 3-5: “Locked Library Computers”)</p>
+<p><strong><a href="../activities/01-security-detective-teams/">Activity 1: Security Detective Teams</a></strong> (K-2: “<a href="../activities/01-security-detective-teams/k2.html">Mystery Helpers</a>” or 3-5: “<a href="../activities/01-security-detective-teams/grades-3-5.html">Locked Library Computers</a>”)</p>
 <p>This activity introduces the core partnership concept through investigation scenarios. Students discover that AI excels at pattern recognition while humans contribute contextual understanding, and that together they can solve problems neither could address alone.</p>
 </div>
 </div>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 27%">
-<col style="width: 23%">
-<col style="width: 27%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Grade Band</th>
@@ -380,13 +377,13 @@ flowchart TD
 <tbody>
 <tr class="odd">
 <td><strong>K-2</strong></td>
-<td>Mystery Helpers</td>
+<td><a href="../activities/01-security-detective-teams/k2.html">Mystery Helpers</a></td>
 <td>20-25 min</td>
 <td>None—designed for first exposure</td>
 </tr>
 <tr class="even">
 <td><strong>3-5</strong></td>
-<td>Locked Library Computers</td>
+<td><a href="../activities/01-security-detective-teams/grades-3-5.html">Locked Library Computers</a></td>
 <td>30-35 min</td>
 <td>Basic understanding of school computer use</td>
 </tr>
@@ -394,8 +391,8 @@ flowchart TD
 </table>
 <p><strong>After completing Activity 1</strong>, consider:</p>
 <ul>
-<li><strong>Activity 2</strong> (Ethics): Robot Helper Rules (K-2) or Computer Rules Committee (3-5)</li>
-<li><strong>Activity 3</strong> (Incident Response): Fix It Team! (K-2) or Computer Problem Solvers (3-5)</li>
+<li><strong><a href="../activities/02-ethics-automated-security/">Activity 2</a></strong> (Ethics): <a href="../activities/02-ethics-automated-security/k2.html">Robot Helper Rules</a> (K-2) or <a href="../activities/02-ethics-automated-security/grades-3-5.html">Computer Rules Committee</a> (3-5)</li>
+<li><strong><a href="../activities/03-ai-incident-response/">Activity 3</a></strong> (Incident Response): <a href="../activities/03-ai-incident-response/k2.html">Fix It Team!</a> (K-2) or <a href="../activities/03-ai-incident-response/grades-3-5.html">Computer Problem Solvers</a> (3-5)</li>
 </ul>
 </section>
 <section id="middle-school-6-8" class="level3">
@@ -410,17 +407,11 @@ flowchart TD
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Activity 1: Security Detective Teams</strong> (45-50 minutes)</p>
+<p><strong><a href="../activities/01-security-detective-teams/grades-6-8.html">Activity 1: Security Detective Teams</a></strong> (45-50 minutes)</p>
 <p>Middle school students benefit from completing the full investigation experience before engaging with ethics or incident response content. The detective framing captures student interest while establishing the foundational partnership concept.</p>
 </div>
 </div>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 27%">
-<col style="width: 31%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Sequence</th>
@@ -432,26 +423,26 @@ flowchart TD
 <tbody>
 <tr class="odd">
 <td><strong>Start here</strong></td>
-<td>Security Detective Teams</td>
+<td><a href="../activities/01-security-detective-teams/grades-6-8.html">Security Detective Teams</a></td>
 <td>45-50 min</td>
 <td>None</td>
 </tr>
 <tr class="even">
 <td><strong>Then</strong></td>
-<td>AI-Assisted Incident Response</td>
+<td><a href="../activities/03-ai-incident-response/grades-6-8.html">AI-Assisted Incident Response</a></td>
 <td>50-60 min</td>
 <td>Partnership concept from Activity 1</td>
 </tr>
 <tr class="odd">
 <td><strong>Finally</strong></td>
-<td>Ethics in Automated Security</td>
+<td><a href="../activities/02-ethics-automated-security/grades-6-8.html">Ethics in Automated Security</a></td>
 <td>45-55 min</td>
 <td>Activities 1 &amp; 2 recommended</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Full implementation</strong>: ~2.5 hours across three class periods</p>
-<p><strong>Minimum viable path</strong>: Activity 1 alone delivers core partnership learning in a single period</p>
+<p>Full implementation: ~2.5 hours across three class periods</p>
+<p>Minimum viable path: Activity 1 alone delivers core partnership learning in a single period</p>
 </section>
 <section id="high-school-9-12" class="level3">
 <h3 class="anchored" data-anchor-id="high-school-9-12">High School (9-12)</h3>
@@ -465,17 +456,11 @@ flowchart TD
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Activity 1: Threat Investigation</strong> (50-60 minutes)</p>
-<p>The Security Operations Center (SOC) simulation provides authentic technical depth. For Career and Technical Education cybersecurity programs, this activity mirrors professional practice and aligns with NICE Framework work roles.</p>
+<p><strong><a href="../activities/01-security-detective-teams/grades-9-12.html">Activity 1: Threat Investigation</a></strong> (50-60 minutes)</p>
+<p>The Security Operations Center (SOC) simulation provides authentic technical depth. For Career and Technical Education cybersecurity programs, this activity mirrors professional practice and aligns with <a href="https://niccs.cisa.gov/workforce-development/nice-framework">NICE Framework</a> work roles.</p>
 </div>
 </div>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 27%">
-<col style="width: 31%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Sequence</th>
@@ -487,19 +472,19 @@ flowchart TD
 <tbody>
 <tr class="odd">
 <td><strong>Start here</strong></td>
-<td>Threat Investigation</td>
+<td><a href="../activities/01-security-detective-teams/grades-9-12.html">Threat Investigation</a></td>
 <td>50-60 min</td>
 <td>Basic network concepts helpful</td>
 </tr>
 <tr class="even">
 <td><strong>Then</strong></td>
-<td>SOC Analyst Simulation</td>
+<td><a href="../activities/03-ai-incident-response/grades-9-12.html">SOC Analyst Simulation</a></td>
 <td>55-60 min</td>
 <td>Partnership concept from Activity 1</td>
 </tr>
 <tr class="odd">
 <td><strong>Finally</strong></td>
-<td>AI Governance Workshop</td>
+<td><a href="../activities/02-ethics-automated-security/grades-9-12.html">AI Governance Workshop</a></td>
 <td>50-60 min</td>
 <td>Activities 1 &amp; 2 for full context</td>
 </tr>
@@ -513,7 +498,7 @@ flowchart TD
 <h2 class="anchored" data-anchor-id="implementation-time-planning">Implementation Time Planning</h2>
 <section id="single-class-period" class="level3">
 <h3 class="anchored" data-anchor-id="single-class-period">Single Class Period</h3>
-<p>Select <strong>one activity</strong> at your grade level. Activity 1 (Security Detective Teams) is recommended for initial implementation because it introduces the partnership concept that serves as the foundation for all subsequent activities.</p>
+<p>Select <strong>one activity</strong> at your grade level. <a href="../activities/01-security-detective-teams/">Activity 1 (Security Detective Teams)</a> is recommended for initial implementation because it introduces the partnership concept that serves as the foundation for all subsequent activities.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -548,15 +533,15 @@ flowchart TD
 </section>
 <section id="two-class-periods" class="level3">
 <h3 class="anchored" data-anchor-id="two-class-periods">Two Class Periods</h3>
-<p>Pair Activities 1 and 3 for a two-session sequence. Activity 3 (Incident Response) applies the partnership concept to time-sensitive scenarios, extending naturally from the investigative work in Activity 1.</p>
+<p>Pair Activities 1 and 3 for a two-session sequence. <a href="../activities/03-ai-incident-response/">Activity 3 (Incident Response)</a> applies the partnership concept to time-sensitive scenarios, extending naturally from the investigative work in Activity 1.</p>
 </section>
 <section id="three-class-periods-full-curriculum" class="level3">
 <h3 class="anchored" data-anchor-id="three-class-periods-full-curriculum">Three Class Periods (Full Curriculum)</h3>
 <p>Implement all three activities in sequence:</p>
 <ol type="1">
-<li><strong>Security Detective Teams</strong> — Introduces the partnership concept</li>
-<li><strong>AI-Assisted Incident Response</strong> — Applies partnership principles to crisis situations</li>
-<li><strong>Ethics in Automated Security</strong> — Examines governance implications</li>
+<li><strong><a href="../activities/01-security-detective-teams/">Security Detective Teams</a></strong> — Introduces the partnership concept</li>
+<li><strong><a href="../activities/03-ai-incident-response/">AI-Assisted Incident Response</a></strong> — Applies partnership principles to crisis situations</li>
+<li><strong><a href="../activities/02-ethics-automated-security/">Ethics in Automated Security</a></strong> — Examines governance implications</li>
 </ol>
 <p>This sequence develops progressively sophisticated understanding of human-AI collaboration in cybersecurity contexts.</p>
 </section>
@@ -586,7 +571,7 @@ flowchart TD
 </tr>
 <tr class="odd">
 <td><strong>Teacher device + projector only</strong></td>
-<td>Teacher as AI Voice + Think-Aloud</td>
+<td>Think-Aloud Demonstration</td>
 </tr>
 <tr class="even">
 <td><strong>Home access, no school access</strong></td>
@@ -615,15 +600,15 @@ flowchart TD
 <section id="activity-prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="activity-prerequisites">Activity Prerequisites</h2>
 <section id="activity-1-security-detective-teams" class="level3">
-<h3 class="anchored" data-anchor-id="activity-1-security-detective-teams">Activity 1: Security Detective Teams</h3>
+<h3 class="anchored" data-anchor-id="activity-1-security-detective-teams"><a href="../activities/01-security-detective-teams/">Activity 1: Security Detective Teams</a></h3>
 <ul>
 <li><strong>No prerequisites required</strong> — designed as an introductory activity</li>
 <li>Helpful: Basic familiarity with passwords and login concepts</li>
-<li>The K-2 version assumes no prior technology knowledge</li>
+<li>The <a href="../activities/01-security-detective-teams/k2.html">K-2 version</a> assumes no prior technology knowledge</li>
 </ul>
 </section>
 <section id="activity-2-ethics-in-automated-security" class="level3">
-<h3 class="anchored" data-anchor-id="activity-2-ethics-in-automated-security">Activity 2: Ethics in Automated Security</h3>
+<h3 class="anchored" data-anchor-id="activity-2-ethics-in-automated-security"><a href="../activities/02-ethics-automated-security/">Activity 2: Ethics in Automated Security</a></h3>
 <ul>
 <li><strong>Recommended prerequisite</strong>: Activity 1 (establishes partnership concept)</li>
 <li>Students benefit from understanding AI capabilities before designing governance frameworks</li>
@@ -631,7 +616,7 @@ flowchart TD
 </ul>
 </section>
 <section id="activity-3-ai-assisted-incident-response" class="level3">
-<h3 class="anchored" data-anchor-id="activity-3-ai-assisted-incident-response">Activity 3: AI-Assisted Incident Response</h3>
+<h3 class="anchored" data-anchor-id="activity-3-ai-assisted-incident-response"><a href="../activities/03-ai-incident-response/">Activity 3: AI-Assisted Incident Response</a></h3>
 <ul>
 <li><strong>Recommended prerequisite</strong>: Activity 1 (establishes partnership concept)</li>
 <li>Students apply partnership dynamics under simulated time pressure</li>
@@ -671,7 +656,7 @@ flowchart TD
 <h3 class="anchored" data-anchor-id="optional-enhancements">Optional Enhancements</h3>
 <ul>
 <li>Role badges for team assignments</li>
-<li>AI response cards for low-resource implementation</li>
+<li><a href="../printables/ai-response-cards.pdf">AI response cards</a> for low-resource implementation</li>
 <li>Timer display for incident response activity</li>
 </ul>
 </section>
@@ -688,18 +673,12 @@ flowchart TD
 <section id="quick-reference-activity-comparison" class="level2">
 <h2 class="anchored" data-anchor-id="quick-reference-activity-comparison">Quick Reference: Activity Comparison</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 27%">
-<col style="width: 27%">
-<col style="width: 27%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Aspect</th>
-<th>Activity 1</th>
-<th>Activity 2</th>
-<th>Activity 3</th>
+<th><a href="../activities/01-security-detective-teams/">Activity 1</a></th>
+<th><a href="../activities/02-ethics-automated-security/">Activity 2</a></th>
+<th><a href="../activities/03-ai-incident-response/">Activity 3</a></th>
 </tr>
 </thead>
 <tbody>
@@ -741,8 +720,8 @@ flowchart TD
 <ol type="1">
 <li><strong>Select your grade band</strong> from the sections above</li>
 <li><strong>Review Activity 1</strong> for your level: <a href="../activities/01-security-detective-teams/k2.html">K-2</a> | <a href="../activities/01-security-detective-teams/grades-3-5.html">3-5</a> | <a href="../activities/01-security-detective-teams/grades-6-8.html">6-8</a> | <a href="../activities/01-security-detective-teams/grades-9-12.html">9-12</a></li>
-<li><strong>Assess your technology access</strong> and review the appropriate implementation guide</li>
-<li><strong>Print required materials</strong> from the Materials page</li>
+<li><strong>Assess your technology access</strong> and review the appropriate <a href="../guides/low-resource-implementation.html">implementation guide</a></li>
+<li><strong>Print required materials</strong> from the <a href="../materials.html">Materials page</a></li>
 <li><strong>Complete the activity yourself</strong> before facilitating it with students</li>
 </ol>
 <div class="callout callout-style-default callout-important callout-titled">
