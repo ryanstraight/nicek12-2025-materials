@@ -42,6 +42,8 @@ format:
   revealjs:
     theme: simple
     css: ../assets/nice-k12-style.css
+    controls: true
+    controls-tutorial: true
     logo: "media/banner.png"
     footer: 'Straight, Honomichl, & Wagner - "True Teamwork" - NICE K12 2025'
     slide-number: true
