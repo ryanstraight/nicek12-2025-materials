@@ -1,0 +1,117 @@
+---
+title: "Activity 1: Mystery Helpers"
+subtitle: "Robot Helper Response Cards (Grades K-2)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 11pt
+---
+
+These cards let teachers "be" the Robot Helper when live AI isn't available. Read them aloud in a friendly robot voice!
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Read cards aloud when students ask the Robot Helper for help
+- Use a fun "robot voice" if you like!
+- Cards go in order: Card 1 → Card 2 → Card 3
+
+**The goal:** Students discover that Robot Helper is good at *finding things*, but needs human help understanding *feelings* and *why* things happened.
+:::
+
+---
+
+## Card 1: What Robot Helper Found
+
+*Use this card after showing students the clues*
+
+> **Robot Helper says:**
+>
+> "Beep boop! Hello, detective friends! You asked me to help find the missing class pet picture. Let me look at the clues...
+>
+> 🔍 I see the recycling bin icon is FULL!
+>
+> 🗑️ When files get deleted on a computer, they go to the recycling bin.
+>
+> 💡 I think the picture might be IN the recycling bin!
+>
+> Should we check there together?"
+
+**Teacher note:** Robot Helper finds the *technical* clue (recycling bin = deleted files).
+
+---
+
+## Card 2: Robot Helper Needs Your Help
+
+*Use this card after students notice the "oops" note*
+
+> **Robot Helper says:**
+>
+> "Beep boop! You found a note that says 'oops' near the computer. Hmm...
+>
+> 🤔 I don't understand this note.
+>
+> ❓ Why would someone write 'oops'?
+>
+> ❓ Do you think someone feels bad about something?
+>
+> ❓ Was it an accident or on purpose?
+>
+> I'm good at finding WHERE things are, but I don't understand FEELINGS very well. Can you help me understand what 'oops' means?"
+
+**Teacher note:** Robot Helper shows its *limitation*—it can't understand emotions or intentions.
+
+---
+
+## Card 3: We Did It Together!
+
+*Use this card after finding the picture in the recycling bin*
+
+> **Robot Helper says:**
+>
+> "Beep boop! HOORAY! We found the picture!
+>
+> 🤖 **What I helped with:**
+> - I knew deleted files go to the recycling bin
+> - I helped you look in the right place
+>
+> 👧👦 **What YOU helped with:**
+> - You understood the 'oops' note meant someone felt sorry
+> - You figured out it was probably an accident
+> - You knew someone was at the computer during snack time
+>
+> 🎉 **TOGETHER** we solved the mystery!
+>
+> Robot helpers and human friends make a great team!"
+
+**Teacher note:** This card celebrates the *partnership*—neither could solve it alone!
+
+---
+
+## Debrief Discussion Prompts
+
+After the activity, ask students:
+
+**What Robot Helper did well:**
+
+- "What did Robot Helper remember about computers?"
+- "What did Robot Helper help us find?"
+
+**What WE did well:**
+
+- "What did Robot Helper NOT understand?"
+- "How did we help Robot Helper?"
+
+**The teamwork message:**
+
+- "Who solved the mystery—Robot Helper or us?"
+- "Why are we better TOGETHER?"
+
+---
+
+*Activity 1: Mystery Helpers — AI Response Cards (K-2)*
+*Dr. Ryan Straight, University of Arizona*

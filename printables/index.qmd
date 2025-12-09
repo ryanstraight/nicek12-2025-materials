@@ -31,7 +31,12 @@ Students investigate security incidents WITH an AI partner, discovering that AI 
 
 [**Evidence Packet**](evidence-packet.qmd) — "CLASSIFIED" investigation evidence including login logs, password analysis, social media activity, network data, help desk tickets, and interview notes.
 
-[**AI Partner Response Cards**](ai-response-cards.qmd) — Low-resource implementation support with pre-written AI analysis for groups without live AI access.
+**AI Partner Response Cards** — Grade-differentiated cards for low-resource implementation with pre-written AI analysis:
+
+- [Grades K-2: Robot Helper Cards](activity1-ai-response-cards-k2.qmd) — Simple cards for teacher read-aloud with Robot Helper voice
+- [Grades 3-5: Computer Helper Cards](activity1-ai-response-cards-3-5.qmd) — Pattern analysis and limitation cards for detective teams
+- [Grades 6-8: AI Partner Cards](activity1-ai-response-cards-6-8.qmd) — Full card sets with opening analysis, deeper analysis, disagreement, and synthesis
+- [Grades 9-12: AI Security Analyst Cards](activity1-ai-response-cards-9-12.qmd) — Professional SOC language with SIEM analysis and explicit limitation notices
 
 ---
 
@@ -57,7 +62,12 @@ Students design governance policies for AI security systems, discovering that AI
 
 [**Policy Scenario Cards**](activity2-policy-scenario-cards.qmd) — Eight realistic scenarios that test students' policy decisions with real-world complications.
 
-[**AI Perspective Cards**](activity2-ai-perspective-cards.qmd) — Low-resource implementation support with SchoolGuard's perspective on automatic blocking, activity alerts, adaptive learning, and its own limitations.
+**AI Perspective Cards** — Grade-differentiated cards providing AI system perspectives for governance discussions:
+
+- [Grades K-2: Sparky Cards](activity2-ai-perspective-cards-k2.qmd) — Robot helper perspective on lights, cleanup, and safety rules
+- [Grades 3-5: SchoolGuard Cards](activity2-ai-perspective-cards-3-5.qmd) — Computer Rules Committee policy discussions
+- [Grades 6-8: SchoolGuard Cards](activity2-ai-perspective-cards-6-8.qmd) — Detailed governance perspectives on blocking, monitoring, and learning
+- [Grades 9-12: SecureNet AI Cards](activity2-ai-perspective-cards-9-12.qmd) — Professional governance statements with regulatory context
 
 [**Stakeholder Role Cards**](activity2-stakeholder-cards.qmd) — For 9-12 governance simulation: Student Representative, Parent Liaison, IT Security Lead, Legal Advisor, Administrator, and AI System roles.
 
@@ -87,7 +97,12 @@ Students experience authentic NICE Framework Work Roles by responding to realist
 
 [**Incident Briefings**](activity3-incident-briefings.qmd) — Scenario descriptions for each grade band: ransomware, data breach, social media compromise, malware investigation, and K-2 fix-it story.
 
-[**AI Response Cards**](activity3-ai-response-cards.qmd) — Low-resource implementation with SentinelAI analysis reports (9-12), school AI advisor responses (6-8), helper responses (3-5), and Sparky dialogue (K-2).
+**AI Response Cards** — Grade-differentiated cards providing AI analysis for incident response scenarios:
+
+- [Grades K-2: Sparky Cards](activity3-ai-response-cards-k2.qmd) — Robot helper finding problems and asking permission to fix
+- [Grades 3-5: AI Helper Cards](activity3-ai-response-cards-3-5.qmd) — Malware investigation responses for Computer Problem Solvers
+- [Grades 6-8: AI Security Advisor Cards](activity3-ai-response-cards-6-8.qmd) — School incident responses for ransomware, breaches, and compromises
+- [Grades 9-12: SentinelAI Cards](activity3-ai-response-cards-9-12.qmd) — Enterprise SOAR platform responses with MITRE ATT&CK mapping
 
 [**Complication Cards**](activity3-complication-cards.qmd) — Phase 3 injections to simulate dynamic incident response: media pressure, scope expansion, stakeholder conflicts, and human factors.
 

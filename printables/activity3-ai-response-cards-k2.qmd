@@ -1,0 +1,152 @@
+---
+title: "Activity 3: Fix It Team!"
+subtitle: "Sparky Robot Helper Cards (Grades K-2)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 11pt
+---
+
+These cards let teachers voice Sparky the Robot Helper during the Fix It Team activity. Read them aloud at the appropriate moments!
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Card 1: Use during Scene 2 when Sparky checks the computers
+- Card 2: Use after finding the problem to explain why Sparky needs permission
+- Card 3: Use during celebration to reinforce the teamwork message
+
+**The goal:** Students learn that robot helpers find problems, but people decide how to fix them.
+:::
+
+---
+
+## Card 1: What Sparky Found
+
+*Use during Scene 2: Robot Helper Checks*
+
+> **🤖 Sparky the Robot Helper says:**
+>
+> "Beep boop! You asked me to check the computers. Let me see...
+>
+> ✓ The computers are plugged in — CHECK!
+>
+> ✓ The power strips have lights — CHECK!
+>
+> ✗ Wait! The main switch is... OFF!
+>
+> **I found the problem!**
+>
+> The big switch that gives power to all the computers is turned off. That's why nothing is working!
+>
+> But... I'm not allowed to flip the switch by myself. I need the Fix It Team to decide if it's safe first!"
+
+**Teacher note:** Sparky finds the problem quickly but immediately defers to humans for the decision.
+
+---
+
+## Card 2: Why Sparky Needs Permission
+
+*Use after Scene 2 when discussing why Sparky can't just fix it*
+
+> **🤖 Sparky explains:**
+>
+> "Beep boop! You might be wondering why I didn't just flip the switch myself. Here's why:
+>
+> ❓ **What if someone's stuff was in the way?**
+> I can't see backpacks or papers that might be near the switch.
+>
+> ❓ **What if there was a reason it was turned off?**
+> Maybe a grown-up turned it off for a good reason I don't know about.
+>
+> ❓ **What if I made a mistake?**
+> What if it wasn't really the switch? I could make things worse!
+>
+> **That's why people and robot helpers work together!**
+>
+> I find things. You decide things. We're a team!"
+
+**Teacher note:** This card explains Sparky's limitations in kid-friendly terms.
+
+---
+
+## Card 3: Teamwork Celebration
+
+*Use during Scene 4: Success!*
+
+> **🤖 Sparky celebrates:**
+>
+> "Beep boop! HOORAY! The computers are working!
+>
+> **Look what our team did:**
+>
+> 🔍 The **Detective** looked for clues
+>
+> 💭 The **Thinker** had great ideas
+>
+> ✋ The **Helper** flipped the switch
+>
+> 🤖 And **I** (Sparky!) checked things really fast
+>
+> **Nobody could do it alone!**
+>
+> - I'm good at checking things quickly
+> - But I needed YOU to decide what was safe
+> - And I needed YOU to actually fix it
+>
+> **We're the best Fix It Team!**
+>
+> Beep boop! 🎉"
+
+**Teacher note:** Reinforce that every team member—including the robot—contributed something important.
+
+---
+
+## Optional: If the Team Gets Stuck
+
+*Use if students aren't sure what to do after Sparky finds the problem*
+
+> **🤖 Sparky wonders:**
+>
+> "Beep boop! I found that the switch is off. But I don't know what to do next.
+>
+> Can the Fix It Team help me?
+>
+> - Should we flip the switch?
+> - Should we ask the teacher first?
+> - Should we check if it's safe?
+>
+> **What do you think, friends?**"
+
+**Teacher note:** Use this to prompt student decision-making if they're waiting for the "answer."
+
+---
+
+## Debrief Discussion Prompts
+
+After the activity, ask students:
+
+**About Sparky:**
+
+- "What was Sparky good at?" (Checking things fast, remembering what to look for)
+- "What did Sparky need help with?" (Deciding, knowing if it was safe)
+
+**About the team:**
+
+- "What was the Detective's job?" (Looking for clues)
+- "What was the Thinker's job?" (Coming up with ideas)
+- "What was the Helper's job?" (Doing the fix)
+
+**The big idea:**
+
+- "Who fixed the computers—Sparky or the team?"
+- (Answer: We did it TOGETHER! Sparky found the problem, but the team decided and did the fix.)
+
+---
+
+*Activity 3: Fix It Team! — Sparky Robot Helper Cards (K-2)*
+*Dr. Ryan Straight, University of Arizona*

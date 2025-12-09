@@ -1,0 +1,181 @@
+---
+title: "Activity 1: Security Detective Teams"
+subtitle: "Computer Helper Response Cards (Grades 3-5)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+These cards represent authentic AI responses—including uncertainty and genuine limitations. Use them when live AI access isn't available.
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Students can draw cards or teacher can read aloud
+- Cards can be used in sequence (A → B → C → D) or mixed based on student questions
+- Each card shows both AI strengths AND limitations
+
+**The goal:** Students discover that Computer Helper spots patterns quickly but needs human help understanding social situations and feelings.
+:::
+
+---
+
+## Card Set A: Opening Analysis
+
+*Use when students first share the evidence*
+
+### Card A: Pattern Recognition
+
+> **Computer Helper says:**
+>
+> "Thanks for bringing me into this case! I looked at the clues, and I'm noticing some interesting patterns:
+>
+> 📊 **The Login Data:**
+> - Emma, Jackson, Sofia, and Liam all stopped being able to log in
+> - Most of them last logged in successfully on Monday
+> - Tuesday something changed...
+>
+> 📋 **The Tech Log:**
+> - Tuesday 8:15 AM: Password system update
+> - Tuesday 8:30 AM: ALL passwords reset to temporary ones
+> - Tuesday 8:31 AM: Email sent to students with new passwords
+>
+> 💡 **My theory:** I think the passwords were reset on Tuesday, and students didn't get the email with their new temporary passwords!
+>
+> **But I have questions for you:** Why didn't students check their email? Were they too busy? Did something happen? I can see WHAT happened, but I don't know WHY. Can you help?"
+
+---
+
+## Card Set B: Deeper Analysis
+
+*Use when students ask about passwords*
+
+### Card B: Password Patterns
+
+> **Computer Helper says:**
+>
+> "You asked me about the password hints. Here's what I noticed:
+>
+> ⚠️ **Risky Password Habits:**
+>
+> | Student | Hint | Why This Worries Me |
+> |---------|------|---------------------|
+> | Emma | 'My cat's name + my age' | Easy to guess if someone knows her |
+> | Jackson | 'The school mascot' | Everyone knows this! |
+> | Sofia | 'Birthday month and day' | She displayed her birthday publicly |
+>
+> ✅ **Safer Password Habit:**
+>
+> | Student | Hint | Why This Is Better |
+> |---------|------|---------------------|
+> | Liam | 'Random letters and numbers' | Uses a password manager |
+>
+> **I also noticed:** Emma told her friend Mia her password, and Jackson uses the same password everywhere.
+>
+> **What I can't figure out:** WHY did they make these choices? Did they not know it was risky? Were they trying to be helpful? Were they just being lazy? Those are things YOU would understand better than me."
+
+---
+
+## Card Set C: Limitations
+
+*Use when students ask follow-up questions*
+
+### Card C: What I Can't Figure Out
+
+> **Computer Helper says:**
+>
+> "I've been thinking about this case, and I want to be honest about what I DON'T understand:
+>
+> ❓ **Things I can't figure out:**
+>
+> 1. **Why didn't students check email?**
+>    - Maybe they don't check email often?
+>    - Maybe they were absent on Tuesday?
+>    - Maybe they don't have devices at home?
+>    - I don't know their lives!
+>
+> 2. **How do students feel about being locked out?**
+>    - Are they frustrated? Embarrassed? Worried?
+>    - I can't read emotions
+>
+> 3. **Why did Emma share her password?**
+>    - Was she trying to help a friend?
+>    - Did she not know it was risky?
+>    - Is Mia her best friend?
+>    - I don't understand friendships
+>
+> 4. **Is the school partly responsible?**
+>    - Should they have told students in person?
+>    - Is email the best way to reach kids?
+>    - Those are questions about what's FAIR
+>
+> **You understand people way better than I do. What do YOU think is going on?**"
+
+---
+
+## Card Set D: Synthesis
+
+*Use when students are drawing conclusions*
+
+### Card D: Let's Solve It Together
+
+> **Computer Helper says:**
+>
+> "Okay detectives, let me summarize what we figured out together:
+>
+> **THE MYSTERY SOLVED:**
+>
+> 🔍 **What happened:**
+> - Tuesday morning: Password system updated, all passwords reset
+> - Email sent to students with new temporary passwords
+> - Students didn't get or check the email
+> - Students tried old passwords → LOCKED OUT!
+>
+> 🤖 **What I (Computer Helper) contributed:**
+> - Spotted the Tuesday pattern in the login data
+> - Found the tech log explaining the reset
+> - Identified risky password habits
+>
+> 👧👦 **What YOU (Human Detectives) contributed:**
+> - Understood WHY students might not check email
+> - Knew about friendships and password sharing
+> - Could tell how students might feel
+> - Can decide what's fair for the school to do
+>
+> **My question for you:** What should Ms. Chen and the school do differently next time? That's a HUMAN decision—I can't make it for you!"
+
+---
+
+## Educator Debrief Notes
+
+After using these cards, help students articulate:
+
+**Computer Helper's strengths** (from this activity):
+
+- Fast pattern recognition across clues
+- Finding the tech log information
+- Comparing password habits
+- Organizing information clearly
+
+**Computer Helper's limitations** (from this activity):
+
+- Doesn't understand why students made choices
+- Can't read feelings or social situations
+- Doesn't know about friendships
+- Can't decide what's "fair"
+
+**The partnership insight:**
+
+- Computer Helper found the WHAT (password reset)
+- Humans understood the WHY (didn't check email, password habits)
+- Together: complete picture + good recommendations
+
+---
+
+*Activity 1: Security Detective Teams — AI Response Cards (3-5)*
+*Dr. Ryan Straight, University of Arizona*

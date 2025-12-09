@@ -1,0 +1,195 @@
+---
+title: "Activity 3: Computer Problem Solvers"
+subtitle: "AI Helper Response Cards (Grades 3-5)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+These cards provide pre-written AI helper responses for the Computer Problem Solvers investigation activity. The AI Partner on each team can read these aloud or the teacher can voice the AI helper.
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Cards correspond to the three questions teams ask during Step 2
+- AI Partner reads the card (or teacher reads for the class)
+- Teams should discuss each response before moving on
+
+**The goal:** Students learn that AI helpers explain problems but people decide solutions.
+:::
+
+---
+
+## Card A: What Are These Pop-ups?
+
+*Use when teams ask: "What kind of problem is this?"*
+
+> **💻 AI Helper says:**
+>
+> "Thanks for asking me about this! Let me explain what I see:
+>
+> **The pop-up messages are fake.** Real contests don't work this way—you can't win something you didn't enter! The spelling mistakes ('Congradulations!') are a big clue. Real companies check their spelling.
+>
+> **This is probably malware.** Malware means 'bad software'—programs that got on the computers without permission. They're designed to trick people.
+>
+> **How it probably happened:**
+> Someone clicked a link in a tricky email. The email might have looked real—like it was from a friend or from the school—but it wasn't!
+>
+> **What I can tell you:**
+> - This is a common problem
+> - It's not the student's fault for being tricked
+> - Tricky emails are designed to fool people
+>
+> **What I CAN'T tell you:**
+> - Whether the student who clicked feels bad about it
+> - How to make sure no one gets in trouble
+> - The best way to explain this to the class
+>
+> **Those are decisions for people, not computers!**"
+
+---
+
+## Card B: How Did It Spread?
+
+*Use when teams ask: "How do bad programs get on computers?"*
+
+> **💻 AI Helper says:**
+>
+> "Great question! Bad programs usually get on computers in a few ways:
+>
+> **1. Tricky Emails (Phishing)**
+> - Emails that look like they're from someone you know
+> - Links that look safe but aren't
+> - Attachments that seem normal but have hidden problems
+>
+> **2. Unsafe Websites**
+> - Downloading games or apps from unknown places
+> - Clicking on ads that promise free stuff
+> - Going to websites that aren't meant for kids
+>
+> **3. Spreading on Networks**
+> - Once on one computer, some bad programs can spread to others
+> - Like catching a cold at school!
+>
+> **Why only Mrs. Chen's class?**
+> Someone in that classroom probably clicked something on Friday. The other classrooms didn't click it, so they're okay!
+>
+> **What I notice:**
+> I can see patterns in how these things spread. I know the signs of malware.
+>
+> **What I can't understand:**
+> - Why people click on things they shouldn't
+> - How it feels to make a mistake like this
+> - What the right thing to say to Mrs. Chen's class is
+>
+> **Those are things YOU would understand better than me!**"
+
+---
+
+## Card C: How Do We Fix It?
+
+*Use when teams ask: "What should we do?"*
+
+> **💻 AI Helper says:**
+>
+> "Here's what I know about fixing this kind of problem:
+>
+> **What students should do RIGHT NOW:**
+> 1. **Tell an adult** — Teacher, IT person, or principal
+> 2. **Don't click the pop-ups** — Even the 'X' might be a trick!
+> 3. **Don't use those computers** — Until the IT team says it's safe
+>
+> **What the IT team will probably do:**
+> - Use special tools to remove the bad programs
+> - Check if other computers got infected
+> - Make sure it can't come back
+> - Maybe teach students about tricky emails
+>
+> **Why students shouldn't try to fix it themselves:**
+> - The bad program might be sneaky
+> - You could accidentally make it worse
+> - The IT team has special tools we don't have
+>
+> **The most important fix:**
+> Learning from this so it doesn't happen again!
+>
+> **What I can help with:**
+> - Explaining what went wrong
+> - Describing how malware works
+> - Listing the steps to fix it
+>
+> **What I can't help with:**
+> - Actually removing the malware (I'm not that kind of AI!)
+> - Deciding how to talk to the students who are upset
+> - Knowing if Mrs. Chen needs extra support
+>
+> **The Fix It Team has to make those human decisions!**"
+
+---
+
+## Card D: What We Learned Together
+
+*Use during Step 4 report-out or class discussion*
+
+> **💻 AI Helper says:**
+>
+> "Great teamwork, Problem Solvers! Let me summarize what we figured out together:
+>
+> **THE PROBLEM:**
+> - Tricky email → Someone clicked → Malware installed
+> - Pop-ups appeared → Computers slowed down
+>
+> **WHAT I (AI HELPER) CONTRIBUTED:**
+> - Recognized the malware pattern
+> - Explained how it spreads
+> - Listed the steps IT teams use to fix it
+>
+> **WHAT YOU (PROBLEM SOLVERS) CONTRIBUTED:**
+> - Gathered the clues from the evidence card
+> - Asked great questions
+> - Made a plan that considers people's feelings
+> - Will explain this to others in a kind way
+>
+> **WHY WE NEEDED EACH OTHER:**
+> - I know about computer problems, but I don't understand people
+> - You understand people, but you needed help understanding the tech problem
+> - Together, we solved it AND made a plan that's good for everyone!
+>
+> **THAT'S WHAT REAL CYBERSECURITY TEAMS DO!**"
+
+---
+
+## Educator Debrief Notes
+
+After using these cards, help students articulate:
+
+**AI Helper strengths:**
+
+- Recognized the malware pattern quickly
+- Knew technical terms and explanations
+- Could list steps for fixing the problem
+- Remembered information about how malware spreads
+
+**AI Helper limitations:**
+
+- Couldn't understand why people click tricky links
+- Couldn't know how students might feel
+- Couldn't actually fix the problem itself
+- Couldn't make decisions about how to handle the situation kindly
+
+**The partnership insight:**
+
+- AI helped with technical understanding
+- Humans handled the people parts
+- Neither could solve it alone
+- Real cybersecurity teams work this way!
+
+---
+
+*Activity 3: Computer Problem Solvers — AI Helper Response Cards (3-5)*
+*Dr. Ryan Straight, University of Arizona*

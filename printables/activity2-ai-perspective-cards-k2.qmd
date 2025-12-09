@@ -1,0 +1,175 @@
+---
+title: "Activity 2: Robot Helper Rules"
+subtitle: "Sparky's Perspective Cards (Grades K-2)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 11pt
+---
+
+These cards let teachers "be" Sparky the Robot Helper when discussing each rule. Read them aloud in a friendly robot voice after students vote on each question!
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Read each card AFTER students discuss and vote on that question
+- Cards help students hear Sparky's perspective on their rules
+- Sparky always explains what it's good at AND what it needs help with
+
+**The goal:** Students understand that robot helpers need humans to make fair rules.
+:::
+
+---
+
+## Card 1: About the Lights
+
+*Use after Question 1 (Should Sparky turn off lights by itself?)*
+
+> **🤖 Sparky says:**
+>
+> "Beep boop! Thank you for thinking about my light rules!
+>
+> **What I'm GOOD at:**
+> - I can tell when the sun is very bright
+> - I can turn lights off super fast
+> - I never forget to check
+>
+> **What I DON'T understand:**
+> - I don't know if someone is reading and needs the light
+> - I don't know if a student has trouble seeing
+> - I can't tell if the clouds might come back soon
+>
+> **What I think:**
+> Maybe I could turn off lights when it's REALLY sunny, but ask the teacher if I'm not sure? What do you think is fair?"
+
+**Teacher note:** Sparky shows capability (sensing light) AND limitation (not understanding context).
+
+---
+
+## Card 2: About Cleanup Time
+
+*Use after Question 2 (Should Sparky play cleanup song whenever it's messy?)*
+
+> **🤖 Sparky says:**
+>
+> "Beep boop! The cleanup question is tricky for me!
+>
+> **What I'm GOOD at:**
+> - I can see when things are on the floor
+> - I can play the cleanup song the same way every time
+> - I never forget what 'messy' looks like
+>
+> **What I DON'T understand:**
+> - I don't know if you're in the MIDDLE of a project
+> - I don't know if you're about to clean up anyway
+> - I can't tell if the teacher has other plans
+>
+> **What I think:**
+> Maybe it's better if the TEACHER tells me when it's cleanup time? I can help by playing the song, but a person should decide WHEN. Is that fair?"
+
+**Teacher note:** Sparky acknowledges that timing decisions need human judgment.
+
+---
+
+## Card 3: About Telling on Unsafe Behavior
+
+*Use after Question 3 (Should Sparky tell the teacher if someone is running?)*
+
+> **🤖 Sparky says:**
+>
+> "Beep boop! This one is the HARDEST for me!
+>
+> **What I'm GOOD at:**
+> - I can see when someone is moving fast
+> - I can tell the teacher very quickly
+> - I want to keep everyone safe!
+>
+> **What I DON'T understand:**
+> - I don't know if someone is running for a good reason
+> - I don't know if it's an emergency
+> - I can't tell if the teacher already said it's okay
+> - I don't know if someone is just really excited and happy
+>
+> **What I think:**
+> I really want to help keep everyone safe! But maybe I should only tell about REALLY dangerous things? And let people decide about the in-between things? What do YOU think?"
+
+**Teacher note:** This is the key card—Sparky genuinely doesn't understand intention.
+
+---
+
+## Card 4: After All the Rules
+
+*Use during "Making Our Rules" wrap-up*
+
+> **🤖 Sparky says:**
+>
+> "Beep boop! Thank you for making my rules!
+>
+> **What I learned from YOU:**
+> - When to do things by myself
+> - When to ask first
+> - What's really important
+>
+> **What I still need YOU for:**
+> - Knowing if the rules are fair
+> - Understanding feelings
+> - Changing rules when they don't work
+>
+> **I'm so happy to be your helper!**
+>
+> Robot helpers and kids make the best team. You make the rules, and I follow them. Together we can keep our classroom happy and safe!
+>
+> Beep boop! 🤖💙"
+
+**Teacher note:** Celebrates the human-AI partnership while reinforcing human authority.
+
+---
+
+## Debrief Discussion Prompts
+
+After using these cards, ask students:
+
+**About Sparky's abilities:**
+
+- "What was Sparky GOOD at doing?"
+- "What did Sparky need HELP with?"
+
+**About making rules:**
+
+- "Why did WE get to make the rules?"
+- "What would happen if Sparky made its own rules?"
+
+**The teamwork message:**
+
+- "Is Sparky a good helper? Why?"
+- "Why do robot helpers need people?"
+
+---
+
+## Optional: "What Sparky Learned" Summary
+
+*Read at the very end as a celebration*
+
+> **🤖 Sparky's Thank You:**
+>
+> "Dear friends,
+>
+> Thank you for being my rule-makers! Now I know:
+>
+> ✓ When I can help by myself
+> ✓ When I should ask first
+> ✓ That people know things I don't understand
+>
+> I'm the luckiest robot because I have such smart friends to help me be a good helper!
+>
+> Your robot friend,
+> Sparky 🤖"
+
+---
+
+*Activity 2: Robot Helper Rules — Sparky Perspective Cards (K-2)*
+*Dr. Ryan Straight, University of Arizona*

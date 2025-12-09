@@ -1,6 +1,6 @@
 ---
-title: "AI Perspective Cards"
-subtitle: "Activity 2: Ethics in Automated Security"
+title: "Activity 2: Ethics in Automated Security"
+subtitle: "SchoolGuard AI Perspective Cards (Grades 6-8)"
 format:
   pdf:
     papersize: letter
@@ -186,41 +186,5 @@ These cards provide AI perspectives for low-resource implementations. The teache
 
 ---
 
-## Grade-Band Versions
-
-### For K-2: What Sparky Would Say
-
-::: {.ai-card}
-### Sparky the Robot Says:
-
-"I can do some things really fast! I can turn off the lights so quick you wouldn't even notice. But sometimes I make mistakes too.
-
-**What I'm good at:**
-- Doing the same thing every time
-- Not forgetting the rules
-- Working really fast
-
-**What I need help with:**
-- Knowing if the rules are fair
-- Understanding why someone is doing something
-- Deciding when rules should be different
-
-**That's why you get to help make my rules!**"
-:::
-
-### For 3-5: What SchoolGuard Would Say
-
-::: {.ai-card}
-### SchoolGuard Says:
-
-"I'm good at spotting things that look dangerous—I can check millions of websites faster than any person. But I make mistakes too.
-
-**My best skill:** Catching obvious bad stuff quickly
-
-**My biggest weakness:** I can't tell the difference between a student researching something for class and a student doing something wrong
-
-**What I need from you:** Help me understand what's fair. I can follow whatever rules you make, but I can't decide what's fair on my own."
-:::
-
-*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
-*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*
+*Activity 2: Ethics in Automated Security — AI Perspective Cards (6-8)*
+*Dr. Ryan Straight, University of Arizona*

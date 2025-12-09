@@ -87,4 +87,13 @@ Security Operations Centers coordinate human analysts with AI-powered detection 
 ## Supporting Materials
 
 - [Career Connections](../../career-connections/activity-3-career-connections.qmd)
+- [Quick-Start Guide](../../printables/activity3-quick-start.qmd)
+- [Role Cards](../../printables/activity3-role-cards.qmd)
+- [Incident Briefings](../../printables/activity3-incident-briefings.qmd)
+- [Complication Cards](../../printables/activity3-complication-cards.qmd)
+- AI Response Cards (for low-resource implementation):
+  - [Grades K-2: Sparky Cards](../../printables/activity3-ai-response-cards-k2.qmd)
+  - [Grades 3-5: AI Helper Cards](../../printables/activity3-ai-response-cards-3-5.qmd)
+  - [Grades 6-8: AI Security Advisor Cards](../../printables/activity3-ai-response-cards-6-8.qmd)
+  - [Grades 9-12: SentinelAI Cards](../../printables/activity3-ai-response-cards-9-12.qmd)
 - [Assessment Rubrics](../../assessments/)

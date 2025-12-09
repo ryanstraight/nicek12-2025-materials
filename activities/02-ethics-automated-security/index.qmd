@@ -79,6 +79,14 @@ A comprehensive governance simulation featuring stakeholder roles, legal framewo
 ## Supporting Materials
 
 - [Career Connections](../../career-connections/activity-2-career-connections.qmd)
+- [Quick-Start Guide](../../printables/activity2-quick-start.qmd)
+- [Policy Scenario Cards](../../printables/activity2-policy-scenario-cards.qmd)
+- [Stakeholder Role Cards](../../printables/activity2-stakeholder-cards.qmd) (Grades 9-12)
+- AI Perspective Cards (for low-resource implementation):
+  - [Grades K-2: Sparky Cards](../../printables/activity2-ai-perspective-cards-k2.qmd)
+  - [Grades 3-5: SchoolGuard Cards](../../printables/activity2-ai-perspective-cards-3-5.qmd)
+  - [Grades 6-8: SchoolGuard Cards](../../printables/activity2-ai-perspective-cards-6-8.qmd)
+  - [Grades 9-12: SecureNet AI Cards](../../printables/activity2-ai-perspective-cards-9-12.qmd)
 - [Assessment Rubrics](../../assessments/)
 
 ## Why AI Participates

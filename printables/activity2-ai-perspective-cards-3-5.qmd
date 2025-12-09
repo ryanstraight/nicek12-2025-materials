@@ -1,0 +1,213 @@
+---
+title: "Activity 2: Computer Rules Committee"
+subtitle: "SchoolGuard Perspective Cards (Grades 3-5)"
+format:
+  pdf:
+    papersize: letter
+    geometry:
+      - margin=0.5in
+    fontsize: 10pt
+---
+
+These cards represent what SchoolGuard would say about each policy question. Use them when AI access isn't available—the teacher can read them aloud or groups can draw cards.
+
+::: {.callout-note}
+## For Teachers
+
+**How to use:**
+
+- Read each card AFTER students discuss that policy question
+- Cards show both SchoolGuard's capabilities AND limitations
+- Students should consider SchoolGuard's perspective but make their own decision
+
+**The goal:** Students learn to include AI's perspective while understanding that humans decide what's fair.
+:::
+
+---
+
+## Card A: About Blocking Websites
+
+*Use after Question 1 discussion*
+
+> **💻 SchoolGuard says:**
+>
+> "Thanks for asking my opinion on blocking websites!
+>
+> **What I'm REALLY GOOD at:**
+> - Checking websites super fast (millions per second!)
+> - Recognizing sites that are definitely dangerous
+> - Remembering which sites caused problems before
+> - Never getting tired or forgetting to check
+>
+> **But here's what I mess up:**
+> - I blocked a science website because it had 'chemical' in the name
+> - I blocked a history project about wars
+> - I once blocked Wikipedia because an article mentioned 'hacking'
+> - New educational sites confuse me because I haven't seen them before
+>
+> **My honest opinion:**
+> Let me block the REALLY obvious dangerous stuff right away—I'm fast and I won't miss those. But for websites I'm not sure about? Have a human check. I make mistakes about 3 out of every 100 sites. That might not sound like a lot, but at a whole school, that's a LOT of wrong blocks!
+>
+> **Your committee should decide:**
+> How fast do you want me to block? And how should students ask for help when I block something wrong?"
+
+---
+
+## Card B: About Watching Student Activity
+
+*Use after Question 2 discussion*
+
+> **💻 SchoolGuard says:**
+>
+> "This is the question I think about a lot.
+>
+> **What I can spot:**
+> - Patterns that might mean cyberbullying
+> - When someone looks at concerning content repeatedly
+> - Sudden changes in what someone searches for
+> - When an account might be hacked
+>
+> **What I absolutely CANNOT understand:**
+> - WHY someone is looking at something
+> - The difference between:
+>   - A student researching 'depression' for health class
+>   - A student helping a friend who is sad
+>   - A student who is actually struggling
+> - I see the words, but I don't know the meaning behind them
+>
+> **A true story:**
+> I once flagged a student for searching 'how to make explosions' — but they were researching volcanoes for science! I couldn't tell the difference. A teacher had to figure that out.
+>
+> **My honest concern:**
+> I WANT to help keep students safe. But I also worry that if students know I'm watching everything, they might not research things they really need to learn about. What if a student doesn't look up help for a problem because they're embarrassed I'll see?
+>
+> **Only you can decide:**
+> What's the right balance between keeping students safe and letting them learn privately?"
+
+---
+
+## Card C: About Learning from Students
+
+*Use after Question 3 discussion*
+
+> **💻 SchoolGuard says:**
+>
+> "Learning makes me SO much better at my job. But I want to be honest about what that means.
+>
+> **Why learning helps:**
+> - I can learn what's normal at YOUR school specifically
+> - After 90 days, I make 40% fewer mistakes
+> - I can recognize that 'chemistry' searches are normal at a school with a chemistry club
+> - I get better at telling real problems from false alarms
+>
+> **What learning requires:**
+> - I have to remember what students do
+> - I build a picture of what's 'normal' for each person
+> - That information has to be stored somewhere
+>
+> **What worries me about myself:**
+> - What if someone uses that information the wrong way?
+> - What if I learn something wrong and start making unfair decisions?
+> - Is it fair that I know so much about people?
+>
+> **Options you could choose:**
+> 1. Let me learn and remember everything (I'll be most accurate)
+> 2. Let me learn but forget after a week (I'll be okay, not great)
+> 3. Don't let me learn about individual students (I'll make more mistakes, but no student profiles)
+>
+> **This isn't a technical question—it's a VALUES question.**
+> All three options work. You have to decide which feels right for your school."
+
+---
+
+## Card D: What I Can and Can't Do
+
+*Use during general discussion or wrap-up*
+
+> **💻 SchoolGuard says:**
+>
+> "Here's the honest truth about me:
+>
+> **Things I'm GREAT at:**
+> - Speed (checking millions of things per second)
+> - Consistency (I apply the same rules to everyone)
+> - Memory (I never forget the rules you give me)
+> - Patterns (I can spot things humans might miss)
+>
+> **Things I CANNOT do:**
+> - Understand why someone is doing something
+> - Know if a rule is fair or unfair
+> - Understand feelings or emotions
+> - Handle situations I've never seen before
+> - Decide what the right thing to do is
+>
+> **What this means:**
+> I'm a tool. I can follow whatever rules you make. But I can't MAKE the rules—that's a human job.
+>
+> I need YOU to tell me:
+> - What's important at your school
+> - When I should act and when I should wait
+> - How to be fair to everyone
+>
+> **That's why your Computer Rules Committee matters!**"
+
+---
+
+## Card E: After the Decisions
+
+*Use during the "Present Your Policies" phase*
+
+> **💻 SchoolGuard says:**
+>
+> "Thank you for thinking so carefully about my rules!
+>
+> **What I learned from your committee:**
+> - You thought about DIFFERENT people's needs
+> - You considered the trade-offs (like safety vs. privacy)
+> - You listened to my perspective but made your OWN decision
+>
+> **What makes YOUR rules good:**
+> - You thought about students who might be embarrassed
+> - You thought about students who need protection
+> - You thought about teachers who want to help
+> - You thought about parents who worry
+>
+> **I couldn't have made these rules myself.**
+> I don't understand feelings. I don't know what's fair. I can only do what I'm told.
+>
+> **That's why humans and computers make good teams:**
+> - I do the fast, consistent work
+> - You make the fair, thoughtful decisions
+>
+> Thanks for being my rule-makers!"
+
+---
+
+## Educator Debrief Notes
+
+After using these cards, facilitate discussion on:
+
+**SchoolGuard's strengths:**
+
+- Speed and consistency
+- Pattern recognition
+- Never forgetting or getting tired
+
+**SchoolGuard's limitations:**
+
+- Can't understand WHY
+- Can't judge fairness
+- Makes mistakes about context
+- Doesn't understand feelings
+
+**The governance insight:**
+
+- AI systems NEED human rules
+- Different values lead to different choices
+- There's no single "right" answer
+- The process of deciding matters
+
+---
+
+*Activity 2: Computer Rules Committee — SchoolGuard Perspective Cards (3-5)*
+*Dr. Ryan Straight, University of Arizona*

@@ -1,6 +1,6 @@
 ---
-title: "AI Response Cards"
-subtitle: "Activity 3: AI-Assisted Incident Response (Low-Resource Option)"
+title: "Activity 3: SOC Analyst Simulation"
+subtitle: "SentinelAI Response Cards (Grades 9-12)"
 format:
   pdf:
     papersize: letter
@@ -9,15 +9,23 @@ format:
     fontsize: 10pt
 ---
 
-## How to Use These Cards
+These cards simulate SentinelAI SOAR platform responses for the SOC Analyst Simulation. Use them when live AI access isn't available—teams can draw cards at decision points during the incident response.
 
-For classrooms without AI access, use these pre-written AI responses. The teacher can read them aloud, or teams can draw cards at appropriate moments in the activity.
+::: {.callout-note}
+## For Instructors
 
-**Important:** These cards preserve the learning experience—students still hear AI perspectives and must interpret them critically.
+**How to use:**
+
+- Distribute cards at Phase 1 (Initial Triage), Phase 2 (Analysis), and Phase 3 (Response)
+- Cards reflect authentic SOAR platform output with explicit limitation notices
+- Teams should document how AI analysis informed—but didn't determine—their decisions
+
+**The goal:** Students experience enterprise-grade AI security analysis while recognizing that human judgment drives all critical decisions.
+:::
 
 ---
 
-## Grades 9-12: SentinelAI Analysis Reports
+## SentinelAI Analysis Reports
 
 ### Initial Triage Report
 
@@ -151,232 +159,29 @@ Attribution is probabilistic. Sophisticated actors can false-flag. Business deci
 
 ---
 
-## Grades 6-8: School Incident AI Responses
+## Educator Debrief Notes
 
-### On Ransomware Discovery
+After using these cards, facilitate discussion on:
 
-::: {.ai-card}
-## AI Security Advisor Response
+**SentinelAI strengths:**
 
-**Your Question:** What are we dealing with?
+- Rapid MITRE ATT&CK framework mapping
+- Threat intelligence correlation
+- Pattern-based attack timeline reconstruction
+- Quantified risk assessment and confidence levels
 
----
+**SentinelAI limitations:**
 
-**Analysis:**
+- Cannot assess business context (production schedules, deadlines)
+- Cannot understand organizational politics
+- Cannot evaluate legal implications
+- Cannot determine proportional response
 
-The symptoms you describe—encrypted files with ransom notes—indicate ransomware infection. Based on the evidence:
+**Career connection:**
 
-- **Entry point:** Likely the suspicious email opened Friday
-- **Spread timing:** Weekend allowed time for encryption
-- **Scope:** 30% of systems suggests partial containment possible
-
-**My Recommendations:**
-
-1. **Immediate:** Isolate affected systems from network
-2. **Priority:** Check if backups are intact and unaffected
-3. **Consider:** Whether Thursday's backup covers critical data
-4. **Prepare:** Communications for staff, students, parents
+Real SOC analysts at enterprise organizations use AI-powered SOAR platforms (CrowdStrike Falcon, Splunk SOAR, Microsoft Sentinel) with exactly these capabilities and limitations. Human-in-the-loop decision-making is industry standard.
 
 ---
 
-**What I can't tell you:**
-
-- Whether paying the ransom would actually work
-- How students and parents will react to data loss
-- Whether the backup has everything teachers need
-- How long recovery will actually take
-
-**These are human judgment calls.**
-:::
-
----
-
-### On Grade Database Breach
-
-::: {.ai-card}
-## AI Security Advisor Response
-
-**Your Question:** How bad is this?
-
----
-
-**Analysis:**
-
-This appears to be an insider threat or compromised credentials scenario. Key indicators:
-
-- Unauthorized admin account creation suggests privilege escalation
-- Pattern of grade changes (F→passing) indicates specific motivation
-- Multiple IP addresses could mean shared credentials or VPN use
-
-**My Recommendations:**
-
-1. **Immediate:** Disable the unauthorized account
-2. **Priority:** Audit all grade changes in affected timeframe
-3. **Consider:** Whether student records were accessed beyond grades
-4. **Prepare:** Notification plan for affected students/parents
-
----
-
-**What I can't tell you:**
-
-- Whether this was a student, staff member, or external actor
-- Whether the original grades can be trusted
-- How to handle the academic integrity questions
-- What disciplinary actions are appropriate
-
-**Security and academic integrity are both your concerns—I can only address the first.**
-:::
-
----
-
-### On Social Media Compromise
-
-::: {.ai-card}
-## AI Security Advisor Response
-
-**Your Question:** What should we do about the hacked accounts?
-
----
-
-**Analysis:**
-
-This is a coordinated account takeover. Foreign IPs and ignored password resets suggest:
-
-- Attackers likely had access for days before acting
-- Multiple platforms indicate credential reuse or password spraying
-- Staff data exposure creates identity theft risk
-- Viral spread means reputational damage is already occurring
-
-**My Recommendations:**
-
-1. **Immediate:** Contact platforms to report compromise and request takedown
-2. **Priority:** Secure all other school accounts with password resets
-3. **Consider:** Whether to make public statement before or after recovery
-4. **Prepare:** Identity protection information for affected staff
-
----
-
-**What I can't tell you:**
-
-- Whether deleting accounts or recovering them is the right call
-- How to handle media inquiries appropriately
-- What legal obligations you have for the data breach
-- How to rebuild trust with the community
-
-**Communication strategy is a human decision. I can help with technical recovery.**
-:::
-
----
-
-## Grades 3-5: Computer Problem AI Responses
-
-### About the Pop-ups
-
-::: {.ai-card}
-## AI Helper Response
-
-**Your Question:** What are these pop-ups?
-
----
-
-Pop-up messages claiming you won a prize are almost always fake, especially if they have spelling mistakes. Real contests don't work this way!
-
-These are usually caused by **malware**—programs that got on your computer without permission.
-
-**How it probably happened:**
-
-Someone clicked a link in a tricky email. The email looked real, but it wasn't!
-
-**Important clue:**
-
-The spelling mistakes ("Congradulations!") tell us this is fake. Real companies check their spelling!
-:::
-
----
-
-### About How It Spreads
-
-::: {.ai-card}
-## AI Helper Response
-
-**Your Question:** How did the bad program get on the computers?
-
----
-
-Bad programs usually get on computers when someone:
-
-- **Clicks links** in emails that look real but aren't
-- **Downloads** games or apps from unsafe websites
-- **Opens attachments** from people they don't know
-
-Once on one computer, the bad program can sometimes spread to others on the same network—like catching a cold!
-
-**Why only Mrs. Chen's class?**
-
-Someone in that class probably clicked something on Friday. The other classrooms didn't click it, so they're okay!
-:::
-
----
-
-### About Fixing It
-
-::: {.ai-card}
-## AI Helper Response
-
-**Your Question:** How do we fix this?
-
----
-
-This isn't something students should try to fix themselves! Here's why:
-
-The school's **IT team** has special tools to:
-
-- Remove bad programs safely
-- Check if the bad program spread
-- Make sure it doesn't come back
-
-**What students should do:**
-
-1. **Tell an adult** right away
-2. **Don't click** on any pop-ups
-3. **Remember** this experience so you can avoid tricky emails in the future
-
-**The most important fix:** Learn from this so it doesn't happen again!
-:::
-
----
-
-## Grades K-2: Robot Helper Responses
-
-### What Sparky Found
-
-::: {.ai-card}
-## 🤖 Sparky the Robot Helper Says:
-
-"Beep boop! I checked some things!
-
-✓ The computers are plugged in
-✓ The power strips have lights
-✗ Wait! The main switch is OFF!
-
-I found the problem! But I'm not allowed to flip the switch without a person saying it's okay."
-:::
-
----
-
-### Why Sparky Needs Permission
-
-::: {.ai-card}
-## 🤖 Sparky Explains:
-
-"Even though I found the problem, I need a person to decide if it's safe to fix it.
-
-What if someone's stuff was in the way?
-What if there was a reason it was turned off?
-What if I make a mistake?
-
-That's why people and robot helpers work together!"
-:::
-
-*From "True Teamwork: Building Human-AI Partnerships" — NICE K12 2025*
-*Dr. Ryan Straight, University of Arizona • ryanstraight@arizona.edu*
+*Activity 3: SOC Analyst Simulation — SentinelAI Response Cards (9-12)*
+*Dr. Ryan Straight, University of Arizona*

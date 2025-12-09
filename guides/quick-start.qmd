@@ -194,7 +194,7 @@ All printable materials are available on the [Materials page](../materials.qmd) 
 ### Optional Enhancements
 
 - Role badges for team assignments
-- [AI response cards](../printables/ai-response-cards.qmd) for low-resource implementation
+- [AI response cards](low-resource-implementation.qmd#activity-1-security-detective-teams) for low-resource implementation (grade-differentiated)
 - Timer display for incident response activity
 
 ### Technical Preparation

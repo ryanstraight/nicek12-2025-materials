@@ -33,7 +33,10 @@ Students team up with an AI partner to investigate security incidents, learning 
 | Quick-Start Guide | [PDF](printables/quick-start.pdf) &#124; [DOCX](printables/quick-start.docx) |
 | Student Worksheet | [PDF](printables/student-worksheet.pdf) &#124; [DOCX](printables/student-worksheet.docx) |
 | Evidence Packet | [PDF](printables/evidence-packet.pdf) &#124; [DOCX](printables/evidence-packet.docx) |
-| AI Response Cards | [PDF](printables/ai-response-cards.pdf) &#124; [DOCX](printables/ai-response-cards.docx) |
+| AI Response Cards (K-2) | [PDF](printables/activity1-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-k2.docx) |
+| AI Response Cards (3-5) | [PDF](printables/activity1-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-3-5.docx) |
+| AI Response Cards (6-8) | [PDF](printables/activity1-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-6-8.docx) |
+| AI Response Cards (9-12) | [PDF](printables/activity1-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-9-12.docx) |
 | Career Connections | [PDF](career-connections/activity-1-career-connections.pdf) &#124; [DOCX](career-connections/activity-1-career-connections.docx) |
 
 
@@ -60,7 +63,10 @@ Students create governance policies for AI security systems, wrestling with real
 | Student Worksheet (6-8) | [PDF](printables/activity2-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity2-student-worksheet-6-8.docx) |
 | Student Worksheet (9-12) | [PDF](printables/activity2-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity2-student-worksheet-9-12.docx) |
 | Policy Scenario Cards | [PDF](printables/activity2-policy-scenario-cards.pdf) &#124; [DOCX](printables/activity2-policy-scenario-cards.docx) |
-| AI Perspective Cards | [PDF](printables/activity2-ai-perspective-cards.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards.docx) |
+| AI Perspective Cards (K-2) | [PDF](printables/activity2-ai-perspective-cards-k2.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-k2.docx) |
+| AI Perspective Cards (3-5) | [PDF](printables/activity2-ai-perspective-cards-3-5.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-3-5.docx) |
+| AI Perspective Cards (6-8) | [PDF](printables/activity2-ai-perspective-cards-6-8.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-6-8.docx) |
+| AI Perspective Cards (9-12) | [PDF](printables/activity2-ai-perspective-cards-9-12.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-9-12.docx) |
 | Stakeholder Role Cards | [PDF](printables/activity2-stakeholder-cards.pdf) &#124; [DOCX](printables/activity2-stakeholder-cards.docx) |
 | Career Connections | [PDF](career-connections/activity-2-career-connections.pdf) &#124; [DOCX](career-connections/activity-2-career-connections.docx) |
 
@@ -89,7 +95,10 @@ Students step into real NICE Framework work roles, responding to security incide
 | Student Worksheet (9-12) | [PDF](printables/activity3-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity3-student-worksheet-9-12.docx) |
 | Role Cards | [PDF](printables/activity3-role-cards.pdf) &#124; [DOCX](printables/activity3-role-cards.docx) |
 | Incident Briefings | [PDF](printables/activity3-incident-briefings.pdf) &#124; [DOCX](printables/activity3-incident-briefings.docx) |
-| AI Response Cards | [PDF](printables/activity3-ai-response-cards.pdf) &#124; [DOCX](printables/activity3-ai-response-cards.docx) |
+| AI Response Cards (K-2) | [PDF](printables/activity3-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-k2.docx) |
+| AI Response Cards (3-5) | [PDF](printables/activity3-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-3-5.docx) |
+| AI Response Cards (6-8) | [PDF](printables/activity3-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-6-8.docx) |
+| AI Response Cards (9-12) | [PDF](printables/activity3-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-9-12.docx) |
 | Complication Cards | [PDF](printables/activity3-complication-cards.pdf) &#124; [DOCX](printables/activity3-complication-cards.docx) |
 | Career Connections | [PDF](career-connections/activity-3-career-connections.pdf) &#124; [DOCX](career-connections/activity-3-career-connections.docx) |
 

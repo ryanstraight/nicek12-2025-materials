@@ -195,19 +195,46 @@ Research on AI in education emphasizes that learning outcomes depend more on ped
 
 For this activity, pre-generate password analysis cards and have the teacher demonstrate one investigation path. Groups focus on human evidence analysis while sharing a common set of AI observations across all groups.
 
-Ready-to-use printables for this activity include an Evidence Packet containing core investigation documents, AI Response Cards with pre-generated AI analysis for each evidence type, and a Student Worksheet providing structured investigation recording. These materials are available in the printables directory.
+Ready-to-use printables for this activity include an Evidence Packet containing core investigation documents, grade-differentiated AI Response Cards with pre-generated AI analysis, and Student Worksheets providing structured investigation recording. **Four grade-band-specific AI Response Card sets are available:**
+
+| Grade Band | Card Set | AI Voice |
+|------------|----------|----------|
+| K-2 | Robot Helper Cards | Friendly, simple ("Beep boop!") |
+| 3-5 | Computer Helper Cards | Approachable, slightly technical |
+| 6-8 | AI Partner Cards | Collaborative peer voice |
+| 9-12 | AI Security Analyst Cards | Professional SOC analyst language |
+
+Each card set follows the same pedagogical pattern: AI demonstrates capability, AI acknowledges limitation, human judgment required. These materials are available in the [printables directory](../printables/index.qmd#activity-1-security-detective-teams).
 
 ### AI-Assisted Incident Response (Low-Resource)
 
 For this activity, pre-generate threat assessment and recommendation cards. Groups draw cards at decision points, with emphasis on role-playing and team coordination. AI responses reveal gradually, functioning like game cards that add information as the activity progresses.
 
-Ready-to-use printables for this activity include Incident Briefings with scenario cards for each incident type, AI Response Cards containing threat analysis and recommendations, Role Cards defining team responsibilities, and Complication Cards introducing mid-activity escalations. These materials are available in the printables directory.
+Ready-to-use printables for this activity include Incident Briefings with scenario cards for each incident type, AI Response Cards containing threat analysis and recommendations, Role Cards defining team responsibilities, and Complication Cards introducing mid-activity escalations. **Four grade-band-specific AI Response Card sets are available:**
+
+| Grade Band | Card Set | AI Voice |
+|------------|----------|----------|
+| K-2 | Sparky Robot Helper Cards | Friendly, encouraging ("Beep boop!") |
+| 3-5 | AI Helper Cards | Approachable, pattern-focused |
+| 6-8 | AI Security Advisor Cards | Collaborative analyst voice |
+| 9-12 | SentinelAI SOAR Platform Cards | Enterprise SOC with MITRE ATT&CK mapping |
+
+Each card set aligns with the grade-specific incident scenarios (Fix It Team, Computer Problem Solvers, School Incidents, Enterprise SOC). These materials are available in the [printables directory](../printables/index.qmd#activity-3-ai-assisted-incident-response).
 
 ### Ethics in Automated Security (Low-Resource)
 
 This activity works particularly well without live AI because it centers on discussion. Use the printed AI Perspective Cards already included in the activity materials, with the teacher reading AI perspectives aloud. Students can argue for the AI position as a role-play exercise.
 
-Ready-to-use printables for this activity include AI Perspective Cards providing AI voice statements for each policy question, Policy Scenario Cards with discussion prompts, and Stakeholder Cards offering role perspectives for debate. These materials are available in the printables directory.
+Ready-to-use printables for this activity include AI Perspective Cards providing AI voice statements for each policy question, Policy Scenario Cards with discussion prompts, and Stakeholder Cards offering role perspectives for debate. **Four grade-band-specific AI Perspective Card sets are available:**
+
+| Grade Band | Card Set | AI Voice |
+|------------|----------|----------|
+| K-2 | Sparky Robot Helper Cards | Simple, curious ("I wonder why...") |
+| 3-5 | SchoolGuard Cards | Helpful, questioning about rules |
+| 6-8 | SchoolGuard Cards | Detailed governance perspectives |
+| 9-12 | SecureNet AI Cards | Enterprise policy with FERPA/COPPA context |
+
+Each card set presents the AI's perspective on policy decisions appropriate to the grade-band scenario (Robot Helper Rules, Computer Rules Committee, SchoolGuard Governance, Enterprise Security Policy). These materials are available in the [printables directory](../printables/index.qmd#activity-2-ethics-in-automated-security).
 
 ## Grade-Band Implementation Guidance
 

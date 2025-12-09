@@ -88,4 +88,8 @@ A Security Operations Center-style simulation with technical depth. Students ana
 - [Quick-Start Guide](../../printables/quick-start.qmd)
 - [Student Worksheet](../../printables/student-worksheet.qmd)
 - [Evidence Packet](../../printables/evidence-packet.qmd)
-- [AI Response Cards](../../printables/ai-response-cards.qmd) (for low-resource implementation)
+- AI Response Cards (for low-resource implementation):
+  - [Grades K-2: Robot Helper Cards](../../printables/activity1-ai-response-cards-k2.qmd)
+  - [Grades 3-5: Computer Helper Cards](../../printables/activity1-ai-response-cards-3-5.qmd)
+  - [Grades 6-8: AI Partner Cards](../../printables/activity1-ai-response-cards-6-8.qmd)
+  - [Grades 9-12: AI Security Analyst Cards](../../printables/activity1-ai-response-cards-9-12.qmd)
