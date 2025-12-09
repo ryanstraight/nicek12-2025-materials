@@ -26,8 +26,8 @@ Students will:
 
 ### CYBER.org Standards Alignment (K-2)
 
-- **K-2.DC.CIT**: Digital citizenship foundations
-- **K-2.SEC.SAF**: Basic safety and problem-solving
+- **K-2.DC.ETH**: Basic technology ethics and responsibility
+- **K-2.SEC.ACC**: Understanding access and problem-solving
 
 
 ## The Problem

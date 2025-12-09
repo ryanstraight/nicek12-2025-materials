@@ -21,12 +21,12 @@ This rubric assesses students' understanding of how activity experiences connect
 | **2 - Developing** | Partial role awareness | Vague references to cybersecurity jobs; doesn't use NICE terminology |
 | **1 - Emerging** | No role recognition | Cannot connect activity to career pathways |
 
-**NICE Framework Work Roles addressed in these activities**:
+**NICE Framework Work Roles addressed in these activities** (v2.0.0):
 
-- Cyber Defense Analyst (PR-CDA-001)
-- Incident Responder (PR-CIR-001)
-- Vulnerability Assessment Analyst (PR-VAM-001)
-- Cyber Policy and Strategy Planner (OV-SPP-002)
+- Defensive Cybersecurity (Protection and Defense)
+- Incident Response (Protection and Defense)
+- Vulnerability Analysis (Protection and Defense)
+- Cybersecurity Policy and Planning (Oversight and Governance)
 
 ### Criterion 2: Real-World Connection (1-4 points)
 
@@ -62,19 +62,19 @@ This rubric assesses students' understanding of how activity experiences connect
 | 4-6 | Developing | Student needs more explicit career connection instruction; provide additional resources |
 | 3 | Beginning | Student has not yet connected activity to careers; revisit career framing |
 
-## Activity-Specific Work Roles
+## Activity-Specific Work Roles (v2.0.0)
 
 ### Security Detective Teams
-- Primary: Cyber Defense Analyst
-- Secondary: Cyber Crime Investigator
+- Primary: Defensive Cybersecurity
+- Secondary: Digital Forensics
 
 ### AI-Assisted Incident Response
-- Primary: Incident Responder
-- Secondary: Cyber Defense Analyst, Security Operations Center Analyst
+- Primary: Incident Response
+- Secondary: Defensive Cybersecurity, Threat Analysis
 
 ### Ethics in Automated Security
-- Primary: Cyber Policy and Strategy Planner
-- Secondary: Privacy Officer, Security Governance Specialist
+- Primary: Cybersecurity Policy and Planning
+- Secondary: Privacy Compliance, Systems Security Management
 
 ## Instructor Notes
 

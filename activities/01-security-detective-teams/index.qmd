@@ -78,7 +78,7 @@ A Security Operations Center-style simulation with technical depth. Students ana
 
 ## NICE Framework Alignment
 
-**Primary Work Roles**: Cyber Defense Analyst (PR-CDA-001) and Vulnerability Assessment Analyst (PR-VAM-001)
+**Primary Work Roles**: Defensive Cybersecurity and Vulnerability Analysis (Protection and Defense category)
 
 **Skills students practice**: Log analysis, indicator correlation, human-AI collaboration, and threat assessment
 

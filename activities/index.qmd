@@ -30,7 +30,7 @@ Students investigate security incidents alongside an AI partner, discovering thr
 | 6-8 | [Security Detective Teams](01-security-detective-teams/grades-6-8.qmd) | 45-50 min |
 | 9-12 | [Threat Investigation](01-security-detective-teams/grades-9-12.qmd) | 50-60 min |
 
-**NICE Framework Connection**: Cyber Defense Analyst, Vulnerability Assessment Analyst
+**NICE Framework Connection**: Defensive Cybersecurity, Vulnerability Analysis
 
 ## Activity 2: Ethics in Automated Security
 
@@ -45,7 +45,7 @@ Students develop governance policies for AI security systems, confronting the re
 | 6-8 | [Ethics in Automated Security](02-ethics-automated-security/grades-6-8.qmd) | 45-55 min |
 | 9-12 | [AI Governance Workshop](02-ethics-automated-security/grades-9-12.qmd) | 50-60 min |
 
-**NICE Framework Connection**: Cyber Policy & Strategy Planner, Privacy Officer, Security Governance Specialist
+**NICE Framework Connection**: Cybersecurity Policy and Planning, Privacy Compliance, Systems Security Management
 
 ## Activity 3: AI-Assisted Incident Response
 
@@ -60,7 +60,7 @@ Students assume team roles during realistic security incidents, experiencing fir
 | 6-8 | [AI-Assisted Incident Response](03-ai-incident-response/grades-6-8.qmd) | 50-60 min |
 | 9-12 | [SOC Analyst Simulation](03-ai-incident-response/grades-9-12.qmd) | 55-60 min |
 
-**NICE Framework Connection**: Incident Responder, SOC Analyst, Threat Intelligence Specialist
+**NICE Framework Connection**: Incident Response, Defensive Cybersecurity, Threat Analysis
 
 ## Suggested Sequence
 

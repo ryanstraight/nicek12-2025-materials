@@ -11,7 +11,7 @@ Today you designed governance policies for an AI security system. You decided wh
 
 This is exactly what cybersecurity policy professionals do when organizations deploy AI systems.
 
-## The NICE Framework Work Role: Cyber Policy & Strategy Planner
+## The NICE Framework Work Role: Cybersecurity Policy and Planning
 
 ### What Policy Planners Do
 

@@ -26,8 +26,8 @@ By the end of this activity, students will:
 
 ### CYBER.org Standards Alignment (K-2)
 
-- **K-2.DC.CIT**: Digital citizenship foundations
-- **K-2.SEC.SAF**: Basic safety concepts
+- **K-2.DC.ETH**: Basic technology ethics and responsible use
+- **K-2.SEC.ACC**: Understanding who should access information
 
 
 ## The Mystery

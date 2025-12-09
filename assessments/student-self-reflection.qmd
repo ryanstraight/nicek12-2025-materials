@@ -75,10 +75,10 @@ _________________________________________________________________
 
 *(Check all that apply)*
 
-- [ ] Cyber Defense Analyst (monitors for threats, analyzes security data)
-- [ ] Incident Responder (handles security breaches and attacks)
-- [ ] Security Policy Specialist (creates rules for security systems)
-- [ ] Digital Forensics Investigator (investigates security incidents)
+- [ ] Defensive Cybersecurity (monitors for threats, analyzes security data)
+- [ ] Incident Response (handles security breaches and attacks)
+- [ ] Cybersecurity Policy and Planning (creates rules for security systems)
+- [ ] Digital Forensics (investigates security incidents)
 - [ ] Other: _______________________
 
 ### What interests me about this type of work:

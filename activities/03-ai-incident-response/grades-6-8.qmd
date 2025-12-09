@@ -29,19 +29,19 @@ Students will experience authentic cybersecurity Work Roles through collaborativ
 :::
 
 ::: {.bento-item .glass-card}
-### NICE Framework Alignment
-- **Incident Response**: Lead role in response coordination
-- **Cyber Defense Analysis**: Technical analysis and monitoring
-- **Vulnerability Assessment**: System weakness identification
-- **Cybersecurity Management**: Decision-making and resource allocation
+### NICE Framework Alignment (v2.0.0)
+- **Incident Response** (PD): Lead role in response coordination
+- **Defensive Cybersecurity** (PD): Technical analysis and monitoring
+- **Vulnerability Analysis** (PD): System weakness identification
+- **Systems Security Management** (OG): Decision-making and resource allocation
 :::
 
 ::: {.bento-item .glass-card}
 ### CYBER.org Standards (Supplemental)
-- **6-8.SEC.NICE**: Understanding NICE Framework roles
 - **6-8.SEC.INFO**: Information security principles
-- **6-8.DC.RESP**: Incident response procedures
-- **6-8.SEC.RCVR**: Recovery and resilience
+- **6-8.DC.THRT**: Threat identification and response
+- **6-8.SEC.CTRL**: Security controls and procedures
+- **6-8.SEC.NET**: Network security fundamentals
 :::
 
 ::: {.bento-item .glass-card}

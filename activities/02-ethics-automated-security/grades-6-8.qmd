@@ -44,9 +44,8 @@ Students will design governance policies that balance AI system capabilities wit
 ### CYBER.org Standards (Supplemental)
 
 - **6-8.DC.ETH**: Ethical considerations in technology use
-- **6-8.DC.PRI**: Privacy principles and protections
-- **6-8.SEC.POL**: Security policy fundamentals
-- **6-8.DC.CIT**: Digital citizenship responsibilities
+- **6-8.DC.PII**: Privacy and personally identifiable information
+- **6-8.DC.LAW**: Legal considerations in cybersecurity
 :::
 
 ::: {.bento-item .glass-card}

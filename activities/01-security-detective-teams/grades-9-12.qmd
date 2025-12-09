@@ -27,14 +27,14 @@ By the end of this activity, students will:
 
 ### CYBER.org Standards Alignment (9-12)
 
-- **9-12.SEC.THR**: Advanced threat analysis
-- **9-12.SEC.INC**: Incident investigation procedures
-- **9-12.SEC.MON**: Security monitoring concepts
-- **9-12.SEC.FOR**: Digital forensics fundamentals
+- **9-12.DC.THRT**: Threat identification and analysis
+- **9-12.SEC.INFO**: Information security principles
+- **9-12.SEC.NET**: Network security and monitoring
+- **9-12.SEC.DATA**: Data security and protection
 
 ### NICE Framework Alignment
 
-**Primary Work Role**: Cyber Defense Analyst (PR-CDA-001)
+**Primary Work Role**: Defensive Cybersecurity (Protection and Defense category)
 
 - Analyze collected information to identify vulnerabilities and potential for exploitation
 - Identify security implications and apply methodologies for incident analysis
@@ -267,12 +267,12 @@ This table shows how activity elements connect to assessment rubric criteria:
 
 ### Related NICE Framework Work Roles
 
-| Work Role | How This Activity Connects |
+| Work Role (v2.0.0) | How This Activity Connects |
 |-----------|---------------------------|
-| **Cyber Defense Analyst** | Core investigation methodology |
-| **Incident Responder** | Escalation and remediation planning |
-| **Threat Intelligence Analyst** | IOC correlation and threat profiling |
-| **Security Operations Center Analyst** | Alert triage and initial analysis |
+| **Defensive Cybersecurity** | Core investigation methodology |
+| **Incident Response** | Escalation and remediation planning |
+| **Threat Analysis** | IOC correlation and threat profiling |
+| **Digital Forensics** | Evidence analysis and investigation |
 
 ### Career Pathway Discussion
 

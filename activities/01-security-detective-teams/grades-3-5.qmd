@@ -27,9 +27,8 @@ By the end of this activity, students will:
 ### CYBER.org Standards Alignment (3-5)
 
 - **3-5.SEC.AUTH**: Understanding accounts and passwords
-- **3-5.DC.PRI**: Basic privacy concepts
-- **3-5.DC.CIT**: Responsible digital citizenship
-- **3-5.SEC.THRT**: Recognizing potential threats
+- **3-5.DC.PII**: Protecting personally identifiable information
+- **3-5.DC.THRT**: Recognizing potential threats
 
 
 ## The Mystery

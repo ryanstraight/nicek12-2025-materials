@@ -47,9 +47,9 @@ Students will identify and articulate the complementary strengths of human and A
 :::
 
 ::: {.bento-item .glass-card}
-### NICE Framework Alignment
-- **Cyber Defense Analysis**: Analyze log data and identify patterns
-- **Investigation**: Conduct systematic security investigations
+### NICE Framework Alignment (v2.0.0)
+- **Defensive Cybersecurity**: Analyze log data and identify patterns
+- **Digital Forensics**: Conduct systematic security investigations
 - **Threat Analysis**: Evaluate potential security threats
 :::
 
@@ -63,7 +63,7 @@ Students will identify and articulate the complementary strengths of human and A
 
 ::: {.bento-item .glass-card}
 ### Career Pathway Connections
-Students explore Work Roles: SOC Analyst, Incident Responder, Digital Forensics Analyst
+Students explore Work Roles: Defensive Cybersecurity, Incident Response, Digital Forensics
 :::
 :::
 

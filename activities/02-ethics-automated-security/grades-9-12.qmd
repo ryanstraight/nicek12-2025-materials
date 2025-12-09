@@ -29,16 +29,17 @@ Students will:
 ### CYBER.org Standards Alignment (9-12)
 
 - **9-12.DC.LAW**: Legal and ethical considerations in cybersecurity
-- **9-12.SEC.POL**: Security policy development
-- **9-12.DC.PRI**: Advanced privacy concepts
-- **9-12.SEC.GOV**: Security governance frameworks
+- **9-12.DC.ETH**: Ethical decision-making in technology
+- **9-12.DC.PII**: Privacy and personally identifiable information
+- **9-12.SEC.CTRL**: Security controls and governance
 
-### NICE Framework Alignment
+### NICE Framework Alignment (v2.0.0)
 
-**Primary Work Roles**:
-- Cyber Policy and Strategy Planner (OV-SPP-002)
-- Privacy Officer/Privacy Compliance Manager (OV-LGA-002)
-- Information Systems Security Manager (OV-MGT-001)
+**Primary Work Roles** (Oversight and Governance category):
+
+- Cybersecurity Policy and Planning
+- Privacy Compliance
+- Systems Security Management
 
 
 ## The Governance Challenge
@@ -313,11 +314,11 @@ This table shows how activity elements connect to assessment rubric criteria:
 
 ### Related NICE Framework Work Roles
 
-| Work Role | Connection to Activity |
+| Work Role (v2.0.0) | Connection to Activity |
 |-----------|----------------------|
-| **Cyber Policy and Strategy Planner** | Core policy development process |
-| **Privacy Officer** | Privacy vs. security trade-offs |
-| **Information Systems Security Manager** | Operational implementation decisions |
+| **Cybersecurity Policy and Planning** | Core policy development process |
+| **Privacy Compliance** | Privacy vs. security trade-offs |
+| **Systems Security Management** | Operational implementation decisions |
 | **IT Project Manager** | Stakeholder coordination, implementation planning |
 | **Security Compliance Analyst** | Legal and regulatory alignment |
 

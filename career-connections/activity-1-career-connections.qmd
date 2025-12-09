@@ -3,7 +3,7 @@ title: "Career Connections: Security Detective Teams"
 subtitle: "What You Did Today Connects to Real Careers"
 ---
 
-# You just analyzed security data like a **Cyber Defense Analyst**!
+# You just analyzed security data like a **Defensive Cybersecurity** professional!
 
 ## What You Did Today
 
@@ -11,9 +11,9 @@ Today you investigated a security incident by examining login patterns, password
 
 This is exactly what cybersecurity professionals do every day.
 
-## The NICE Framework Work Role: Cyber Defense Analyst
+## The NICE Framework Work Role: Defensive Cybersecurity
 
-### What Cyber Defense Analysts Do
+### What Defensive Cybersecurity Professionals Do
 
 - **Analyze log data** to identify potential security threats
 - **Correlate information** from multiple sources to build a complete picture
@@ -67,5 +67,5 @@ The key insight here is that professional analysts do not interact with AI throu
 ::: {.callout-tip}
 ## Share With Your Teacher!
 
-"Today I learned that Cyber Defense Analysts work with AI systems to protect organizations. I practiced analyzing security data just like they do!"
+"Today I learned that Defensive Cybersecurity professionals work with AI systems to protect organizations. I practiced analyzing security data just like they do!"
 :::

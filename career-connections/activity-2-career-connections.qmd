@@ -11,7 +11,7 @@ Today you responded to a realistic security incident as part of a team. You took
 
 This is exactly what Security Operations Center teams do when real incidents happen.
 
-## The NICE Framework Work Role: Incident Responder
+## The NICE Framework Work Role: Incident Response
 
 ### What Incident Responders Do
 

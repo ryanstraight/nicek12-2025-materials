@@ -107,13 +107,13 @@ Together, humans and AI achieve outcomes that neither could reach alone. This is
 
 ### NICE Workforce Framework (Primary)
 
-Each activity connects explicitly to NICE Framework Work Roles, providing students with authentic exposure to professional cybersecurity pathways:
+Each activity connects explicitly to NICE Framework Work Roles (v2.0.0), providing students with authentic exposure to professional cybersecurity pathways:
 
-| Activity | Primary Work Roles |
-|----------|-------------------|
-| Security Detective Teams | Cyber Defense Analyst, Vulnerability Assessment |
-| AI-Assisted Incident Response | Incident Responder, SOC Analyst, Threat Intelligence |
-| Ethics in Automated Security | Cyber Policy Planner, Privacy Officer, Security Manager |
+| Activity | Primary Work Roles | Category |
+|----------|-------------------|----------|
+| Security Detective Teams | Defensive Cybersecurity, Vulnerability Analysis | Protection and Defense |
+| AI-Assisted Incident Response | Incident Response, Threat Analysis | Protection and Defense |
+| Ethics in Automated Security | Cybersecurity Policy and Planning, Privacy Compliance | Oversight and Governance |
 
 ### CYBER.org K-12 Standards (Supplemental)
 

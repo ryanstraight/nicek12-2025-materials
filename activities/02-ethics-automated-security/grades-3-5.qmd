@@ -28,8 +28,7 @@ Students will:
 ### CYBER.org Standards Alignment (3-5)
 
 - **3-5.DC.ETH**: Technology ethics and responsibility
-- **3-5.DC.PRI**: Privacy concepts
-- **3-5.DC.CIT**: Digital citizenship
+- **3-5.DC.PII**: Privacy and personally identifiable information
 
 
 ## The Scenario

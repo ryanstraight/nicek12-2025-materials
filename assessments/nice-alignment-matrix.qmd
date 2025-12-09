@@ -22,9 +22,9 @@ library(htmltools)
 # Activity-to-Work-Role mapping
 activity_roles <- tibble::tribble(
   ~Activity, ~`Primary Focus`, ~`Related Work Roles`, ~`Key Competency Areas`,
-  "Security Detective Teams", "Threat detection & analysis", "Cyber Defense Analyst, Vulnerability Assessment Analyst", "Log analysis, pattern recognition, anomaly identification",
-  "Ethics in Automated Security", "Policy & governance", "Cyber Policy Planner, Privacy Officer", "Policy development, stakeholder analysis, risk assessment",
-  "AI-Assisted Incident Response", "Incident handling", "Incident Responder, Cyber Defense Analyst", "Incident coordination, response procedures, communication"
+  "Security Detective Teams", "Threat detection & analysis", "Defensive Cybersecurity, Vulnerability Analysis", "Log analysis, pattern recognition, anomaly identification",
+  "Ethics in Automated Security", "Policy & governance", "Cybersecurity Policy and Planning, Privacy Compliance", "Policy development, stakeholder analysis, risk assessment",
+  "AI-Assisted Incident Response", "Incident handling", "Incident Response, Defensive Cybersecurity", "Incident coordination, response procedures, communication"
 )
 
 # Tasks data
@@ -431,7 +431,7 @@ activity_roles |>
 
 ### Competency Alignment
 
-Students practice foundational skills aligned with **Cyber Defense Analysis** and **Vulnerability Assessment** work areas.
+Students practice foundational skills aligned with **Defensive Cybersecurity** and **Vulnerability Analysis** work roles.
 
 #### Tasks Practiced
 

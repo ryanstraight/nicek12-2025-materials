@@ -20,7 +20,7 @@ Print and cut these cards for team assignments. Each team member receives one ro
 ### Incident Commander (IC)
 
 ::: {.role-card}
-**NICE Framework:** Cyber Defense Incident Responder (PR-CIR-001)
+**NICE Framework:** Incident Response (Protection and Defense)
 
 **Your Mission:** You are the leader. You coordinate the team, make final decisions, and manage communication with leadership.
 
@@ -51,7 +51,7 @@ Ask SentinelAI for:
 ### Lead Analyst
 
 ::: {.role-card}
-**NICE Framework:** Cyber Defense Analyst (PR-CDA-001)
+**NICE Framework:** Defensive Cybersecurity (Protection and Defense)
 
 **Your Mission:** You are the technical expert. You analyze evidence, build the attack timeline, and identify the scope of compromise.
 
@@ -83,7 +83,7 @@ Ask SentinelAI for:
 ### Threat Intelligence Analyst
 
 ::: {.role-card}
-**NICE Framework:** Threat/Warning Analyst (AN-TWA-001)
+**NICE Framework:** Threat Analysis (Protection and Defense)
 
 **Your Mission:** You are the context expert. You research who might be attacking, why, and what they typically do next.
 
@@ -147,7 +147,7 @@ Ask SentinelAI for:
 ### Evidence Coordinator (Optional 5th Role)
 
 ::: {.role-card}
-**NICE Framework:** Cyber Defense Forensics Analyst
+**NICE Framework:** Digital Forensics (Investigation)
 
 **Your Mission:** You protect the evidence. You ensure proper documentation and chain of custody for potential legal proceedings.
 

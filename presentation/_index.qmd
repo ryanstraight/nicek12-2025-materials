@@ -12,11 +12,9 @@ title-slide-attributes:
   data-notes: |
       Thank you for joining us for "True Teamwork!"
 
-      Quick intros—I'm **Dr. Ryan Straight**, and I'm joined by **Rob Honomichl** and **Paul Wagner**. We're all from the **University of Arizona's Cyber Operations program** in the College of Information Science. Between us, we teach everything from cyber law and ethics to technical security operations.
-
       Today we're going to show you practical activities for teaching students to work WITH AI as teammates in cybersecurity. Not competing with it, not just using it as a tool, but genuinely collaborating.
 
-      We have **35 minutes together**. Quick context, then we dive into **three activities** you can try right here, right now. Let's go!
+      We have **45 minutes together**. Quick context, then we dive into **three activities** you can try right here, right now. Let's go!
 
 author:
   - name: Ryan Straight
@@ -94,7 +92,7 @@ format:
 ::::
 
 ::: {.notes}
-FIRST THING: Scan this QR code right now. Download the materials while we talk—everything we cover today is in there, plus more.
+FIRST THING: Scan this QR code. Download the materials while we talk, everything we cover today is in there, plus more.
 
 Honest note: First time through? Budget 2 hours prep. After that, 30-45 minutes. The Quick Start guide walks you through exactly what to do first.
 
@@ -123,18 +121,14 @@ You're about to experience THREE activities—compressed versions of what your s
 :::
 ::::
 
-::: {.fragment}
-*Today's SOC analysts use AI to triage thousands of alerts—but humans make the call. That's the job your students are preparing for.*
-:::
-
 ::: {.notes}
 60 seconds of context before we dive in.
 
-Here's the shift: We often teach AI as a tool—something students USE. Or as a threat—something to guard against. Or as a policy problem—something to regulate.
+Here's the shift: We often teach AI as a tool: something students USE. Or as a threat: something to guard against. Or as a policy problem—something to regulate.
 
-But in actual cybersecurity work? AI is a partner. Security Operations Centers are drowning in alerts—thousands per day. AI triages them, prioritizes them, spots patterns. But humans decide what's real, what to escalate, what to do. That's not future-state. That's TODAY.
+But in actuality, we're seeing AI as a partner. Security Operations Centers are drowning in alerts; thousands per day. AI triages them, prioritizes them, spots patterns. But humans decide what's real, what to escalate, what to do. That's not future-state. That's TODAY.
 
-The professionals who thrive are the ones who know how to work WITH AI—when to trust it, when to verify it, when to override it.
+The professionals of the future who will thrive are the ones who know how to work WITH AI: when to trust it, when to verify it, when to override it.
 
 That's what these activities teach. Not AI literacy. Not AI ethics in the abstract. Partnership skills.
 
@@ -153,7 +147,9 @@ Let's experience it.
 
 ## Security Detective Teams {background-color="#0C234B"}
 
-**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cyber Defense Analyst*
+**12 minutes**  
+**Grades** 6-8 (adaptable K-12)  
+**NICE**: Defensive Cybersecurity
 
 ::: {.fragment}
 **The design:** Students investigate a security incident WITH an AI partner
@@ -164,7 +160,9 @@ Let's experience it.
 ::: {.notes}
 Activity 1: Security Detective Teams.
 
-**Here's what's about to happen:** You're going to do a 2-minute version of what your students will experience in 35 minutes. Don't just follow the instructions—pay attention to what YOU notice. What catches YOUR eye first?
+**Here's what's about to happen:** You're going to do a 2-minute version of what your students will experience in 35 minutes. Don't just follow the instructions. Pay attention to what YOU notice. What catches YOUR eye first?
+
+[FRAGMENT]
 
 The design is simple: students investigate a security incident with an AI partner. But we've structured the evidence so AI catches certain patterns AND humans catch different ones.
 
@@ -197,6 +195,7 @@ One device, groups rotate (5-min turns)
 
 Project one conversation, whole class analyzes together
 :::
+
 ::::
 
 ::: {.fragment}
@@ -214,7 +213,7 @@ Rotation stations if you have limited devices. Live demo if you want to project 
 
 All four work. Technical guides in your download detail each one.
 
-Now let's try it—your tables are going to investigate a real scenario...
+Now let's try it. Your tables are going to investigate a real scenario...
 :::
 
 ## Scenario: Friday at Lincoln Elementary
@@ -284,21 +283,20 @@ Next slide has the evidence. Get ready to investigate.
 
 ::: {style="font-size: 0.8em;"}
 `Pattern detected`  
-Password = mascot + year (weak)
+Password = mascot + year (weak)  
 `Threat vector`  
-Brute force attack, known botnet IP
+Brute force attack  
 `Recommendation`  
 Force password reset, enable MFA
 :::
 
 :::
-
 **At Your Table (2 min)**
 
 ::: {style="font-size: 0.8em;"}
 1. Read the AI analysis. What did it catch?
 2. Read the school context. What does THAT tell you?
-3. **Write your theory:** Why this person? Why now?
+3. What's your theory? Why this person? Why now?
 4. Be ready: What did YOU notice that AI didn't?
 :::
 
@@ -315,7 +313,8 @@ Quick framing before you start: "Look at the blue box—that's EXACTLY what an A
 
 [Click countdown] "Go! Two minutes. Read everything. What do YOU notice?"
 
-Walk around. Listen for:
+Walk around. Listen for
+
 - Who focuses on the AI analysis first?
 - Who notices the budget cuts context?
 - Does anyone connect secretary + budget cuts + personnel records?
@@ -372,7 +371,6 @@ Humans caught: institutional context—budget cuts mean someone might be angry, 
 
 The insight isn't that humans are "better." It's that you see different things. THAT'S what your students will discover.
 
-Did you feel that moment? That's what we're engineering.
 :::
 
 ## Built-In Verification Protocol {.smaller}
@@ -455,7 +453,7 @@ That "aha" you felt? Your students will feel it too.
 
 ## Ethics in Automated Security {background-color="#0C234B"}
 
-**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cyber Policy Planner*
+**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cybersecurity Policy and Planning*
 
 ::: {.fragment}
 **The design:** Students design governance policies for AI security systems
@@ -646,12 +644,12 @@ Same discovery, adapted to developmental level.
 
 ## AI-Assisted Incident Response {background-color="#0C234B"}
 
-**3 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Incident Responder*
+**3 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Incident Response*
 
 ::: {.fragment}
 **The design:** AI recommends actions, humans decide
 
-**The discovery moment:** Students realize they're making real career decisions—Incident Responder is a job.
+**The discovery moment:** Students realize they're making real career decisions—Incident Response is a real career.
 :::
 
 ::: {.notes}
@@ -695,9 +693,9 @@ After timer: "Quick show of hands—who accepted #2? Who modified? Who rejected?
 ## The Career Connection
 
 ::: {.fragment}
-**You just made decisions an Incident Responder makes daily.**
+**You just made decisions an Incident Response professional makes daily.**
 
-That's Work Role PR-CIR in the NICE Framework.
+That's the Incident Response work role in the NICE Framework.
 :::
 
 ::: {.fragment}
@@ -713,7 +711,7 @@ AI gave options. You used judgment. **That's the partnership.**
 
 "That disagreement? That's EXACTLY what happens in real incident response. There's no single right answer. What matters is the reasoning."
 
-You just did what Incident Responders do. That's a real career—Work Role PR-CIR in the NICE Framework. Your students can see themselves in that role.
+You just did what Incident Response professionals do. That's a real career in the NICE Framework. Your students can see themselves in that role.
 
 What you experienced in 90 seconds, your students get 35 minutes with full scaffolding, role cards, and multiple incidents.
 :::
@@ -817,11 +815,11 @@ CTE pathway alignment, outreach program guidance, and print-ready materials you 
 
 **Mapped to Work Roles—downloadable crosswalks included:**
 
-| Activity | Primary Work Roles |
+| Activity | Primary Work Roles (v2.0.0) |
 |----------|-------------------|
-| Security Detective Teams | Cyber Defense Analyst (PR-CDA), Vulnerability Assessment (PR-VAM) |
-| Ethics in Automated Security | Cyber Policy Planner (OV-SPP), Privacy Officer, Security Manager |
-| AI-Assisted Incident Response | Incident Responder (PR-CIR), SOC Analyst, Threat Intelligence |
+| Security Detective Teams | Defensive Cybersecurity, Vulnerability Analysis (PD) |
+| Ethics in Automated Security | Cybersecurity Policy and Planning, Privacy Compliance (OG) |
+| AI-Assisted Incident Response | Incident Response, Defensive Cybersecurity, Threat Analysis (PD) |
 
 ::: {.fragment}
 **Implementation note:** Career connection handouts link activity tasks to specific KSAs. Full competency mapping available in download—ready for CTE pathway and curriculum approval documentation.
@@ -830,7 +828,7 @@ CTE pathway alignment, outreach program guidance, and print-ready materials you 
 ::: {.notes}
 You'll find NICE Framework crosswalks in the download—each activity mapped to Work Roles with specific KSA alignments.
 
-For those of you building CTE pathways or documenting curriculum alignment, these are ready to use. Work Role codes are current with Framework 2.0.
+For those of you building CTE pathways or documenting curriculum alignment, these are ready to use. Work Role names are current with Framework 2.0.0.
 
 The career connection handouts translate activity tasks into language students—and administrators—can connect to workforce outcomes.
 :::

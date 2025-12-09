@@ -29,21 +29,23 @@ Students will:
 
 ### CYBER.org Standards Alignment (9-12)
 
-- **9-12.SEC.INC**: Incident detection, response, and recovery procedures
-- **9-12.SEC.FOR**: Digital forensics fundamentals
-- **9-12.SEC.MON**: Security monitoring and analysis
-- **9-12.SEC.THR**: Advanced threat analysis
+- **9-12.SEC.INFO**: Information security principles and incident response
+- **9-12.SEC.DATA**: Data security and forensics fundamentals
+- **9-12.SEC.NET**: Network security monitoring and analysis
+- **9-12.DC.THRT**: Advanced threat analysis
 
-### NICE Framework Alignment
+### NICE Framework Alignment (v2.0.0)
 
-**Primary Work Roles:**
-- Incident Responder (PR-CIR-001)
-- Cyber Defense Analyst (PR-CDA-001)
-- Cyber Defense Incident Responder (PR-CDA-001)
+**Primary Work Roles** (Protection and Defense category):
+
+- Incident Response
+- Defensive Cybersecurity
+- Digital Forensics
 
 **Supporting Work Roles:**
-- Threat/Warning Analyst (AN-TWA-001)
-- Security Operations Center Analyst (OV-SOC-001)
+
+- Threat Analysis
+- Vulnerability Analysis
 
 
 ## Simulation Environment
@@ -68,21 +70,21 @@ Students will:
 ## SOC Team Roles
 
 ### Incident Commander (IC)
-**NICE: Cyber Defense Incident Responder**
+**NICE: Incident Response**
 - Coordinates overall response effort
 - Makes final containment and escalation decisions
 - Manages communication with leadership
 - Balances technical response with business impact
 
 ### Lead Analyst
-**NICE: Cyber Defense Analyst**
+**NICE: Defensive Cybersecurity**
 - Performs deep technical analysis of indicators
 - Correlates data across multiple sources
 - Develops attack timeline and scope assessment
 - Works directly with SentinelAI for pattern analysis
 
 ### Threat Intelligence Analyst
-**NICE: Threat/Warning Analyst**
+**NICE: Threat Analysis (Protection and Defense)**
 - Researches threat actor TTPs
 - Provides context from threat intelligence feeds
 - Identifies attack campaign characteristics
@@ -96,7 +98,7 @@ Students will:
 - Prepares executive briefings
 
 ### Evidence Coordinator (Optional 5th role)
-**NICE: Cyber Defense Forensics Analyst**
+**NICE: Digital Forensics (Investigation)**
 - Ensures evidence preservation
 - Maintains chain of custody documentation
 - Coordinates with law enforcement if needed

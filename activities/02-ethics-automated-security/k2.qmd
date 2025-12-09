@@ -26,7 +26,6 @@ Students will:
 
 ### CYBER.org Standards Alignment (K-2)
 
-- **K-2.DC.CIT**: Digital citizenship foundations
 - **K-2.DC.ETH**: Basic technology ethics
 
 

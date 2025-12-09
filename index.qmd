@@ -116,7 +116,7 @@ These activities align directly with Career and Technical Education pathways:
 | CTE Need | How These Materials Help |
 |----------|-------------------------|
 | **Industry-aligned skills** | Activities mirror authentic SOC workflows and incident response procedures |
-| **NICE Framework mapping** | Every activity explicitly connects to Work Roles (PR-CDA-001, PR-CIR-001, OV-SPP-002) |
+| **NICE Framework mapping** | Every activity explicitly connects to Work Roles (Defensive Cybersecurity, Incident Response, Cybersecurity Policy and Planning) |
 | **Career exploration** | [One-page career connection handouts](career-connections/) link activities to real job pathways |
 | **Employer expectations** | Human-AI collaboration is now standard in enterprise security operations |
 

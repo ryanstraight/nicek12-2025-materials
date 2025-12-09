@@ -15,15 +15,15 @@ Each activity connects directly to authentic cybersecurity work roles defined in
 
 ### Activity 1: Security Detective Teams
 
-**Primary Career**: Cyber Defense Analyst
+**Primary Work Role**: Defensive Cybersecurity
 
-Students investigate security incidents by analyzing login patterns, password weaknesses, and suspicious activity, performing exactly the kind of analysis that Cyber Defense Analysts conduct daily. Related careers include SOC Analyst, Digital Forensics Analyst, Vulnerability Analyst, and Threat Intelligence Analyst.
+Students investigate security incidents by analyzing login patterns, password weaknesses, and suspicious activity, performing exactly the kind of analysis that Defensive Cybersecurity professionals conduct daily. Related careers include SOC Analyst, Digital Forensics Analyst, Vulnerability Analyst, and Threat Intelligence Analyst.
 
 [View Career Connections](activity-1-career-connections.qmd)
 
 ### Activity 2: AI-Assisted Incident Response
 
-**Primary Career**: Incident Responder / SOC Analyst
+**Primary Work Role**: Incident Response
 
 Students coordinate response to security incidents in team roles, making time-critical decisions with AI support, directly mirroring the workflow of Security Operations Center professionals. Related careers include Incident Commander, Threat Intelligence Specialist, Security Engineer, and Security Communications.
 
@@ -31,7 +31,7 @@ Students coordinate response to security incidents in team roles, making time-cr
 
 ### Activity 3: Ethics in Automated Security
 
-**Primary Career**: Cyber Policy & Strategy Planner / Privacy Officer
+**Primary Work Role**: Cybersecurity Policy and Planning
 
 Students design governance policies for AI security systems, balancing competing concerns in ways that reflect the core work of security governance professionals. Related careers include Security Governance Specialist, Risk Analyst, Compliance Manager, and Privacy Officer.
 
@@ -51,13 +51,13 @@ Connect specific tasks to professional practices during debrief discussions. Dis
 
 Direct students seeking further exploration to the [NICE Framework Resource Center](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center), [CyberSeek Career Pathways](https://www.cyberseek.org/pathway.html), and local cybersecurity competitions such as CyberPatriot, NCL, and picoCTF.
 
-## NICE Framework Alignment
+## NICE Framework Alignment (v2.0.0)
 
-| Activity | Primary Work Roles | NICE Code |
-|----------|-------------------|-----------|
-| Security Detective Teams | Cyber Defense Analyst | PR-CDA-001 |
-| AI-Assisted Incident Response | Incident Responder | PR-CIR-001 |
-| Ethics in Automated Security | Cyber Policy Planner | OV-SPP-002 |
+| Activity | Primary Work Roles | Category |
+|----------|-------------------|----------|
+| Security Detective Teams | Defensive Cybersecurity | Protection and Defense (PD) |
+| AI-Assisted Incident Response | Incident Response | Protection and Defense (PD) |
+| Ethics in Automated Security | Cybersecurity Policy and Planning | Oversight and Governance (OG) |
 
 ::: {.callout-note collapse="true"}
 ## Learn More: The Cybersecurity Workforce Gap

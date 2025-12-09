@@ -187,7 +187,7 @@ The real-world context reinforces this pattern across multiple dimensions. Chief
 
 ### NICE Framework Alignment
 
-This activity develops competencies essential to progression from technical roles into management positions. The relevant NICE Framework work roles include Information Systems Security Manager (OV-MGT-001) with its emphasis on executive communication, Cyber Policy and Strategy Planner (OV-SPP-002) requiring sustained stakeholder engagement, and Executive Cyber Leadership (OV-EXL-001) centered on strategic communication across organizational levels.
+This activity develops competencies essential to progression from technical roles into management positions. The relevant NICE Framework v2.0.0 work roles include Systems Security Management (Oversight and Governance) with its emphasis on executive communication, Cybersecurity Policy and Planning (Oversight and Governance) requiring sustained stakeholder engagement, and Cybersecurity Executive (Oversight and Governance) centered on strategic communication across organizational levels.
 
 ## Implementation Notes
 

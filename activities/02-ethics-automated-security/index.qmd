@@ -72,7 +72,7 @@ A comprehensive governance simulation featuring stakeholder roles, legal framewo
 
 ## NICE Framework Alignment
 
-**Primary Work Roles**: Cyber Policy and Strategy Planner (OV-SPP-002), Privacy Officer / Privacy Compliance Manager (OV-LGA-002), and Information Systems Security Manager (OV-MGT-001)
+**Primary Work Roles**: Cybersecurity Policy and Planning, Privacy Compliance, and Systems Security Management (Oversight and Governance category)
 
 **Skills students practice**: Automation governance, risk-benefit analysis, stakeholder engagement, policy development, and technology assessment
 

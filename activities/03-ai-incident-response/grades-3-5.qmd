@@ -27,9 +27,9 @@ Students will:
 
 ### CYBER.org Standards Alignment (3-5)
 
-- **3-5.SEC.SAF**: Understanding safety procedures
-- **3-5.DC.CIT**: Digital citizenship and responsibility
-- **3-5.SEC.RES**: Responding to technology problems
+- **3-5.SEC.ACC**: Understanding access and safety procedures
+- **3-5.DC.ETH**: Digital ethics and responsibility
+- **3-5.DC.THRT**: Recognizing and responding to threats
 
 
 ## Team Roles

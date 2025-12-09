@@ -72,7 +72,7 @@ An enterprise-level breach scenario with technical depth. Students experience th
 
 ## NICE Framework Alignment
 
-**Primary Work Roles**: Incident Responder (PR-CIR-001), Cyber Defense Analyst (PR-CDA-001), and Security Operations Center Analyst
+**Primary Work Roles**: Incident Response, Defensive Cybersecurity, and Threat Analysis (Protection and Defense category)
 
 **Skills students practice**: Incident triage, response coordination, automated threat detection integration, incident containment, and stakeholder communication
 
