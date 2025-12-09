@@ -1,6 +1,6 @@
 ---
-title: "AI Partner Response Cards"
-subtitle: "For Low-Resource Implementation"
+title: "Activity 1: Security Detective Teams"
+subtitle: "AI Partner Response Cards (Grades 6-8)"
 format:
   pdf:
     papersize: letter
@@ -209,5 +209,5 @@ After using these cards, help students articulate:
 - Neither human nor AI alone could solve this as well as both together
 - The *combination* of pattern-recognition AND contextual judgment is what real cybersecurity work requires
 
-*Security Detective Teams — NICE K12 2025*
+*Activity 1: Security Detective Teams — AI Partner Response Cards (6-8)*
 *Dr. Ryan Straight, University of Arizona*

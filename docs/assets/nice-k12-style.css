@@ -1074,11 +1074,11 @@ h3 {
   color: var(--ua-blue);
 }
 
-/* FIX 6: Persistent QR Code - Smaller and less intrusive */
+/* FIX 6: Persistent QR Code */
 .reveal::after {
   bottom: 50px !important;
-  width: 80px !important;
-  height: 80px !important;
+  width: 125px !important;
+  height: 125px !important;
   opacity: 0.5 !important;
   transition: opacity 0.3s ease;
 }

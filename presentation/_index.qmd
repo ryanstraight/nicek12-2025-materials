@@ -13,6 +13,8 @@ title-slide-attributes:
       Thank you for joining us for "True Teamwork!"
 
       Today we're going to show you practical activities for teaching students to work WITH AI as teammates in cybersecurity. Not competing with it, not just using it as a tool, but genuinely collaborating.
+      
+      [Introductions]
 
       We have **45 minutes together**. Quick context, then we dive into **three activities** you can try right here, right now. Let's go!
 
@@ -453,7 +455,9 @@ That "aha" you felt? Your students will feel it too.
 
 ## Ethics in Automated Security {background-color="#0C234B"}
 
-**12 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Cybersecurity Policy and Planning*
+**12 minutes**  
+**Grades** 6-8 (available K-12)  
+**NICE**: Cybersecurity Policy and Planning
 
 ::: {.fragment}
 **The design:** Students design governance policies for AI security systems
@@ -572,9 +576,7 @@ That shift—from "how do we control AI?" to "how do we design smart handoffs?"�
 
 ## Share Your Policies (2 min)
 
-::: {.fragment}
 **2-3 tables: What did you decide?**
-:::
 
 ::: {.fragment}
 The design insight: did hearing what AI can and can't do change your thinking? That shift, from *controlling AI* to *partnering with AI*, is exactly what we want students to discover.
@@ -644,7 +646,9 @@ Same discovery, adapted to developmental level.
 
 ## AI-Assisted Incident Response {background-color="#0C234B"}
 
-**3 minutes** | Grades 6-8 (adaptable K-12) | *NICE: Incident Response*
+**3 minutes**  
+**Grades** 6-8 (available K-12)  
+**NICE**: Incident Response
 
 ::: {.fragment}
 **The design:** AI recommends actions, humans decide
@@ -822,11 +826,11 @@ CTE pathway alignment, outreach program guidance, and print-ready materials you 
 | AI-Assisted Incident Response | Incident Response, Defensive Cybersecurity, Threat Analysis (PD) |
 
 ::: {.fragment}
-**Implementation note:** Career connection handouts link activity tasks to specific KSAs. Full competency mapping available in download—ready for CTE pathway and curriculum approval documentation.
+**Implementation note:** Career connection handouts link activity tasks to specific TKS statements. Full competency mapping available in download, ready for CTE pathway and curriculum approval documentation.
 :::
 
 ::: {.notes}
-You'll find NICE Framework crosswalks in the download—each activity mapped to Work Roles with specific KSA alignments.
+You'll find NICE Framework crosswalks in the download—each activity mapped to Work Roles with specific TKS alignments.
 
 For those of you building CTE pathways or documenting curriculum alignment, these are ready to use. Work Role names are current with Framework 2.0.0.
 

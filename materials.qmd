@@ -3,14 +3,14 @@ title: "Materials"
 subtitle: "Downloadable Resources for Classroom Use"
 ---
 
-Everything you need is here. Grab the PDFs for ready-to-print convenience, download the Word documents if you want to customize, or simply print any page directly from your browser.
+Everything you need is here. Click HTML to view in your browser (and print with Ctrl+P), or download PDF/DOCX versions for offline use.
 
 ::: {.callout-tip}
-## Three Ways to Print
+## Three Ways to Use These Materials
 
-1. **Download PDF** — Ready to print with consistent formatting
-2. **Download DOCX** — Customize in Word or Google Docs first
-3. **Print from browser** — Hit <kbd>Ctrl+P</kdb> (or Cmd+P on Mac) on any page for quick copies without downloading
+1. **View & Print from Browser** — Click HTML to open it, then hit <kbd>Ctrl+P</kbd> (or <kbd>Cmd+P</kbd> on Mac)
+2. **Download PDF** — Ready to print with consistent formatting
+3. **Download DOCX** — Customize in Word or Google Docs first
 :::
 
 ## Activity 1: Security Detective Teams
@@ -21,23 +21,23 @@ Students team up with an AI partner to investigate security incidents, learning 
 
 | Grade Band | Formats |
 |------------|---------|
-| K-2 | [PDF](activities/01-security-detective-teams/k2.pdf) &#124; [DOCX](activities/01-security-detective-teams/k2.docx) |
-| 3-5 | [PDF](activities/01-security-detective-teams/grades-3-5.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-3-5.docx) |
-| 6-8 | [PDF](activities/01-security-detective-teams/grades-6-8.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-6-8.docx) |
-| 9-12 | [PDF](activities/01-security-detective-teams/grades-9-12.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-9-12.docx) |
+| K-2 | [HTML](activities/01-security-detective-teams/k2.html) &#124; [PDF](activities/01-security-detective-teams/k2.pdf) &#124; [DOCX](activities/01-security-detective-teams/k2.docx) |
+| 3-5 | [HTML](activities/01-security-detective-teams/grades-3-5.html) &#124; [PDF](activities/01-security-detective-teams/grades-3-5.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-3-5.docx) |
+| 6-8 | [HTML](activities/01-security-detective-teams/grades-6-8.html) &#124; [PDF](activities/01-security-detective-teams/grades-6-8.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-6-8.docx) |
+| 9-12 | [HTML](activities/01-security-detective-teams/grades-9-12.html) &#124; [PDF](activities/01-security-detective-teams/grades-9-12.pdf) &#124; [DOCX](activities/01-security-detective-teams/grades-9-12.docx) |
 
 ### Printable Materials
 
 | Material | Formats |
 |----------|---------|
-| Quick-Start Guide | [PDF](printables/quick-start.pdf) &#124; [DOCX](printables/quick-start.docx) |
-| Student Worksheet | [PDF](printables/student-worksheet.pdf) &#124; [DOCX](printables/student-worksheet.docx) |
-| Evidence Packet | [PDF](printables/evidence-packet.pdf) &#124; [DOCX](printables/evidence-packet.docx) |
-| AI Response Cards (K-2) | [PDF](printables/activity1-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-k2.docx) |
-| AI Response Cards (3-5) | [PDF](printables/activity1-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-3-5.docx) |
-| AI Response Cards (6-8) | [PDF](printables/activity1-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-6-8.docx) |
-| AI Response Cards (9-12) | [PDF](printables/activity1-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-9-12.docx) |
-| Career Connections | [PDF](career-connections/activity-1-career-connections.pdf) &#124; [DOCX](career-connections/activity-1-career-connections.docx) |
+| Quick-Start Guide | [HTML](printables/quick-start.html) &#124; [PDF](printables/quick-start.pdf) &#124; [DOCX](printables/quick-start.docx) |
+| Student Worksheet | [HTML](printables/student-worksheet.html) &#124; [PDF](printables/student-worksheet.pdf) &#124; [DOCX](printables/student-worksheet.docx) |
+| Evidence Packet | [HTML](printables/evidence-packet.html) &#124; [PDF](printables/evidence-packet.pdf) &#124; [DOCX](printables/evidence-packet.docx) |
+| AI Response Cards (K-2) | [HTML](printables/activity1-ai-response-cards-k2.html) &#124; [PDF](printables/activity1-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-k2.docx) |
+| AI Response Cards (3-5) | [HTML](printables/activity1-ai-response-cards-3-5.html) &#124; [PDF](printables/activity1-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-3-5.docx) |
+| AI Response Cards (6-8) | [HTML](printables/activity1-ai-response-cards-6-8.html) &#124; [PDF](printables/activity1-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-6-8.docx) |
+| AI Response Cards (9-12) | [HTML](printables/activity1-ai-response-cards-9-12.html) &#124; [PDF](printables/activity1-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity1-ai-response-cards-9-12.docx) |
+| Career Connections | [HTML](career-connections/activity-1-career-connections.html) &#124; [PDF](career-connections/activity-1-career-connections.pdf) &#124; [DOCX](career-connections/activity-1-career-connections.docx) |
 
 
 ## Activity 2: Ethics in Automated Security
@@ -48,27 +48,27 @@ Students create governance policies for AI security systems, wrestling with real
 
 | Grade Band | Formats |
 |------------|---------|
-| K-2 | [PDF](activities/02-ethics-automated-security/k2.pdf) &#124; [DOCX](activities/02-ethics-automated-security/k2.docx) |
-| 3-5 | [PDF](activities/02-ethics-automated-security/grades-3-5.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-3-5.docx) |
-| 6-8 | [PDF](activities/02-ethics-automated-security/grades-6-8.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-6-8.docx) |
-| 9-12 | [PDF](activities/02-ethics-automated-security/grades-9-12.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-9-12.docx) |
+| K-2 | [HTML](activities/02-ethics-automated-security/k2.html) &#124; [PDF](activities/02-ethics-automated-security/k2.pdf) &#124; [DOCX](activities/02-ethics-automated-security/k2.docx) |
+| 3-5 | [HTML](activities/02-ethics-automated-security/grades-3-5.html) &#124; [PDF](activities/02-ethics-automated-security/grades-3-5.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-3-5.docx) |
+| 6-8 | [HTML](activities/02-ethics-automated-security/grades-6-8.html) &#124; [PDF](activities/02-ethics-automated-security/grades-6-8.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-6-8.docx) |
+| 9-12 | [HTML](activities/02-ethics-automated-security/grades-9-12.html) &#124; [PDF](activities/02-ethics-automated-security/grades-9-12.pdf) &#124; [DOCX](activities/02-ethics-automated-security/grades-9-12.docx) |
 
 ### Printable Materials
 
 | Material | Formats |
 |----------|---------|
-| Quick-Start Guide | [PDF](printables/activity2-quick-start.pdf) &#124; [DOCX](printables/activity2-quick-start.docx) |
-| Student Worksheet (K-2) | [PDF](printables/activity2-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity2-student-worksheet-k2.docx) |
-| Student Worksheet (3-5) | [PDF](printables/activity2-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity2-student-worksheet-3-5.docx) |
-| Student Worksheet (6-8) | [PDF](printables/activity2-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity2-student-worksheet-6-8.docx) |
-| Student Worksheet (9-12) | [PDF](printables/activity2-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity2-student-worksheet-9-12.docx) |
-| Policy Scenario Cards | [PDF](printables/activity2-policy-scenario-cards.pdf) &#124; [DOCX](printables/activity2-policy-scenario-cards.docx) |
-| AI Perspective Cards (K-2) | [PDF](printables/activity2-ai-perspective-cards-k2.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-k2.docx) |
-| AI Perspective Cards (3-5) | [PDF](printables/activity2-ai-perspective-cards-3-5.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-3-5.docx) |
-| AI Perspective Cards (6-8) | [PDF](printables/activity2-ai-perspective-cards-6-8.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-6-8.docx) |
-| AI Perspective Cards (9-12) | [PDF](printables/activity2-ai-perspective-cards-9-12.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-9-12.docx) |
-| Stakeholder Role Cards | [PDF](printables/activity2-stakeholder-cards.pdf) &#124; [DOCX](printables/activity2-stakeholder-cards.docx) |
-| Career Connections | [PDF](career-connections/activity-2-career-connections.pdf) &#124; [DOCX](career-connections/activity-2-career-connections.docx) |
+| Quick-Start Guide | [HTML](printables/activity2-quick-start.html) &#124; [PDF](printables/activity2-quick-start.pdf) &#124; [DOCX](printables/activity2-quick-start.docx) |
+| Student Worksheet (K-2) | [HTML](printables/activity2-student-worksheet-k2.html) &#124; [PDF](printables/activity2-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity2-student-worksheet-k2.docx) |
+| Student Worksheet (3-5) | [HTML](printables/activity2-student-worksheet-3-5.html) &#124; [PDF](printables/activity2-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity2-student-worksheet-3-5.docx) |
+| Student Worksheet (6-8) | [HTML](printables/activity2-student-worksheet-6-8.html) &#124; [PDF](printables/activity2-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity2-student-worksheet-6-8.docx) |
+| Student Worksheet (9-12) | [HTML](printables/activity2-student-worksheet-9-12.html) &#124; [PDF](printables/activity2-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity2-student-worksheet-9-12.docx) |
+| Policy Scenario Cards | [HTML](printables/activity2-policy-scenario-cards.html) &#124; [PDF](printables/activity2-policy-scenario-cards.pdf) &#124; [DOCX](printables/activity2-policy-scenario-cards.docx) |
+| AI Perspective Cards (K-2) | [HTML](printables/activity2-ai-perspective-cards-k2.html) &#124; [PDF](printables/activity2-ai-perspective-cards-k2.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-k2.docx) |
+| AI Perspective Cards (3-5) | [HTML](printables/activity2-ai-perspective-cards-3-5.html) &#124; [PDF](printables/activity2-ai-perspective-cards-3-5.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-3-5.docx) |
+| AI Perspective Cards (6-8) | [HTML](printables/activity2-ai-perspective-cards-6-8.html) &#124; [PDF](printables/activity2-ai-perspective-cards-6-8.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-6-8.docx) |
+| AI Perspective Cards (9-12) | [HTML](printables/activity2-ai-perspective-cards-9-12.html) &#124; [PDF](printables/activity2-ai-perspective-cards-9-12.pdf) &#124; [DOCX](printables/activity2-ai-perspective-cards-9-12.docx) |
+| Stakeholder Role Cards | [HTML](printables/activity2-stakeholder-cards.html) &#124; [PDF](printables/activity2-stakeholder-cards.pdf) &#124; [DOCX](printables/activity2-stakeholder-cards.docx) |
+| Career Connections | [HTML](career-connections/activity-2-career-connections.html) &#124; [PDF](career-connections/activity-2-career-connections.pdf) &#124; [DOCX](career-connections/activity-2-career-connections.docx) |
 
 
 ## Activity 3: AI-Assisted Incident Response
@@ -79,53 +79,53 @@ Students step into real NICE Framework work roles, responding to security incide
 
 | Grade Band | Formats |
 |------------|---------|
-| K-2 | [PDF](activities/03-ai-incident-response/k2.pdf) &#124; [DOCX](activities/03-ai-incident-response/k2.docx) |
-| 3-5 | [PDF](activities/03-ai-incident-response/grades-3-5.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-3-5.docx) |
-| 6-8 | [PDF](activities/03-ai-incident-response/grades-6-8.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-6-8.docx) |
-| 9-12 | [PDF](activities/03-ai-incident-response/grades-9-12.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-9-12.docx) |
+| K-2 | [HTML](activities/03-ai-incident-response/k2.html) &#124; [PDF](activities/03-ai-incident-response/k2.pdf) &#124; [DOCX](activities/03-ai-incident-response/k2.docx) |
+| 3-5 | [HTML](activities/03-ai-incident-response/grades-3-5.html) &#124; [PDF](activities/03-ai-incident-response/grades-3-5.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-3-5.docx) |
+| 6-8 | [HTML](activities/03-ai-incident-response/grades-6-8.html) &#124; [PDF](activities/03-ai-incident-response/grades-6-8.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-6-8.docx) |
+| 9-12 | [HTML](activities/03-ai-incident-response/grades-9-12.html) &#124; [PDF](activities/03-ai-incident-response/grades-9-12.pdf) &#124; [DOCX](activities/03-ai-incident-response/grades-9-12.docx) |
 
 ### Printable Materials
 
 | Material | Formats |
 |----------|---------|
-| Quick-Start Guide | [PDF](printables/activity3-quick-start.pdf) &#124; [DOCX](printables/activity3-quick-start.docx) |
-| Student Worksheet (K-2) | [PDF](printables/activity3-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity3-student-worksheet-k2.docx) |
-| Student Worksheet (3-5) | [PDF](printables/activity3-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity3-student-worksheet-3-5.docx) |
-| Student Worksheet (6-8) | [PDF](printables/activity3-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity3-student-worksheet-6-8.docx) |
-| Student Worksheet (9-12) | [PDF](printables/activity3-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity3-student-worksheet-9-12.docx) |
-| Role Cards | [PDF](printables/activity3-role-cards.pdf) &#124; [DOCX](printables/activity3-role-cards.docx) |
-| Incident Briefings | [PDF](printables/activity3-incident-briefings.pdf) &#124; [DOCX](printables/activity3-incident-briefings.docx) |
-| AI Response Cards (K-2) | [PDF](printables/activity3-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-k2.docx) |
-| AI Response Cards (3-5) | [PDF](printables/activity3-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-3-5.docx) |
-| AI Response Cards (6-8) | [PDF](printables/activity3-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-6-8.docx) |
-| AI Response Cards (9-12) | [PDF](printables/activity3-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-9-12.docx) |
-| Complication Cards | [PDF](printables/activity3-complication-cards.pdf) &#124; [DOCX](printables/activity3-complication-cards.docx) |
-| Career Connections | [PDF](career-connections/activity-3-career-connections.pdf) &#124; [DOCX](career-connections/activity-3-career-connections.docx) |
+| Quick-Start Guide | [HTML](printables/activity3-quick-start.html) &#124; [PDF](printables/activity3-quick-start.pdf) &#124; [DOCX](printables/activity3-quick-start.docx) |
+| Student Worksheet (K-2) | [HTML](printables/activity3-student-worksheet-k2.html) &#124; [PDF](printables/activity3-student-worksheet-k2.pdf) &#124; [DOCX](printables/activity3-student-worksheet-k2.docx) |
+| Student Worksheet (3-5) | [HTML](printables/activity3-student-worksheet-3-5.html) &#124; [PDF](printables/activity3-student-worksheet-3-5.pdf) &#124; [DOCX](printables/activity3-student-worksheet-3-5.docx) |
+| Student Worksheet (6-8) | [HTML](printables/activity3-student-worksheet-6-8.html) &#124; [PDF](printables/activity3-student-worksheet-6-8.pdf) &#124; [DOCX](printables/activity3-student-worksheet-6-8.docx) |
+| Student Worksheet (9-12) | [HTML](printables/activity3-student-worksheet-9-12.html) &#124; [PDF](printables/activity3-student-worksheet-9-12.pdf) &#124; [DOCX](printables/activity3-student-worksheet-9-12.docx) |
+| Role Cards | [HTML](printables/activity3-role-cards.html) &#124; [PDF](printables/activity3-role-cards.pdf) &#124; [DOCX](printables/activity3-role-cards.docx) |
+| Incident Briefings | [HTML](printables/activity3-incident-briefings.html) &#124; [PDF](printables/activity3-incident-briefings.pdf) &#124; [DOCX](printables/activity3-incident-briefings.docx) |
+| AI Response Cards (K-2) | [HTML](printables/activity3-ai-response-cards-k2.html) &#124; [PDF](printables/activity3-ai-response-cards-k2.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-k2.docx) |
+| AI Response Cards (3-5) | [HTML](printables/activity3-ai-response-cards-3-5.html) &#124; [PDF](printables/activity3-ai-response-cards-3-5.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-3-5.docx) |
+| AI Response Cards (6-8) | [HTML](printables/activity3-ai-response-cards-6-8.html) &#124; [PDF](printables/activity3-ai-response-cards-6-8.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-6-8.docx) |
+| AI Response Cards (9-12) | [HTML](printables/activity3-ai-response-cards-9-12.html) &#124; [PDF](printables/activity3-ai-response-cards-9-12.pdf) &#124; [DOCX](printables/activity3-ai-response-cards-9-12.docx) |
+| Complication Cards | [HTML](printables/activity3-complication-cards.html) &#124; [PDF](printables/activity3-complication-cards.pdf) &#124; [DOCX](printables/activity3-complication-cards.docx) |
+| Career Connections | [HTML](career-connections/activity-3-career-connections.html) &#124; [PDF](career-connections/activity-3-career-connections.pdf) &#124; [DOCX](career-connections/activity-3-career-connections.docx) |
 
 
 ## Assessment Materials
 
 | Resource | Formats |
 |----------|---------|
-| Human-AI Collaboration Rubric | [PDF](assessments/human-ai-collaboration-rubric.pdf) &#124; [DOCX](assessments/human-ai-collaboration-rubric.docx) |
-| Decision-Making Quality Rubric | [PDF](assessments/decision-making-quality-rubric.pdf) &#124; [DOCX](assessments/decision-making-quality-rubric.docx) |
-| NICE Framework Application Rubric | [PDF](assessments/nice-framework-application-rubric.pdf) &#124; [DOCX](assessments/nice-framework-application-rubric.docx) |
-| Student Self-Reflection | [PDF](assessments/student-self-reflection.pdf) &#124; [DOCX](assessments/student-self-reflection.docx) |
+| Human-AI Collaboration Rubric | [HTML](assessments/human-ai-collaboration-rubric.html) &#124; [PDF](assessments/human-ai-collaboration-rubric.pdf) &#124; [DOCX](assessments/human-ai-collaboration-rubric.docx) |
+| Decision-Making Quality Rubric | [HTML](assessments/decision-making-quality-rubric.html) &#124; [PDF](assessments/decision-making-quality-rubric.pdf) &#124; [DOCX](assessments/decision-making-quality-rubric.docx) |
+| NICE Framework Application Rubric | [HTML](assessments/nice-framework-application-rubric.html) &#124; [PDF](assessments/nice-framework-application-rubric.pdf) &#124; [DOCX](assessments/nice-framework-application-rubric.docx) |
+| Student Self-Reflection | [HTML](assessments/student-self-reflection.html) &#124; [PDF](assessments/student-self-reflection.pdf) &#124; [DOCX](assessments/student-self-reflection.docx) |
 
 
 ## Implementation Guides
 
 | Resource | Formats |
 |----------|---------|
-| AI Platform Setup Guide | [PDF](guides/ai-setup-guide.pdf) &#124; [DOCX](guides/ai-setup-guide.docx) |
-| Low-Resource Implementation Guide | [PDF](guides/low-resource-implementation.pdf) &#124; [DOCX](guides/low-resource-implementation.docx) |
+| AI Platform Setup Guide | [HTML](guides/ai-setup-guide.html) &#124; [PDF](guides/ai-setup-guide.pdf) &#124; [DOCX](guides/ai-setup-guide.docx) |
+| Low-Resource Implementation Guide | [HTML](guides/low-resource-implementation.html) &#124; [PDF](guides/low-resource-implementation.pdf) &#124; [DOCX](guides/low-resource-implementation.docx) |
 
 
 ## Educator Overview
 
 | Resource | Formats |
 |----------|---------|
-| Complete Educator's Guide | [PDF](about.pdf) &#124; [DOCX](about.docx) |
+| Complete Educator's Guide | [HTML](about.html) &#124; [PDF](about.pdf) &#124; [DOCX](about.docx) |
 
 
 ## Printing Tips
@@ -167,5 +167,5 @@ Here is a quick reference for a class of 30 students organized into 6 groups:
 
 Have questions about these materials or need help adapting them for your classroom? Reach out anytime.
 
-**Contact**: Dr. Ryan Straight  
+**Contact**: Dr. Ryan Straight
 **Email**: [ryanstraight@arizona.edu](mailto:ryanstraight@arizona.edu)
