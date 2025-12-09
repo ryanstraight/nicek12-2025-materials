@@ -137,6 +137,102 @@ That's what these activities teach. Not AI literacy. Not AI ethics in the abstra
 Let's experience it.
 :::
 
+# {#theoretical-grounding data-menu-title="The Research Foundation" background-color="#0C234B" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
+
+<br /><br />
+
+[WHY THIS WORKS]{.r-fit-text}
+
+::: {.all="revert"}
+![](media/icon-brain.apng){fig-align="center" width=150}
+:::
+
+::: {.notes}
+Before we jump into the activities, I want to share the 60-second version of WHY we designed them this way.
+
+This isn't just "let's use AI in class." There's research behind how we structured these experiences.
+
+If you're academically inclined, the full annotated bibliography is in your download. For now—the practical version.
+:::
+
+## The Partnership Framework {.smaller}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {.glass-card}
+**Three ideas shaped these activities:**
+
+1. **Distributed agency** — Expertise is shared between humans and AI (this is how SOCs actually work)
+
+2. **Complementary strengths** — AI sees patterns; humans see context and meaning
+
+3. **Mutual shaping** — We change AI through how we query it; AI changes us through what it surfaces
+:::
+:::
+
+::: {.column width="45%"}
+::: {.fragment}
+**In practice:**
+
+A SOC analyst doesn't "use" a SIEM—they *work with* it.
+
+The SIEM decides what's worth flagging.
+
+The analyst decides what it means.
+
+**Together:** threat detection.
+
+**Apart:** blind spots.
+:::
+:::
+::::
+
+::: {.notes}
+Three quick ideas—no jargon, just the practical version.
+
+FIRST: Distributed agency. In real Security Operations Centers, expertise isn't in one place. The AI triages thousands of alerts. Humans decide what's real. Neither has the full picture alone. That's not future-state—that's today.
+
+SECOND: Complementary strengths. AI excels at pattern recognition—spotting anomalies across millions of log entries. Humans excel at context—understanding why something matters, what the organization cares about, what's appropriate to do about it.
+
+THIRD: Mutual shaping. This one's subtle but important. When analysts work with security tools, the tools shape what they notice. The tool decides what to flag, how to prioritize, what to highlight. Over time, analysts learn to think in the tool's categories. That's not bad—it's just real. And students should understand it.
+
+The activities are designed so students EXPERIENCE these dynamics, not just hear about them.
+
+[For academically-inclined attendees: This draws from posthuman educational theory—particularly Braidotti's work on distributed agency and Adams & Thompson's heuristics for examining technology-human entanglement. Full bibliography in your download under "Resources."]
+:::
+
+## What You're About to Experience
+
+::: {.fragment}
+**Activity 1:** You'll discover that AI caught something you missed—and YOU caught something AI missed.
+:::
+
+::: {.fragment}
+**Activity 2:** You'll hear AI articulate its own limitations—and your policy-making will shift.
+:::
+
+::: {.fragment}
+**Activity 3:** You'll make decisions a real Incident Response professional makes—with AI as your partner.
+:::
+
+::: {.fragment style="margin-top: 1em;"}
+*These aren't AI literacy lessons. They're partnership training.*
+:::
+
+::: {.notes}
+Here's what's about to happen—I'm telling you now so you can watch for it.
+
+In Activity 1, you're going to investigate a security incident. Pay attention to what YOU notice versus what the AI analysis caught. There's a designed discovery moment.
+
+In Activity 2, you'll design governance policies for an AI system. Then you'll hear the AI describe its own blind spots. Watch what happens to your thinking.
+
+In Activity 3, AI will recommend actions. You'll decide whether to accept, modify, or reject. That's professional judgment.
+
+None of this is about "AI literacy" in the abstract. It's about developing the partnership skills that define modern cybersecurity work.
+
+Ready? Let's experience it.
+:::
+
 # {#activity-1 data-menu-title="Activity 1" background-color="#AB0520" background-image="media/banner_reverse.png" background-size="30%" background-position="right 5% top 5%"}
 
 <br /><br />
