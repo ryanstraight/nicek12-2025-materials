@@ -1,12 +1,6 @@
 ---
 title: "Activity 3: SOC Analyst Simulation"
 subtitle: "SentinelAI Response Cards (Grades 9-12)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards simulate SentinelAI SOAR platform responses for the SOC Analyst Simulation. Use them when live AI access isn't available—teams can draw cards at decision points during the incident response.

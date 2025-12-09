@@ -1,12 +1,6 @@
 ---
 title: "Activity 3: Fix It Team!"
 subtitle: "Sparky Robot Helper Cards (Grades K-2)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 11pt
 ---
 
 These cards let teachers voice Sparky the Robot Helper during the Fix It Team activity. Read them aloud at the appropriate moments!

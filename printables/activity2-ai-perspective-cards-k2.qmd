@@ -1,12 +1,6 @@
 ---
 title: "Activity 2: Robot Helper Rules"
 subtitle: "Sparky's Perspective Cards (Grades K-2)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 11pt
 ---
 
 These cards let teachers "be" Sparky the Robot Helper when discussing each rule. Read them aloud in a friendly robot voice after students vote on each question!

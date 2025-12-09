@@ -1,12 +1,6 @@
 ---
 title: "Incident Briefings"
 subtitle: "Activity 3: AI-Assisted Incident Response"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 ## How to Use These Briefings

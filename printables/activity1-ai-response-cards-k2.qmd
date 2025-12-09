@@ -1,12 +1,6 @@
 ---
 title: "Activity 1: Mystery Helpers"
 subtitle: "Robot Helper Response Cards (Grades K-2)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 11pt
 ---
 
 These cards let teachers "be" the Robot Helper when live AI isn't available. Read them aloud in a friendly robot voice!

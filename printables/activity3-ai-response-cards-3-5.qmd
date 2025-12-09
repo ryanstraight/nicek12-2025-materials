@@ -1,12 +1,6 @@
 ---
 title: "Activity 3: Computer Problem Solvers"
 subtitle: "AI Helper Response Cards (Grades 3-5)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards provide pre-written AI helper responses for the Computer Problem Solvers investigation activity. The AI Partner on each team can read these aloud or the teacher can voice the AI helper.

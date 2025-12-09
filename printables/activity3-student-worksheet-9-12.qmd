@@ -1,12 +1,6 @@
 ---
 title: "SOC Analyst Simulation"
 subtitle: "Enterprise Incident Response Worksheet (Grades 9-12)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 **Name:** _______________________________ **Date:** _______________

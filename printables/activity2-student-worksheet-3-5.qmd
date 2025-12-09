@@ -1,12 +1,6 @@
 ---
 title: "Computer Rules Committee"
 subtitle: "Policy Design Worksheet (Grades 3-5)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.6in
-    fontsize: 11pt
 ---
 
 **Your Name:** _______________________________ **Date:** _______________

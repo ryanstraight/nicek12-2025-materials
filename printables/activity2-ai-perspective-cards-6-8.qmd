@@ -1,12 +1,6 @@
 ---
 title: "Activity 2: Ethics in Automated Security"
 subtitle: "SchoolGuard AI Perspective Cards (Grades 6-8)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 ## How to Use These Cards

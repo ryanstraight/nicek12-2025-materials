@@ -1,12 +1,6 @@
 ---
 title: "Activity 2: AI Governance Workshop"
 subtitle: "SecureNet AI Perspective Cards (Grades 9-12)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards represent SecureNet AI's perspective for governance workshop discussions. Use them when live AI access isn't available—committee members can reference them during policy deliberations.

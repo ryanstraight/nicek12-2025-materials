@@ -1,12 +1,6 @@
 ---
 title: "Activity 2: Computer Rules Committee"
 subtitle: "SchoolGuard Perspective Cards (Grades 3-5)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards represent what SchoolGuard would say about each policy question. Use them when AI access isn't available—the teacher can read them aloud or groups can draw cards.

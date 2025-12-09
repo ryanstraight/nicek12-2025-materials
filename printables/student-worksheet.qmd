@@ -1,12 +1,6 @@
 ---
 title: "Security Detective Teams"
 subtitle: "Investigation Worksheet"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.6in
-    fontsize: 11pt
 ---
 
 **Your Name:** _______________________________ **Date:** _______________

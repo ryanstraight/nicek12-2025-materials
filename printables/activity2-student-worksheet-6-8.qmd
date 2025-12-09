@@ -1,12 +1,6 @@
 ---
 title: "Ethics in Automated Security"
 subtitle: "Student Policy Worksheet (Grades 6-8)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.6in
-    fontsize: 11pt
 ---
 
 **Your Name:** _______________________________ **Date:** _______________

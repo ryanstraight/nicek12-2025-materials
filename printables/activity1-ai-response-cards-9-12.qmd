@@ -1,12 +1,6 @@
 ---
 title: "Activity 1: Security Detective Teams"
 subtitle: "AI Security Analyst Response Cards (Grades 9-12)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards simulate an AI Security Analyst from a Security Operations Center (SOC). The language reflects professional security analyst communication—technical but collaborative.

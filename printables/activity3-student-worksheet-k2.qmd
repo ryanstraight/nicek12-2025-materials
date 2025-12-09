@@ -1,12 +1,6 @@
 ---
 title: "Fix It Team!"
 subtitle: "My Teamwork Worksheet (Grades K-2)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.75in
-    fontsize: 14pt
 ---
 
 **My Name:** _______________________________ **Date:** _______________

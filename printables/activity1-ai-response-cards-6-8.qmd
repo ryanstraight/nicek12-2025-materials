@@ -1,12 +1,6 @@
 ---
 title: "Activity 1: Security Detective Teams"
 subtitle: "AI Partner Response Cards (Grades 6-8)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards represent authentic AI responses—including uncertainty, questions back to the human partner, and genuine limitations. Use them when live AI access isn't available.

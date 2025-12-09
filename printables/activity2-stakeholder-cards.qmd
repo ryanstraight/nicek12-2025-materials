@@ -1,12 +1,6 @@
 ---
 title: "Stakeholder Role Cards"
 subtitle: "Activity 2: Ethics in Automated Security"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 ## How to Use These Cards

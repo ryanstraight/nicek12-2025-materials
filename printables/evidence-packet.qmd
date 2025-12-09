@@ -1,12 +1,6 @@
 ---
 title: "CLASSIFIED: Investigation Evidence"
 subtitle: "Cyber Academy Middle School — Account Lockout Incident"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.75in
-    fontsize: 11pt
 ---
 
 ::: {.callout-warning}

@@ -1,12 +1,6 @@
 ---
 title: "Activity 1: Security Detective Teams"
 subtitle: "Computer Helper Response Cards (Grades 3-5)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards represent authentic AI responses—including uncertainty and genuine limitations. Use them when live AI access isn't available.

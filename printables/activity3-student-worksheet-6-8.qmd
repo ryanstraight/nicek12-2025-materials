@@ -1,12 +1,6 @@
 ---
 title: "AI-Assisted Incident Response"
 subtitle: "Team Response Worksheet (Grades 6-8)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 **Your Name:** _______________________________ **Date:** _______________

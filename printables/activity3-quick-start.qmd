@@ -1,12 +1,6 @@
 ---
 title: "AI-Assisted Incident Response"
 subtitle: "Quick-Start Guide for Educators"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.75in
-    fontsize: 11pt
 ---
 
 ## The Big Idea (Read This First)

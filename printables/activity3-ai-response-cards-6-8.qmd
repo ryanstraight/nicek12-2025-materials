@@ -1,12 +1,6 @@
 ---
 title: "Activity 3: AI-Assisted Incident Response"
 subtitle: "AI Security Advisor Response Cards (Grades 6-8)"
-format:
-  pdf:
-    papersize: letter
-    geometry:
-      - margin=0.5in
-    fontsize: 10pt
 ---
 
 These cards provide AI Security Advisor responses for the incident response simulation. Teams can draw cards at decision points, or the teacher can distribute them as the scenario progresses.
