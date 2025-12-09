@@ -69,6 +69,7 @@ We need our Fix It Team to figure out what's wrong and make the computers work a
 ### Scene 1: Discover the Problem (3 minutes)
 
 **Teacher narrates**:
+
 > "The computers won't turn on! Fix It Team, what should we do?"
 
 **Detective asks**: "What do we see?"
@@ -79,6 +80,7 @@ We need our Fix It Team to figure out what's wrong and make the computers work a
 ### Scene 2: Robot Helper Checks (5 minutes)
 
 **Teacher (as Robot Helper)**:
+
 > "Beep boop! I can check some things! Let me see...
 >
 > ✓ The computers are plugged in
@@ -130,17 +132,20 @@ We need our Fix It Team to figure out what's wrong and make the computers work a
 ### What We Learned
 
 **Teams have different jobs**:
+
 - Detectives look for clues
 - Thinkers come up with ideas
 - Helpers do the work
 - Robot helpers check things quickly
 
 **Teams work together**:
+
 - Everyone has something important to do
 - We listen to each other
 - We decide together
 
 **Robots are helpful team members**:
+
 - Good at finding problems fast
 - But people make the decisions!
 :::

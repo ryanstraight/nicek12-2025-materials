@@ -133,6 +133,7 @@ flowchart LR
 > "We found pop-up messages on school computers that say we won a prize. They have spelling mistakes and appeared after someone clicked an email. What kind of problem is this?"
 
 **What to listen for:**
+
 - This sounds like malware or a computer virus
 - The email was probably a trick (phishing)
 - Spelling mistakes are a clue that it's fake
@@ -206,11 +207,13 @@ flowchart LR
    - We caught things others might have missed
 
 2. **How did the AI helper help?**
+
    - Knew about computer problems
    - Explained what the clues meant
    - But WE had to decide what to do!
 
 3. **What's the big lesson?**
+
    - Don't click on emails or messages you don't expect
    - If something looks too good to be true, it probably is
    - When something goes wrong, work together to fix it
@@ -222,17 +225,20 @@ flowchart LR
 ### What We Learned
 
 **Real cybersecurity teams work like this!**
+
 - Different people have different jobs
 - Everyone contributes something important
 - AI tools help professionals investigate too
 
 **When something goes wrong:**
+
 1. Stay calm
 2. Gather information
 3. Ask for help from experts
 4. Work together to solve it
 
 **Prevention is important:**
+
 - Be careful what you click
 - If something seems wrong, tell an adult
 - Mistakes happen—learning from them matters
@@ -345,6 +351,7 @@ This table shows how activity elements connect to the [Human-AI Collaboration Ru
 ### Connecting to Real Life
 
 This activity mirrors what really happens in organizations:
+
 - **Security Operations Centers (SOCs)** have teams investigating problems
 - **Incident response** follows similar steps: identify, analyze, contain, recover
 - **AI tools** are increasingly used to help professionals investigate

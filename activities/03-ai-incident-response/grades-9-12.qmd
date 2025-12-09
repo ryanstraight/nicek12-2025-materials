@@ -277,6 +277,7 @@ flowchart LR
 > "Compare this hash and IP against your threat intelligence. What campaign does this align with? What typically comes next in this attack chain?"
 
 **Key Decision Point:**
+
 - **Authorize endpoint isolation?** 47 manufacturing workstations offline = production impact
 - SentinelAI recommends: YES (93% confidence attack in progress)
 - Human consideration: Shift change happening, 200 workers need workstations
@@ -284,24 +285,28 @@ flowchart LR
 ### Phase 2: Analysis and Scoping (15 minutes)
 
 **Lead Analyst Tasks:**
+
 - Build attack timeline
 - Identify patient zero and attack vector
 - Assess scope of compromise
 - Determine if data exfiltration occurred
 
 **Threat Intel Tasks:**
+
 - Research APT29 TTPs
 - Identify likely objectives
 - Predict next attack phases
 - Assess attribution confidence
 
 **IC Tasks:**
+
 - Prioritize response actions
 - Assess business impact of containment options
 - Prepare leadership notification
 - Coordinate team activities
 
 **Communications Tasks:**
+
 - Draft executive summary
 - Prepare manufacturing leadership notification
 - Document decision log
@@ -322,6 +327,7 @@ flowchart LR
 :::
 
 **Team must document:**
+
 - Decision made
 - Rationale
 - AI input considered
@@ -332,6 +338,7 @@ flowchart LR
 **Draft required communications:**
 
 1. **Executive Flash Report** (for CEO/CISO)
+
    - Incident severity and scope
    - Immediate actions taken
    - Business impact assessment
@@ -352,24 +359,28 @@ flowchart LR
 **Team Discussion:**
 
 1. **What did SentinelAI do well?**
+
    - Pattern detection speed
    - Threat intelligence correlation
    - Attack chain mapping
    - Risk quantification
 
 2. **Where did human judgment matter most?**
+
    - Business context interpretation
    - Stakeholder communication
    - Trade-off decisions
    - Ethical considerations
 
 3. **What would happen without AI?**
+
    - Detection delay (hours vs. minutes)
    - Analysis depth limitations
    - Correlation challenges
    - Response speed impact
 
 4. **What would happen without humans?**
+
    - Context-blind automation
    - Business disruption from over-response
    - Stakeholder communication gaps
@@ -409,6 +420,7 @@ This table shows how activity elements connect to assessment rubric criteria:
 ### This Simulation Reflects Real SOC Work
 
 **What you experienced today:**
+
 - Alert triage from SIEM/SOAR platforms → Real SOC analysts do this continuously
 - AI-assisted analysis → CrowdStrike, Splunk, Palo Alto all have AI capabilities
 - Team coordination → SOCs have tiered analysts and specialized roles

@@ -217,6 +217,7 @@ Neither partner is "better" than the other. Each has genuine strengths AND genui
 :::
 
 **Suggested Opening Prompt** (for structured data only):
+
 > "You're my cybersecurity investigation partner. We're analyzing account lockouts at a middle school. Here's the login log data and network observations: [share Documents A, B, D]. What patterns do you see in this structured data?"
 
 **Record AI Insights**:

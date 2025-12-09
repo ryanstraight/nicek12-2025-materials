@@ -98,9 +98,11 @@ Each group member represents a stakeholder perspective:
 ### AI's Perspective
 
 **Consult SecureNet AI**:
+
 > "I'm SecureNet AI. I can respond to threats in milliseconds—faster than any human. But speed isn't everything. Let me be honest about my limitations..."
 
 **Key AI statements to discuss**:
+
 - "I optimize for security metrics, but I don't understand educational context. Blocking a site during an AP exam and blocking it during free time are the same to me."
 - "My false positive rate is approximately 3%. That means for every 100 blocks, 3 are mistakes. At district scale, that's hundreds of incorrect blocks per day."
 - "I cannot assess business impact. Isolating a network stops an attack but also stops learning."
@@ -138,12 +140,14 @@ Each group member represents a stakeholder perspective:
 ### Legal Framework
 
 **FERPA Considerations**:
+
 - Student education records are protected
 - "Legitimate educational interest" exception allows some monitoring
 - Parents have right to access records about their children
 - Students 18+ have independent privacy rights
 
 **COPPA Considerations** (for students under 13):
+
 - Parental consent required for data collection
 - Must provide notice of data practices
 - Cannot collect more data than necessary
@@ -151,6 +155,7 @@ Each group member represents a stakeholder perspective:
 ### AI's Perspective
 
 **SecureNet AI states**:
+
 > "I can detect patterns humans miss. I've identified students at risk of self-harm by recognizing concerning search patterns weeks before any visible signs. I've caught cyberbullying that students never reported. I've prevented school shooting research from escalating.
 >
 > But I must be honest: I also flagged a student researching gun violence for a history paper. I flagged students looking up symptoms of depression for health class. I cannot distinguish academic research from personal crisis. I see patterns, not intentions.
@@ -193,6 +198,7 @@ Each group member represents a stakeholder perspective:
 ### Machine Learning Considerations
 
 **If SecureNet AI learns from behavior**:
+
 - Improves accuracy over time (fewer false positives)
 - Can detect subtle anomalies specific to your district
 - Creates predictive models of individual students
@@ -210,12 +216,14 @@ Each group member represents a stakeholder perspective:
 ### Policy Template
 
 **Data Retention**:
+
 - Routine activity logs: _______ (duration)
 - Security alerts: _______ (duration)
 - Behavioral models: _______ (duration)
 - Incident investigation data: _______ (duration)
 
 **Student data access rights**:
+
 - Can students see what data exists about them? _______
 - Can students request data deletion? _______
 - How are students notified of monitoring? _______
@@ -262,6 +270,7 @@ Each stakeholder representative articulates their position on all three policy a
 ### Phase 2: AI Consultation (10 minutes)
 
 Groups consult SecureNet AI with specific questions:
+
 - "What's your false positive rate for [specific action]?"
 - "Can you do X without doing Y?"
 - "What would you recommend and why?"

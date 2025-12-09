@@ -313,7 +313,9 @@ TABLE ACTIVITY TIME!
 
 Quick framing before you start: "Look at the blue box—that's EXACTLY what an AI security tool would output. It caught the password pattern, identified the attack type, gave a recommendation. Good technical analysis. Now look at everything ELSE on this slide..."
 
-[Click countdown] "Go! Two minutes. Read everything. What do YOU notice?"
+[Click countdown]
+
+"Go! Two minutes. Read everything. What do YOU notice?"
 
 Walk around. Listen for
 
@@ -323,7 +325,7 @@ Walk around. Listen for
 
 Don't give hints. Let them discover.
 
-After timer: "Pens down. Before I show you anything—let me ask..."
+After timer: "Before I show you anything—let me ask..."
 :::
 
 ## The Designed Discovery
@@ -468,7 +470,11 @@ That "aha" you felt? Your students will feel it too.
 ::: {.notes}
 Activity 2: Ethics in Automated Security.
 
-**The progression:** In Activity 1, you partnered with AI to INVESTIGATE. Now you're designing rules FOR AI—moving from "working together" to "governing together." That's a higher-order skill.
+**The progression:** In Activity 1, you partnered with AI to INVESTIGATE.
+
+[NEXT]
+
+Now you're designing rules FOR AI—moving from "working together" to "governing together." That's a higher-order skill.
 
 **Same deal:** 4-minute version here, 40 minutes with full scaffolding in your classroom.
 

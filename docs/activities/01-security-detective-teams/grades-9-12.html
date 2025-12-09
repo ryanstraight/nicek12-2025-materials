@@ -681,7 +681,10 @@ Legacy auth exploitation     TTP         HIGH          Trending attack vector Q4
 <section id="phase-2-ai-partnership-investigation-15-minutes" class="level3">
 <h3 class="anchored" data-anchor-id="phase-2-ai-partnership-investigation-15-minutes">Phase 2: AI Partnership Investigation (15 minutes)</h3>
 <p>Engage your AI partner as a fellow analyst. Frame the conversation professionally:</p>
-<p><strong>Recommended Opening</strong>: &gt; “I’m a SOC analyst investigating a potential credential compromise at a financial services firm. I need your help analyzing the evidence and identifying attack patterns. I’ll share the logs and indicators—help me build a timeline and identify TTPs. I’ll add contextual factors you might not be able to assess.”</p>
+<p><strong>Recommended Opening</strong>:</p>
+<blockquote class="blockquote">
+<p>“I’m a SOC analyst investigating a potential credential compromise at a financial services firm. I need your help analyzing the evidence and identifying attack patterns. I’ll share the logs and indicators—help me build a timeline and identify TTPs. I’ll add contextual factors you might not be able to assess.”</p>
+</blockquote>
 <p><strong>Investigation Prompts</strong>:</p>
 <ol type="1">
 <li><p>“Analyze these authentication logs. What attack pattern do you recognize?”</p></li>
@@ -690,26 +693,57 @@ Legacy auth exploitation     TTP         HIGH          Trending attack vector Q4
 <li><p>“What evidence would you want to collect next to confirm your hypothesis?”</p></li>
 <li><p>“What’s your confidence level, and what are you uncertain about?”</p></li>
 </ol>
-<p><strong>Document AI Insights</strong>: | Question | AI Analysis | My Assessment | |———-|————-|—————| | Attack pattern | | | | Initial access vector | | | | Scope of compromise | | | | AI’s stated limitations | | |</p>
+<p><strong>Document AI Insights</strong>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Question</th>
+<th>AI Analysis</th>
+<th>My Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Attack pattern</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Initial access vector</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Scope of compromise</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>AI’s stated limitations</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="phase-3-integrated-analysis-10-minutes" class="level3">
 <h3 class="anchored" data-anchor-id="phase-3-integrated-analysis-10-minutes">Phase 3: Integrated Analysis (10 minutes)</h3>
 <p><strong>Synthesize human and AI analysis</strong>:</p>
 <ol type="1">
-<li><strong>What AI identified well</strong>:
+<li><p><strong>What AI identified well</strong>:</p>
 <ul>
 <li>Technical patterns (timing, IP correlation, TTP matching)</li>
 <li>Threat intelligence correlation</li>
 <li>Attack timeline reconstruction</li>
 </ul></li>
-<li><strong>What required human analysis</strong>:
+<li><p><strong>What required human analysis</strong>:</p>
 <ul>
 <li>Insider risk assessment (HR context)</li>
 <li>Why users overrode security warnings (organizational culture)</li>
 <li>Business impact assessment</li>
 <li>Appropriate response considering employee relations</li>
 </ul></li>
-<li><strong>Combined conclusion</strong>:
+<li><p><strong>Combined conclusion</strong>:</p>
 <ul>
 <li>Initial access vector: _______________</li>
 <li>Compromised accounts: _______________</li>

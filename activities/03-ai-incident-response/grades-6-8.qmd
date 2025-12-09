@@ -185,6 +185,7 @@ flowchart LR
    - Comms: Draft initial stakeholder groups
 
 #### AI Consultation Prompts
+
 **For IC**: "As my incident response advisor, what are the top 3 immediate actions we should prioritize for [scenario type]?"
 
 **For SOC**: "Help me analyze these technical indicators: [list evidence]. What attack patterns do you recognize?"
@@ -198,6 +199,7 @@ flowchart LR
 
 ::: {.response-phase .neumorphic-card}
 #### Collaborative Planning Process
+
 1. **SOC Analyst** presents technical findings
 2. **Threat Intel** provides attacker context
 3. **Team discusses** response options with AI input
@@ -205,6 +207,7 @@ flowchart LR
 5. **Comms prepares** messaging strategy
 
 #### Decision Log Template
+
 | Time | Decision Point | Options Considered | AI Input | Final Decision | Rationale |
 |------|---------------|-------------------|----------|----------------|-----------|
 | T+5min | Network isolation | Full/Partial/None | [AI recommendation] | [Team choice] | [Reasoning] |
@@ -215,14 +218,17 @@ flowchart LR
 
 ::: {.response-phase .neumorphic-card}
 #### Action Implementation
+
 Teams execute their response plan while managing emerging complications:
 
 **Complication Injections** (Instructor introduces at 5-minute intervals):
+
 1. "Media has picked up the story - reporters calling"
 2. "New systems showing signs of compromise"
 3. "Parent group demanding immediate meeting"
 
 #### Real-Time Adaptation
+
 - Teams must adjust plans based on complications
 - AI consultation for handling unexpected developments
 - Document changes to original response plan
@@ -233,6 +239,7 @@ Teams execute their response plan while managing emerging complications:
 
 ::: {.response-phase .neumorphic-card}
 #### Team Debrief Structure
+
 1. **What went well?** Role execution and teamwork
 2. **What challenged us?** Unexpected complications
 3. **How did AI help?** Specific contributions

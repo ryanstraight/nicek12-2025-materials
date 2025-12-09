@@ -51,21 +51,26 @@ By the end of this activity, students will:
 ### Part 1: Look at the Clues (5 minutes)
 
 **Teacher says**:
+
 > "We have a mystery! Our class pet picture is missing. Let's be detectives and figure out what happened. First, let's look at the clues together."
 
 Show each clue. Ask students:
+
 - "What do you see?"
 - "What do you think this means?"
 
 ### Part 2: Ask Our Robot Helper (10 minutes)
 
 **Teacher says**:
+
 > "Now, I have a special helper—a robot friend on the computer! The robot is really good at remembering things and finding patterns. Let's ask our robot helper what it thinks."
 
 **Open your AI assistant** (ChatGPT, Claude, etc.) and say to students:
+
 > "I'm going to ask our robot helper. Listen to what it says!"
 
 **Type this prompt** (read it aloud as you type):
+
 > "You are a friendly robot helper talking to kindergarten and first grade students. We have a mystery: a picture file is missing from the class computer. Here are our clues: the screen says 'file not found', someone was at the computer during snack time, the recycling bin looks full, and there's a note that says 'oops'. What do you think might have happened? Use simple words."
 
 **Read the AI response** in a fun "robot voice" if you like!
@@ -86,6 +91,7 @@ Show each clue. Ask students:
 ### Part 4: Check the Answer Together (5 minutes)
 
 **Teacher says**:
+
 > "Let's see if we can find our picture! Our robot helper said to check the recycling bin..."
 
 **Demonstrate** opening the recycle bin and "finding" the picture (pre-stage this).
@@ -99,16 +105,19 @@ Show each clue. Ask students:
 
 ::: {.teaching-points}
 **Robot helpers are good at**:
+
 - Remembering where things are on computers
 - Finding patterns
 - Knowing computer rules (like "deleted files go to recycling bin")
 
 **People are good at**:
+
 - Understanding feelings (the "oops" note)
 - Knowing about our classroom and friends
 - Deciding what to do next
 
 **Together**:
+
 - We solve problems better than either one alone!
 :::
 
@@ -135,6 +144,7 @@ Show each clue. Ask students:
 - Introduce the word "partner"
 
 ### Low-Resource Option
+
 **If you don't have AI access**, use this pre-written robot helper response:
 
 > "Beep boop! I am a robot helper. I see the recycling bin is full—that is where deleted files go! I think someone might have accidentally put the picture in the recycling bin. We should check there! But I don't know who was at the computer or why they might have done it. Can you help me understand that part?"
@@ -143,13 +153,16 @@ Show each clue. Ask students:
 ## Follow-Up Activities
 
 ### Art Connection
+
 - Draw a picture of "Me and My Robot Helper" solving a problem together
 
 ### Discussion Circle
+
 - "When else might a robot helper be useful?"
 - "What are YOU good at that a robot might not understand?"
 
 ### Take-Home Connection
+
 - Simple note to families: "Today we learned that people and computer helpers work best as a team!"
 
 

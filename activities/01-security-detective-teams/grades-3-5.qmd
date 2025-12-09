@@ -131,6 +131,7 @@ flowchart LR
 **Before talking to your AI partner**, look at the clues with your team:
 
 1. **What patterns do you notice?**
+
    - When did logins stop working? _______________
    - Which passwords seem safe? Which seem risky? _______________
 
@@ -145,14 +146,17 @@ flowchart LR
 Now let's work with our AI partner! Remember: talk to AI like a teammate, not a search engine.
 
 **Good way to start**:
+
 > "You're my partner helping me solve a computer mystery at a school. Students can't log in to library computers. I'll share the clues, and I want you to help me figure out what happened. Here's what we know: [share the clues]. What patterns do you see?"
 
 **Follow-up questions to try**:
+
 - "Which students had risky password habits?"
 - "What do you think happened on Tuesday morning?"
 - "What can't you figure out from just this information?"
 
 **Write down**:
+
 - What patterns did AI notice? _______________
 - What did AI say it COULDN'T figure out? _______________
 - Did AI help you see something new? _______________
@@ -162,6 +166,7 @@ Now let's work with our AI partner! Remember: talk to AI like a teammate, not a 
 **Discuss with your team**:
 
 1. **What AI figured out**:
+
    - (Probably: The Tuesday password reset, patterns in weak passwords)
 
 2. **What WE figured out that AI couldn't**:
@@ -207,6 +212,7 @@ Now let's work with our AI partner! Remember: talk to AI like a teammate, not a 
 2. **Strengths**: What's one thing you figured out that AI probably couldn't?
 
 3. **Real life**: Can you think of jobs where people work with AI partners?
+
    - (Examples: Doctors using AI to look at X-rays, police using AI to find patterns, scientists using AI to analyze data)
 
 4. **Password safety**: What did you learn about making good passwords?
@@ -273,12 +279,14 @@ Survey classmates about password habits (anonymous) and create a graph
 ## Teacher Preparation
 
 ### Before Class
+
 - [ ] Test AI access OR print pre-generated response
 - [ ] Print evidence packets (1 per group) or display digitally
 - [ ] Prepare discussion questions
 - [ ] Review password safety basics
 
 ### Key Points to Emphasize
+
 - AI is a **partner**, not an answer machine
 - Ask AI questions like you'd ask a helpful classmate
 - Always think about what AI might miss or get wrong

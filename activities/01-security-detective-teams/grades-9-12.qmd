@@ -166,6 +166,7 @@ Before consulting your AI partner, analyze each evidence piece:
 Engage your AI partner as a fellow analyst. Frame the conversation professionally:
 
 **Recommended Opening**:
+
 > "I'm a SOC analyst investigating a potential credential compromise at a financial services firm. I need your help analyzing the evidence and identifying attack patterns. I'll share the logs and indicators—help me build a timeline and identify TTPs. I'll add contextual factors you might not be able to assess."
 
 **Investigation Prompts**:
@@ -181,6 +182,7 @@ Engage your AI partner as a fellow analyst. Frame the conversation professionall
 5. "What's your confidence level, and what are you uncertain about?"
 
 **Document AI Insights**:
+
 | Question | AI Analysis | My Assessment |
 |----------|-------------|---------------|
 | Attack pattern | | |
@@ -198,12 +200,14 @@ Engage your AI partner as a fellow analyst. Frame the conversation professionall
    - Attack timeline reconstruction
 
 2. **What required human analysis**:
+
    - Insider risk assessment (HR context)
    - Why users overrode security warnings (organizational culture)
    - Business impact assessment
    - Appropriate response considering employee relations
 
 3. **Combined conclusion**:
+
    - Initial access vector: _______________
    - Compromised accounts: _______________
    - Scope of data access: _______________

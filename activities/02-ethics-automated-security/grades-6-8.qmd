@@ -206,6 +206,7 @@ flowchart LR
 **Engage your AI partner** in discussion about each policy question. Record key insights:
 
 **Suggested Opening Prompt**:
+
 > "You're an AI security system being implemented at a middle school. I'm on the student advisory committee helping design policies for your deployment. For each question I ask, please share both your capabilities AND your honest limitations."
 
 **AI Insights on Question 1**:
